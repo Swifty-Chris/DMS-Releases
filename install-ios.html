@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DMS — iOS Installation</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+            margin: 0;
+            padding: 2rem 1.5rem;
+            background: #f5f5f7;
+            color: #1d1d1f;
+            -webkit-font-smoothing: antialiased;
+        }
+        .container {
+            max-width: 28rem;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 1.25rem;
+            padding: 2rem 1.5rem;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+            text-align: center;
+        }
+        h1 {
+            font-size: 1.75rem;
+            margin: 0 0 0.5rem;
+            font-weight: 600;
+        }
+        .subtitle {
+            color: #6e6e73;
+            margin: 0 0 2rem;
+            font-size: 1rem;
+        }
+        .install-button {
+            display: block;
+            background: #007aff;
+            color: #fff;
+            text-decoration: none;
+            padding: 0.9rem 1.5rem;
+            border-radius: 0.75rem;
+            font-weight: 600;
+            font-size: 1.05rem;
+            margin: 1.5rem 0 0.75rem;
+            transition: background 0.15s ease;
+        }
+        .install-button:hover {
+            background: #0062cc;
+        }
+        .warning {
+            background: #fff5e6;
+            border-left: 3px solid #ff9500;
+            padding: 0.75rem 1rem;
+            margin: 1.5rem 0;
+            text-align: left;
+            border-radius: 0.25rem;
+            font-size: 0.9rem;
+            color: #6e4200;
+        }
+        .warning strong {
+            color: #b35900;
+        }
+        .hint {
+            font-size: 0.85rem;
+            color: #6e6e73;
+            margin-top: 1rem;
+        }
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            font-size: 0.8rem;
+            color: #86868b;
+        }
+        footer a {
+            color: #86868b;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>DMS installieren</h1>
+        <p class="subtitle">iPhone &amp; iPad · Ad-Hoc Distribution</p>
+
+        <div class="warning">
+            <strong>Wichtig:</strong> Diese Seite muss in <strong>Safari</strong> geöffnet sein — Chrome und andere Browser unterstützen die Direkt-Installation nicht.
+        </div>
+
+        <a class="install-button"
+           href="itms-services://?action=download-manifest&url=https://github.com/Swifty-Chris/DMS-Releases/raw/main/manifest.plist">
+            App installieren
+        </a>
+
+        <p class="hint">
+            Deine <strong>UDID muss bereits eingetragen sein</strong>. Falls nicht, melde dich bei Christian.
+        </p>
+    </div>
+
+    <footer>
+        <a href="https://github.com/Swifty-Chris/DMS-Releases">Release-Verlauf</a> ·
+        <a href="https://danwood.nrw/datenschutz/">Datenschutz</a>
+    </footer>
+</body>
+</html>
