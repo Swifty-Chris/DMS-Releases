@@ -7,6 +7,27 @@
         <link>https://github.com/Swifty-Chris/DMS-Releases</link>
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
+        <item>
+            <title>Version 1.2.5</title>
+            <sparkle:version>1.2.5</sparkle:version>
+            <sparkle:shortVersionString>1.2.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 25 Apr 2026 17:29:58 +0200</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.2.5</h2>
+
+<h3>Verbesserungen</h3>
+<li>**Sidebar aufgeräumt**: Werkzeuge-Bereich aufgeteilt in „Infomaterial" (Infomaterial, Datei teilen, Baunebenkosten) und „Rechner" (Vollgeschoss, Größenänderung).</li>
+<li>**Musterhaus-Eintrag entfernt**: Die Musterhaus-Warteschlange ist weiterhin im Tab „Leads" unter „Wartende" erreichbar.</li>
+<li>**Leads-Toolbar verschlankt**: Admin-Recovery-Menü oben rechts neben dem Wartende/Leads-Picker entfernt.</li>
+<li>**KI-Assistent**: Eigene Sektion in der Sidebar (vorerst weiter ausgegraut).</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.2.5/DMS-1.2.5.dmg"
+                sparkle:edSignature="8vc2b4MWjni9aV5VlHTC3AZkOlS+LQo14Z1fQIYfKml2gWiia0U5o28Al12p8ZJWbU7AhGxorMi7Deu52sVpDw=="
+                length="25383641"
+                type="application/octet-stream" />
+        </item>
 
         <item>
             <title>Version 1.2.4 (Test)</title>
