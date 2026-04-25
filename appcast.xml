@@ -9,6 +9,24 @@
         <language>de</language>
 
         <item>
+            <title>Version 1.2.4 (Test)</title>
+            <sparkle:version>1.2.4</sparkle:version>
+            <sparkle:shortVersionString>1.2.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 25 Apr 2026 13:30:00 +0200</pubDate>
+            <description><![CDATA[
+                <h2>Test-Release</h2>
+                <p>Inhaltlich identisch mit 1.2.3. Dient nur zum Testen der Auto-Update-Funktion.</p>
+                <p>Wenn dieses Update sauber installiert wird, funktioniert Sparkle wie geplant. 🎉</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.2.4/DMS-1.2.4.dmg"
+                sparkle:edSignature="fjLPFJrelVHXE7hldg72xLUiyesZGCK3YzGd9R6GKI1zoof1inMQwEAnBky+b9bx0Wi3AZ/AhGSKFohwiNlzDA=="
+                length="26063403"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.2.3</title>
             <sparkle:version>1.2.3</sparkle:version>
             <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
