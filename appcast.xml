@@ -9,6 +9,31 @@
         <language>de</language>
 
         <item>
+            <title>Version 1.2.3</title>
+            <sparkle:version>1.2.3</sparkle:version>
+            <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 25 Apr 2026 13:20:00 +0200</pubDate>
+            <description><![CDATA[
+                <h2>Neu in 1.2.3</h2>
+                <ul>
+                    <li>🛠 <b>Auto-Update funktioniert!</b> Sparkle+Sandbox-Setup-Detail behoben (XPC Mach-Lookup-Entitlements).</li>
+                </ul>
+                <h3>Aus 1.2.2 (immer noch alles enthalten):</h3>
+                <ul>
+                    <li>🔒 Passwort-Generator-Popup</li>
+                    <li>🗂 Archiv für Leads + Wartende Kunden (3-Tage-Auto-Delete)</li>
+                    <li>🪟 Wartende-Person-Detailfenster (macOS) mit Traffic-Lights</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.2.3/DMS-1.2.3.dmg"
+                sparkle:edSignature="oKt2cb1W95S/5PqLio9RSvkXf6nlxBnuAMTGfj4RQLdaPE/quS8NI/FgvayYAMD2oG/KLpzl5C51uNObMacFBQ=="
+                length="26056103"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.2.2</title>
             <sparkle:version>1.2.2</sparkle:version>
             <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
