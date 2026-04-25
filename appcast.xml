@@ -7,20 +7,50 @@
         <link>https://github.com/Swifty-Chris/DMS-Releases</link>
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
-        <!--
-            Einträge werden automatisch durch den Release-Workflow im privaten DMS-Repo eingefügt.
-            Format pro <item>:
-                <title>Version 1.2.3</title>
-                <sparkle:version>1.2.3</sparkle:version>            <!-- CURRENT_PROJECT_VERSION -->
-                <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
-                <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-                <pubDate>Mon, 25 Apr 2026 00:00:00 +0200</pubDate>
-                <description><![CDATA[<h2>Neu in dieser Version</h2><ul><li>…</li></ul>]]></description>
-                <enclosure
-                    url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.2.3/DMS-1.2.3.dmg"
-                    sparkle:edSignature="…"
-                    length="123456789"
-                    type="application/octet-stream" />
-        -->
+
+        <item>
+            <title>Version 1.2.2</title>
+            <sparkle:version>1.2.2</sparkle:version>
+            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 25 Apr 2026 12:50:00 +0200</pubDate>
+            <description><![CDATA[
+                <h2>Neu in 1.2.2</h2>
+                <ul>
+                    <li>🔒 <b>Passwort-Generator</b>: beim Setzen eines neuen Passworts kannst du ein sicheres Passwort vorschlagen lassen — automatisch in Zwischenablage kopiert mit klarem Hinweis, es im Password-Manager zu speichern.</li>
+                    <li>🗂 <b>Archiv für Leads</b>: archivieren mit Auto-Löschung nach 3 Tagen, Wiederherstellen oder sofort endgültig löschen möglich.</li>
+                    <li>🗂 <b>Archiv für wartende Kunden</b>: gleiches Feature für die Musterhaus-Queue.</li>
+                    <li>🪟 <b>Wartende-Person-Detailfenster (macOS)</b>: eigenes Fenster mit Traffic-Lights statt Sheet. Name, Wunschzeit und Telefonnummer prominent.</li>
+                    <li>⚡️ <b>Auto-Update</b>: Sparkle-Updates funktionieren jetzt zuverlässig.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.2.2/DMS-1.2.2.dmg"
+                sparkle:edSignature="l2ZhibFRhZX52QSgUiSlnM+Yxx2iXIl6dweZ8FYoual+f37dw/RDXoLo/WTXrgILT5w/7e9292pNp/4EhmbBBw=="
+                length="26054989"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
+            <title>Version 1.2.1</title>
+            <sparkle:version>1.2.1</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 25 Apr 2026 11:30:00 +0200</pubDate>
+            <description><![CDATA[
+                <h2>1.2.1 — Erste direkte Distribution</h2>
+                <ul>
+                    <li>Email/Password-Login statt Sign in with Apple</li>
+                    <li>Sicheres Passwort vorschlagen (mit iCloud-Schlüsselbund-Speicherung)</li>
+                    <li>Face ID / Touch ID Login</li>
+                    <li>Sparkle Auto-Update integriert</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.2.1/DMS-1.2.1.dmg"
+                sparkle:edSignature="AhzHaEOZNLhFCKtZWV1hGutSJfTNlkZpO4E9kHF/MSEbthfrGcIphEO13LKSAvhdE55qAZohiy2c3MqgDuCgBQ=="
+                length="25918151"
+                type="application/octet-stream" />
+        </item>
     </channel>
 </rss>
