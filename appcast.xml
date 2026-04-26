@@ -8,6 +8,33 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.0</title>
+            <sparkle:version>1.3.0</sparkle:version>
+            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Mon, 27 Apr 2026 01:12:49 +0200</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.3.0</h2>
+
+<h3>Neu</h3>
+<li>**Infomaterial mit Sections**: Kataloge gruppiert in 4 kollabierbare Bereiche — *Bauform · Line · Anderes · Musterhaus*. Falt-Zustand bleibt nach App-Neustart erhalten.</li>
+<li>**Neue Reihenfolge**: jede Linie direkt mit zugehöriger Bau- & Leistungsbeschreibung gepaart (Today + BLB Today, S-Linie + BLB S-Linie etc.).</li>
+<li>**Drei neue Einträge**: BLB NEXT Easy, BLB NEXT Easy PRO, Technische Beschreibung.</li>
+<li>**Kompaktere Anzeigenamen** im Sidebar-Look („Today" statt „Today Katalog 02/2026").</li>
+
+<h3>Im Hintergrund</h3>
+<li>Bestandslinks in Mails an Kunden zeigen automatisch auf die aktuellen Katalog-Versionen (04/2026).</li>
+<li>Mail-Vorschaubilder web-optimiert (3-4× kleiner, schnellere Vorschau in Mail/iMessage).</li>
+<li>Musterhaus Wuppertal Grundriss aktualisiert.</li>
+<li>Vision Exterieur & Interieur Mail-Vorschau-Cache-Bust für Apple Mail Link-Preview.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.0/DMS-1.3.0.dmg"
+                sparkle:edSignature="5ul3qIVk+q+OC8HEc1s2L9cA821BJc5C7XKx3iZoNMRnrKzxtnClrUxMeefhkkKtSNSIcnlr7K+JkZ5wbBesBg=="
+                length="25400826"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.2.5</title>
             <sparkle:version>1.2.5</sparkle:version>
             <sparkle:shortVersionString>1.2.5</sparkle:shortVersionString>
