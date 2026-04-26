@@ -8,6 +8,23 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.1</title>
+            <sparkle:version>1.3.1</sparkle:version>
+            <sparkle:shortVersionString>1.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Mon, 27 Apr 2026 01:32:14 +0200</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.3.1 — Hotfix</h2>
+
+<li>Vision Exterieur & Interieur: Slug auf `vision-exterieur-interieur-2026` umgestellt, weil Apple Mail's Link-Preview-Cache für den alten Slug verbrannt war (kein Vorschaubild in Apple Mail). Bestandsmails mit altem Slug funktionieren weiterhin (PDF + Page bleiben erreichbar).</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.1/DMS-1.3.1.dmg"
+                sparkle:edSignature="0nxP9yRe/O1+wsgW5CTRdxnE0MRfpBuPKYtmZ/4T/Fk/40ElRODKEtDB55Mdvxj6VzkmNiSmWZ/WWHJGzIwpAg=="
+                length="25402016"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.0</title>
             <sparkle:version>1.3.0</sparkle:version>
             <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
