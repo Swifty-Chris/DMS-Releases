@@ -8,6 +8,23 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.10</title>
+            <sparkle:version>1.3.10</sparkle:version>
+            <sparkle:shortVersionString>1.3.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 07 May 2026 19:10:35 +0200</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.3.10</h2>
+
+<p>Bugfixes und Verbesserungen.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.10/DMS-1.3.10.dmg"
+                sparkle:edSignature="3gPBJcARSM6m4t7MTQejrBamyKPRtosZo4GRCREErJ4zVS4tXiATKCr2iLXql8oDdnosTKnraueEzrFeotpBDQ=="
+                length="25516634"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.9</title>
             <sparkle:version>1.3.9</sparkle:version>
             <sparkle:shortVersionString>1.3.9</sparkle:shortVersionString>
