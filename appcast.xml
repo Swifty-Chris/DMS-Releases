@@ -8,6 +8,28 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.5</title>
+            <sparkle:version>1.3.5</sparkle:version>
+            <sparkle:shortVersionString>1.3.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 07 May 2026 14:17:56 +0200</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.3.5</h2>
+
+<h3>Neu</h3>
+<li>Neue gebuendelte Bauherren-Checkliste auf Basis der Vertragsunterlagen als Standardvorlage.</li>
+<li>Zusaetzliche Punkte aufgenommen: Kontaktaufnahme mit Architekten, Kuechenplanung mit Architekten abstimmen, Bauanlaufgespraech, Lieferung Elektroinstallationsverteilerkasten.</li>
+
+<h3>Bereinigung</h3>
+<li>Alte gebuendelte Standardhaus- und INDY-Templates wurden entfernt und durch die neue Vorlage ersetzt.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.5/DMS-1.3.5.dmg"
+                sparkle:edSignature="vt1bgU22pNuTh9kY1QzCjIR8dw+MycvKkfao34Sm1LPZlvzkFjUKq6zzMn8+KMrYcQZec3SROkV8sZU7G/ZtCw=="
+                length="25440010"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.4</title>
             <sparkle:version>1.3.4</sparkle:version>
             <sparkle:shortVersionString>1.3.4</sparkle:shortVersionString>
