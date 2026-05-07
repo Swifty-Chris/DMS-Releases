@@ -8,6 +8,30 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.3</title>
+            <sparkle:version>1.3.3</sparkle:version>
+            <sparkle:shortVersionString>1.3.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 07 May 2026 11:14:09 +0200</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.3.3</h2>
+
+<h3>Fixes</h3>
+<li>Portal-Passwort-Reset nutzt wieder den konsistenten Flow mit normalem Portal-Link und temporaerem Passwort.</li>
+<li>Reset erzeugt jetzt garantiert ein Passwort mit Grossbuchstaben, Kleinbuchstaben und Zahl.</li>
+<li>Versandtexte und Reset-Dialog zeigen die richtigen Zugangsdaten fuer das Kundenportal an.</li>
+
+<h3>Portal</h3>
+<li>Kundenportal erzwingt die Zuordnung zwischen URL-Slug und eingeloggtem Portalnutzer.</li>
+<li>Offener slug-basierter set-password-Aufruf wird nicht mehr als regulaerer Reset-Flow verwendet.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.3/DMS-1.3.3.dmg"
+                sparkle:edSignature="ADGT4sXETLHbMl1P7LiuUHyEDCwj3GLiG59kJClo78mOI9XcDwKKeKPHJHum5VDlXTfJUd7/oTicoYiuhLr7AQ=="
+                length="25418827"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.2</title>
             <sparkle:version>1.3.2</sparkle:version>
             <sparkle:shortVersionString>1.3.2</sparkle:shortVersionString>
