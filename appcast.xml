@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.7</title>
+            <sparkle:version>1.3.7</sparkle:version>
+            <sparkle:shortVersionString>1.3.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 07 May 2026 17:37:46 +0200</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.3.7</h2>
+
+<li>Fix für die Bauherren-Checkliste Vertragsunterlagen: Umlaute werden jetzt korrekt übernommen</li>
+<li>Gebündelte Checklistenvorlage wird über eine neue Bundle-Version zuverlässig neu geladen</li>
+<li>Bereits erzeugte, noch unberührte Bauherren-Checklisten werden auf die neue Formulierung ohne Standard-Fälligkeiten migriert</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.7/DMS-1.3.7.dmg"
+                sparkle:edSignature="NkUyqFlquqLy2xWkWddwiP6MXGhrnVfTHtaKvQTxLgitYJCQcAOF3E3Pm7XtclWqZKDxEW7NBChIiQd79AfEBA=="
+                length="25492174"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.6</title>
             <sparkle:version>1.3.6</sparkle:version>
             <sparkle:shortVersionString>1.3.6</sparkle:shortVersionString>
