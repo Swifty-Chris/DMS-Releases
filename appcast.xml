@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.8</title>
+            <sparkle:version>1.3.8</sparkle:version>
+            <sparkle:shortVersionString>1.3.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 07 May 2026 18:12:07 +0200</pubDate>
+            <description><![CDATA[
+<h2>Neu in 1.3.8</h2>
+<li>Portal-Aufgaben aus Checklisten öffnen jetzt die Detailansicht statt der Bearbeitungsmaske.</li>
+<li>Hochgeladene Dateien und Kommentare sind dadurch direkt in der Aufgabe sichtbar und nutzbar.</li>
+<li>Verbesserungen am Portal-Workflow rund um Kundenkommunikation und Dokumentenuploads.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.8/DMS-1.3.8.dmg"
+                sparkle:edSignature="FIywdsVS6wRKUmtPPx35ZwPPQp6jQbaMbE48cYaqB2ouQPB5yayghgTiVUZQ92GxhEcnlFg8TN6AzXtmynxrDA=="
+                length="25509287"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.7</title>
             <sparkle:version>1.3.7</sparkle:version>
             <sparkle:shortVersionString>1.3.7</sparkle:shortVersionString>
