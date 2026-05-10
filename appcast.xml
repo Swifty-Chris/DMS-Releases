@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.13</title>
+            <sparkle:version>1.3.13</sparkle:version>
+            <sparkle:shortVersionString>1.3.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 10 May 2026 10:25:40 +0200</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.3.13</h2>
+
+<h3>Fixes</h3>
+<li>Datei-Teilen erzeugt wieder DAN-WOOD-Share-Links statt direkter Supabase-PDF-URLs.</li>
+<li>Apple Mail kann dadurch fuer geteilte PDFs wieder die Share-Seite mit OpenGraph-Vorschaubild auswerten.</li>
+<li>Bereits gespeicherte direkte Supabase-Links werden beim Laden in der App auf den DAN-WOOD-Share-Link normalisiert.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.13/DMS-1.3.13.dmg"
+                sparkle:edSignature="8+n9UzsnZEoEX3vaYtJh6Pitu8XCIIN71X6UbXmp7+/K3V/KSq4N+oLvwY2CkE9fdxhELEiZMKMwFbhxFUEjDg=="
+                length="25534487"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.12</title>
             <sparkle:version>1.3.12</sparkle:version>
             <sparkle:shortVersionString>1.3.12</sparkle:shortVersionString>
