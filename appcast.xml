@@ -8,6 +8,30 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.17</title>
+            <sparkle:version>1.3.17</sparkle:version>
+            <sparkle:shortVersionString>1.3.17</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Mon, 18 May 2026 23:14:24 +0200</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.3.17</h2>
+
+<h3>Fixes</h3>
+<li>Apple Mail zeigt jetzt auch fuer geteilte Angebots-PDFs wieder Vorschaubilder.</li>
+<li>Regression seit Anfang Mai (Storage-Praefix `exp{YYMMDD}_`): Lange Original-Filenames mit Datum-Anteilen liessen die Share-URL ueber Apple Mails Link-Preview-Limit wachsen, sodass nur noch die graue Fallback-Karte angezeigt wurde.</li>
+
+<h3>Details (technisch)</h3>
+<li>Sanitisierter Filename wird auf maximal 50 Zeichen gekuerzt, doppelte Unterstriche kollabiert, fuehrende/abschliessende Trennzeichen getrimmt.</li>
+<li>Wenn der Original-Filename bereits ein Datum (`YYYY-MM-DD` oder `YYYY_MM_DD`) traegt, wird das Upload-Datum nicht zusaetzlich vorne angehaengt.</li>
+<li>5 neue Unit-Tests sichern die Filename-Generierung gegen kuenftige Regressions.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.17/DMS-1.3.17.dmg"
+                sparkle:edSignature="mAPAZB8+GOHbjkSU4S6pdpZy82kOdZjAg7A311ILFeBkRz7+cX4VoHjS3eeLIMOhNBGskdcyCRRSqy6KOWHCDQ=="
+                length="25629856"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.16</title>
             <sparkle:version>1.3.16</sparkle:version>
             <sparkle:shortVersionString>1.3.16</sparkle:shortVersionString>
