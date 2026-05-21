@@ -8,6 +8,30 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.20</title>
+            <sparkle:version>1.3.20</sparkle:version>
+            <sparkle:shortVersionString>1.3.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 21 May 2026 22:36:43 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.3.20</p>
+
+<h2>Baunebenkosten-Rechner</h2>
+<li>**„Merken" repariert:** Der Erdarbeiten-Korrekturfaktor wird mit aktiviertem „Merken" jetzt dauerhaft gespeichert und beim nächsten Öffnen automatisch wiederhergestellt (überlebt App-Neustart).</li>
+
+<h2>Datei teilen / Vorschau</h2>
+<li>**Apple-Mail-Vorschaubild** für geteilte PDFs (Baunebenkosten, Angebote) erscheint wieder zuverlässig (korrektes Vorwärmen des Vorschau-Caches).</li>
+
+<h2>Weitere Verbesserungen</h2>
+<li>Diverse Stabilitäts- und UI-Verbesserungen.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.20/DMS-1.3.20.dmg"
+                sparkle:edSignature="ydG0Dn/ljriI3Ea064jfqvAMZTnkxi6VkXtPEeO9D95uYI3FUMnheCHwYHYATaHLwKqdSRBzlYCBR1bFooI4CQ=="
+                length="26532217"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.19</title>
             <sparkle:version>1.3.19</sparkle:version>
             <sparkle:shortVersionString>1.3.19</sparkle:shortVersionString>
