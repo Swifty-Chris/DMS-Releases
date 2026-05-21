@@ -8,6 +8,28 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.22</title>
+            <sparkle:version>1.3.22</sparkle:version>
+            <sparkle:shortVersionString>1.3.22</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 22 May 2026 00:22:10 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.3.22</p>
+
+<h2>Apple-Mail-Vorschau für geteilte Dateien – jetzt zuverlässig</h2>
+<li>Beim Teilen (Baunebenkosten **und** „Datei teilen") wird das Vorschaubild jetzt **einmal beim Hochladen fest erzeugt** und als Datei abgelegt. Apple Mail bekommt damit eine fertige, sofort verfügbare Datei statt eines erst zu berechnenden Bildes – die Vorschau erscheint dadurch **verlässlich** (kein „mal ja, mal nein" mehr).</li>
+<li>Beide Teilen-Wege nutzen denselben Code – einheitliches, vorhersehbares Verhalten.</li>
+
+<h2>Weitere Verbesserungen</h2>
+<li>Diverse Stabilitäts- und UI-Verbesserungen.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.22/DMS-1.3.22.dmg"
+                sparkle:edSignature="0tUCORP16BjuBM7Mog7m0rGn8g5mURmxL50SSl+APJl9AQa6V+Tl9p/u7MPICfKW1cUEVFIxIRISk2VyGCT5Cg=="
+                length="26571033"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.21</title>
             <sparkle:version>1.3.21</sparkle:version>
             <sparkle:shortVersionString>1.3.21</sparkle:shortVersionString>
