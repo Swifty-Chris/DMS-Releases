@@ -8,6 +8,32 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.18</title>
+            <sparkle:version>1.3.18</sparkle:version>
+            <sparkle:shortVersionString>1.3.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 21 May 2026 02:48:59 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.3.18</p>
+
+<h2>KI-Assistent – großes Update</h2>
+<li>**Vollständige Mail-Analyse:** Der Assistent wertet jetzt ALLE Mails eines Zeitraums aus (Posteingang + Postausgang) und lädt fehlende Mails automatisch frisch vom Server nach – nicht mehr nur ~200.</li>
+<li>**Deutlich schneller & zuverlässiger:** Analyse läuft parallel und auch bei großen Zeiträumen komplett durch (kein Abbruch mehr).</li>
+<li>**Arbeitsschritte sichtbar:** Der Arbeitsprozess ist im Chat ein-/ausklappbar, inklusive Batch-Fortschritt.</li>
+<li>**Interaktive Antworten:** Kunden-Karten mit Aktionen (Mail öffnen, Aufgabe anlegen), abhakbare Checklisten, mehrere Chats / Verlauf.</li>
+<li>**Stabilere Verbindung:** Direkter OpenRouter-Aufruf möglich (persönlicher oder zentraler Schlüssel) – verhindert Serverfehler.</li>
+<li>**Modell-Konfiguration:** KI-Modelle einstellbar mit Online-Empfehlung (Preis-/Leistungs-Ranking).</li>
+
+<h2>Weitere Verbesserungen</h2>
+<li>Diverse Stabilitäts-, Sync- und UI-Verbesserungen.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.18/DMS-1.3.18.dmg"
+                sparkle:edSignature="o4FKkprVQIVqIaiY7a2CaXBAm2oOB0Xza3a3kqfqqVXO5zylkp6b5w1wam71gAzi+ZmSN3Q+xbCZGY0djtzZDA=="
+                length="26413421"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.17</title>
             <sparkle:version>1.3.17</sparkle:version>
             <sparkle:shortVersionString>1.3.17</sparkle:shortVersionString>
