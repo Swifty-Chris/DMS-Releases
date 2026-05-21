@@ -8,6 +8,35 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.19</title>
+            <sparkle:version>1.3.19</sparkle:version>
+            <sparkle:shortVersionString>1.3.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 21 May 2026 22:13:42 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.3.19</p>
+
+<h2>KI-Assistent – stark überarbeitet</h2>
+<li>**Kundenzentrierte Nachfass-Analyse:** Findet Kunden mit echtem Angebot, bei denen es stockt – ausschließlich auf Basis echter E-Mail-Korrespondenz (keine Karteileichen).</li>
+<li>**Intelligente Vorfilter:** Interne Domains (z. B. @danwood.de), Zeitraum und Betreff werden programmatisch herausgefiltert, bevor die KI startet → schneller, präziser und günstiger.</li>
+<li>**Deutlich schneller & stabiler:** Parallele Verarbeitung und direkter OpenRouter-Aufruf (mit eigenem oder zentralem Schlüssel) – keine Serverfehler mehr.</li>
+<li>**Kostenanzeige:** Pro Durchlauf und pro Modell in Euro-Cent – sofort sichtbar, welches Modell wie viel kostet.</li>
+<li>**Vollständige Antworten** ohne Längenbegrenzung, mehrere Chats/Verlauf, ein-/ausklappbare Arbeitsschritte, lesbarere Bedienelemente.</li>
+<li>E-Mails werden bei Bedarf automatisch und inkrementell vom Server nachgeladen.</li>
+
+<h2>Datei teilen / Baunebenkosten</h2>
+<li>**Apple-Mail-Vorschau für geteilte PDFs repariert** (Vorschaubild erscheint wieder zuverlässig).</li>
+
+<h2>Weitere Verbesserungen</h2>
+<li>Diverse Stabilitäts-, Sync- und UI-Verbesserungen.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.19/DMS-1.3.19.dmg"
+                sparkle:edSignature="fTUflu9XnERIPumjd52f/lDS0k1B9VpAi7b/3pcw/OpmakosyOnXawlWC/WHtuvNJLE/h2Y40AN5OU0mKmT/Bg=="
+                length="26532257"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.18</title>
             <sparkle:version>1.3.18</sparkle:version>
             <sparkle:shortVersionString>1.3.18</sparkle:shortVersionString>
