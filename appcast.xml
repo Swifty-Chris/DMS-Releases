@@ -8,6 +8,31 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.33</title>
+            <sparkle:version>1.3.33</sparkle:version>
+            <sparkle:shortVersionString>1.3.33</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 22 May 2026 23:14:48 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.3.33</p>
+
+<h2>Pinnwand</h2>
+<li>**Bestehende Notizen werden wieder angezeigt:** Beim Öffnen einer gespeicherten Notiz war der Textkörper unter Umständen leer, obwohl Inhalt vorhanden war. Der Inhalt wird jetzt zuverlässig geladen und dargestellt (hell wie dunkel).</li>
+
+<h2>Baunebenkosten-Rechner</h2>
+<li>**Erdarbeiten:** Basispreis auf 275 €/m² angehoben (realistischere Bodenplatten-/Aushubkosten).</li>
+<li>**Hausanschlüsse (Versorger):** Basiswert auf 6.500 € angehoben.</li>
+
+<h2>Teilen</h2>
+<li>**Foto-/HEIC-Vorschau:** Geteilte Bilder (auch HEIC) erzeugen jetzt ein korrektes Vorschaubild und werden in Apple Mail & Co. wieder mit Vorschau angezeigt.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.33/DMS-1.3.33.dmg"
+                sparkle:edSignature="xWVBnxtoWt4T2ETqjzsvnpCMJWn6P+72LLfe5sK1sPpMn53ZoZL/WeRD2Cz6xUm4evK+3bPud3SjBrDPIFl9Bw=="
+                length="26763571"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.32</title>
             <sparkle:version>1.3.32</sparkle:version>
             <sparkle:shortVersionString>1.3.32</sparkle:shortVersionString>
