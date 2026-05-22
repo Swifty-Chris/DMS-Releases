@@ -8,6 +8,38 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.24</title>
+            <sparkle:version>1.3.24</sparkle:version>
+            <sparkle:shortVersionString>1.3.24</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 22 May 2026 13:04:15 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.3.24</p>
+
+<h2>KI-Assistent</h2>
+<li>**Echte Mailadress-Listen statt erfundener Platzhalter:** Auf Anfragen wie „liste alle Adressen, denen ich in den letzten 3 Monaten geschrieben habe" liefert die KI jetzt die tatsächlichen, deduplizierten Adressen direkt aus dem Archiv — keine erfundenen `@example.com`-Platzhalter mehr.</li>
+<li>**CSV-Export:** Solche Listen lassen sich mit einem Klick als CSV in den Downloads-Ordner exportieren (Liste wird zur Kontrolle angezeigt).</li>
+<li>**Kontakt mit Notiz anlegen:** Beim Anlegen eines Kontakts werden mitgegebene Infos/Notizen jetzt zuverlässig gespeichert.</li>
+<li>Überarbeitete interne KI-Anweisungen → präzisere, konsistentere Antworten und weniger Fehlnutzung der Werkzeuge.</li>
+
+<h2>Pinnwand (neu)</h2>
+<li>Neue **Pinnwand** für freie Notizen/Dokumente pro Kunde, mit Cloud-Synchronisation über die Geräte.</li>
+
+<h2>Architektur-Änderungs-Rechner (neu)</h2>
+<li>Neuer Rechner für architektonische Änderungen, eingebunden in die Rechner-Übersicht.</li>
+
+<h2>Weitere Verbesserungen</h2>
+<li>Neue Checklisten-Vorlage „Bauherren-Checkliste".</li>
+<li>Größere geteilte Datei-Uploads (bis 60 MB).</li>
+<li>Diverse Stabilitäts- und UI-Verbesserungen.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.24/DMS-1.3.24.dmg"
+                sparkle:edSignature="ky29dqDitN8wfBKUlSAV7kaIbDaPexAeauLXD0l9k3hrd1lLFrPWS5aC1AKciZESVOn95I+E4iNWHuoH3HLQDQ=="
+                length="26711306"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.23</title>
             <sparkle:version>1.3.23</sparkle:version>
             <sparkle:shortVersionString>1.3.23</sparkle:shortVersionString>
