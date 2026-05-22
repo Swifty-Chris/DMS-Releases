@@ -8,6 +8,28 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.26</title>
+            <sparkle:version>1.3.26</sparkle:version>
+            <sparkle:shortVersionString>1.3.26</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 22 May 2026 15:01:21 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.3.26</p>
+
+<h2>Pinnwand: Neuer Editor mit echten Checklisten</h2>
+<li>**Anklickbare Checkboxen:** Aufgaben einfach antippen zum Abhaken – erledigte Punkte werden durchgestrichen.</li>
+<li>**Notizen-Stil:** Freitext und Aufgaben frei mischen, so wie in der Notizen-App.</li>
+<li>**Schnelles Erfassen:** Enter setzt eine Liste automatisch fort, eine leere Zeile beendet sie wieder.</li>
+<li>**Aufgeräumte Bedienung:** schlanke Werkzeugleiste mit „Aufgabe" und „Liste".</li>
+<li>**Bessere Übersicht:** Die Kacheln zeigen jetzt eine Inhaltsvorschau und die Anzahl offener Aufgaben.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.26/DMS-1.3.26.dmg"
+                sparkle:edSignature="mEEkDEGY7d3hTSUQHxbpww9/3M0MGGAgEw1CJIZKXClY2Iv4WwCeqfkQRa+ybe411erVy2zOkbrATPzizWwoAg=="
+                length="26742334"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.25</title>
             <sparkle:version>1.3.25</sparkle:version>
             <sparkle:shortVersionString>1.3.25</sparkle:shortVersionString>
