@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.27</title>
+            <sparkle:version>1.3.27</sparkle:version>
+            <sparkle:shortVersionString>1.3.27</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 22 May 2026 15:21:01 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.3.27</p>
+
+<h2>Pinnwand: Bessere Lesbarkeit im Dark Mode</h2>
+<li>**Deutlich mehr Kontrast:** Der Editor hebt sich jetzt klar vom Hintergrund ab.</li>
+<li>**Sichtbare Werkzeugleiste:** Die Buttons „Aufgabe" und „Liste" sind nun gut erkennbar (blau hinterlegt).</li>
+<li>Kleinere optische Verbesserungen am Pinnwand-Editor.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.27/DMS-1.3.27.dmg"
+                sparkle:edSignature="FjxR7j0xJa3WHx9atZV4C8fcqCaYpQ8+ltscG++nA/xeEvUvM+W+PB4Va1wWdYmno++NZkt1fNtDs/nKK9+dBw=="
+                length="26752542"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.26</title>
             <sparkle:version>1.3.26</sparkle:version>
             <sparkle:shortVersionString>1.3.26</sparkle:shortVersionString>
