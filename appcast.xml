@@ -8,6 +8,27 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.34</title>
+            <sparkle:version>1.3.34</sparkle:version>
+            <sparkle:shortVersionString>1.3.34</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 23 May 2026 00:06:34 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.3.34</p>
+
+<h2>Pinnwand</h2>
+<li>**Gespeicherte Notizen werden jetzt korrekt angezeigt:** Beim Öffnen einer Bestands-Notiz blieb der Textkörper leer, obwohl Inhalt vorhanden war. Ursache war ein fehlerhaftes Setup der Textfläche (Text wurde gesetzt, aber nicht dargestellt). Behoben — Inhalt erscheint zuverlässig in hell und dunkel, Formatierung funktioniert weiterhin.</li>
+
+<h2>Baunebenkosten-Rechner</h2>
+<li>**Erdarbeiten realistischer kalkuliert:** Umstellung auf Grundbetrag + Quadratmeter-Satz. Große Häuser werden nicht mehr überschätzt, kleine bleiben realistisch (Beispiel: 170 m² mit mittlerem Grundriss ≈ 35.000 € statt zuvor zu hoch).</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.34/DMS-1.3.34.dmg"
+                sparkle:edSignature="nzz4851kiVqry+cejY5PmVmsZK5FI8TWmrTPx7SgBtWIJvskbHr0AFIa0y9PCTQGycCKAQ+40i5IQmieqyVvAQ=="
+                length="26765802"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.33</title>
             <sparkle:version>1.3.33</sparkle:version>
             <sparkle:shortVersionString>1.3.33</sparkle:shortVersionString>
