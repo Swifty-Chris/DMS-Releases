@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.29</title>
+            <sparkle:version>1.3.29</sparkle:version>
+            <sparkle:shortVersionString>1.3.29</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 22 May 2026 20:50:04 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.3.29</p>
+
+<h2>Pinnwand: Feinschliff</h2>
+<li>**Neue Dokumente erscheinen ganz vorne**, sodass sie sofort sichtbar sind.</li>
+<li>**Überarbeiteter Schließen-Button** im Editor – klarer und besser sichtbar.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.29/DMS-1.3.29.dmg"
+                sparkle:edSignature="K6U3wvM4QijwiIhQBkaN8Ii/kWTQiXOIIawv+thfF2CXxDdhDlyGFptbXbgTwnSUFimJeBPpWwtIV+y6irINCg=="
+                length="26765708"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.28</title>
             <sparkle:version>1.3.28</sparkle:version>
             <sparkle:shortVersionString>1.3.28</sparkle:shortVersionString>
