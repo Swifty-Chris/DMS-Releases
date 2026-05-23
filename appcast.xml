@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.36</title>
+            <sparkle:version>1.3.36</sparkle:version>
+            <sparkle:shortVersionString>1.3.36</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 23 May 2026 14:29:52 +0200</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.3.36</h2>
+
+<h3>Pinnwand</h3>
+<li>**Klareres Kartendesign:** Die Notiz-Karten in der Übersicht heben sich jetzt deutlicher vom Hintergrund ab; das überflüssige Dokument-Symbol wurde entfernt.</li>
+<li>**„Neues Dokument"-Dialog** mit sauberem Innenabstand (macOS).</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.36/DMS-1.3.36.dmg"
+                sparkle:edSignature="vsUX1GoI6f08fykaNBi/IMAXNrskItrzqtC1tYPx2etFzRwgiMr2cBIdOQpo88r5hH8r9vwPJAjEzDyq9LJmAw=="
+                length="26913542"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.35</title>
             <sparkle:version>1.3.35</sparkle:version>
             <sparkle:shortVersionString>1.3.35</sparkle:shortVersionString>
