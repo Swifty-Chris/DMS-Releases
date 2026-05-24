@@ -8,6 +8,23 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.38</title>
+            <sparkle:version>1.3.38</sparkle:version>
+            <sparkle:shortVersionString>1.3.38</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 24 May 2026 02:31:24 +0200</pubDate>
+            <description><![CDATA[
+<li>Neu: Anpassbares Navigationsmenü — über Einstellungen → Experimentals lassen sich Menüpunkte (Dashboard, Briefing, Leads, E-Mails, WhatsApp, Aufgaben, Kalender) ein- und ausblenden</li>
+<li>Standardmäßig ist das Menü auf Kunden + Pinnwand reduziert; weitere Punkte jederzeit zuschaltbar</li>
+<li>Ausgeblendetes Briefing wird zusätzlich im Hintergrund deaktiviert (spart Last)</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.38/DMS-1.3.38.dmg"
+                sparkle:edSignature="K6freE5fgieacELM9sMOglaEPc/aoxPEVt2kgJfOugDRACDhczMwZQAC7BOCl8/A+sxF4O+FrepRJ85EyPD2Aw=="
+                length="27093198"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.37</title>
             <sparkle:version>1.3.37</sparkle:version>
             <sparkle:shortVersionString>1.3.37</sparkle:shortVersionString>
