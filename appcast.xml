@@ -8,6 +8,22 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.40</title>
+            <sparkle:version>1.3.40</sparkle:version>
+            <sparkle:shortVersionString>1.3.40</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 24 May 2026 15:19:31 +0200</pubDate>
+            <description><![CDATA[
+<li>Pinnwand: Beim Anlegen einer neuen Karte ist das Namensfeld sofort aktiv — direkt lostippen, kein „Neue Notiz" mehr zum Wegklicken</li>
+<li>Stabilere Synchronisierung der Pinnwand — zuverlässigerer Abgleich und weniger Konflikte</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.40/DMS-1.3.40.dmg"
+                sparkle:edSignature="M+yJSWSs1N0dJM8ZDao2EzCSKCoyQ9Y1BJtuVVlSHVEmCes7NMXRmQ2whDuYGiu7DiWGture3KZWNtPTPvVFBA=="
+                length="27097196"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.38</title>
             <sparkle:version>1.3.38</sparkle:version>
             <sparkle:shortVersionString>1.3.38</sparkle:shortVersionString>
