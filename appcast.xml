@@ -8,6 +8,27 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.41</title>
+            <sparkle:version>1.3.41</sparkle:version>
+            <sparkle:shortVersionString>1.3.41</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Tue, 26 May 2026 17:12:15 +0200</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.3.41</h2>
+
+<h3>Baunebenkostenschätzung</h3>
+<li>**Einfrieren behoben:** Die App fror beim Öffnen der Baunebenkosten-Ansicht ein (100 % CPU, steigender Speicher), wenn die Funktion „Merken" für Kostenanpassungen aktiv war. Das ist behoben.</li>
+
+<h3>Pinnwand (iPhone)</h3>
+<li>**Formatierung wirkt jetzt:** Die Buttons für Fett, Kursiv, Unterstrichen, Schriftgröße und Checkbox arbeiten am iPhone wieder zuverlässig. Sie sitzen jetzt direkt über der Tastatur — damit bleiben Cursor und Markierung beim Antippen erhalten.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.41/DMS-1.3.41.dmg"
+                sparkle:edSignature="vE5QWWdBHJmq4vC9i6QGFnwoV70sF8XLRH94J6BfedjwEIo1yyGgkB1DiY4JWthVZrrPRSnm4Jcekixi4lWjBw=="
+                length="27091296"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.40</title>
             <sparkle:version>1.3.40</sparkle:version>
             <sparkle:shortVersionString>1.3.40</sparkle:shortVersionString>
