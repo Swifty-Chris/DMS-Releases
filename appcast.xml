@@ -8,6 +8,31 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.43</title>
+            <sparkle:version>1.3.43</sparkle:version>
+            <sparkle:shortVersionString>1.3.43</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 28 May 2026 18:16:37 +0200</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.3.43</h2>
+
+<h3>KI-Assistent: ChatGPT-Modus (macOS)</h3>
+<li>Neuer ChatGPT-artiger Modus: Ein Klick auf den **KI-Assistenten** reduziert die App-Navigation auf eine schmale Symbolleiste und blendet daneben den **Chatverlauf** ein.</li>
+<li>**Chatverlauf-Leiste:** alle bisherigen Chats durchsuchen, per Klick öffnen und jederzeit einen **neuen Chat** starten.</li>
+<li>Chats per **Rechtsklick anheften, umbenennen oder löschen** – angeheftete Chats stehen oben.</li>
+<li>Umschaltbar zwischen **großer App-Sidebar** und **kompakter Symbolleiste + Chatverlauf** (nie beide gleichzeitig groß); die Symbole bleiben als Navigations-Buttons bedienbar.</li>
+<li>Die Chatverlauf-Leiste ist als eingebettetes, abgerundetes Panel gestaltet.</li>
+
+<h3>Weitere Verbesserungen am KI-Assistenten</h3>
+<li>Interne Optimierungen an Tool-Ausführung und Antwort-Verarbeitung.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.43/DMS-1.3.43.dmg"
+                sparkle:edSignature="KNx2U3GHt2b95LsTH01tsuj7eKBI8A/XWHZjr4Y4E4xi2/LUjTD7e6IMhOnIsc3xWHJG+MHWA/H4oX0N2pETBQ=="
+                length="27248683"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.42</title>
             <sparkle:version>1.3.42</sparkle:version>
             <sparkle:shortVersionString>1.3.42</sparkle:shortVersionString>
