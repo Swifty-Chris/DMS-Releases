@@ -8,6 +8,28 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.45</title>
+            <sparkle:version>1.3.45</sparkle:version>
+            <sparkle:shortVersionString>1.3.45</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 29 May 2026 00:11:48 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.45 — KI-Assistent: zuverlässiger suchen, finden und öffnen</p>
+
+<p>Der KI-Assistent wurde an vier zentralen Stellen verbessert:</p>
+
+<li>**Nachfass-Suche findet wieder deutlich mehr Kunden.** Die Frage „bei welchen Kunden sollte ich mich mal wieder melden" lieferte bisher oft nur eine Handvoll Treffer. Jetzt bewertet der Assistent jeden Kandidaten und bezieht neben E-Mails auch WhatsApp und Notizen ein — abgekühlte Kontakte werden viel vollständiger erkannt.</li>
+<li>**„Kunde öffnen" springt jetzt zum richtigen Kunden.** Auf dem Mac führte der Button bisher nur in die Kundenliste. Jetzt öffnet er direkt die Detailansicht des gemeinten Kunden.</li>
+<li>**Karten-Aktionen funktionieren zuverlässig.** Buttons verpuffen nicht mehr lautlos — jede Aktion gibt Rückmeldung. Notizen werden wirklich gespeichert, und „Kunde anlegen" über eine Karte funktioniert.</li>
+<li>**Bessere CRM-Suche.** Mehrwort-Suchen wie „Max Müller" finden den richtigen Kunden, und die Suche erfasst jetzt auch Projekte und Aufgaben.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.45/DMS-1.3.45.dmg"
+                sparkle:edSignature="6yMm0zKp3tm28XE2l8Yi39DnuNISN7x92B9eQ1BJp2mPIn1LNbaX9tbvBiIRKXzJ0yNVEVhRz6ucaP613XR8Cg=="
+                length="27573789"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.44</title>
             <sparkle:version>1.3.44</sparkle:version>
             <sparkle:shortVersionString>1.3.44</sparkle:shortVersionString>
