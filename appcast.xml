@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.46</title>
+            <sparkle:version>1.3.46</sparkle:version>
+            <sparkle:shortVersionString>1.3.46</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 29 May 2026 01:03:48 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.46 — KI-Assistent: Sicherheit, Termine, WhatsApp lesen</p>
+
+<li>**Sicherheitsabfrage vor schreibenden Aktionen.** Bevor die KI etwas anlegt, ändert oder abschließt, fragt sie jetzt nach: **Bestätigen**, **Abbrechen** oder **Fragen** (offen lassen — die KI weiß dann, dass die Aktion noch aussteht, und ihr könnt im Chat weiter darüber sprechen). Wie streng nachgefragt wird, lässt sich in den Einstellungen wählen (alle schreibenden Aktionen / nur Anlegen + Ändern / nur Kunden-Aktionen).</li>
+<li>**Termine anlegen — nur auf Ansage.** Die KI kann jetzt Termine anlegen, aber ausschließlich, wenn ihr sie ausdrücklich darum bittet — nie von sich aus.</li>
+<li>**WhatsApp lesen.** Die KI kann den WhatsApp-Verlauf eines Kunden lesen, um Gespräche besser zu verstehen. Sie schreibt oder sendet keine WhatsApp-Nachrichten.</li>
+<li>**Rechner bleiben Rechner.** Die KI verändert keine Baunebenkosten- oder Größen-Berechnungen mehr.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.46/DMS-1.3.46.dmg"
+                sparkle:edSignature="N+NWW/rJ1ZLep0O1HpbDmWfNdScydktrjdiS5z5T6diO3Ya6ekQcgR8qfDtg6VdZsMaVcvhJdpTc640XH7ZGAw=="
+                length="27619409"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.45</title>
             <sparkle:version>1.3.45</sparkle:version>
             <sparkle:shortVersionString>1.3.45</sparkle:shortVersionString>
