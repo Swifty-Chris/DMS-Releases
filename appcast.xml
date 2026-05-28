@@ -8,6 +8,35 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.44</title>
+            <sparkle:version>1.3.44</sparkle:version>
+            <sparkle:shortVersionString>1.3.44</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 28 May 2026 19:38:40 +0200</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.3.44</h2>
+
+<h3>KI-Assistent — deutlich verlässlicher</h3>
+<li>Aktueller Kunden-/Projektkontext landet jetzt zuverlässig im Assistenten (Kontextübergabe repariert).</li>
+<li>Kompakter CRM-Kontext-Snapshot im Prompt (Status, offene Aufgaben, letzte Notizen/Termine, aktive Projekte) — weniger Rückfragen, weniger erfundene Angaben.</li>
+<li>Strukturierte, maschinenlesbare Tool-Ergebnisse + neue Basis-Werkzeuge (aktueller Kontext, CRM-Suche, Kunden-Timeline).</li>
+<li>Nachvollziehbare Agenten-Schritte (Werkzeug, Anfrage, Antwort, Laufzeit) jetzt aufklappbar.</li>
+<li>Geladene Chats behalten den Werkzeug-Kontext — bessere Folgefragen in älteren Sessions.</li>
+
+<h3>Nachfass-Auswertung („bei welchen Kunden sollte ich mich melden?")</h3>
+<li>Alle relevanten Treffer erscheinen jetzt als eigene Karten — nicht mehr nur zwei plus Fließtext.</li>
+<li>Echte Interessenten-Namen statt Betreff-Notbehelf; korrekte Zuordnung ohne erfundene IDs.</li>
+<li>Datenschutz: keine echten E-Mail-Adressen mehr im KI-Freitext.</li>
+<li>Kosten werden ehrlich dargestellt („nicht geliefert" statt fälschlich 0,00).</li>
+<li>Alte/archivierte KI-Chats sind wieder sichtbar und öffenbar.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.44/DMS-1.3.44.dmg"
+                sparkle:edSignature="7ptLKuIns+MwgUwboqH29kMkEBPJQhgUN/heX6WulE+IxsPjgF8yeLKFfhLG+h4Zoiol3zV1I5YlTlvlCIa5BQ=="
+                length="27484634"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.43</title>
             <sparkle:version>1.3.43</sparkle:version>
             <sparkle:shortVersionString>1.3.43</sparkle:shortVersionString>
