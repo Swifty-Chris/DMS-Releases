@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.42</title>
+            <sparkle:version>1.3.42</sparkle:version>
+            <sparkle:shortVersionString>1.3.42</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 28 May 2026 14:11:06 +0200</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.3.42</h2>
+
+<h3>Datei-Vorschau in Apple Mail</h3>
+<li>Geteilte Angebote **mit Hausbild** zeigen jetzt die echte Vorschau in Apple Mail – auch wenn das Foto klein auf einer sonst weißen Kostenaufstellung sitzt (Family, Point, Perfect & Co.).</li>
+<li>Die Vorschau erkennt ein echtes Bild jetzt über den **lokalen Bildkontrast** und bevorzugt eine Seite mit Foto statt einer reinen Textseite.</li>
+<li>Reine Textseiten ohne Bild erhalten weiterhin automatisch ein gebrandetes DAN-WOOD-Vorschaubild.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.42/DMS-1.3.42.dmg"
+                sparkle:edSignature="Lp/i5UAeTxopjYuThBxAti7Qr5iP2IBgLE7LsAH5l/dq5eLnazV+wcGXenz1IkVLq8ZICXHKybt01jCZ56PqAA=="
+                length="27113700"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.41</title>
             <sparkle:version>1.3.41</sparkle:version>
             <sparkle:shortVersionString>1.3.41</sparkle:shortVersionString>
