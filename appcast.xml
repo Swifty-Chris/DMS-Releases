@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.80</title>
+            <sparkle:version>1.3.80</sparkle:version>
+            <sparkle:shortVersionString>1.3.80</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 01:41:37 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.80 — Hintergrund-Gedächtnis: mehr Inhalt, weniger Rauschen, sofort wirksam</p>
+
+<li>**Sofort wirksam, auch ohne neue Mail.** Der Assistent verwebt jetzt schon beim App-Start einmalig die bekannten Kontakte aus dem vorhandenen Mail-Bestand — du musst nicht auf eine neue Mail warten.</li>
+<li>**Mehr als nur der Betreff.** Zu jedem Mail-Bezug steht jetzt eine kurze Inhalts-Vorschau (oft mit den Eckdaten aus den ersten Zeilen) — neben Datum und „📧 Mail öffnen"-Link.</li>
+<li>**Weniger Rauschen.** Mails werden nur noch echten Gegenstellen (Absender/Empfänger) zugeordnet — generische Notiznamen wie „Todos" ziehen keine unpassenden Mails mehr an.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.80/DMS-1.3.80.dmg"
+                sparkle:edSignature="Fa3BntoKrxID6plLuSgTmrrZm/DWoic+TFweB6lIsLVRnHQygoIZy8WAVOT++OZXC/zLYFK+uTncr7YsZwc0AQ=="
+                length="28710779"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.79</title>
             <sparkle:version>1.3.79</sparkle:version>
             <sparkle:shortVersionString>1.3.79</sparkle:shortVersionString>
