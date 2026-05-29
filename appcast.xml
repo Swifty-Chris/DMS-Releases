@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.72</title>
+            <sparkle:version>1.3.72</sparkle:version>
+            <sparkle:shortVersionString>1.3.72</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 29 May 2026 23:43:55 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.72 — „Fragen" im Bestätigungs-Dialog mit Texteingabe</p>
+
+<li>**„Fragen" öffnet jetzt ein Eingabefeld.** Klickst du bei einer bestätigungspflichtigen Aktion auf „Fragen", kannst du direkt eine Rückfrage oder Anweisung eintippen (z. B. „Schreib es kürzer" oder „Das gehört zu einem anderen Kontakt").</li>
+<li>**Die KI bearbeitet deine Eingabe zuerst — und macht dann weiter.** Statt stehenzubleiben, berücksichtigt der Assistent deine Anweisung für genau diese Aktion und fährt anschließend mit den übrigen Aufgaben fort.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.72/DMS-1.3.72.dmg"
+                sparkle:edSignature="xiJfI9Qt9ktXv4xArxES+Nmb+va7ZnQSGFHcuM5jTWKHCPBKWLOxIw1PWJBc2E71uSnzL4WLsmUz/Lm7jjpLBg=="
+                length="28622257"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.71</title>
             <sparkle:version>1.3.71</sparkle:version>
             <sparkle:shortVersionString>1.3.71</sparkle:shortVersionString>
