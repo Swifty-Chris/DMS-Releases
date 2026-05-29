@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.77</title>
+            <sparkle:version>1.3.77</sparkle:version>
+            <sparkle:shortVersionString>1.3.77</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 00:49:06 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.77 — Neuer Chat aus der Startseite wird zuverlässig gespeichert</p>
+
+<li>**Direkt lostippen funktioniert jetzt sauber.** Wenn du den KI-Assistenten öffnest und ohne Umweg direkt in das Textfeld schreibst und sendest, legt der Assistent dafür einen **neuen** Chat an, der sofort in der Chat-Liste erscheint und erhalten bleibt.</li>
+<li>**Kein Hineinrutschen in den letzten Chat mehr.** Bisher konnte ein so begonnener Prompt im zuletzt geöffneten Chat „verschwinden" — das passiert nicht mehr. Bestehende Chats setzt du weiterhin gezielt über die Verlaufsleiste fort.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.77/DMS-1.3.77.dmg"
+                sparkle:edSignature="IwfrbOOKkdoDTGzZcrNULbMLsJN+7F5IDuJzw7WNJHuDE4JBkBLAUP99DHm+6IFYgoL/DwjWnF3FEQpag47PCA=="
+                length="28639833"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.76</title>
             <sparkle:version>1.3.76</sparkle:version>
             <sparkle:shortVersionString>1.3.76</sparkle:shortVersionString>
