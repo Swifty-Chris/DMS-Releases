@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.57</title>
+            <sparkle:version>1.3.57</sparkle:version>
+            <sparkle:shortVersionString>1.3.57</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 29 May 2026 16:35:04 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.57 — KI eskaliert bewusst (Tiefe vs. Kosten)</p>
+
+<li>**Die KI kann jetzt selbst entscheiden, tiefer zu denken** — sie schaltet bei wirklich komplexen Aufgaben aufs leistungsstärkere Modell hoch (Batch-Analyse via „deep" und neu auch den Orchestrator selbst).</li>
+<li>**Mit Kostenbewusstsein:** Die KI weiß jetzt, dass Eskalation deutlich langsamer und ~10× teurer ist, und nutzt sie nur, wenn es sich wirklich lohnt. Für Routine-Anfragen bleibt sie auf dem schnellen, günstigen Modell.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.57/DMS-1.3.57.dmg"
+                sparkle:edSignature="pLc8o+87kaA6+wOvauAlrkZKJzzB8jjaER+qDFgsVRKC1J7IAFfjrNLeZ1qQaLeyCksxZW1Vp3tsIsjgiE5WCw=="
+                length="28453254"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.56</title>
             <sparkle:version>1.3.56</sparkle:version>
             <sparkle:shortVersionString>1.3.56</sparkle:shortVersionString>
