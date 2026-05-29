@@ -8,6 +8,23 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.54</title>
+            <sparkle:version>1.3.54</sparkle:version>
+            <sparkle:shortVersionString>1.3.54</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 29 May 2026 14:56:04 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.54 — Angelernte Kontakte werden jetzt zuverlässig ausgeschlossen</p>
+
+<li>**Behoben:** Wenn du der KI per Feedback gesagt hast „X ist kein Kunde / Finanzierer / Lieferant" (nur über den Namen, ohne E-Mail), tauchte der Kontakt manchmal trotzdem weiter in der Nachfass-Liste auf. Jetzt werden angelernte Kontakte auch **per Namen** zuverlässig erkannt und aus den Nachfass-Vorschlägen ausgeschlossen — bleiben aber durchsuchbar.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.54/DMS-1.3.54.dmg"
+                sparkle:edSignature="MFW8FICXJIKKjaqNYpudcDwY01Uc6/8YYdFo8HrZB89eb5kwFowgGgxeB+SDJioHV04m011cV+6ZelrJL6T8BA=="
+                length="28192609"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.53</title>
             <sparkle:version>1.3.53</sparkle:version>
             <sparkle:shortVersionString>1.3.53</sparkle:shortVersionString>
