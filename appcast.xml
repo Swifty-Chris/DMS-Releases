@@ -8,6 +8,27 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.50</title>
+            <sparkle:version>1.3.50</sparkle:version>
+            <sparkle:shortVersionString>1.3.50</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 29 May 2026 12:31:19 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.50 — KI-Gedächtnis & deutlich klügere Nachfass-Vorschläge</p>
+
+<li>**Neu: KI-Gedächtnis.** Der Assistent merkt sich jetzt dauerhaft Fakten zu deinen Kontakten (z. B. „Glatthaar ist Lieferant", „Ann-Kathrin ist die Finanziererin") und nutzt sie in **allen** Chats wieder. Du kannst alles einsehen und pflegen unter **Einstellungen → KI-Assistent → „KI-Gedächtnis verwalten"** (einfache, Pinnwand-artige Ansicht). Ob die KI vor dem Merken nachfragt, stellst du dort ebenfalls ein.</li>
+<li>**Klügere Nachfass-Vorschläge.** Der Assistent prüft jetzt **Inhalt, Status und Rolle** eines Kontakts, statt nur „viel geschrieben + lange still". Lieferanten, Finanzierer und abgesagte/verlorene Kontakte werden **nicht** mehr als „abwandernde Kunden" vorgeschlagen — sind aber weiterhin durchsuchbar. Es werden **alle** echten Mailkontakte berücksichtigt, nicht nur die im CRM angelegten.</li>
+<li>**Behoben:** „Zeige mir meine heutigen Aufgaben" und ähnliche Datenfragen brachen mit einem internen Fehler ab — funktioniert wieder.</li>
+<li>**Robuster & schneller.** Der Assistent liefert auch bei vielen Arbeitsschritten zuverlässig eine Antwort und geht sparsamer mit dem Kontext um (besser für das schnelle, günstige Modell).</li>
+<li>**Geräteübergreifend.** Das KI-Gedächtnis wird sicher über alle deine Geräte synchronisiert.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.50/DMS-1.3.50.dmg"
+                sparkle:edSignature="lBf8FkZHrsfNsITVwi7UJIQShDtJodzkb4nxWJigpPvz8RyPjis2NYWP3rSmPD/8LxgXvRkhghpGC1I3seMmCA=="
+                length="28111887"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.49</title>
             <sparkle:version>1.3.49</sparkle:version>
             <sparkle:shortVersionString>1.3.49</sparkle:shortVersionString>
