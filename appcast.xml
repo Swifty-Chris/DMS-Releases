@@ -8,6 +8,27 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.51</title>
+            <sparkle:version>1.3.51</sparkle:version>
+            <sparkle:shortVersionString>1.3.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 29 May 2026 13:44:21 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.51 — Nachfass lernt dazu & versteht interne Kontakte</p>
+
+<li>**Keine Kollegen mehr als „Kunden".** Interne @danwood.de/.pl-Adressen (Kollegen, Projektkoordinatoren) werden nicht mehr als Nachfass-Kunden vorgeschlagen — bleiben aber voll durchsuchbar (du kannst die KI weiter zu internen Vorgängen fragen).</li>
+<li>**Ein-Klick-Anlernen.** Auf jeder Nachfass-Karte: Button **„Kein Kunde merken"** — der Kontakt fliegt künftig aus der Nachfass-Liste, bleibt aber durchsuchbar. Lieferanten/Finanzierer lassen sich so in Sekunden korrigieren.</li>
+<li>**Freies Feedback-Feld je Karte.** Tippe einfach, was Sache ist — z. B. „kein Kunde, das ist ein Lieferant", „schon erledigt", „das ist meine Schwester". Die KI versteht den Freitext und merkt es sich dauerhaft (auch für künftige Chats).</li>
+<li>**Onboarding-Hinweis.** Beim ersten Start nach dem Update erklärt ein kurzes Popup, wie du die KI anlernst.</li>
+<li>**Behoben:** „Mail öffnen" auf notiz-basierten Karten brach mit einem Fehler ab — der Button erscheint dort jetzt gar nicht mehr.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.51/DMS-1.3.51.dmg"
+                sparkle:edSignature="dOjJieZoF7PDldUGA8zAm02mZKb+3/YzbmlW3LDPyyNDUBw8mqGc86PKHes3qZIr8Dq7hVWcyanvoVySXl0uDQ=="
+                length="28167580"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.50</title>
             <sparkle:version>1.3.50</sparkle:version>
             <sparkle:shortVersionString>1.3.50</sparkle:shortVersionString>
