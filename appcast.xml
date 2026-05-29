@@ -8,6 +8,29 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.55</title>
+            <sparkle:version>1.3.55</sparkle:version>
+            <sparkle:shortVersionString>1.3.55</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 29 May 2026 15:57:18 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.55 — KI schlägt Klassifizierungen vor, du segnest ab</p>
+
+<li>**Die KI vergibt Kontakt-Rollen jetzt selbst — als Vorschlag.** Erkennt sie beim Nachfassen einen Nicht-Kunden (z. B. Lieferant, interner Kollege), legt sie einen Vorschlag an, statt ihn still zu übergehen.</li>
+<li>**Neues „Datenpflege"-Postfach** (Einstellungen → KI-Assistent → „KI-Gedächtnis verwalten", ganz oben): Hier siehst du alle offenen Vorschläge und entscheidest pro Eintrag:</li>
+<p>  - **Ja** → wird gemerkt, taucht nicht mehr in der Nachfass-Liste auf.</p>
+<p>  - **Nein** → mit „Sicher?"-Rückfrage → dauerhaft verworfen, wird **nie wieder** vorgeschlagen.</p>
+<p>  - **Abbrechen** → zurückgestellt; die KI darf es später erneut vorschlagen.</p>
+<li>**Neue Einstellung „Datenpflege-Vorschläge":** Wähle zwischen „Vorschlagen & freigeben" (alles wartet auf dich) und „Eindeutiges autonom" (klare interne Kollegen werden direkt gemerkt, Unklares bleibt Vorschlag).</li>
+<li>Bereits geklärte Kontakte (bestätigt *oder* abgelehnt) werden nicht erneut vorgeschlagen — kein Nerven.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.55/DMS-1.3.55.dmg"
+                sparkle:edSignature="IWS+7Bqhjmt7ugPukmL1HQRtAPIyWDsZXRTzWJ1JHpyvayjCgdVvpwErst4b5j3+QZVwEM8J4pQ45DT/ZzJBBg=="
+                length="28431518"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.54</title>
             <sparkle:version>1.3.54</sparkle:version>
             <sparkle:shortVersionString>1.3.54</sparkle:shortVersionString>
