@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.66</title>
+            <sparkle:version>1.3.66</sparkle:version>
+            <sparkle:shortVersionString>1.3.66</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 29 May 2026 22:00:04 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.66 — Assistent ergänzt bestehende Pinnwand-Einträge mit Mail-Infos</p>
+
+<li>**Neu: Vermerke in bestehende Pinnwand-Notizen schreiben.** Der Assistent kann jetzt in eine *vorhandene* Notiz (z. B. zu einem Kunden) Ergänzungen eintragen — Freitext oder abhakbare Aufgaben. Bisher konnte er nur ganz neue Notizen anlegen.</li>
+<li>**Mit Mail-Bezug:** Erwähnt der Assistent eine Mail, nennt er jetzt Tag + Uhrzeit und — wo verfügbar — einen Mail-Link, sodass du direkt zur Quelle springen kannst.</li>
+<li>So funktioniert z. B.: „Geh die Mails zu Wenker/Verneuer durch und trag die wichtigsten Eckdaten in deren Pinnwand-Notiz ein."</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.66/DMS-1.3.66.dmg"
+                sparkle:edSignature="0mGPtqkqDWtsS+L5572Fd4QQar3ULoJUQBfwh813Mk51nsDiP9VGr1Qo40TJSmo8OYx5qVaqJiuPByLqf9AxBA=="
+                length="28625542"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.65</title>
             <sparkle:version>1.3.65</sparkle:version>
             <sparkle:shortVersionString>1.3.65</sparkle:shortVersionString>
