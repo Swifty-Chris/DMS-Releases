@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.76</title>
+            <sparkle:version>1.3.76</sparkle:version>
+            <sparkle:shortVersionString>1.3.76</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 00:40:33 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.76 — Stabilitäts-Härtung (Code-Review-Nachzug)</p>
+
+<li>**Hängende Bestätigungs-Dialoge vermieden.** Falls ein Arbeitslauf abbricht, während gerade ein Bestätigungs- oder Rückfrage-Dialog offen ist, wird dieser jetzt sauber aufgelöst (kein festhängender Dialog mehr).</li>
+<li>**Gedächtnis-Ablage robuster.** Auch bei sehr vielen Notizen zu einem Kontakt findet der Assistent den bestehenden Sammel-Eintrag zuverlässig und legt keinen doppelten an.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.76/DMS-1.3.76.dmg"
+                sparkle:edSignature="DuQj5F+qE/UjXKjHeNEiO9O6QOfo8UNht1rnzcU09Ejwu2wmNIZ/2GeIsfqP0o5ZpF+WrUoE7O5c/xV9mPjeAg=="
+                length="28661153"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.75</title>
             <sparkle:version>1.3.75</sparkle:version>
             <sparkle:shortVersionString>1.3.75</sparkle:shortVersionString>
