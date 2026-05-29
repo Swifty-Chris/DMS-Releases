@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.70</title>
+            <sparkle:version>1.3.70</sparkle:version>
+            <sparkle:shortVersionString>1.3.70</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 29 May 2026 23:00:32 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.70 — Erkenntnisse laufen im KI-Gedächtnis zusammen (geräteübergreifend)</p>
+
+<li>**Der Assistent merkt sich, was er findet — in eigenen Worten.** Reichert er eine Pinnwandkarte mit Mail-Infos an, schreibt er dieselben dauerhaften Erkenntnisse jetzt zusätzlich in sein kontaktbezogenes Gedächtnis. Die Pinnwand ist die Oberfläche, das Gedächtnis die zentrale Wissensbasis.</li>
+<li>**Geräteübergreifend.** Was der Assistent auf dem Mac lernt, steht über die Synchronisierung auch auf iPhone und iPad zur Verfügung.</li>
+<li>**Funktioniert ohne CRM.** Auch für Kontakte ohne CRM-Datensatz baut der Assistent so ein wachsendes Verständnis auf — und muss dieselben Mails nicht jedes Mal neu durchsuchen.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.70/DMS-1.3.70.dmg"
+                sparkle:edSignature="7LaYETM2oGUHysuY2WXIu/O8qLAp4MLA6+Upl7bJ0u+Z0ArDyKzkHZYMeXYngzT9MciR4AOJ586JBsEYAIkVAg=="
+                length="28611415"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.69</title>
             <sparkle:version>1.3.69</sparkle:version>
             <sparkle:shortVersionString>1.3.69</sparkle:shortVersionString>
