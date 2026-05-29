@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.75</title>
+            <sparkle:version>1.3.75</sparkle:version>
+            <sparkle:shortVersionString>1.3.75</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 00:29:20 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.75 — Mail-Bezüge als klickbarer „In Mail öffnen"-Link</p>
+
+<li>**Schluss mit hässlichen Roh-Links.** Trägt der Assistent einen Mail-Bezug in eine Pinnwand-Notiz ein, erscheint statt der langen `message://…`-Adresse jetzt ein kompaktes „📧 Mail öffnen". Ein Klick öffnet die Mail direkt in Apple Mail.</li>
+<li>**Verlustfrei gespeichert.** Im Hintergrund bleibt die echte Mail-Adresse erhalten (für Synchronisierung und Geräteübergreifend) — angezeigt wird nur das kurze Label.</li>
+<li>**Auch im KI-Gedächtnis.** In der Gedächtnis-Übersicht werden Mail-Bezüge ebenfalls als kurzes Label statt als langer URL-Text dargestellt.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.75/DMS-1.3.75.dmg"
+                sparkle:edSignature="W1CwWJgHAEFAufShQu24npc0kq8zhttJ8kVYW+e6r3rrL2jglylxi0EUeTSUB3YsNKMBjad+HqNcLD+mqL6zCw=="
+                length="28659374"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.74</title>
             <sparkle:version>1.3.74</sparkle:version>
             <sparkle:shortVersionString>1.3.74</sparkle:shortVersionString>
