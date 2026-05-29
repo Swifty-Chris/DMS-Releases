@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.69</title>
+            <sparkle:version>1.3.69</sparkle:version>
+            <sparkle:shortVersionString>1.3.69</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 29 May 2026 22:51:36 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.69 — Pinnwand-Anreicherung funktioniert komplett ohne CRM</p>
+
+<li>**Mails werden jetzt direkt über den Namen gefunden — ganz ohne CRM-Datensatz.** Bisher versuchte der Assistent, jede Pinnwandkarte zuerst einem CRM-Kunden zuzuordnen, und gab auf, wenn es keinen gab („Ich kann E-Mails nur abrufen, wenn ich einen eindeutigen Kunden habe"). Jetzt durchsucht er die Mails direkt mit dem Namen auf der Karte (z. B. „Milan") und trägt die gefundenen Eckdaten samt Mail-Link ein.</li>
+<li>**Kein Nachhaken bei mehrdeutigen Namen.** Gibt es zu einem Vornamen mehrere Möglichkeiten, sucht der Assistent einfach mit dem Namen, wie er auf der Karte steht — statt zurückzufragen.</li>
+<li>**Schneller und günstiger.** Die überflüssige CRM-Suche je Karte entfällt.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.69/DMS-1.3.69.dmg"
+                sparkle:edSignature="tq137ukkO2NnpNZawTM+XMgXNtatTrHZ09oS4ANBjpbj7AFxg8Idmtf0rIVkoEp9zBCWOUba8u+flXP5jvFIBw=="
+                length="28602931"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.68</title>
             <sparkle:version>1.3.68</sparkle:version>
             <sparkle:shortVersionString>1.3.68</sparkle:shortVersionString>
