@@ -8,6 +8,43 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.47</title>
+            <sparkle:version>1.3.47</sparkle:version>
+            <sparkle:shortVersionString>1.3.47</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 29 May 2026 02:27:24 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.47 — KI-Assistent: Pinnwand, Sicherheitsnetz, Feedback-Gedächtnis</p>
+
+<h2>Verbessert & sicherer</h2>
+
+<li>**Kosten werden wieder angezeigt.** Die OpenRouter-Kosten je Durchlauf erscheinen wieder korrekt (statt „Kosten nicht geliefert").</li>
+<li>**Startbildschirm aktionsfähig.** Die Vorschläge auf dem leeren KI-Bildschirm sind jetzt anklickbare Karten. ⌘↩ sendet; Streaming-Antworten werden formatiert dargestellt.</li>
+<li>**Kopieren erfasst alles.** „Kopieren" einer KI-Antwort übernimmt jetzt die komplette Antwort inklusive aller Kundenkarten — nicht mehr nur die erste Zeile.</li>
+
+<h2>Pinnwand-Integration (mit Rückfrage)</h2>
+
+<li>Die KI kennt deine Pinnwand, durchsucht sie bei Bedarf gezielt und kann Notizen **mit Kunden verknüpfen** oder **neue Notizen ergänzen** — aber **immer nur nach deiner Bestätigung** per Button.</li>
+
+<h2>Sicherheitsnetz: KI-Änderungen rückgängig machen</h2>
+
+<li>Jede Datenänderung des KI-Assistenten wird protokolliert. Unter **Einstellungen → KI-Assistent → „KI-Änderungen & Rückgängig"** kannst du Änderungen einsehen und gezielt zurückrollen (mindestens 90 Tage).</li>
+
+<h2>Feedback-Gedächtnis (kein Re-Spam)</h2>
+
+<li>Dein Feedback zur Nachfass-Liste (z. B. „X ist kein Kunde / Architekt", „Y ist abgesprungen", „bei Z in einem Monat wieder melden", „Mails von @partner.de sind keine Kunden") wird nach Bestätigung **dauerhaft gespeichert** und in künftigen Auswertungen berücksichtigt — die KI schlägt diese Kontakte nicht erneut vor.</li>
+
+<h2>Behoben</h2>
+
+<li>**Alte KI-Chats verschwanden** beim Wechseln oder Anlegen eines neuen Chats aus der Verlaufsleiste. Chats bleiben jetzt erhalten und sichtbar.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.47/DMS-1.3.47.dmg"
+                sparkle:edSignature="aBbqGjLXacj60MIeLr+feQWr83vvHnKVNXFB/fXwmZLEDUDxgUWYwoMjMyhq/CkxOPsZgH7wuCLaMBfywOxqAw=="
+                length="27750426"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.46</title>
             <sparkle:version>1.3.46</sparkle:version>
             <sparkle:shortVersionString>1.3.46</sparkle:shortVersionString>
