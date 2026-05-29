@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.67</title>
+            <sparkle:version>1.3.67</sparkle:version>
+            <sparkle:shortVersionString>1.3.67</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 29 May 2026 22:20:36 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.67 — Assistent wählt bei „abgleichen" das richtige Tool & korrigiert sich selbst</p>
+
+<li>**Pinnwand mit Mail-Infos füllen funktioniert jetzt zuverlässig.** Bittest du den Assistenten, „alle Infos abzugleichen und die Pinnwandkarten zu ergänzen", füllt er die Karten jetzt tatsächlich mit den Erkenntnissen aus den Mails (z. B. Preise für Haus, Keller, Ausbau) und verlinkt die Quell-Mails — statt nur einen reinen Namens-Abgleich zu fahren und stehenzubleiben.</li>
+<li>**Holt sich die Karten selbst.** Sind alle Karten gemeint, listet der Assistent sie eigenständig auf und arbeitet sie der Reihe nach ab — er fragt dich nicht mehr nach internen IDs.</li>
+<li>**Denkt bei mageren Ergebnissen nach.** Liefert ein Werkzeug kein brauchbares Ergebnis, überprüft der Assistent jetzt selbst, ob er das richtige Tool gewählt hat, und probiert einen besseren Weg, bevor er aufgibt.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.67/DMS-1.3.67.dmg"
+                sparkle:edSignature="x3hLC5z9pXt+8KdJY/mPJ0lnYY49xL7wWqMC9MGV2Y1ze+LgU9wpZXE5H0ievaCpReF2zUup+96ChIHB70DdBw=="
+                length="28616868"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.66</title>
             <sparkle:version>1.3.66</sparkle:version>
             <sparkle:shortVersionString>1.3.66</sparkle:shortVersionString>
