@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.65</title>
+            <sparkle:version>1.3.65</sparkle:version>
+            <sparkle:shortVersionString>1.3.65</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 29 May 2026 21:30:37 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.65 — Assistent handelt proaktiver & kann die Pinnwand befüllen</p>
+
+<li>**Weniger Nachhaken:** Wenn du einen Kontakt ungenau oder mit Tippfehler nennst (z. B. „Werneuer" statt „Wenker"), sucht der Assistent jetzt selbst danach, statt nach dem exakten Namen zu fragen. Und er führt Lese-Aktionen (Mails/Pinnwand/Verlauf durchsehen), die du erkennbar willst, direkt aus — statt „möchtest du, dass ich …?" zu fragen.</li>
+<li>**Neu: Pinnwand-Einträge anlegen.** Der Assistent kann jetzt auf Wunsch Pinnwand-Notizen erstellen — mit Infos und/oder abhakbaren Aufgaben (Checkboxen). Wie bei allen schreibenden Aktionen wird vorher kurz bestätigt (du siehst, was angelegt wird).</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.65/DMS-1.3.65.dmg"
+                sparkle:edSignature="Wsw1bVjQlCCoqbRSXUejhsPRxa/LESR5DxJN2ZuwbF9cJFoqsfIIpbrnhmFth3ZEBfxCBhVGDNp41gu3FogeDg=="
+                length="28609395"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.64</title>
             <sparkle:version>1.3.64</sparkle:version>
             <sparkle:shortVersionString>1.3.64</sparkle:shortVersionString>
