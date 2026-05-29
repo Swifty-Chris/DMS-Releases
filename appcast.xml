@@ -8,6 +8,23 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.64</title>
+            <sparkle:version>1.3.64</sparkle:version>
+            <sparkle:shortVersionString>1.3.64</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 29 May 2026 20:53:43 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.64 — interne Aufräumarbeit</p>
+
+<li>Beispiel-Texte im KI-Assistenten und im „Was ist neu"-Hinweis verwenden jetzt neutrale Platzhalter statt realer Namen. Keine sichtbare Funktionsänderung.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.64/DMS-1.3.64.dmg"
+                sparkle:edSignature="Wuo3bA+hreXy+XUIe9wxOaSXR6YV4pIrtkeF1cch69UcoXFz/DX7k25SRngGsnqjVf7wgGt1bocOCvGF7B5rCg=="
+                length="28606501"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.63</title>
             <sparkle:version>1.3.63</sparkle:version>
             <sparkle:shortVersionString>1.3.63</sparkle:shortVersionString>
