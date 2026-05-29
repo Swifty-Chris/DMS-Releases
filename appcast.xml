@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.53</title>
+            <sparkle:version>1.3.53</sparkle:version>
+            <sparkle:shortVersionString>1.3.53</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 29 May 2026 14:41:42 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.53 — Bestätigungsdialog mit Inhalt & KI-Gedächtnis-Fix</p>
+
+<li>**Bestätigungsdialog zeigt jetzt, was gespeichert wird.** Wenn die KI sich etwas merken oder löschen will, siehst du im Dialog Titel, Rolle, Kontakt und eine Inhalts-Vorschau — du kannst die Aktion also fundiert bestätigen, statt nur den Tool-Namen zu sehen.</li>
+<li>**„KI-Gedächtnis verwalten" öffnet jetzt als eigenes Fenster (Sheet).** Vorher blieb die Ansicht beim Wechsel auf einen anderen Menüpunkt hängen — jetzt schließt du sie sauber mit „Fertig" und die Navigation klappt wieder.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.53/DMS-1.3.53.dmg"
+                sparkle:edSignature="Z+Tq+PhRgOqmfAOTZuPfqkR0ENuZOKOClgMQJKtZO2+ox2a77S9CuSlr7a6slMNRCGLJ28sya3x+Y3526PQkCQ=="
+                length="28186426"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.52</title>
             <sparkle:version>1.3.52</sparkle:version>
             <sparkle:shortVersionString>1.3.52</sparkle:shortVersionString>
