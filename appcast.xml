@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.59</title>
+            <sparkle:version>1.3.59</sparkle:version>
+            <sparkle:shortVersionString>1.3.59</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 29 May 2026 17:19:01 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.59 — „Daten abgleichen": Datenpflege-Postfach auf Knopfdruck füllen</p>
+
+<li>**Neuer Button „Daten abgleichen"** im KI-Gedächtnis (Einstellungen → KI-Assistent → „KI-Gedächtnis verwalten"). Ein Klick: die KI geht deine Pinnwand-Notizen durch und schlägt Zuordnungen zu Kunden vor — die Vorschläge landen direkt im Datenpflege-Postfach (Ja/Nein/Abbrechen).</li>
+<li>**Ist das Postfach leer**, weist ein Hinweis jetzt klar auf den Abgleich-Button hin (vorher „passierte nichts").</li>
+<li>**Anti-Nerv:** bereits geklärte oder abgelehnte Zuordnungen werden übersprungen.</li>
+<li>Du kannst den Abgleich auch im Chat auslösen: „Gleiche meine Daten ab" / „Ordne meine Pinnwand-Notizen Kunden zu".</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.59/DMS-1.3.59.dmg"
+                sparkle:edSignature="OrMKfgVOwYvMPjE5kUTooS+mQEXxWgldoqvhQVl6KQPxN8OBLbsKHxcB33ZiNtd9ixZal0jjmvrybQnk3XhaCg=="
+                length="28550991"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.58</title>
             <sparkle:version>1.3.58</sparkle:version>
             <sparkle:shortVersionString>1.3.58</sparkle:shortVersionString>
