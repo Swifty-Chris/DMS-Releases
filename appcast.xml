@@ -8,6 +8,23 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.49</title>
+            <sparkle:version>1.3.49</sparkle:version>
+            <sparkle:shortVersionString>1.3.49</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 29 May 2026 03:02:09 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.49 — Sidebar-Umschalter endgültig nur im KI-Assistenten</p>
+
+<li>**Behoben:** Der zusätzliche Sidebar-Umschalter (für die Doppel-Ansicht) erschien weiterhin in CRM/Pinnwand & Co., wenn man zuvor einmal im KI-Assistenten war. Er ist jetzt strikt an die **aktive KI-Assistent-View** gebunden und taucht in keiner anderen Ansicht mehr auf. In allen übrigen Views: nur der normale, eingebaute Sidebar-Umschalter.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.49/DMS-1.3.49.dmg"
+                sparkle:edSignature="uwa15ccSiVGi7RT6NxqvLvorFMQL26Z+j0gX4Qd7PAuQy68a1pNx6EoOJg68IU0QvOlBdAtvi4fk+AzmNm/zAg=="
+                length="27754114"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.48</title>
             <sparkle:version>1.3.48</sparkle:version>
             <sparkle:shortVersionString>1.3.48</sparkle:shortVersionString>
