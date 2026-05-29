@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.56</title>
+            <sparkle:version>1.3.56</sparkle:version>
+            <sparkle:shortVersionString>1.3.56</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 29 May 2026 16:19:05 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.56 — KI-Chats kehren zurück & syncen geräteübergreifend</p>
+
+<li>**Behoben: verschwundene KI-Chats.** Chats wurden bisher zwar zu Supabase hochgeladen, aber beim Sync nie wieder heruntergeladen — nach einem Update (mit Datenbank-Reset) waren sie lokal weg, obwohl noch auf dem Server. Jetzt werden Chats **aus Supabase wiederhergestellt** und synchronisieren über alle Geräte. **Deine zuletzt „verlorenen" Chats sollten nach dem Update wieder auftauchen.**</li>
+<li>**KI-Gedächtnis & Datenpflege-Vorschläge** synchronisieren jetzt ebenfalls geräteübergreifend.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.56/DMS-1.3.56.dmg"
+                sparkle:edSignature="69CHEdSTU+fgTzC8lUB4UpqaD+qiEt78Ze933ljgvA0DWBPxRZTfEpW2v/UsVds3c5nAomL1mpq3EQdO8If8Ag=="
+                length="28472700"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.55</title>
             <sparkle:version>1.3.55</sparkle:version>
             <sparkle:shortVersionString>1.3.55</sparkle:shortVersionString>
