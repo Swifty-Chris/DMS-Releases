@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.60</title>
+            <sparkle:version>1.3.60</sparkle:version>
+            <sparkle:shortVersionString>1.3.60</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 29 May 2026 17:28:25 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.60 — KI baut ein Verständnis pro Kunde auf (statt jedes Mal alle Mails zu lesen)</p>
+
+<li>**Der Assistent versteht jetzt seine Strategie:** Pro Kontakt baut er ein wachsendes Verständnis im Gedächtnis auf, damit er nicht jedes Mal wochenlang Mails durchsehen muss — das macht ihn schneller, günstiger und über die Zeit konsistenter.</li>
+<li>**So arbeitet er:** erst ins Gedächtnis schauen → beim Lesen die wichtigen Erkenntnisse mit Quell-Verweis (Mail-Betreff + Datum) festhalten → nur bei echten Lücken gezielt die Original-Mails nachladen. Dieselbe Mail liest er so nicht zweimal.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.60/DMS-1.3.60.dmg"
+                sparkle:edSignature="LPUDdZzYgxUdEdFck0pHbZmqpjBP8JB2NRyZPeqE9NJ6kCBoV7qox5m7/qlltCUG62mClGMSGI7vROQHyC1gCA=="
+                length="28559159"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.59</title>
             <sparkle:version>1.3.59</sparkle:version>
             <sparkle:shortVersionString>1.3.59</sparkle:shortVersionString>
