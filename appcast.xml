@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.58</title>
+            <sparkle:version>1.3.58</sparkle:version>
+            <sparkle:shortVersionString>1.3.58</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 29 May 2026 16:55:33 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.58 — Pinnwand-Abgleich: KI verknüpft Notizen mit Kunden</p>
+
+<li>**Die KI ordnet Pinnwand-Notizen jetzt Kontakten zu** — als Vorschlag. Erkennt sie aus dem Kontext, dass eine Notiz zu einem bestimmten Kunden/Kontakt gehört, schlägt sie die Verknüpfung vor (im Datenpflege-Postfach im KI-Gedächtnis): „Pinnwand-Notiz zuordnen zu «…»?" mit Notiz-Vorschau und Begründung.</li>
+<li>**Du entscheidest** wie gewohnt: Ja (verknüpfen) / Nein (→ „Sicher?", wird nicht mehr vorgeschlagen) / Abbrechen (später erneut möglich).</li>
+<li>**Nur bei unklaren Fällen** — bereits geklärte oder offensichtlich unzugehörige Notizen werden nicht vorgeschlagen.</li>
+<li>Bestätigte Verknüpfungen fließen in das Kontakt-Gesamtbild der KI ein (vollständigere Daten).</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.58/DMS-1.3.58.dmg"
+                sparkle:edSignature="ZALRtcndrRY8aZHLY6jT4RY+gKxJMAfcS1z6spWg0dpYZ4MWK61+qGfI6tOJRLOYywucH8307We0t0fxD4VsBg=="
+                length="28493986"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.57</title>
             <sparkle:version>1.3.57</sparkle:version>
             <sparkle:shortVersionString>1.3.57</sparkle:shortVersionString>
