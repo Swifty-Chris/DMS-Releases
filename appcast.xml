@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.79</title>
+            <sparkle:version>1.3.79</sparkle:version>
+            <sparkle:shortVersionString>1.3.79</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 01:24:40 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.79 — Assistent hält das Kontaktbild im Hintergrund aktuell</p>
+
+<li>**Neu: automatische Hintergrund-Pflege des KI-Gedächtnisses.** Nach jeder Synchronisierung aktualisiert der Assistent von selbst das Gedächtnis zu deinen **bekannten** Kontakten (die schon eine Pinnwand-Notiz, einen Gedächtnis-Eintrag oder einen CRM-Datensatz haben) mit den jüngsten Mail-Bezügen — inklusive „📧 Mail öffnen"-Link.</li>
+<li>**Ohne Müllhalde.** Unbekannte Absender (Newsletter & Co.) werden bewusst übersprungen; bereits vermerkte Mails werden nicht doppelt eingetragen.</li>
+<li>**Schonend.** Läuft deterministisch im Hintergrund, ohne zusätzliche KI-Kosten, mit Mengenbegrenzung pro Durchlauf.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.79/DMS-1.3.79.dmg"
+                sparkle:edSignature="r1/wiVqX1O2GECfTGMbiVu8AsW6cWrLcbARaL0Ey986rREnQCiY1d57BQo9zId0vxakd71CL8RrE1PQMTPvTDA=="
+                length="28686140"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.78</title>
             <sparkle:version>1.3.78</sparkle:version>
             <sparkle:shortVersionString>1.3.78</sparkle:shortVersionString>
