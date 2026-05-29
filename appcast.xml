@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.74</title>
+            <sparkle:version>1.3.74</sparkle:version>
+            <sparkle:shortVersionString>1.3.74</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 00:13:36 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.74 — Neue Chats werden zuverlässig gespeichert</p>
+
+<li>**Chats verschwinden nicht mehr aus der History.** Bisher konnte ein Chat verloren gehen, wenn man den Assistenten direkt nach dem App-Start öffnete und sofort tippte (die Sitzung wurde nur im Speicher gehalten und nie dauerhaft abgelegt). Jetzt wird jede Sitzung verlässlich gespeichert und erscheint in der Chat-Liste.</li>
+<li>**Robust beim Kaltstart.** Auch wenn die Anmeldung beim ersten Tippen noch nicht ganz bereit ist, legt der Assistent die Sitzung korrekt an und sichert sie.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.74/DMS-1.3.74.dmg"
+                sparkle:edSignature="H6ls4Snx/gsv0XchnEIiZjQq0zyqofQJU7PxhZIG38hjSNknNcAzyYw/9QK2wkOWdBXo7Y33zz88nxbZhp6VBA=="
+                length="27691513"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.73</title>
             <sparkle:version>1.3.73</sparkle:version>
             <sparkle:shortVersionString>1.3.73</sparkle:shortVersionString>
