@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.2</title>
+            <sparkle:version>1.4.2</sparkle:version>
+            <sparkle:shortVersionString>1.4.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 19:01:24 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.2 — Vollständigerer Überblick + geprüfte Quellen in der Box</p>
+
+<li>**WhatsApp im Überblick: ein- UND ausgehend:** Der „Gibt es etwas Wichtiges?"-Überblick berücksichtigt jetzt auch Ihre **gesendeten** WhatsApp-Nachrichten — gerade dort stehen oft Termininfos (z. B. wenn Sie einem Kunden den Termin mitteilen). Jede Zeile ist klar als „Ich → Kontakt" oder „Kontakt → mir" markiert. Bisher zählte nur Eingehendes.</li>
+<li>**Termine aus allen Quellen:** Da es noch keinen strukturierten Kalender gibt, leitet der Assistent Termine und Rückrufe jetzt ausdrücklich auch aus Pinnwand, E-Mails und WhatsApp ab — und schließt nicht mehr fälschlich auf „keine Termine".</li>
+<li>**Geprüfte Quellen sichtbar in der Box:** Unter der Antwort zeigt eine kleine Box deterministisch, welche Quellen und wie viele Einträge geprüft wurden (💬 WhatsApp · ✉️ E-Mails · 🧠 Gedächtnis · 📌 Pinnwand · ✅ Todos · 📅 Termine · Zeitraum) — neben Kosten und Tokens, ohne den Antworttext zu belasten.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.2/DMS-1.4.2.dmg"
+                sparkle:edSignature="57Wyr3Mf+XM/n/hA3qgAPTVYRse9XudI+pgKlGg2w1SYMXEWHI3wNAJCofwlcLhIsi6xj76J/V6Tyu0wpvslBQ=="
+                length="29097200"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.1</title>
             <sparkle:version>1.4.1</sparkle:version>
             <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
