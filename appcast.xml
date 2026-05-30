@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.94</title>
+            <sparkle:version>1.3.94</sparkle:version>
+            <sparkle:shortVersionString>1.3.94</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 14:38:26 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.94 — KI kennt den vollen WhatsApp-Verlauf</p>
+
+<li>**WhatsApp wird einmalig komplett eingelesen:** Nach dem Verbinden mit WhatsApp Web liest die App jetzt **einmal alle Chats vollständig** ein (statt nur den gerade geöffneten Chat). Damit kann der KI-Assistent „Gibt es etwas Wichtiges in WhatsApp?" und Fragen zu einem Zeitraum endlich auf dem **kompletten** Verlauf beantworten — bisher kannte er oft nur eine einzelne Nachricht. Der Voll-Abgleich läuft im Hintergrund und blockiert die App nicht; er wird erneut ausgelöst, wenn nach einer Neuverbindung kaum Nachrichten vorliegen.</li>
+<li>**Kontakte werden gemerkt:** Trifft eine WhatsApp-Nachricht ohne zugeordneten Kunden ein, merkt sich die KI automatisch die Zuordnung „Telefonnummer gehört zu Name" — dauerhaft und geräteübergreifend. So weiß der Assistent mit der Zeit, wer hinter welcher Nummer steckt, statt „unbekannt" anzuzeigen.</li>
+
+<p>_Hinweis: Den einmaligen Voll-Abgleich lösen Sie aus, indem Sie WhatsApp in der App (neu) verbinden._</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.94/DMS-1.3.94.dmg"
+                sparkle:edSignature="XudQbzXvp0XxphpHVGZf+tx7FCpjLdRDvF8lh7uqvzZpJ90Pueq8eM9kq7udFBk32XmCvMresaJCjq1Fny8ICg=="
+                length="28837102"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.93</title>
             <sparkle:version>1.3.93</sparkle:version>
             <sparkle:shortVersionString>1.3.93</sparkle:shortVersionString>
