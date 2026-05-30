@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.9</title>
+            <sparkle:version>1.4.9</sparkle:version>
+            <sparkle:shortVersionString>1.4.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 31 May 2026 00:47:11 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.9 — WhatsApp im Überblick: keine Duplikate, klare Diagnose</p>
+
+<li>**Keine doppelten WhatsApp-Nachrichten mehr in der Auswertung:** Identische Nachrichten (gleicher Inhalt, Zeit und Richtung) werden im Überblick und in der WhatsApp-Suche nur noch einmal angezeigt.</li>
+<li>**Namenlose Chats sauber benannt:** Chats ohne hinterlegten Namen erscheinen jetzt als „Unbenannter Chat" bzw. mit ihrer Telefonnummer statt als „unbekannter Kontakt".</li>
+<li>**Eingebaute Diagnose:** Der WhatsApp-Abschnitt im Überblick zeigt jetzt, wie viele Chats zuletzt erfasst und wie viele Nachrichten extrahiert wurden — das hilft, Erfassungsprobleme schnell einzugrenzen.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.9/DMS-1.4.9.dmg"
+                sparkle:edSignature="XkCDhj+SCnXfXZuY8m3PP6mpmImyc0J0pbLaraCE4yhhXn9HiKUWfzVWvsyXMl7FdCRCD/ariizR+H0ApwH8AA=="
+                length="29130133"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.8</title>
             <sparkle:version>1.4.8</sparkle:version>
             <sparkle:shortVersionString>1.4.8</sparkle:shortVersionString>
