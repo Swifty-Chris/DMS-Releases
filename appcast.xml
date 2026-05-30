@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.87</title>
+            <sparkle:version>1.3.87</sparkle:version>
+            <sparkle:shortVersionString>1.3.87</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 03:22:19 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.87 — Datenschutz: gemischter WhatsApp-Account wird nicht breit durchsucht</p>
+
+<li>**Schutz bei gemischtem Account aktiv.** Hast du beim Koppeln „gemischter Account" gewählt, durchsucht die KI WhatsApp nicht mehr breit (keine teure Massen-Abfrage, keine privaten Kontakte). WhatsApp bleibt für einzelne Kontakte gezielt abrufbar (Kunden-Verlauf).</li>
+<li>Bei reinem Business-Account bleibt alles wie gewohnt.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.87/DMS-1.3.87.dmg"
+                sparkle:edSignature="A5eQgw+oVdNOY5boLyVwkKKFdXVzQChiBxiB6XteAU9tKjSlXUq8VOs16g84zfy8X7hjKB9sjY9jChoMN+b9DA=="
+                length="28733956"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.86</title>
             <sparkle:version>1.3.86</sparkle:version>
             <sparkle:shortVersionString>1.3.86</sparkle:shortVersionString>
