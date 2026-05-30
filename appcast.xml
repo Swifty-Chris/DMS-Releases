@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.3</title>
+            <sparkle:version>1.4.3</sparkle:version>
+            <sparkle:shortVersionString>1.4.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 19:27:47 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.3 — Interne Termin-Mails gehen nicht mehr verloren</p>
+
+<li>**Wichtige E-Mails fallen nicht mehr hinten runter:** Der „Gibt es etwas Wichtiges?"-Überblick wertet jetzt deutlich mehr E-Mails des Zeitraums aus (statt nur die 15 neuesten). So gehen auch Terminangebote, die nicht ganz oben liegen, nicht mehr unter.</li>
+<li>**Interne Danwood-Mails zählen für Termine:** Mails von Kolleginnen und Kollegen (z. B. der Projektkoordination) werden im allgemeinen Überblick ausdrücklich berücksichtigt — gerade hier stehen oft Termine. (Bei der reinen Kunden-Nachfass-Frage bleiben interne Adressen wie bisher außen vor — dort ergäben sie keinen Sinn.)</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.3/DMS-1.4.3.dmg"
+                sparkle:edSignature="kh1QRLHMk4fgKsZpsNd6bdoHaLBZZfCQcZry/FQlV9nUn9jSxxuA+1YmYDOz1tgergSfuS/GKBTgTT27xSQICg=="
+                length="29088838"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.2</title>
             <sparkle:version>1.4.2</sparkle:version>
             <sparkle:shortVersionString>1.4.2</sparkle:shortVersionString>
