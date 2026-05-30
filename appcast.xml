@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.5</title>
+            <sparkle:version>1.4.5</sparkle:version>
+            <sparkle:shortVersionString>1.4.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 19:54:00 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.5 — Allgemeine Fragen arbeiten den ganzen WhatsApp-Verlauf durch</p>
+
+<li>**Kein Eingrenzen auf einen Namen mehr:** Bei einer allgemeinen Frage (z. B. „Welche Termine habe ich?") arbeitet der KI-Assistent jetzt den **gesamten** WhatsApp-Verlauf des Zeitraums durch — alle Kontakte, beide Richtungen — statt die Suche fälschlich auf einen einzelnen Namen einzuschränken. Einen Namensfilter nutzt er nur noch, wenn Sie gezielt nach genau dieser Person fragen.</li>
+<li>**Mehr WhatsApp im Überblick:** Der „Gibt es etwas Wichtiges?"-Überblick wertet jetzt deutlich mehr WhatsApp-Nachrichten aus (statt nur die 15 neuesten), damit keine Termininfos untergehen.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.5/DMS-1.4.5.dmg"
+                sparkle:edSignature="/MhQ/1eO42TKWT8FpvLuqPl05iEjatrR9gyA8RQel/AxaPS7zV7THtxou/EP6Uhv0l72ZBPQRt5HRd2qVcaxBA=="
+                length="29104836"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.4</title>
             <sparkle:version>1.4.4</sparkle:version>
             <sparkle:shortVersionString>1.4.4</sparkle:shortVersionString>
