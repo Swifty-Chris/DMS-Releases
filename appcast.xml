@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.89</title>
+            <sparkle:version>1.3.89</sparkle:version>
+            <sparkle:shortVersionString>1.3.89</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 03:45:37 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.89 — WhatsApp fließt jetzt ins KI-Gedächtnis ein</p>
+
+<li>**WhatsApp wird als Infoquelle berücksichtigt — wie E-Mails.** Die automatische Hintergrund-Pflege bezieht jetzt auch WhatsApp-Nachrichten deiner bekannten Kontakte in das KI-Gedächtnis ein (Zusammenfassung + Quellen).</li>
+<li>**Datenschutz gewahrt.** Bei einem reinen Business-Account passiert das automatisch. Hast du beim Koppeln „gemischter Account" gewählt, bleibt WhatsApp im Hintergrund bewusst außen vor (kein breites Durchsuchen privater Chats) — abrufbar bleibt es dort gezielt über den Kunden-Verlauf.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.89/DMS-1.3.89.dmg"
+                sparkle:edSignature="lnPMPMGQs+vc+gy7lcV/YmvY1KLKaeEZyH3JQRmVz85VSrPyAPjvOcwZZjOVTpWy77j0eTbR3JfOm/4g88QCAQ=="
+                length="28735100"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.88</title>
             <sparkle:version>1.3.88</sparkle:version>
             <sparkle:shortVersionString>1.3.88</sparkle:shortVersionString>
