@@ -8,6 +8,23 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.88</title>
+            <sparkle:version>1.3.88</sparkle:version>
+            <sparkle:shortVersionString>1.3.88</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 03:33:04 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.88 — Zusammengeführte Kontakte bleiben zusammengeführt</p>
+
+<li>**Der Zusammenführen-Dialog kommt nicht mehr ständig wieder.** Bisher legte die automatische Hintergrund-Pflege einen zuvor zusammengeführten Kontakt (z. B. „Milan" → „Milan Marcus") beim nächsten Durchlauf erneut an — der Vorschlag erschien wieder und wieder. Jetzt merkt sich die App deine Zusammenführung dauerhaft und schreibt künftige Infos direkt in den vereinten Eintrag.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.88/DMS-1.3.88.dmg"
+                sparkle:edSignature="VZW26npKE5btE16maZ83YgIAU1bnSA8LdiPTMhHtbIUy7qyqvTXtOe15HsgBxaFJ4ohkbsoWA4nnTQqQrSZeAg=="
+                length="28730209"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.87</title>
             <sparkle:version>1.3.87</sparkle:version>
             <sparkle:shortVersionString>1.3.87</sparkle:shortVersionString>
