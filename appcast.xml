@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.86</title>
+            <sparkle:version>1.3.86</sparkle:version>
+            <sparkle:shortVersionString>1.3.86</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 03:09:51 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.86 — WhatsApp-Tab wirklich wieder da + Datenschutz-Hinweis beim Koppeln</p>
+
+<li>**WhatsApp ist jetzt tatsächlich im Menü.** Der Tab wird in der Seitenleiste (Mac/iPad/iPhone) wieder standardmäßig angezeigt. (In Einstellungen → Experimentals weiterhin pro Tab anpassbar.)</li>
+<li>**Neu: Datenschutz-Hinweis beim WhatsApp-Koppeln.** Bevor WhatsApp gekoppelt wird, fragt die App nach dem Account-Typ:</li>
+<p>  - **Reiner Business-Account** — empfohlen.</p>
+<p>  - **Gemischter Account** (privat + geschäftlich) — dann durchsucht die KI bewusst NICHT alle Chats, sondern nur gezielt eine bestimmte Nummer. So werden private Kontakte nicht verarbeitet und teure, unbrauchbare Massen-Abfragen vermieden.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.86/DMS-1.3.86.dmg"
+                sparkle:edSignature="B0W3o/l8EWy+79GW2/RLuovHrMbg1jlK9sxhLpuR4Y59Som1cu+MSZWXac2BQtdVnCgr+e/eSaQw1JJi2PZZDg=="
+                length="28727138"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.85</title>
             <sparkle:version>1.3.85</sparkle:version>
             <sparkle:shortVersionString>1.3.85</sparkle:shortVersionString>
