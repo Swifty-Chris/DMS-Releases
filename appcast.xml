@@ -8,6 +8,23 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.12</title>
+            <sparkle:version>1.4.12</sparkle:version>
+            <sparkle:shortVersionString>1.4.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 31 May 2026 01:38:36 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.12 — Sync-Diagnose auch in der WhatsApp-Suche</p>
+
+<li>**Mehr Transparenz:** Auch bei einer gezielten WhatsApp-Suche zeigt das Ergebnis jetzt, wie der letzte Hintergrund-Abgleich verlaufen ist (z. B. wie viele Chats erfasst wurden) — bisher war das nur im allgemeinen Überblick sichtbar.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.12/DMS-1.4.12.dmg"
+                sparkle:edSignature="0+cw01raSrIR83A+myQqJJaF6qQmWjnr4L/vSNW7cbUjpXk1hQk2ctIPvHL6P7fToId1sdiX8orBqec6YMjoCw=="
+                length="29179098"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.11</title>
             <sparkle:version>1.4.11</sparkle:version>
             <sparkle:shortVersionString>1.4.11</sparkle:shortVersionString>
