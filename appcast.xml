@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.99</title>
+            <sparkle:version>1.3.99</sparkle:version>
+            <sparkle:shortVersionString>1.3.99</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 17:47:17 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.99 — KI gleicht Gespräche mit gespeichertem Wissen ab</p>
+
+<li>**Kein Raten mehr über Personen:** Wenn der KI-Assistent WhatsApp-Nachrichten auswertet, bekommt er jetzt zu jedem vorkommenden Kontakt automatisch das gespeicherte Wissen mitgeliefert (Gedächtnis + Kundenakte) — und darf Geschlecht, Status oder Rolle einer Person nicht mehr erraten. Ist etwas nicht bekannt, formuliert er neutral mit dem Namen (statt fälschlich „sie"/„er").</li>
+<li>**Transparenz über den Umfang:** Der Assistent nennt jetzt auch, wie viele Gesprächspartner geprüft wurden (zusätzlich zur Nachrichtenanzahl).</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.99/DMS-1.3.99.dmg"
+                sparkle:edSignature="f0TCUWbGALP+k9PK9CA2mThMm4uNoLouIWmL5gqtXDAqUNVLMZNgYXPXAdHZB0g0WjHy/GoaE18IkSnNfHZYCA=="
+                length="28979389"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.98</title>
             <sparkle:version>1.3.98</sparkle:version>
             <sparkle:shortVersionString>1.3.98</sparkle:shortVersionString>
