@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.0</title>
+            <sparkle:version>1.4.0</sparkle:version>
+            <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 18:05:19 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.0 — „Gibt es etwas Wichtiges?" durchsucht jetzt ALLES</p>
+
+<li>**Ein Überblick aus allen Quellen:** Bei allgemeinen Fragen wie „Gibt es etwas Wichtiges?" oder „Was gibt es Neues?" prüft der KI-Assistent jetzt in einem Schritt **alle** Quellen gemeinsam — eingehende WhatsApp-Nachrichten, aktuelle E-Mails, das **eigene KI-Gedächtnis**, die Pinnwand und offene Aufgaben. Bisher blieben Mails und das Gedächtnis oft außen vor.</li>
+<li>**Transparenter Umfang:** Das Ergebnis nennt klar, wie viel je Quelle geprüft wurde (z. B. „5 WhatsApp, 12 E-Mails, 8 Gedächtnis-Notizen, 3 Pinnwand, 6 Todos").</li>
+<li>**Sie wählen den Zeitraum:** Standardmäßig die letzten 7 Tage; der Assistent passt den Zeitraum bei Bedarf an.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.0/DMS-1.4.0.dmg"
+                sparkle:edSignature="Lm8RBDFQVcThY6llp1XFEWUpk8lsXEkmyfTPPZ30hWBVV0xqMj8pDmSc9rcJqkLY7yFwTmdken95Mv4M7sV4DQ=="
+                length="29064220"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.99</title>
             <sparkle:version>1.3.99</sparkle:version>
             <sparkle:shortVersionString>1.3.99</sparkle:shortVersionString>
