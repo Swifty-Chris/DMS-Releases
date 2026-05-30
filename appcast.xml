@@ -8,6 +8,23 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.84</title>
+            <sparkle:version>1.3.84</sparkle:version>
+            <sparkle:shortVersionString>1.3.84</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 02:41:45 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.84 — Hintergrund-Pflege erfasst deutlich mehr Kontakte</p>
+
+<li>**Mehr Abdeckung pro Durchlauf.** Die automatische Gedächtnis-Pflege berücksichtigt jetzt deutlich mehr deiner bekannten Kontakte (Pinnwand/CRM) und arbeitet pro Durchlauf eine ganze Reihe davon ab — nicht nur die letzten paar. So füllt sich das Gedächtnis nach und nach für deine ganze Kontaktliste.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.84/DMS-1.3.84.dmg"
+                sparkle:edSignature="BFcelj1E7FiUMHP13hkycxPZioBwWRHIk5+xFcezGwCU1EjsJ0XKwzRiPu+tneIXG+AgZx0idim5OHSUm86+AQ=="
+                length="28699923"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.83</title>
             <sparkle:version>1.3.83</sparkle:version>
             <sparkle:shortVersionString>1.3.83</sparkle:shortVersionString>
