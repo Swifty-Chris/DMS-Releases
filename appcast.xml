@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.95</title>
+            <sparkle:version>1.3.95</sparkle:version>
+            <sparkle:shortVersionString>1.3.95</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 14:58:51 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.95 — Kontakt-Infos direkt auf der Pinnwand</p>
+
+<li>**Neues Info-Icon auf jeder Pinnwand-Karte:** Karten mit einem Kontaktnamen zeigen oben rechts ein ℹ️-Symbol. Ein Klick öffnet ein Kontakt-Info-Fenster — ohne die Karte zum Bearbeiten zu öffnen.</li>
+<li>**Aufbau wie ein Telefonbucheintrag:** Oben die Stammdaten (Name, Telefonnummer(n), E-Mail(s), Adresse — Telefon und Mail direkt antippbar), darunter eine separate Liste „Wichtige Infos" mit allem, was Sie oder der KI-Assistent dem Kontakt zugeordnet haben. Jede Info ist gekennzeichnet, ob sie von Ihnen oder von der KI stammt.</li>
+<li>**Funktioniert für CRM-Kunden und externe Kontakte:** Auch reine WhatsApp-/E-Mail-Kontakte ohne Kundenakte werden zusammengeführt — inklusive der von der KI gemerkten Telefonnummern.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.95/DMS-1.3.95.dmg"
+                sparkle:edSignature="YK2iPiV++lHiYE+wVbwkjQG+Tow3GxlSFeBLYrgyLxTQ3VpSUn0sUwL/8NS2LDtnziByocbTT/y9I/z8lyvCBg=="
+                length="28916872"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.94</title>
             <sparkle:version>1.3.94</sparkle:version>
             <sparkle:shortVersionString>1.3.94</sparkle:shortVersionString>
