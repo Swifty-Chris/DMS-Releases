@@ -8,6 +8,23 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.1</title>
+            <sparkle:version>1.4.1</sparkle:version>
+            <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 18:23:01 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.1 — Prüfumfang als Badge unter der Antwort</p>
+
+<li>**Sichtbarer Umfang auf einen Blick:** Nach einer WhatsApp-Auswertung zeigt der KI-Assistent jetzt ein kompaktes Badge direkt unter der Antwort — z. B. „🔍 7 Nachrichten · 3 Gesprächspartner · letzte 7 Tage". So sehen Sie sofort, auf welcher Basis die Antwort beruht, ohne den Text durchlesen zu müssen.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.1/DMS-1.4.1.dmg"
+                sparkle:edSignature="0OZ5YdBFBKPRmgUwjAzc0n7YEa+LzivBlY9KJu5NZeyFCfetgIYI1X1/bwxREtbZdzIUUj5koQq8PRD6nK1jCA=="
+                length="29060956"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.0</title>
             <sparkle:version>1.4.0</sparkle:version>
             <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
