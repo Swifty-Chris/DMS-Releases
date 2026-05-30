@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.4</title>
+            <sparkle:version>1.4.4</sparkle:version>
+            <sparkle:shortVersionString>1.4.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 19:44:36 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.4 — Debug-Export der KI-Session</p>
+
+<li>**Komplette Session als Datei exportieren:** Im Drei-Punkte-Menü des KI-Chats gibt es jetzt „Session exportieren (Debug)" und „Session als Text kopieren". Der Export enthält die gesamte Unterhaltung mit **allen** Arbeitsschritten — jeder Tool-Aufruf mit Anfrage und vollständiger Antwort, dazu Modell, Tokens, Kosten und Anzahl der API-Calls.</li>
+<li>**Gemacht zum Fehlersuchen:** Wenn etwas nicht wie erwartet läuft, exportieren Sie die Session als Markdown-Datei und reichen sie weiter — so lässt sich genau nachvollziehen, was die KI abgefragt und zurückbekommen hat.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.4/DMS-1.4.4.dmg"
+                sparkle:edSignature="lHiqrnkmw9z8lLtgoRrxeUUgXsy6rC54yqC+to/aeE29EgBmRxdlKuAmzJPhDig9SqM3WLARtgp9GUxxwYOUDQ=="
+                length="29103150"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.3</title>
             <sparkle:version>1.4.3</sparkle:version>
             <sparkle:shortVersionString>1.4.3</sparkle:shortVersionString>
