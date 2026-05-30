@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.8</title>
+            <sparkle:version>1.4.8</sparkle:version>
+            <sparkle:shortVersionString>1.4.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 31 May 2026 00:18:52 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.8 — WhatsApp: aktueller Stand vor jeder KI-Aktion</p>
+
+<li>**Frische Daten, bevor die KI antwortet:** Vor jeder KI-Aktion, die mit WhatsApp arbeitet (Überblick, WhatsApp-Suche, Kunden-Timeline), liest die App jetzt zuerst den **aktuellen Stand** aus WhatsApp Web ein — bei Bedarf auch im Hintergrund, ohne dass die WhatsApp-Kachel offen sein muss. So beruht die Antwort nicht mehr auf veralteten Daten. (Innerhalb von 30 Sekunden wird nicht erneut eingelesen, damit schnelle Folgefragen flott bleiben.)</li>
+<li>**Neuer Button „WhatsApp vollständig neu einlesen":** In den WhatsApp-Einstellungen (sichtbar bei bestehender Verbindung) liest dieser den kompletten Verlauf aller Chats neu ein und meldet danach, wie viele Nachrichten aus wie vielen Chats erfasst wurden.</li>
+<li>**Besseres Timing & keine Duplikate:** Das automatische Voll-Einlesen nach dem Verbinden wartet jetzt, bis WhatsApp Web seine Chats geladen hat. Identische Nachrichten werden nicht mehr doppelt gespeichert.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.8/DMS-1.4.8.dmg"
+                sparkle:edSignature="4Jxs2Ygsvn0fbpWt2mww0rF4TiOusZAx8zDxjZ1x2Q493C3/4IlK3IbPH9bUROoqjJetx3P5FrLSs1i4mFYyCw=="
+                length="29133717"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.7</title>
             <sparkle:version>1.4.7</sparkle:version>
             <sparkle:shortVersionString>1.4.7</sparkle:shortVersionString>
