@@ -8,6 +8,23 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.97</title>
+            <sparkle:version>1.3.97</sparkle:version>
+            <sparkle:shortVersionString>1.3.97</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 17:13:48 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.97 — KI erhält wirklich ALLE Nachrichten eines Zeitraums</p>
+
+<li>**Kein Abschneiden mehr bei der WhatsApp-Zeitraum-Suche:** Wenn der KI-Assistent „alle Nachrichten der letzten X Tage" durchgeht, bekommt er jetzt tatsächlich **alle Kontakte und alle Nachrichten** dieses Zeitraums — bisher war die Auswertung intern auf wenige hundert begrenzt. Wird ein sehr großer Zeitraum doch einmal zu umfangreich, meldet das Tool das und der Assistent grenzt den Zeitraum selbstständig ein.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.97/DMS-1.3.97.dmg"
+                sparkle:edSignature="ptQTsAR55k74FkidWK2Ho19AJCxjP+XzK8VlPYjHSCVVJwv3lh9ih6BuxVCYOdM9XtujYTFuK3Iz6hydAG92DA=="
+                length="28937595"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.96</title>
             <sparkle:version>1.3.96</sparkle:version>
             <sparkle:shortVersionString>1.3.96</sparkle:shortVersionString>
