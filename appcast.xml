@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.11</title>
+            <sparkle:version>1.4.11</sparkle:version>
+            <sparkle:shortVersionString>1.4.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 31 May 2026 01:23:24 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.11 — WhatsApp: alle Chats automatisch im Hintergrund einlesen</p>
+
+<li>**Jeder Chat zählt — nicht nur Kunden:** Wenn das schnelle Einlesen aus WhatsApps interner Datenbank nichts liefert, geht die App jetzt automatisch **jeden Chat deiner WhatsApp-Liste** durch (nicht nur angelegte Kunden) und liest die Nachrichten direkt aus WhatsApp Web.</li>
+<li>**Komplett im Hintergrund, kein Reinklicken nötig:** Das passiert headless — du musst die WhatsApp-Ansicht in der App nicht öffnen und nichts anklicken. Die KI frischt den Stand vor jeder WhatsApp-Aktion selbst auf.</li>
+<li>**Auch ausgehende Nachrichten richtig zugeordnet:** Pro Chat wird die Nummer an alle Nachrichten gehängt — so erscheinen auch deine gesendeten Nachrichten mit dem richtigen Kontakt statt als „Unbenannter Chat".</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.11/DMS-1.4.11.dmg"
+                sparkle:edSignature="H4HYFwt4IBVJy23qBnUWDU8yoT1UXH+2tc4XvpUDSxyw/EGksILqV8Mwyn6ZUDljvrV6B/5M40Tj4UsoANAwBw=="
+                length="29179500"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.10</title>
             <sparkle:version>1.4.10</sparkle:version>
             <sparkle:shortVersionString>1.4.10</sparkle:shortVersionString>
