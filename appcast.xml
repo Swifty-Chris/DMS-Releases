@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.91</title>
+            <sparkle:version>1.3.91</sparkle:version>
+            <sparkle:shortVersionString>1.3.91</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 13:39:21 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.91 — WhatsApp-Suche im Chat + zuverlässiges Feedback</p>
+
+<li>**WhatsApp im Chat durchsuchbar (reiner Business-Account):** Bei breiten Fragen wie „Gibt es Wichtiges in WhatsApp?" durchsucht der KI-Assistent jetzt direkt die WhatsApp-Nachrichten — ohne nach einer Kunden-ID zu fragen. (Bei einem als „gemischt" angegebenen Account bleibt die breite Suche zum Schutz privater Kontakte gesperrt; dort nur kundengezielt.)</li>
+<li>**Karten-Feedback geht nie verloren:** Feedback zu einer Nachfass-Karte wird jetzt sofort und sicher im KI-Gedächtnis gespeichert — unabhängig davon, ob das Sprachmodell das Speichern-Tool aufruft.</li>
+<li>**Keine erfundenen Projektdetails mehr:** Die Nachfass-Auswertung begründet einen Kontakt nur noch mit tatsächlich vorliegenden Inhalten und erfindet keinen Baufortschritt, Haustyp oder Familienstand mehr dazu.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.91/DMS-1.3.91.dmg"
+                sparkle:edSignature="kJsgMLniE6ZHQo2WF20bXH+HwgDIPvm/Hda/OmEPCrYeGgA3kpyZMwxLNpuVawNVUAVy3JCVHC7TR7RmGPlrCw=="
+                length="28753019"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.90</title>
             <sparkle:version>1.3.90</sparkle:version>
             <sparkle:shortVersionString>1.3.90</sparkle:shortVersionString>
