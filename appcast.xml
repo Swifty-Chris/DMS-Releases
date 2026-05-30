@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.93</title>
+            <sparkle:version>1.3.93</sparkle:version>
+            <sparkle:shortVersionString>1.3.93</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 14:16:23 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.93 — WhatsApp-Richtung wird beim Einlesen korrekt erkannt</p>
+
+<li>**Eigene Nachrichten werden nicht mehr als fremde eingelesen:** Beim Auslesen von WhatsApp Web wird jetzt zuverlässig erkannt, ob eine Nachricht von Ihnen gesendet (ausgehend) oder von einem Kontakt empfangen wurde (eingehend) — auch dann, wenn WhatsApp seine interne Struktur leicht anders darstellt. Bisher konnte eine selbst gesendete Nachricht als eingehende „unbekannter Absender"-Nachricht gespeichert werden.</li>
+<li>**Folge für den KI-Assistenten:** Dadurch beantwortet der Assistent „Gibt es etwas Wichtiges in WhatsApp?" verlässlicher und verwechselt eigene mit empfangenen Nachrichten nicht mehr.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.93/DMS-1.3.93.dmg"
+                sparkle:edSignature="FyG0hMqnHIUJwjoWPuGQ327ZELSBB/oTc14XDRIssv8ayW9iYgUdcO5M+uSDRS3dkP8VX9j0JBx7J+TSkFZyDw=="
+                length="28751560"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.92</title>
             <sparkle:version>1.3.92</sparkle:version>
             <sparkle:shortVersionString>1.3.92</sparkle:shortVersionString>
