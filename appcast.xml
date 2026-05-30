@@ -8,6 +8,27 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.83</title>
+            <sparkle:version>1.3.83</sparkle:version>
+            <sparkle:shortVersionString>1.3.83</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 02:26:49 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.83 — Doppelte Kontakte zusammenführen (mit Nachfrage)</p>
+
+<li>**Neu: Zusammenführungs-Vorschläge im KI-Gedächtnis.** Erkennt der Assistent, dass zwei Erinnerungen zum selben Kontakt gehören (z. B. „Böhne" und „Michele Böhne"), fragt er nach — du entscheidest:</li>
+<p>  - **Zusammenführen** — die Erinnerungen werden unter dem volleren Namen vereint.</p>
+<p>  - **Nicht zusammenführen** — dauerhaft gemerkt, du wirst zu diesem Paar nicht mehr gefragt.</p>
+<p>  - **Später** — beim nächsten Öffnen wird erneut gefragt.</p>
+<li>Nichts wird automatisch verschmolzen — die Entscheidung liegt immer bei dir.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.83/DMS-1.3.83.dmg"
+                sparkle:edSignature="CBk1ZOQ56PzjISDktd/B4Oz84o9TT5m7zOfxAf8xridY6ArtttHrRRnuVQtM62uFzz0Kpam1GWYasc4CCR2PDw=="
+                length="28723274"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.82</title>
             <sparkle:version>1.3.82</sparkle:version>
             <sparkle:shortVersionString>1.3.82</sparkle:shortVersionString>
