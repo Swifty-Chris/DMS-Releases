@@ -8,6 +8,23 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.90</title>
+            <sparkle:version>1.3.90</sparkle:version>
+            <sparkle:shortVersionString>1.3.90</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 11:52:01 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.90 — Absturz beim Start behoben (WhatsApp-Suche)</p>
+
+<li>**Kritischer Fix:** Die App stürzte direkt beim Start ab, sobald die automatische Hintergrund-Pflege WhatsApp einbezog (eine interne Suchabfrage brachte die Datenbank-Schicht zum Absturz). Die WhatsApp-Suche im Hintergrund läuft jetzt über einen sicheren Weg — kein Absturz mehr.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.90/DMS-1.3.90.dmg"
+                sparkle:edSignature="xoBUpNEtJvJyCx65tKY0f7OJatrd8uWGCYJAgW7wOOFr2ApCysPCJRXTK1HEtWSVkTPdo01e8ghOosNXhrVfBg=="
+                length="28732870"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.89</title>
             <sparkle:version>1.3.89</sparkle:version>
             <sparkle:shortVersionString>1.3.89</sparkle:shortVersionString>
