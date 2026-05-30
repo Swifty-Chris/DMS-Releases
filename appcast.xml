@@ -8,6 +8,23 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.10</title>
+            <sparkle:version>1.4.10</sparkle:version>
+            <sparkle:shortVersionString>1.4.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 31 May 2026 01:04:54 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.10 — WhatsApp-Sync: präzise Klartext-Diagnose</p>
+
+<li>**Verständliche Diagnose im Überblick:** Der WhatsApp-Abschnitt zeigt jetzt in Klartext, was beim Aktualisieren passiert ist — z. B. „nicht verbunden", „Daten konnten nicht gelesen werden" oder „X Chats, Y Nachrichten erfasst". Das hilft, ein Erfassungsproblem in Sekunden einzuordnen, statt zu raten.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.10/DMS-1.4.10.dmg"
+                sparkle:edSignature="nIaPdULTw0pxd0p6i/5hOWa08rX4vQSHYf77QwwbbuJ7SPm6ieXHI/60O/VyHVfBKIiWUmoj3cL7w3HlFNOgAg=="
+                length="29161905"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.9</title>
             <sparkle:version>1.4.9</sparkle:version>
             <sparkle:shortVersionString>1.4.9</sparkle:shortVersionString>
