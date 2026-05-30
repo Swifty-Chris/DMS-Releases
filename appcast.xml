@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.7</title>
+            <sparkle:version>1.4.7</sparkle:version>
+            <sparkle:shortVersionString>1.4.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 23:52:03 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.7 — Überblick wie eine echte Assistenz: lesen statt raten</p>
+
+<li>**Die KI liest das Postfach, statt nach Namen zu raten:** Bei einer allgemeinen Frage („Was ist wichtig? Welche Mails kamen rein?") liest der Assistent jetzt die im Überblick gelieferten E-Mails samt **Vorschau** durch — wie ein Blick ins Postfach — und beurteilt daraus, was wichtig ist. Er sucht nicht mehr mit geratenen Namen/Begriffen nach Wichtigem (und übersieht so nichts und niemanden mehr).</li>
+<li>**Mehr Inhalt direkt im Überblick:** Die Mail-Liste im Überblick zeigt jetzt Absender, Betreff **und** eine Vorschau — damit das Lesen für die Einschätzung ausreicht. Gezielt nachsuchen darf der Assistent weiterhin, wenn er einer konkreten Sache nachgeht.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.7/DMS-1.4.7.dmg"
+                sparkle:edSignature="t30gUrX9+E8TctQ/JbjK8NvVrIEAmYM7Uw9fWgaDV+p7Vk/DLQQq8NrJDZWXlcF8VMCm9i0SlOOZ60cqBZXzDA=="
+                length="29125425"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.6</title>
             <sparkle:version>1.4.6</sparkle:version>
             <sparkle:shortVersionString>1.4.6</sparkle:shortVersionString>
