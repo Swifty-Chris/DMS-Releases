@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.82</title>
+            <sparkle:version>1.3.82</sparkle:version>
+            <sparkle:shortVersionString>1.3.82</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 02:09:15 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.82 — Erinnerungen exportieren + Assistent recherchiert gründlicher</p>
+
+<li>**Neu: Erinnerungen exportieren.** Im KI-Gedächtnis gibt es jetzt einen Button „Erinnerungen kopieren" — er legt alle Erinnerungen formatiert in die Zwischenablage, sodass du sie überall einfügen kannst.</li>
+<li>**Assistent durchsucht jetzt auch die Mails bei der Recherche.** Bittest du ihn, sein Wissen über einen Kontakt zu erweitern, durchsucht er zwingend auch die E-Mails (nicht nur CRM/Pinnwand/Gedächtnis) — und behauptet nicht mehr fälschlich, es gäbe „keine Daten", bevor er die Mails geprüft hat.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.82/DMS-1.3.82.dmg"
+                sparkle:edSignature="9buO1kb6arVAsXa/Nn8cdaxqhnnTwQ9OOFFhv1lP1P1y+XdpeLpGz5epy9GIsxHULPwWNiM2pBG6xNlzf5c4BQ=="
+                length="28701385"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.81</title>
             <sparkle:version>1.3.81</sparkle:version>
             <sparkle:shortVersionString>1.3.81</sparkle:shortVersionString>
