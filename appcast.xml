@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.6</title>
+            <sparkle:version>1.4.6</sparkle:version>
+            <sparkle:shortVersionString>1.4.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 20:20:19 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.6 — Mail-Suche „OR" repariert (drastisch weniger Kosten)</p>
+
+<li>**„A OR B OR C"-Suchen funktionieren jetzt richtig:** Bisher wurde das Wort „or" (und kurze Tokens wie „01"/„06") als Suchbegriff behandelt und matchte als Teilstring fast jede Mail — eine einzige Frage konnte so über 160 unpassende Mails laden und die Kosten/Tokens vervielfachen. Jetzt werden Verknüpfungswörter und Mini-Tokens entfernt; eine „Verneuer OR Engels OR Hoppe"-Suche liefert genau die passenden Treffer.</li>
+<li>**Spürbar günstiger:** Allgemeine Überblicks-Anfragen verbrauchen dadurch deutlich weniger Tokens — bei betroffenen Anfragen oft ein Bruchteil der bisherigen Kosten.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.6/DMS-1.4.6.dmg"
+                sparkle:edSignature="uNh0SdNc6fk6y9ekdcYdh5837Yn28/qMVL6wRpF1bzetut2AhmAur0lDe1jBZTr+rbSVuPJs1LBQ8hZyT0h7Aw=="
+                length="29111142"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.5</title>
             <sparkle:version>1.4.5</sparkle:version>
             <sparkle:shortVersionString>1.4.5</sparkle:shortVersionString>
