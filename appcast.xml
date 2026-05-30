@@ -8,6 +8,23 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.3.96</title>
+            <sparkle:version>1.3.96</sparkle:version>
+            <sparkle:shortVersionString>1.3.96</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 30 May 2026 15:07:58 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.3.96 — KI liest gezielt den Verlauf einer Person</p>
+
+<li>**Verlauf mit einer bestimmten Person (auch ohne Kundenakte):** Der KI-Assistent weiß jetzt, dass er den WhatsApp-Verlauf mit einer einzelnen Person über deren Namen oder Telefonnummer und einen Zeitraum lesen kann — auch für reine Kontakte ohne CRM-Kundenakte. Findet er über den Namen nichts (z. B. weil der Kontakt nur als Nummer gespeichert ist), versucht er es automatisch mit der Telefonnummer.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.3.96/DMS-1.3.96.dmg"
+                sparkle:edSignature="Tlfib+RKujLhePo3XQTbI5NspH6fT5388Jsksb1F5ztH9PEOc4pQOTjzLy1d2BTWIunEciaJafZOt2sz2m3/AQ=="
+                length="28937219"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.3.95</title>
             <sparkle:version>1.3.95</sparkle:version>
             <sparkle:shortVersionString>1.3.95</sparkle:shortVersionString>
