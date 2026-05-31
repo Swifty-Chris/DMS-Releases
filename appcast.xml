@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.15</title>
+            <sparkle:version>1.4.15</sparkle:version>
+            <sparkle:shortVersionString>1.4.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 31 May 2026 02:46:48 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.15 — WhatsApp verbindet beim Öffnen des KI-Assistenten + schonenderer Abgleich</p>
+
+<li>**Warum vorhin nur 10:** Wenn WhatsApp Web beim Fragen noch im Verbindungsaufbau war, hat die App den Frisch-Abgleich übersprungen und nur den alten Stand genutzt. Jetzt wartet sie kurz auf die Verbindung, statt abzubrechen.</li>
+<li>**Vorab-Verbinden:** Beim Öffnen des KI-Assistenten verbindet sich WhatsApp Web schon im Hintergrund — so ist es bei deiner Frage meist bereit.</li>
+<li>**Schonender für WhatsApp:** Der vollständige Hintergrund-Abgleich (alle Chats) läuft jetzt höchstens alle 5 Minuten statt sehr häufig — das ist schneller und reduziert das Risiko, von WhatsApp als Automatik eingestuft zu werden.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.15/DMS-1.4.15.dmg"
+                sparkle:edSignature="QXqCYTDnHCdlC7v8LyuJSVTBuKLmYptpq/CrGwiyEdNW7NOR8IMvQrc5CvaIKPAHgkjd7RAkl/9WEgyzm6UpCw=="
+                length="29192460"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.14</title>
             <sparkle:version>1.4.14</sparkle:version>
             <sparkle:shortVersionString>1.4.14</sparkle:shortVersionString>
