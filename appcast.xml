@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.17</title>
+            <sparkle:version>1.4.17</sparkle:version>
+            <sparkle:shortVersionString>1.4.17</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 31 May 2026 03:46:56 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.17 — Pinnwand vollständig im Überblick + WhatsApp-Hänger verhindert</p>
+
+<li>**Pinnwand-Notizen gehen nicht mehr verloren:** Der Überblick berücksichtigt jetzt deutlich mehr Pinnwand-Notizen (statt nur 10) und ohne starre 7-Tage-Grenze — Pinnwand-Wissen ist dauerhaft, nicht zeitlich begrenzt. So fallen wichtige Karten nicht mehr hinten runter, und es wird mehr Inhalt je Notiz mitgegeben.</li>
+<li>**Kein Warten mehr, wenn WhatsApp nicht verbunden ist:** Wenn die WhatsApp-Verbindung gerade nicht steht, wartet die App nur noch kurz und antwortet dann mit dem vorhandenen Stand — statt die Anfrage lange hängen zu lassen.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.17/DMS-1.4.17.dmg"
+                sparkle:edSignature="9nKnTlXa1VzGTjxkFwhu9ua+WyGYncwAUsFjr+mDtlrFM8CSiDBn+FcPynx6g8m1mdSLk77A5PgXfhzOulkkDA=="
+                length="29211264"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.16</title>
             <sparkle:version>1.4.16</sparkle:version>
             <sparkle:shortVersionString>1.4.16</sparkle:shortVersionString>
