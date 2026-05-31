@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.16</title>
+            <sparkle:version>1.4.16</sparkle:version>
+            <sparkle:shortVersionString>1.4.16</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 31 May 2026 03:20:19 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.16 — WhatsApp liest jetzt alle Chats (Hintergrund-Rendering)</p>
+
+<li>**Alle Chats statt nur ~10:** Bisher konnte der unsichtbare WhatsApp-Abgleich vom Betriebssystem ausgebremst werden, sodass nur eine Handvoll Chats und kaum Nachrichten gelesen wurden. Jetzt läuft WhatsApp Web in einem winzigen, unsichtbaren Hintergrund-Element mit — du siehst und tippst nichts, aber das System rendert es voll, sodass die App **alle** Chats und Nachrichten zuverlässig einlesen kann.</li>
+<li>**Mehr Tiefe beim Einlesen:** Die App scrollt die Chatliste vollständig durch und wartet pro Chat, bis die Nachrichten geladen sind — keine leeren Chats mehr.</li>
+<li>**Nur wenn nötig:** Das Hintergrund-Element startet ausschließlich, wenn WhatsApp schon einmal verbunden war.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.16/DMS-1.4.16.dmg"
+                sparkle:edSignature="lyJCola0xuLW1Wei8A7ICKdbi9Dqn4wwO9Ez4sqP2/HIyn/WLyWWKgqddD/LYj2E8p8ShkXmb3k91VYUHc5JAg=="
+                length="29201350"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.15</title>
             <sparkle:version>1.4.15</sparkle:version>
             <sparkle:shortVersionString>1.4.15</sparkle:shortVersionString>
