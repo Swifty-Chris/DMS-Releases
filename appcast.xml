@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.18</title>
+            <sparkle:version>1.4.18</sparkle:version>
+            <sparkle:shortVersionString>1.4.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 31 May 2026 04:08:05 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.18 — WhatsApp erfasst jetzt ALLE Chats (nicht nur 10)</p>
+
+<li>**Ganze Chatliste statt nur die obersten 10:** Bisher las der Hintergrund-Abgleich nur die ersten ~10 Chats, weil das Durchscrollen der WhatsApp-Chatliste nicht griff. Jetzt findet die App das richtige scrollbare Element, scrollt die Liste echt durch und sammelt dabei laufend alle Chats ein — so werden auch deine vielen weiteren Gespräche berücksichtigt.</li>
+<li>**Schneller, weniger doppelt:** Pro Chat werden nur noch die jüngsten Nachrichten gelesen (der ältere Verlauf liegt schon vor) — das verkürzt den Abgleich deutlich und vermeidet das ständige Neu-Einlesen.</li>
+<li>**Bessere Diagnose:** Der Abgleich meldet jetzt, wie viele Chats nach wie vielen Scroll-Schritten geladen wurden — hilfreich, falls noch etwas hakt.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.18/DMS-1.4.18.dmg"
+                sparkle:edSignature="/XW47lz5WGiYF9RTcDQ/RBPYcUZeJx9QL7a7cC8CzvHJmR+etbWtu+CVoTQLJylgXw2I0znGA0WCKSnvZvkRBQ=="
+                length="29225446"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.17</title>
             <sparkle:version>1.4.17</sparkle:version>
             <sparkle:shortVersionString>1.4.17</sparkle:shortVersionString>
