@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.20</title>
+            <sparkle:version>1.4.20</sparkle:version>
+            <sparkle:shortVersionString>1.4.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Mon, 01 Jun 2026 22:13:43 +0200</pubDate>
+            <description><![CDATA[
+<p># Infomaterial: BLB Today S</p>
+
+<li>„BLB Today" in „BLB Today XXL" umbenannt</li>
+<li>Neu: „BLB Today S" (Bau- & Leistungsbeschreibung Today S 2026, Effizienzhaus 40) mit Cover-Vorschau – direkt unter BLB Today XXL</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.20/DMS-1.4.20.dmg"
+                sparkle:edSignature="yUgqNhpklHdBVWY/GnHJ4ZqRARw9p+d3GhqXw+OLme1O2umfLUTIvj3YCE27G8xDHZPHbJw0BRTFK6SJ/1HiDg=="
+                length="29217307"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.19</title>
             <sparkle:version>1.4.19</sparkle:version>
             <sparkle:shortVersionString>1.4.19</sparkle:shortVersionString>
