@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.19</title>
+            <sparkle:version>1.4.19</sparkle:version>
+            <sparkle:shortVersionString>1.4.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Mon, 01 Jun 2026 15:27:58 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.19 — Pinnwand-Suche</p>
+
+<li>**Neu: Suchfeld über der Pinnwand.** Filtert die Karten live nach Titel und Inhalt, während du tippst.</li>
+<li>**Mehrere Begriffe gleichzeitig:** Alle eingegebenen Wörter müssen vorkommen (UND-Verknüpfung) — die Reihenfolge ist egal.</li>
+<li>**Tolerant bei Schreibweise:** Groß-/Kleinschreibung und Umlaute werden ignoriert — „muller“ findet „Müller“.</li>
+<li>**Klares Feedback:** Bei einer Suche ohne Treffer erscheint ein „Keine Ergebnisse“-Hinweis statt der leeren Pinnwand.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.19/DMS-1.4.19.dmg"
+                sparkle:edSignature="phQ11M3etHsSU9kepcbbZxb5/hAU2iRx+NzE6Y/AJIEaEztt0/xpZ2iHieZdgj+AYqCGuT0+cWx1Gq5zpMNZAg=="
+                length="29235676"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.18</title>
             <sparkle:version>1.4.18</sparkle:version>
             <sparkle:shortVersionString>1.4.18</sparkle:shortVersionString>
