@@ -8,6 +8,28 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.28</title>
+            <sparkle:version>1.4.28</sparkle:version>
+            <sparkle:shortVersionString>1.4.28</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 04 Jun 2026 19:42:29 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.28 — WhatsApp nur bei Kontaktfragen einbeziehen</p>
+
+<p>Feinschliff zur Kanal-Auswahl der KI:</p>
+
+<li>WhatsApp wird nur noch herangezogen, wenn es **allgemein um Kommunikation/Kontakt** geht (Tagesüberblick, Nachfass, „was lief zuletzt mit Kontakt X?").</li>
+<li>Sagst du ausdrücklich **„durchsuche meine Mails"** oder **„durchsuche meine Pinnwand"**, bleibt die KI bei genau diesem Kanal und zieht WhatsApp nicht zusätzlich heran.</li>
+
+<p>Damit ist die Kanal-Auswahl wieder erwartungsgemäß: kanalübergreifend bei Kontaktfragen, gezielt bei kanal-spezifischen Aufträgen.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.28/DMS-1.4.28.dmg"
+                sparkle:edSignature="8E5NfNSpgVlR+lOAAGgU//6Ibqv0zAY2mmDwyCjenpSXkIhWSXNS9Ov6UBAL3JJqmj2R1QKunHXFdBY6OmT8CA=="
+                length="30163930"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.27</title>
             <sparkle:version>1.4.27</sparkle:version>
             <sparkle:shortVersionString>1.4.27</sparkle:shortVersionString>
