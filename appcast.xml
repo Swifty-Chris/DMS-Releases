@@ -8,6 +8,28 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.31</title>
+            <sparkle:version>1.4.31</sparkle:version>
+            <sparkle:shortVersionString>1.4.31</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 04 Jun 2026 22:43:12 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.31 — WhatsApp fließt ins KI-Gedächtnis (Kontakt-DB Schritt 1)</p>
+
+<p>Das selbst-wachsende KI-Gedächtnis (das im Hintergrund pro Kontakt das Bild aus deinen Quellen zusammenträgt) bezieht jetzt auch **WhatsApp** ein:</p>
+
+<li>Für **bekannte** Kontakte (die schon im Gedächtnis, auf der Pinnwand oder im CRM stehen) werden jetzt auch die **WhatsApp-Nachrichten** dauerhaft mitverwoben — auch bei einem gemischten Account. Private/unbekannte Chats bleiben außen vor (sie werden nur einbezogen, wenn der Kontakt bereits bekannt ist — kein Privat-Noise).</li>
+<li>Der Hintergrund-Abgleich erfasst jetzt zusätzlich die zuletzt aktiven WhatsApp-Kontakte.</li>
+
+<p>Damit wird das KI-Gedächtnis Schritt für Schritt zur kanalübergreifenden Kontakt-Datenbank — die KI muss künftig nicht jedes Mal alles neu durchsuchen. Rein im Hintergrund, deterministisch.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.31/DMS-1.4.31.dmg"
+                sparkle:edSignature="e5CDSJEJNzM7yPTZzpF7b1bj+1W0WhQ7RSEuoAxbtN1adxj8hta4/SMw/QWxk3jxxfgjO3FkvUACMznqjfRVDA=="
+                length="29935901"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.30</title>
             <sparkle:version>1.4.30</sparkle:version>
             <sparkle:shortVersionString>1.4.30</sparkle:shortVersionString>
