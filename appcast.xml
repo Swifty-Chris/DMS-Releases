@@ -8,6 +8,29 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.32</title>
+            <sparkle:version>1.4.32</sparkle:version>
+            <sparkle:shortVersionString>1.4.32</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 04 Jun 2026 23:05:09 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.32 — Nachfass nutzt das vorab-zusammengeführte KI-Gedächtnis</p>
+
+<p>Die Nachfass-Bewertung stützt sich jetzt stärker auf das **vorab zusammengetragene Wissen** im KI-Gedächtnis, statt es jedes Mal neu herzuleiten:</p>
+
+<li>Pro Kandidat bekommt die KI das **verwobene Verständnis** zum Kontakt (das im Hintergrund in eigenen Worten gepflegte Bild aus Mail + WhatsApp), nicht mehr nur einen kurzen Schnipsel.</li>
+<li>Das Wissen wird kanalübergreifend per Kunde, E-Mail **oder Name** aufgelöst — passend zur neuen Kontakt-Zusammenführung.</li>
+<li>Die rohen Quellen-Verweise bleiben außen vor; die KI sieht die verdichtete Einschätzung.</li>
+
+<p>Interne Qualitäts-Verbesserung — treffsicherere Nachfass-Begründungen, weniger Rohdaten-Durchsuchen.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.32/DMS-1.4.32.dmg"
+                sparkle:edSignature="2qpK2d4c+TRUlXSWyLLeFygY+ya834SzdBmsIqBJlJdp4ssFe2lJKPepHCGlDG8p2trrRzpySEmwOwkY8Wi2Bg=="
+                length="30236709"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.31</title>
             <sparkle:version>1.4.31</sparkle:version>
             <sparkle:shortVersionString>1.4.31</sparkle:shortVersionString>
