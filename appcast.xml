@@ -8,6 +8,28 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.25</title>
+            <sparkle:version>1.4.25</sparkle:version>
+            <sparkle:shortVersionString>1.4.25</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 04 Jun 2026 18:34:40 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.25 — KI-Agent: Subagenten-Schritte gruppiert anzeigen</p>
+
+<p>Wenn die KI Teilaufgaben an Subagenten (Recherche / Datenpflege) delegiert, siehst du deren Arbeitsschritte jetzt **übersichtlich gruppiert**:</p>
+
+<li>Die Schritte eines Subagenten erscheinen eingerückt und mit einer Verbindungslinie direkt unter ihrer Delegation — du erkennst auf einen Blick, welcher Worker was tut, auch wenn mehrere parallel laufen.</li>
+<li>Gilt live während der Arbeit und im gespeicherten Chatverlauf.</li>
+
+<p>Reine Anzeige-Verbesserung — keine neuen Berechtigungen, keine Verhaltensänderung.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.25/DMS-1.4.25.dmg"
+                sparkle:edSignature="pQ9V808l1bB7boj39vugJzAeEJ05ooQwkNPIL+i7DwDkHz/2YXZdUwsMyydDuoErQTSpri5bdoiPV03lh0QcBA=="
+                length="30154798"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.24</title>
             <sparkle:version>1.4.24</sparkle:version>
             <sparkle:shortVersionString>1.4.24</sparkle:shortVersionString>
