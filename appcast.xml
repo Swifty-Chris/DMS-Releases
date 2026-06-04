@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.23</title>
+            <sparkle:version>1.4.23</sparkle:version>
+            <sparkle:shortVersionString>1.4.23</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 04 Jun 2026 17:41:06 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.23</p>
+
+<h2>KI-Subagenten: Datenpflege delegieren</h2>
+
+<li>Die Haupt-KI kann jetzt nicht nur Recherche, sondern auch **Datenpflege** an einen Subagenten abgeben — z. B. *„lege diese Interessenten an und je eine Nachfass-Aufgabe"*. Der Pflege-Worker legt Kunden, Aufgaben, Notizen, Pinnwand-Vermerke und KI-Gedächtnis-Einträge an bzw. aktualisiert sie.</li>
+<li>**Jede einzelne Schreibaktion wird weiterhin von dir bestätigt** — genau wie bei der normalen KI, gesteuert über die KI-Sicherheitseinstellung. Es ändert sich also nichts an deiner Kontrolle, nur an der Arbeitsteilung im Hintergrund.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.23/DMS-1.4.23.dmg"
+                sparkle:edSignature="4Z7Jh9+e+h+F9L3k6KtfDORNPQvTU3yvrJCunKFTv+jO+4/byTZ3Ij5zTbmP4nD1+MngIU7uLeGcYI6e01FXDQ=="
+                length="30155454"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.22</title>
             <sparkle:version>1.4.22</sparkle:version>
             <sparkle:shortVersionString>1.4.22</sparkle:shortVersionString>
