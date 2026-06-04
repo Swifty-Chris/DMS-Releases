@@ -8,6 +8,31 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.30</title>
+            <sparkle:version>1.4.30</sparkle:version>
+            <sparkle:shortVersionString>1.4.30</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 04 Jun 2026 22:13:52 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.30 — Nachfass: Kontakte kanalübergreifend zusammenführen + ganze Pinnwand-Karten</p>
+
+<p>Großer Qualitätssprung bei „Bei welchen Kunden sollte ich mich mal wieder melden?":</p>
+
+<li>**Mail + WhatsApp = ein Kontakt.** Schreibst du mit jemandem per E-Mail *und* WhatsApp, wird das jetzt automatisch als **dieselbe Person** erkannt (über E-Mail-Adresse, Telefonnummer oder Name — konservativ, ohne fremde Kontakte fälschlich zu verschmelzen). Dadurch sieht die KI die **gesamte** Kommunikation einer Person — und es tauchen deutlich mehr richtige Nachfass-Kandidaten auf, statt dass eine Person in getrennte Fragmente zerfällt.</li>
+<li>**Ganze Pinnwand-Karten statt zerstückelter Notizen.** Bisher wurden 100+ einzelne Notiz-Fragmente gelesen; jetzt werden deine echten **Pinnwand-Karten als Einheit** (Titel + Inhalt + Aufgaben) berücksichtigt.</li>
+<li>**Präzisere „Geprüft"-Box:** zeigt jetzt „✉️ Mails · 💬 WhatsApp aus N Chats · 📌 Pinnwand-Karten → Treffer".</li>
+<li>**Treffsicherere Definition:** Ein echtes **Hin-und-Her** (die Gegenseite hat geantwortet) genügt — die frühere strenge „mindestens 3 Nachrichten"-Hürde, die zu viele gute Kontakte aussortierte, ist weg.</li>
+<li>Die KI erfährt pro Kontakt jetzt, über **welche Kanäle** (Mail/WhatsApp) der Austausch lief.</li>
+
+<p>Interne, deterministische Verbesserung — keine neuen Berechtigungen.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.30/DMS-1.4.30.dmg"
+                sparkle:edSignature="dIw+H7ZRVpTZiWJ3pKnCxy3XWJlEGhY0UezjpTxMKQYiWOyi23Wpykour/aZ/zzq0q83PJ21uNjNKB9hjqOYBg=="
+                length="30219798"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.29</title>
             <sparkle:version>1.4.29</sparkle:version>
             <sparkle:shortVersionString>1.4.29</sparkle:shortVersionString>
