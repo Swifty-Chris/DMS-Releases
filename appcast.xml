@@ -8,6 +8,27 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.37</title>
+            <sparkle:version>1.4.37</sparkle:version>
+            <sparkle:shortVersionString>1.4.37</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 05 Jun 2026 01:51:40 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.37 — KI-Gedächtnis: öffenbare WhatsApp-Quellen-Referenzen</p>
+
+<p>Foundation für die wissensbasierte Suche: Jede Information im KI-Gedächtnis bekommt eine öffenbare Referenz zum Original.</p>
+
+<li>WhatsApp-Einträge im Gedächtnis tragen jetzt — wie E-Mails (`message://`) — eine **öffenbare Referenz** zum WhatsApp-Chat. Reicht die verdichtete Gedächtnis-Info für eine Frage nicht aus, kann die KI über die Referenz zum Original springen und genauer interpretieren.</li>
+
+<p>Rein im Hintergrund — bereitet die schnelle, KB-gestützte Suche vor (die KI muss künftig nicht alles neu durchsuchen, sondern liest das Gedächtnis und springt bei Bedarf gezielt zur Quelle).</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.37/DMS-1.4.37.dmg"
+                sparkle:edSignature="yqwHAJ2Vn4onb7+JnHZ+hHv+esO4hmtnln7T9AjrTyDjuvCqPfhTqaUeSBTsanXooRNF+5YJNC9LyNPnKfrMCA=="
+                length="30276593"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.36</title>
             <sparkle:version>1.4.36</sparkle:version>
             <sparkle:shortVersionString>1.4.36</sparkle:shortVersionString>
