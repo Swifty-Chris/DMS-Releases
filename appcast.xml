@@ -8,6 +8,28 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.29</title>
+            <sparkle:version>1.4.29</sparkle:version>
+            <sparkle:shortVersionString>1.4.29</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 04 Jun 2026 20:20:16 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.29 — Nachfass: sichtbar, welche Quellen geprüft wurden</p>
+
+<p>Mehr Transparenz bei der Nachfass-Analyse:</p>
+
+<li>Unter der Antwort erscheint jetzt eine **„Geprüft"-Box**, die genau zeigt, welche Quellen in welchem Umfang abgefragt wurden — **✉️ E-Mails · 💬 WhatsApp · 📝 Notizen · Zeitfenster → Treffer**. Du siehst auf einen Blick, ob WhatsApp wirklich einbezogen wurde, statt nur „Geprüfte Mails".</li>
+<li>Auch im aufklappbaren Arbeitsschritt steht jetzt die Pro-Quelle-Aufschlüsselung statt einer reinen Mail-Zahl.</li>
+
+<p>So ist nachvollziehbar, worauf die Nachfass-Vorschläge tatsächlich beruhen.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.29/DMS-1.4.29.dmg"
+                sparkle:edSignature="Zw17A3vEhGVLBsM5+qmkrEkuONgAf5xiM+JbLjl6ZSVI27+9JarlUnXLgOKkK7rYjfmW/aDgl8fXKPuDi7PhDQ=="
+                length="30183805"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.28</title>
             <sparkle:version>1.4.28</sparkle:version>
             <sparkle:shortVersionString>1.4.28</sparkle:shortVersionString>
