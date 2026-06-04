@@ -8,6 +8,29 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.24</title>
+            <sparkle:version>1.4.24</sparkle:version>
+            <sparkle:shortVersionString>1.4.24</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 04 Jun 2026 18:22:16 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.24 — KI-Agent: Arbeitsplan & Selbstprüfung</p>
+
+<p>Der KI-Assistent arbeitet bei mehrschrittigen Aufgaben jetzt nach dem Claude-Code-Prinzip noch zuverlässiger:</p>
+
+<li>**Interner Arbeitsplan:** Bei Aufträgen mit mehreren Schritten (viele Kontakte/Mails sichten, mehrere Datensätze anlegen/ändern oder Teilaufgaben an Subagenten verteilen) legt die KI zuerst eine interne Schritt-Liste an und hakt sie laufend ab — so geht bei langen Aufträgen kein Schritt verloren.</li>
+<li>**Verifizieren vor „erledigt":** Bevor die KI eine Schreibaktion als erledigt meldet, prüft sie, ob die Daten wirklich gesetzt wurden; bei wichtigen Änderungen liest sie stichprobenartig gegen. Nichts wird mehr fälschlich als „erledigt" gemeldet, was nur geplant war.</li>
+<li>Der schreibende Pflege-Subagent erhielt dieselbe Disziplin (Plan + Selbstprüfung).</li>
+
+<p>Rein interne Verbesserung der Zuverlässigkeit — keine neuen Berechtigungen, keine Verhaltensänderung bei einfachen Anfragen.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.24/DMS-1.4.24.dmg"
+                sparkle:edSignature="3B0dZl1koAu8fQ2Smzn6YovTKK+MCYPYnBYjJmW3ri5fP7lImsQWAGYso6qh66InY/SVVsEX+4PRJxuMHaOlDg=="
+                length="30157595"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.23</title>
             <sparkle:version>1.4.23</sparkle:version>
             <sparkle:shortVersionString>1.4.23</sparkle:shortVersionString>
