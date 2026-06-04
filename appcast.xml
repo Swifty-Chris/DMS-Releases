@@ -8,6 +8,29 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.34</title>
+            <sparkle:version>1.4.34</sparkle:version>
+            <sparkle:shortVersionString>1.4.34</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 05 Jun 2026 00:03:30 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.34 — Nachfass: Datenbasis pro Kontakt einsehbar</p>
+
+<p>Jetzt siehst du pro Nachfass-Karte **genau, welche Daten dem Vorschlag zugrunde liegen**:</p>
+
+<li>Neue aufklappbare Zeile **„Datenbasis (N)"** auf jeder Karte — sie listet die tatsächlichen Quell-Elemente auf, die zum Vorschlag geführt haben: pro Eintrag **Kanal (📧 Mail / 💬 WhatsApp / 📌 Pinnwand), Datum, Betreff/Name und eine kurze Inhalts-Vorschau**.</li>
+<li>So kannst du nachvollziehen, worauf die Einschätzung der KI beruht — nicht nur die Begründung, sondern die echten Mails/Nachrichten/Karten dahinter.</li>
+<li>E-Mail-Adressen werden in der Anzeige automatisch entfernt (Datenschutz).</li>
+
+<p>Volle Transparenz: von „warum dieser Kontakt?" zu „welche konkreten Daten?".</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.34/DMS-1.4.34.dmg"
+                sparkle:edSignature="a1kRLAMeyf0/epFfZac4HlEGmit8XpzUAkEh9ZqfB+jwtLoLvhJZNsGcjLKZIFXcWCfCRm0K0ftCqVo7pSSHBA=="
+                length="30258851"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.33</title>
             <sparkle:version>1.4.33</sparkle:version>
             <sparkle:shortVersionString>1.4.33</sparkle:shortVersionString>
