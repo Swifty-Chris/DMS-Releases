@@ -8,6 +8,30 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.36</title>
+            <sparkle:version>1.4.36</sparkle:version>
+            <sparkle:shortVersionString>1.4.36</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 05 Jun 2026 01:33:12 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.36 — KI: Wissensdatenbank zuerst, Gründlichkeits-Stichwort, Gegenfragen + bestätigte Merges</p>
+
+<p>Erste Schritte zur KB-first-Suche und smarteren Zusammenführung:</p>
+
+<li>**Wissensdatenbank zuerst:** Bei Fragen über Kontakte/Verlauf stützt sich die KI jetzt zuerst auf ihr verdichtetes Gedächtnis und lädt aus Mails/WhatsApp/Pinnwand nur noch das **Neue** zusätzlich — statt jedes Mal alles neu zu durchforsten. Reicht die verdichtete Info nicht, öffnet sie die hinterlegte Quellen-Referenz und liest das Original.</li>
+<li>**Gründlich auf Ansage:** Sagst du **„akribisch", „überprüfe genau"** oder „alle Quellen im Original", durchsucht die KI bewusst alle Originalquellen im Zeitraum vollständig.</li>
+<li>**Gegenfragen bei Unklarheit:** Ist der Zeitraum unklar (z. B. „was gab es in letzter Zeit?"), fragt die KI **zuerst nach**, welchen Zeitraum sie genau prüfen soll — statt zu raten (besonders vor teuren Voll-Suchen).</li>
+<li>**Bestätigte Zusammenführungen greifen überall:** Hast du zwei Kontakte zusammengeführt, wird das jetzt auch in der Nachfass-Auswertung berücksichtigt.</li>
+
+<p>Grundlage für die kommende, deutlich schnellere wissensbasierte Suche.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.36/DMS-1.4.36.dmg"
+                sparkle:edSignature="wXsNZzLyKX8j218dM/OU9yEPpDLSLOurW4aNVlm+82vbMGGTtEnisGuPXowTo16oT0c6bUirtuJ+RsVGqwDCAQ=="
+                length="30273483"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.35</title>
             <sparkle:version>1.4.35</sparkle:version>
             <sparkle:shortVersionString>1.4.35</sparkle:shortVersionString>
