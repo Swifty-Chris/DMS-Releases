@@ -8,6 +8,29 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.27</title>
+            <sparkle:version>1.4.27</sparkle:version>
+            <sparkle:shortVersionString>1.4.27</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 04 Jun 2026 19:27:47 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.27 — Nachfass: WhatsApp inklusive + „echter Dialog"</p>
+
+<p>Die Nachfass-Funktion („bei welchen Kunden sollte ich mich mal wieder melden?") berücksichtigt jetzt deinen **gesamten** Kundenkontakt — nicht nur E-Mails:</p>
+
+<li>**WhatsApp wird immer mitgescannt.** Kunden, mit denen du zuletzt nur per WhatsApp geschrieben hast (z. B. Termin-Abstimmungen), tauchen jetzt in der Nachfass-Liste auf. Das gilt auch für die WhatsApp-Suche und den Tagesüberblick — kein Account-Typ-Vorbehalt mehr.</li>
+<li>**Schärfere Definition „vielversprechend":** Vorgeschlagen werden nur noch Kontakte mit einem echten **Hin-und-Her-Dialog** — die Gegenseite hat tatsächlich geantwortet und es gab mehrere Nachrichten. Einseitige Einmal-Kontakte (einmal geschrieben, höchstens eine Antwort) fallen raus.</li>
+<li>Die KI sieht jetzt pro Kontakt, wie viele Nachrichten von der Gegenseite kamen, und bewertet entsprechend.</li>
+
+<p>So bekommst du eine präzisere Liste echter, eingeschlafener Verkaufsgespräche über alle Kanäle.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.27/DMS-1.4.27.dmg"
+                sparkle:edSignature="9aZfitswkMU7NlzCwy6hrerSQdUto4jT2hovz6eTlSoqcjI+8cW1Ov3KUyHD+Yl0v/rrRGMyjC9PMN8zdzDwCw=="
+                length="30163864"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.26</title>
             <sparkle:version>1.4.26</sparkle:version>
             <sparkle:shortVersionString>1.4.26</sparkle:shortVersionString>
