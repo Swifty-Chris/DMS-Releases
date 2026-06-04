@@ -8,6 +8,29 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.26</title>
+            <sparkle:version>1.4.26</sparkle:version>
+            <sparkle:shortVersionString>1.4.26</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 04 Jun 2026 18:45:44 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.26 — KI-Agent: Kontext in langen Chats verdichten</p>
+
+<p>Bei sehr langen Chat-Verläufen behält der KI-Assistent jetzt zuverlässig den Überblick:</p>
+
+<li>Die ältesten Turns eines langen Gesprächs werden automatisch zu einer kompakten Zusammenfassung verdichtet, statt abgeschnitten zu werden — der Kontext bleibt erhalten, der Verlauf bleibt schlank.</li>
+<li>Die jüngsten Nachrichten bleiben unverändert wörtlich erhalten.</li>
+<li>Rein deterministisch (keine zusätzlichen KI-Kosten, keine Wartezeit). Kurze Chats verhalten sich exakt wie bisher.</li>
+
+<p>Interne Zuverlässigkeits-Verbesserung — keine neuen Berechtigungen.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.26/DMS-1.4.26.dmg"
+                sparkle:edSignature="2CAcaZh/nd5sIkcLJQ1HCuV0TsWK24GtCGhOAyg9o1s+G6Ms6FhRF7ot6W5CUYn8ssaGB7olOMb1TGowZk2ADg=="
+                length="30161546"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.25</title>
             <sparkle:version>1.4.25</sparkle:version>
             <sparkle:shortVersionString>1.4.25</sparkle:shortVersionString>
