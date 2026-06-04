@@ -8,6 +8,28 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.33</title>
+            <sparkle:version>1.4.33</sparkle:version>
+            <sparkle:shortVersionString>1.4.33</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 04 Jun 2026 23:39:33 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.33 — Nachfass: Querverweise sichtbar + bessere Zusammenführung</p>
+
+<p>Jetzt siehst du pro Nachfass-Kontakt, **welche Kanäle die KI zusammengeführt hat**:</p>
+
+<li>Jede Ergebnis-Karte zeigt eine Zeile **„Gefunden über: 📧 Mail · 💬 WhatsApp · 📌 Pinnwand"** — so erkennst du auf einen Blick, ob ein Kontakt z. B. aus Mail **und** WhatsApp zusammengeführt wurde.</li>
+<li>**Bessere Zusammenführung:** Mail, WhatsApp und Pinnwand-Karten derselben Person werden jetzt auch ohne CRM-Datensatz über den Namen verknüpft. WhatsApp-Chats, deren Anzeigename nur eine Telefonnummer ist, werden über die Nummer zusammengeführt (statt pro Nachricht zu zersplittern).</li>
+
+<p>Damit sind die kanalübergreifenden Verknüpfungen nicht mehr unsichtbar, sondern direkt an jeder Karte ablesbar.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.33/DMS-1.4.33.dmg"
+                sparkle:edSignature="ikH1Zr0sNmB6NcKM9ryPhVwdGFpwRPkOKwjlgpDo1duMDhRQGXZ/k1k00OQqxwekDdEU5u+LfncuPCu0LUFvBg=="
+                length="30243622"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.32</title>
             <sparkle:version>1.4.32</sparkle:version>
             <sparkle:shortVersionString>1.4.32</sparkle:shortVersionString>
