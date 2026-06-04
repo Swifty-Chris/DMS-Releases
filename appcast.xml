@@ -8,6 +8,28 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.21</title>
+            <sparkle:version>1.4.21</sparkle:version>
+            <sparkle:shortVersionString>1.4.21</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 04 Jun 2026 14:08:56 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.21</p>
+
+<h2>KI-Assistent: Subagenten-Delegation (neu)</h2>
+
+<li>Die Haupt-KI kann breite Recherche-Teilaufgaben jetzt automatisch an einen spezialisierten, günstigen **Recherche-Subagenten** delegieren. Sie entscheidet selbst, wann sich das lohnt. Jeder Subagent arbeitet isoliert (nur lesend) und liefert eine verdichtete Zusammenfassung zurück — das hält den Hauptkontext sauber und macht breite Aufgaben schneller.</li>
+<li>Neue Einstellungen unter **KI-Assistent → KI-Subagenten & Limits**: Subagenten an/aus, max. Delegationen pro Anfrage, max. Schritte je Subagent und max. Schritte der Haupt-KI (Schutz vor Endlosschleifen und Kosten).</li>
+
+<p>_Erste Ausbaustufe (seriell). Parallele Subagenten folgen in einem späteren Update._</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.21/DMS-1.4.21.dmg"
+                sparkle:edSignature="hOIjCidjmCyTuQmtcxQZaIZQfpVRxSwdb7xshYnF4Kx+kjD16xl0EuOBuv8TGXMxuNX/H8sfdo0/hU9IRsdZBA=="
+                length="30147565"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.20</title>
             <sparkle:version>1.4.20</sparkle:version>
             <sparkle:shortVersionString>1.4.20</sparkle:shortVersionString>
