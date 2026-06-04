@@ -8,6 +8,29 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.35</title>
+            <sparkle:version>1.4.35</sparkle:version>
+            <sparkle:shortVersionString>1.4.35</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 05 Jun 2026 00:34:56 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.35 — Pinnwand als Identitäts-Verzeichnis: Mail + WhatsApp wirklich zusammenführen</p>
+
+<p>Jetzt fließen **Pinnwand und WhatsApp** echt in die Nachfass-Zusammenführung ein — anhand der Daten, die du auf den Pinnwand-Karten pflegst:</p>
+
+<li>Die App liest **E-Mail-Adressen und Telefonnummern aus dem Inhalt deiner Pinnwand-Karten** und nutzt sie als präzise Anker. Eine **Mail** (über die Adresse) und eine **WhatsApp-Nachricht** (über die Nummer) werden dadurch demselben Kontakt zugeordnet — wie auf der Karte hinterlegt. **Kein unscharfes Raten** über Namen, sondern echte Adressen/Nummern aus deinen Karten.</li>
+<li>In der „Datenbasis" eines Kontakts erscheinen damit Mail, WhatsApp **und** die Pinnwand-Karte gemeinsam — du siehst die echten Querverweise.</li>
+<li>Eine bloße Pinnwand-Änderung setzt den „eingeschlafen"-Zähler **nicht** mehr zurück (nur echte Kommunikation zählt als Kontakt).</li>
+
+<p>Damit wird die Pinnwand zu deinem Kontakt-Verzeichnis, das Mail und WhatsApp verlässlich verknüpft — pflege einfach E-Mail + Telefonnummer auf der Karte.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.35/DMS-1.4.35.dmg"
+                sparkle:edSignature="srLl+273n1VYix7rzW6uBzx5feZJep3pAl0BJiP1Sp1ITX9202bsr525/XSzVuIk9u4KqY76OoSotUm6vKgVCw=="
+                length="30270843"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.34</title>
             <sparkle:version>1.4.34</sparkle:version>
             <sparkle:shortVersionString>1.4.34</sparkle:shortVersionString>
