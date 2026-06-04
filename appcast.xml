@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.22</title>
+            <sparkle:version>1.4.22</sparkle:version>
+            <sparkle:shortVersionString>1.4.22</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 04 Jun 2026 14:32:47 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.22</p>
+
+<h2>KI-Subagenten: Parallel-Modus</h2>
+
+<li>Die Haupt-KI kann jetzt **mehrere unabhängige Recherche-Teilaufgaben gleichzeitig** an Subagenten verteilen, statt sie nacheinander abzuarbeiten. Bei breiten Aufgaben (z. B. mehrere Kontakte parallel recherchieren) ist die Antwort dadurch spürbar schneller.</li>
+<li>Die in 1.4.21 eingeführten Limits (max. Delegationen pro Anfrage, Schritte je Subagent, Schritte der Haupt-KI) gelten weiterhin und decken auch den Parallel-Modus sicher ab.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.22/DMS-1.4.22.dmg"
+                sparkle:edSignature="t1dr6bDsD3hHNYdf8ovuhQziX2KBy3Pmnw4TZc6ag+ry6xRh0g9E0ly2iklX3j+BXSSbMfdQlSAWkWV6DCn6CA=="
+                length="30148839"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.21</title>
             <sparkle:version>1.4.21</sparkle:version>
             <sparkle:shortVersionString>1.4.21</sparkle:shortVersionString>
