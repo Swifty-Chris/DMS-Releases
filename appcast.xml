@@ -8,6 +8,31 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.48</title>
+            <sparkle:version>1.4.48</sparkle:version>
+            <sparkle:shortVersionString>1.4.48</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 05 Jun 2026 20:49:07 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.48 — Hausberatung: Suche nach Breite/Maßen + vollständige Trefferliste</p>
+
+<p>Behebt, dass die KI bei Maß-Fragen (z. B. „welche Häuser sind 6,5 m oder schmäler?") nicht alle Häuser fand.</p>
+
+<li>**Filter nach Maßen:** Die Haussuche kann jetzt nach **Breite, Länge und „schmalster Seite"** filtern. „6,5 m oder schmäler" beachtet korrekt, dass die schmale Seite mal die Breite, mal die Länge ist (Breite ODER Länge ≤ Wert) — kein Schätzen aus Texten mehr.</li>
+<li>**Geschosse:** Filter nach „zweigeschossig" / „eingeschossig/Bungalow".</li>
+<li>**Alle Häuser sichtbar:** Es werden jetzt **alle verfügbaren Häuser** durchsucht — auch solche ohne ausführlichen Berater-Text (vorher fehlten dadurch z. B. einige Partner-Reihenhäuser).</li>
+<li>**Vollständige Liste:** höhere Trefferzahl (bis 60), damit „alle passenden Häuser" wirklich vollständig kommen.</li>
+<li>Breite/Länge/„schmalste Seite" werden bei jedem Haus als Fakten ausgewiesen.</li>
+
+<p>Gegen die Live-Datenbank geprüft (Maße in Metern, schmale Häuser inkl. Partner-Reihenhäuser werden gefunden).</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.48/DMS-1.4.48.dmg"
+                sparkle:edSignature="dmTlYDlEdbj8iggsX6hUyuK3TU+q9EM28Az/ZFldWByjX2lVYLVOyCUJjY+WDfaZB3AmmmOZAlNDi1WC3QlDAg=="
+                length="30412700"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.47</title>
             <sparkle:version>1.4.47</sparkle:version>
             <sparkle:shortVersionString>1.4.47</sparkle:shortVersionString>
