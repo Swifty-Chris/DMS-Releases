@@ -8,6 +8,28 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.40</title>
+            <sparkle:version>1.4.40</sparkle:version>
+            <sparkle:shortVersionString>1.4.40</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 05 Jun 2026 11:42:44 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.40 — Nachfass: nachvollziehbar, was WhatsApp/Pinnwand wirklich beitragen</p>
+
+<p>Mehr Ehrlichkeit in der „Geprüft"-Box: Du siehst jetzt nicht nur, wie viel gescannt wurde, sondern wie viel davon **tatsächlich in den Treffern** ankommt.</p>
+
+<li>Die Box zeigt pro Kanal: **„💬 729 aus 9 Chats → 0 in Treffern"** und **„📌 22 → 0 in Treffern"**.</li>
+<li>Damit ist sofort erkennbar, dass WhatsApp/Pinnwand zwar verarbeitet wurden, aber (z. B. weil die WhatsApp-Chats aktuell aktiv und damit „nicht eingeschlafen" sind) nicht in den Nachfass-Treffern landen — kein Rätselraten mehr, ob die Quellen wirken.</li>
+
+<p>Reine Transparenz — keine Verhaltensänderung an der Auswertung.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.40/DMS-1.4.40.dmg"
+                sparkle:edSignature="6tzM8QK0L2mgPduWGtrHhADhy8j1AkD59oXlNFuWwW6Hm8WG2oEvzb/vLdTrXlEDtX2Xd5hq3mYrUBd22IwmBQ=="
+                length="30344332"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.39</title>
             <sparkle:version>1.4.39</sparkle:version>
             <sparkle:shortVersionString>1.4.39</sparkle:shortVersionString>
