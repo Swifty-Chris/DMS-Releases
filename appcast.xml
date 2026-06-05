@@ -8,6 +8,29 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.42</title>
+            <sparkle:version>1.4.42</sparkle:version>
+            <sparkle:shortVersionString>1.4.42</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 05 Jun 2026 14:07:26 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.42 — Jeder Mehr-Quellen-Prozess füttert die Wissensdatenbank</p>
+
+<p>Die Identitäts-Anreicherung ist jetzt ein gemeinsamer Baustein und läuft überall, wo die KI mehrere Quellen kombiniert — nicht nur beim Nachfassen:</p>
+
+<li>**Nachfass-Suche**, **Konversationsanalyse** (Einzel-Batch und Voll-Scan) und **Tagesüberblick** speichern jetzt die entdeckten Identitäten (E-Mail-Adressen + Telefonnummern pro Kontakt) dauerhaft ins KI-Gedächtnis.</li>
+<li>Gemeinsame, idempotente Logik (keine Duplikate, eigene Firmen-Adressen ausgeschlossen, kein KI-Aufwand) — plus der laufende Hintergrund-Abgleich.</li>
+<li>So wächst der „Grundschatz" der Wissensdatenbank bei **jeder** Auswertung weiter, statt entdeckte Zusammenhänge zu verwerfen — und künftige Suchen verknüpfen Mail/WhatsApp/Pinnwand desselben Kontakts immer zuverlässiger.</li>
+
+<p>Geräteübergreifend synchronisiert.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.42/DMS-1.4.42.dmg"
+                sparkle:edSignature="YSX5dl83lWTMx1Zqpmfp9/jYnlRu3kvfTBZEzDBCBnp/CCMkTubEGX6ls0bAM9fW8KRkvsd6z0G6oPYXMLbaBg=="
+                length="30352276"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.41</title>
             <sparkle:version>1.4.41</sparkle:version>
             <sparkle:shortVersionString>1.4.41</sparkle:shortVersionString>
