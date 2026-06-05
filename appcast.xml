@@ -8,6 +8,28 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.44</title>
+            <sparkle:version>1.4.44</sparkle:version>
+            <sparkle:shortVersionString>1.4.44</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 05 Jun 2026 16:23:00 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.44 — Termin anlegen scheitert nicht mehr an unbekanntem Kunden</p>
+
+<p>Fix: Wenn die KI beim Termin-Erstellen einen Kunden angibt, der (noch) nicht im CRM ist — z. B. ein frischer Lead aus einer E-Mail —, wurde der **ganze Termin abgelehnt** („Kunde nicht gefunden"). Das ist behoben:</p>
+
+<li>**Termin wird trotzdem angelegt** — ohne Kundenverknüpfung, mit einem klaren Hinweis in der Antwort. Die Lead-Infos stehen weiterhin in den Notizen.</li>
+<li>Gilt auch für eine ungültige Kunden-ID: der Termin (inkl. Kalendereintrag + Wecker aus 1.4.43) entsteht trotzdem.</li>
+
+<p>So bekommst du deinen Termin auch für Interessenten, die noch keinen CRM-Datensatz haben.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.44/DMS-1.4.44.dmg"
+                sparkle:edSignature="hmZrqw9oKPC63CH8Sgejk5rbLr9n31kDJzNDhA7EZPuLod/KTl9/c0nDlawJpoUxfzVcYVlzvyzgIdGZJfcICw=="
+                length="30352479"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.43</title>
             <sparkle:version>1.4.43</sparkle:version>
             <sparkle:shortVersionString>1.4.43</sparkle:shortVersionString>
