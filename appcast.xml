@@ -8,6 +8,29 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.45</title>
+            <sparkle:version>1.4.45</sparkle:version>
+            <sparkle:shortVersionString>1.4.45</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 05 Jun 2026 16:51:23 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.45 — Fix: Chats werden wieder zuverlässig gespeichert</p>
+
+<p>Wichtiger Stabilitäts-Fix.</p>
+
+<li>Die seit 1.4.41 eingeführte automatische Identitäts-Anreicherung (jede Auswertung füttert die Wissensdatenbank) schrieb sehr viele Einträge auf **denselben** Datenspeicher wie die Chat-Sitzung — das konnte beim Speichern der KI-Antwort kollidieren, sodass **Chats teilweise nicht gespeichert** wurden.</li>
+<li>Jetzt läuft die Anreicherung **vollständig isoliert** (eigener Speicher-Kontext) — sie kann das Speichern deiner Chats **nicht mehr beeinträchtigen**.</li>
+<li>Zusätzlich **deutlich effizienter**: die Anreicherung lädt den Bestand nur noch einmal pro Lauf statt hunderte Male — schneller und ressourcenschonender, gerade beim Tagesüberblick und Nachfassen.</li>
+
+<p>Die Wissensdatenbank wird weiterhin bei jeder Auswertung ergänzt — nur eben ohne Risiko für deine Chats.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.45/DMS-1.4.45.dmg"
+                sparkle:edSignature="n824ePLs86+LSJzegVpKeROnaldwAf27d7FlYCZ/Jt+w0cXJGzsV5+exhYtHDf1ibJ7iczTAaIaAFnpz55EbCQ=="
+                length="30379346"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.44</title>
             <sparkle:version>1.4.44</sparkle:version>
             <sparkle:shortVersionString>1.4.44</sparkle:shortVersionString>
