@@ -8,6 +8,28 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.53</title>
+            <sparkle:version>1.4.53</sparkle:version>
+            <sparkle:shortVersionString>1.4.53</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 05 Jun 2026 22:28:19 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.53 — „Leads" in der Seitenleiste sichtbar</p>
+
+<p>Der Leads-Bereich ist jetzt direkt in der Seitenleiste erreichbar.</p>
+
+<li>Im **CRM-Abschnitt** der Seitenleiste (macOS/iPad) erscheint jetzt **„Leads"** — zwischen Kunden und WhatsApp, mit Badge für wartende/neue Leads.</li>
+<li>Dahinter liegen alle drei Lead-Quellen an einem Ort: **Wartende** (Musterhaus-QR-Code), **Katalog-/Grundriss-Anfragen** und der **Hausfinder** (KI-Hausfinder der Website).</li>
+
+<p>Vorher war der Reiter vorhanden, aber über ein internes Sichtbarkeits-Flag ausgeblendet — jetzt ist er standardmäßig an.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.53/DMS-1.4.53.dmg"
+                sparkle:edSignature="ng+TgoWrbXtiLDoFFlkZRI8j2cVmL6lrSHzCIse0Zt1FkI5AE8gVhEZTKW2zemWRei5dazxgquLvuCvdw6/EAA=="
+                length="30652306"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.52</title>
             <sparkle:version>1.4.52</sparkle:version>
             <sparkle:shortVersionString>1.4.52</sparkle:shortVersionString>
