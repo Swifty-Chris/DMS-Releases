@@ -8,6 +8,29 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.41</title>
+            <sparkle:version>1.4.41</sparkle:version>
+            <sparkle:shortVersionString>1.4.41</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 05 Jun 2026 13:46:23 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.41 — Nachfass füttert die Wissensdatenbank (Querverweise werden gespeichert)</p>
+
+<p>Bisher hat jede Nachfass-Suche die entdeckten Quell-Zusammenhänge nur kurz berechnet und dann verworfen. Das ist vorbei:</p>
+
+<li>**Jeder Nachfass-Lauf speichert die entdeckten Identitäten dauerhaft** ins KI-Gedächtnis — pro Kontakt seine E-Mail-Adressen + Telefonnummern (idempotent, ohne Duplikate, ohne KI-Kosten).</li>
+<li>Beim **nächsten** Lauf liest die Suche diese gespeicherten Identitäten und führt damit Mail/WhatsApp/Pinnwand desselben Kontakts zuverlässiger zusammen.</li>
+<li>So entsteht mit jeder Auswertung ein wachsender „Grundschatz" — die Wissensdatenbank wird über die Zeit immer besser, statt bei null anzufangen.</li>
+
+<p>Geräteübergreifend synchronisiert (Mac/iPhone/iPad).</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.41/DMS-1.4.41.dmg"
+                sparkle:edSignature="D3iIN+WEj/LQj0ihRnRZb02bBZdTE/z+E2wi4PW7GrB25O2vfqbIKzcCm5iKvC9kawgdVhjOHhTiE+iusXL5Cw=="
+                length="30356883"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.40</title>
             <sparkle:version>1.4.40</sparkle:version>
             <sparkle:shortVersionString>1.4.40</sparkle:shortVersionString>
