@@ -8,6 +8,29 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.55</title>
+            <sparkle:version>1.4.55</sparkle:version>
+            <sparkle:shortVersionString>1.4.55</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 05 Jun 2026 23:08:27 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.55 — KI findet Mails auch bei frei betitelten Kontakten</p>
+
+<p>Behebt, dass die KI für Kontakte wie „Neumann & Albrecht" keine Infos aus den Mails zusammentrug.</p>
+
+<li>Der Hintergrund-Abgleich suchte Mails bisher nur über den **ganzen Kartentitel**. Bei frei betitelten Karten („Neumann & Albrecht", „Herr Böhne mit Familie") fand er nichts, weil die Mail-Absender einzeln heißen.</li>
+<li>Jetzt sucht er zusätzlich über **jedes Namens-Token** (Neumann, Albrecht …) und führt die Treffer zusammen — danach wird streng auf echte Absender/Empfänger gefiltert.</li>
+<li>Ergebnis: Die KI verwebt jetzt auch diese Kontakte — sie kennt deren Mail-Verlauf, ergänzt E-Mail-Adressen im Identitäts-Index und weiß z. B., dass ein Kontakt schon ein Haus gekauft hat.</li>
+
+<p>Wirkt fortlaufend im Hintergrund nach jedem Sync — die Infos füllen sich über die nächsten Abgleiche.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.55/DMS-1.4.55.dmg"
+                sparkle:edSignature="fSXjhkJTI339PFaZtINYWj6VuX8i4AW5Kk4+WOWRrMX4MeSyXZEQafmrQIsjAsqU3Mn1wRBPgRUlmxiOBg5ICw=="
+                length="30670070"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.54</title>
             <sparkle:version>1.4.54</sparkle:version>
             <sparkle:shortVersionString>1.4.54</sparkle:shortVersionString>
