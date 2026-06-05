@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.60</title>
+            <sparkle:version>1.4.60</sparkle:version>
+            <sparkle:shortVersionString>1.4.60</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 06 Jun 2026 00:57:15 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.60 — Hausfinder-Lead als Kunde übernehmen</p>
+
+<li>Rechtsklick auf einen Hausfinder-Lead → **„Als Kunde übernehmen"**: legt direkt einen CRM-Kunden mit Name, E-Mail, Telefon und Budget an (Status „Interessent") und setzt den Lead auf „Gewonnen".</li>
+<li>So wandern vielversprechende Hausfinder-Leads mit einem Klick in die Kundenverwaltung — kein Abtippen mehr.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.60/DMS-1.4.60.dmg"
+                sparkle:edSignature="aYrYQvUKsgDyzvW+YN1r4t6ouJ9dTHp+KJTquEAyslZgtJIxXIj2moky4pC8rLYIP6OtIN9fGbbOqiVQEKPZBg=="
+                length="30755415"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.59</title>
             <sparkle:version>1.4.59</sparkle:version>
             <sparkle:shortVersionString>1.4.59</sparkle:shortVersionString>
