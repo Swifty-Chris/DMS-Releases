@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.58</title>
+            <sparkle:version>1.4.58</sparkle:version>
+            <sparkle:shortVersionString>1.4.58</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 06 Jun 2026 00:36:18 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.58 — Hausfinder-Leads: Status setzen</p>
+
+<li>Rechtsklick auf einen Hausfinder-Lead → **„Status setzen"**: Kontaktiert, Beratung, Angebot gesendet, Gewonnen, Verloren (oder zurück auf Neu).</li>
+<li>Der Status wird direkt gespeichert und die Liste aktualisiert sich — so lassen sich Hausfinder-Leads jetzt im Vertriebsprozess pflegen, nicht nur ansehen.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.58/DMS-1.4.58.dmg"
+                sparkle:edSignature="0ETBgBoOC1D53jonCDBvOV0g6Sx61/EaKUt/4O3F2yVzr7d2hFiQySIsjUN1sXN/0bjj2MKJBZaxeh9Lo1jlBw=="
+                length="30730241"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.57</title>
             <sparkle:version>1.4.57</sparkle:version>
             <sparkle:shortVersionString>1.4.57</sparkle:shortVersionString>
