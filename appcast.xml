@@ -8,6 +8,31 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.43</title>
+            <sparkle:version>1.4.43</sparkle:version>
+            <sparkle:shortVersionString>1.4.43</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 05 Jun 2026 14:26:04 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.43 — Termine landen jetzt im echten Apple-/Outlook-Kalender (mit Wecker)</p>
+
+<p>Bisher legte „Termin erstellen" nur einen DMS-internen Termin an — kein Eintrag im echten Kalender. Das ist jetzt behoben:</p>
+
+<li>**Echter Kalendereintrag:** Erstellt die KI einen Termin, wird er zusätzlich als **echter Apple-Kalender-Eintrag** (EventKit) angelegt — auf dem Kalender, der zu **deiner E-Mail-Adresse** gehört (z. B. dein Danwood-/Exchange-Konto). Von dort synct er auf alle Geräte.</li>
+<li>**Wecker am Termin:** Der Eintrag bekommt einen **Kalender-Alarm (EKAlarm)** — standardmäßig 60 Minuten vorher. Das ist der „Wecker", den man beim Anlegen eines Kalendereintrags an den Termin koppelt (nicht nur eine App-Push).</li>
+<li>**Transparent:** Die KI meldet, auf welchem Kalender der Termin liegt — oder weist dich hin, falls der Kalenderzugriff (Systemeinstellungen → Datenschutz → Kalender) noch freigegeben werden muss.</li>
+
+<p>**Beim ersten Mal** fragt macOS/iOS nach der Kalender-Freigabe — einmal erlauben, dann läuft es.</p>
+
+<p>Hinweis: Ein klingelnder Wecker, der den Stummschalter überschreibt (wie die Uhr-App), ist erst mit Apples neuem AlarmKit (iOS 26) möglich — das folgt, sobald die nötige Xcode-Version verfügbar ist.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.43/DMS-1.4.43.dmg"
+                sparkle:edSignature="oz3YCz14eJZbFaDNVIlZN2Gj4lZEjjO7DDUoq7CbJ7ofuoSTEI5Xw6yeV9ji1F6UPheEVWnnxCoCzFmpjqLACA=="
+                length="30350006"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.42</title>
             <sparkle:version>1.4.42</sparkle:version>
             <sparkle:shortVersionString>1.4.42</sparkle:shortVersionString>
