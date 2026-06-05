@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.63</title>
+            <sparkle:version>1.4.63</sparkle:version>
+            <sparkle:shortVersionString>1.4.63</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 06 Jun 2026 01:31:38 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.63 — KI-Gedächtnis: echte Kontakt-Übersicht</p>
+
+<p>Die „Kontakte"-Ansicht im KI-Gedächtnis fasst jetzt alle Fäden eines Kontakts zuverlässig zusammen.</p>
+
+<li>**Zusammenführung über den stabilen Kontakt-Schlüssel:** Mehrere Einträge desselben Kontakts (z. B. „Milan" aus WhatsApp und „Milan Marcus" aus Mails) erscheinen jetzt in EINER Kontakt-Karte statt getrennt.</li>
+<li>**Frischeste Kontakte oben:** Die Übersicht sortiert nach letzter Aktualisierung — aktive Kontakte stehen vorne, nicht alphabetisch verstreut.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.63/DMS-1.4.63.dmg"
+                sparkle:edSignature="cyp/bgaP3IpcH0fszcDi+/NVAWYNVzRIK4GZCNceHikxejQqDmJTWvzq/LUJvSNxkB5Go9pX7/53WkvfwwFOAQ=="
+                length="30765344"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.62</title>
             <sparkle:version>1.4.62</sparkle:version>
             <sparkle:shortVersionString>1.4.62</sparkle:shortVersionString>
