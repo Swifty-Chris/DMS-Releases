@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.62</title>
+            <sparkle:version>1.4.62</sparkle:version>
+            <sparkle:shortVersionString>1.4.62</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 06 Jun 2026 01:21:10 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.62 — WhatsApp direkt aus der App schreiben</p>
+
+<li>Im WhatsApp-Tab eines Kunden gibt es jetzt ein **Schreibfeld**: Nachricht tippen → Senden öffnet WhatsApp mit der Telefonnummer und dem **vorausgefüllten Text**.</li>
+<li>Funktioniert auf macOS (WhatsApp Desktop, Fallback wa.me im Browser) und iOS (WhatsApp-App).</li>
+<li>Sonderzeichen wie „&" werden korrekt kodiert, damit der Text vollständig ankommt.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.62/DMS-1.4.62.dmg"
+                sparkle:edSignature="Vez205QiP4KVtz0jPT5G4Rbgy8shwDlGqHhxiSHRg9oL3uUN1cwsGsfL9uueLhygfnae30Ny6vJ3sLp7rxSCAA=="
+                length="30762054"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.61</title>
             <sparkle:version>1.4.61</sparkle:version>
             <sparkle:shortVersionString>1.4.61</sparkle:shortVersionString>
