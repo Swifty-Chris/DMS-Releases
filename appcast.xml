@@ -8,6 +8,29 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.51</title>
+            <sparkle:version>1.4.51</sparkle:version>
+            <sparkle:shortVersionString>1.4.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 05 Jun 2026 22:04:14 +0200</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.4.51</h2>
+
+<p>**Neu: Hausfinder-Leads im Leads-Bereich**</p>
+<li>Der Leads-Tab hat ein drittes Segment **„Hausfinder"**: Hier laufen die umfangreichen Leads aus dem KI-Hausfinder der Website ein.</li>
+<li>Reiche Detailansicht je Lead: Budget (inkl. „reiner Hauspreis" vs. „Haus + Baunebenkosten"), Wohnwünsche, Prioritäten, Must-Haves/No-Gos, der komplette KI-Beratungs-Chat sowie die KI-Hausempfehlungen mit Match-Score.</li>
+<li>Damit sind jetzt alle drei Lead-Quellen an einem Ort: Wartende (Musterhaus-QR), Katalog-/Grundriss-Anfragen und Hausfinder.</li>
+
+<p>**Verbessert**</p>
+<li>KI-Haussuche: Absturz bei bestimmten Häuser-Datensätzen behoben, Dachform-Filter zuverlässiger.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.51/DMS-1.4.51.dmg"
+                sparkle:edSignature="WlnthKTQHOdkQTHN2nDpFhl+4xLlTGrGga3wUEwPstbotjNZZSQ5cFXwKpOvnwHgLSmvzy8AVT6GJnYCbBxFCQ=="
+                length="30648144"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.50</title>
             <sparkle:version>1.4.50</sparkle:version>
             <sparkle:shortVersionString>1.4.50</sparkle:shortVersionString>
