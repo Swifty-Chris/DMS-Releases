@@ -8,6 +8,29 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.38</title>
+            <sparkle:version>1.4.38</sparkle:version>
+            <sparkle:shortVersionString>1.4.38</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 05 Jun 2026 02:10:31 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.38 — KI-Gedächtnis als Identitäts-Index: Mail + WhatsApp automatisch verknüpfen</p>
+
+<p>Die Wissensdatenbank merkt sich jetzt pro Kontakt seine Identität — und nutzt sie zur Zusammenführung:</p>
+
+<li>Der Hintergrund-Abgleich pflegt pro Kontakt einen **Identitäts-Index** (E-Mail-Adressen + Telefonnummern, die zu dieser Person gehören; eigene Firmen-Adressen ausgeschlossen).</li>
+<li>Die **Nachfass-Auswertung liest diesen Index** und führt damit **Mail und WhatsApp desselben Kontakts zusammen** — sobald der Kontakt einmal im Gedächtnis erfasst wurde, auch **ohne** Pinnwand-Karte. In der „Datenbasis" erscheinen dann beide Kanäle.</li>
+<li>Je länger die KI mitläuft, desto besser der „Grundschatz" — und desto verlässlicher die Querverweise.</li>
+
+<p>Rein deterministisch, kein zusätzlicher KI-Aufwand.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.38/DMS-1.4.38.dmg"
+                sparkle:edSignature="88mIvIWW03XUbUlpS5N2DvWtJAoilS4nvM42lDOQEObVhcGPsk5MvYeXurrK+sCldXXxeJvEGlgkY0YNt8bRCg=="
+                length="30341528"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.37</title>
             <sparkle:version>1.4.37</sparkle:version>
             <sparkle:shortVersionString>1.4.37</sparkle:shortVersionString>
