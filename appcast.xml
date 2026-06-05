@@ -8,6 +8,28 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.52</title>
+            <sparkle:version>1.4.52</sparkle:version>
+            <sparkle:shortVersionString>1.4.52</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 05 Jun 2026 22:19:09 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.52 — Pinnwand-Info-Sheet zeigt Stammdaten direkt aus der Karte</p>
+
+<p>Behebt, dass das ℹ️-Kontakt-Info-Sheet einer Pinnwand-Karte „Keine Stammdaten / Noch keine Infos" zeigte, obwohl Name, E-Mail und Telefon direkt auf der Karte stehen.</p>
+
+<li>**Stammdaten aus der Karte:** Das Info-Sheet wertet jetzt auch den **Karten-Text selbst** aus und zeigt **E-Mail und Telefon** aus dem Karten-Kopf — auch ohne CRM-Datensatz oder KI-Gedächtnis-Eintrag.</li>
+<li>**Schutz vor Verwechslung:** E-Mails werden per Namens-Abgleich gefiltert — fremde Adressen, die nur in angehängten Mail-Verweisen vorkommen (z. B. ein dritter Empfänger), werden **nicht** fälschlich als Kontaktdaten übernommen.</li>
+
+<p>Zusammen mit der vorigen Verbesserung (Querverweise per Namens-Token) zeigt das ℹ️-Sheet jetzt auch bei frei betitelten Karten die richtigen Kontaktdaten und Verweise.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.52/DMS-1.4.52.dmg"
+                sparkle:edSignature="EmZJ/XVV29A0i99OCs9vyOT4LAE3YPa6/4mzCMh6YgavNW0cWWP38fNG3ZHDClkrSBbXvpF8cIbKDP4foviCBQ=="
+                length="30652690"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.51</title>
             <sparkle:version>1.4.51</sparkle:version>
             <sparkle:shortVersionString>1.4.51</sparkle:shortVersionString>
