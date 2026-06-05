@@ -8,6 +8,30 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.49</title>
+            <sparkle:version>1.4.49</sparkle:version>
+            <sparkle:shortVersionString>1.4.49</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 05 Jun 2026 21:18:18 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.49 — Pinnwand: Querverweise erscheinen jetzt auf den Karten</p>
+
+<p>Wichtiger Fix für die Verknüpfung von Pinnwand und KI-Gedächtnis.</p>
+
+<p>Hintergrund: Die KI verwebt im Hintergrund pro Kontakt die zusammengehörenden Infos aus Mails/WhatsApp (mit Quellen-Verweisen) — das funktionierte, lag aber nur im KI-Gedächtnis. Auf den Pinnwand-Karten kam es nicht an, weil viele Karten **freie Titel** haben („Lettmann Update!", „Herr Böhne mit Familie", „Schilling Anbau klären"), die nicht exakt zum sauberen Kontaktnamen passten.</p>
+
+<li>**Jetzt verbinden sich Karte und Gedächtnis über den Namen im Titel** (Token-Matching): Eine Karte „Lettmann Update!" findet den verwobenen Eintrag „Lettmann", „Herr Böhne mit Familie" findet „Böhne" usw.</li>
+<li>**So siehst du die Querverweise:** Tippe auf das **ℹ️-Info-Icon** einer Pinnwand-Karte → unter „Wichtige Infos" stehen jetzt die von der KI zusammengetragenen Verweise (Datum, Betreff, Quelle) zu diesem Kontakt.</li>
+
+<p>Damit landen die im Hintergrund gebauten Querverweise endlich sichtbar bei der passenden Karte.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.49/DMS-1.4.49.dmg"
+                sparkle:edSignature="y7W2eL6/qzKhZgkmpOQsM470l0KQg144c/2mZywPT5j8THjIiv2CuY13hK2b3h9SXKHI+IeD4TozpHfLQMrRCw=="
+                length="30417719"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.48</title>
             <sparkle:version>1.4.48</sparkle:version>
             <sparkle:shortVersionString>1.4.48</sparkle:shortVersionString>
