@@ -8,6 +8,29 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.46</title>
+            <sparkle:version>1.4.46</sparkle:version>
+            <sparkle:shortVersionString>1.4.46</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 05 Jun 2026 18:40:15 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.46 — Hausberatung im KI-Assistenten (Hauskatalog houses_v2)</p>
+
+<p>Der KI-Berater kann jetzt passende DanWood-Häuser aus demselben Katalog wie danwood.nrw vorschlagen.</p>
+
+<li>**Neues Werkzeug „Haussuche":** Frag den KI-Assistenten z. B. „Welches Haus passt für eine Familie mit 2 Kindern, ~150 m², Budget 400.000 €, gern mit Galerie?" — er filtert den Hauskatalog (Produktlinie, Preis, Wohnfläche, Schlafzimmer, Raumkonzept wie Galerie/Speisekammer/EG-Schlafzimmer/offene Küche/Elternbereich) und empfiehlt konkrete Häuser.</li>
+<li>**Kuratierte Berater-Texte:** Die Empfehlung stützt sich auf die geprüften Exposé-Texte (Stil, Grundriss, Stärken, Kompromisse, „passt besonders für") inklusive der Hinweise, was **nicht** behauptet werden darf — die KI erfindet also keine Eigenschaften.</li>
+<li>Liest direkt aus der geteilten Datenbank (nur lesend), keine zusätzliche Einrichtung nötig.</li>
+
+<p>Nächster Schritt (folgt): semantische Suche nach Freitext-Wunsch („gemütliches Haus mit viel Licht und Platz zum Arbeiten").</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.46/DMS-1.4.46.dmg"
+                sparkle:edSignature="PC5A/YXC33ysoQqCba3uWDga7GEaiMNdAEWvJv6WGbTdJgsY9GcSJMGmTixF/YUrLsATU1GhU0kqdeilURgWCA=="
+                length="30409990"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.45</title>
             <sparkle:version>1.4.45</sparkle:version>
             <sparkle:shortVersionString>1.4.45</sparkle:shortVersionString>
