@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.47</title>
+            <sparkle:version>1.4.47</sparkle:version>
+            <sparkle:shortVersionString>1.4.47</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 05 Jun 2026 19:33:25 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.47 — Hausberatung: direkter Link zu jedem empfohlenen Haus</p>
+
+<p>Kleine, praktische Ergänzung:</p>
+
+<li>Wenn der KI-Assistent ein Haus empfiehlt oder erwähnt, postet er jetzt **direkt den Link** zur Haus-Detailseite (danwood.nrw) als anklickbaren Link mit.</li>
+<li>Es werden nur die echten, aus der Online-Datenbank gelieferten Links verwendet — keine erfundenen URLs.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.47/DMS-1.4.47.dmg"
+                sparkle:edSignature="TwygLP4QaowYEAKZu+SondvzT7hDZU6vAglrlUl3k31R3P12AwyniFobz16kXVGohdT2frRrO2IJaZNGvzyRAg=="
+                length="30409632"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.46</title>
             <sparkle:version>1.4.46</sparkle:version>
             <sparkle:shortVersionString>1.4.46</sparkle:shortVersionString>
