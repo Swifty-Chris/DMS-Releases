@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.54</title>
+            <sparkle:version>1.4.54</sparkle:version>
+            <sparkle:shortVersionString>1.4.54</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 05 Jun 2026 22:56:28 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.54 — Leads: „Katalog"-Segment + Hausfinder-Leads ausblenden</p>
+
+<li>**Umbenannt:** Das mittlere Segment im Leads-Bereich heißt jetzt **„Katalog"** (statt „Leads") — es enthält die Katalog-/Grundriss-Anfragen.</li>
+<li>**Hausfinder-Leads ausblenden:** Rechtsklick auf einen Hausfinder-Lead bietet jetzt **„Ausblenden"** — praktisch, um Test-Leads aus der Liste zu räumen. Die Ausblendung bleibt erhalten (lokal gespeichert).</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.54/DMS-1.4.54.dmg"
+                sparkle:edSignature="M0NS7foHzsgnuv6jXtSdjsXAd5ZZtgrvmqsvkZWIkDIs9MewW8M1AkQAwzGTmYROd2b24bDHfA6Y53mOTNC1BA=="
+                length="30659917"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.53</title>
             <sparkle:version>1.4.53</sparkle:version>
             <sparkle:shortVersionString>1.4.53</sparkle:shortVersionString>
