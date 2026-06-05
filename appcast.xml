@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.59</title>
+            <sparkle:version>1.4.59</sparkle:version>
+            <sparkle:shortVersionString>1.4.59</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 06 Jun 2026 00:45:18 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.59 — Hausfinder-Empfehlungen mit Hausbild</p>
+
+<li>In der Detailansicht eines Hausfinder-Leads zeigen die KI-Empfehlungen jetzt zusätzlich ein **Vorschaubild** des Hauses (aus der Hausdatenbank).</li>
+<li>Zusammen mit Name, Preis, Match-Score und Link sind die empfohlenen Häuser damit auf einen Blick erfassbar.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.59/DMS-1.4.59.dmg"
+                sparkle:edSignature="ZovwIb2/umt2JMa1Gp3g9lGShO+rZtkDfgtjMwjpp07kgzy9VuMZSjEH/ecs25KFcWe4OwSclVSce7q063F9DQ=="
+                length="30737041"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.58</title>
             <sparkle:version>1.4.58</sparkle:version>
             <sparkle:shortVersionString>1.4.58</sparkle:shortVersionString>
