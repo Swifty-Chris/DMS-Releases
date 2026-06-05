@@ -8,6 +8,30 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.39</title>
+            <sparkle:version>1.4.39</sparkle:version>
+            <sparkle:shortVersionString>1.4.39</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 05 Jun 2026 09:57:02 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.39 — Nachfass: Status-Signale, wichtig vs. dringend</p>
+
+<p>Die KI bewertet Nachfass-Kontakte jetzt differenzierter — nicht nur „lohnt sich", sondern auch was dagegen spricht:</p>
+
+<li>**Blocker erkennen:** Sagt ein Kontakt z. B. „wir haben noch kein Grundstück", „unser Grundstück ist weggefallen", „wir suchen noch" oder „erst nächstes Jahr", behandelt die KI ihn als **wichtig, aber nicht dringend** — und schlägt ein Nachfassen **mit zeitlichem Abstand** vor (z. B. „in 2-3 Monaten erneut melden"), statt zu sofortigem Kontakt zu drängen.</li>
+<li>**Fehlversuche zählen:** Mehrere unbeantwortete Kontaktversuche von dir senken die Priorität, statt ignoriert zu werden.</li>
+<li>**Klare Absagen** („kein Interesse", „woanders gebaut") werden als kein Nachfass-Fall erkannt.</li>
+<li>Die Begründung und der Vorschlag pro Karte machen jetzt deutlich: **dringend (jetzt melden)** vs. **wichtig, aber später** vs. **kein Nachfass**.</li>
+
+<p>So bekommst du nicht nur „melde dich", sondern auch „warte noch 2-3 Monate, weil aktuell kein Grundstück".</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.39/DMS-1.4.39.dmg"
+                sparkle:edSignature="jXPJxQ6NyY078h/jSaw66PnGZMCya0flCLaBeStu/dRjdAZR5EuVMybquxNHzceT+Eb6q5Q6GBahV49BxMjEBg=="
+                length="30343960"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.38</title>
             <sparkle:version>1.4.38</sparkle:version>
             <sparkle:shortVersionString>1.4.38</sparkle:shortVersionString>
