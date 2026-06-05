@@ -8,6 +8,28 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.56</title>
+            <sparkle:version>1.4.56</sparkle:version>
+            <sparkle:shortVersionString>1.4.56</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 05 Jun 2026 23:31:24 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.56 — Leads: Löschen/Archivieren wirkt + verschwundene Test-Leads weg</p>
+
+<p>Behebt, dass gelöschte/archivierte Leads in der Liste hängen blieben und „Archivieren" einen Fehler warf.</p>
+
+<li>**Löschen & Archivieren funktionieren jetzt:** Auf dem Server fehlten die Berechtigungen — ein Lösch-/Archiv-Versuch lief ins Leere (bzw. „Cannot coerce…"-Fehler). Das ist serverseitig behoben (kein Update nötig dafür).</li>
+<li>**Verschwundene Leads bleiben verschwunden:** Die App löschte lokal nie mit — server-gelöschte Leads (z. B. alte Test-Leads) blieben im Cache sichtbar. Jetzt gleicht die App beim Laden ab und entfernt lokal, was der Server nicht mehr hat. Damit verschwindet die Test-Lead-Flut endgültig aus Inbox/Meine/Konvertiert/Archiv.</li>
+
+<p>Nach dem Update einmal in den Leads-Bereich wechseln — die Liste sollte sich auf die echten Leads bereinigen.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.56/DMS-1.4.56.dmg"
+                sparkle:edSignature="kOBIEFM7uWjsbl8PuiOeOzJKxS3NdK/zdG0fU+gUu5hbqQ0FUWvhhlNUIoUYlxSs53mQV9hrNXXsVubJh1OxDA=="
+                length="30681204"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.55</title>
             <sparkle:version>1.4.55</sparkle:version>
             <sparkle:shortVersionString>1.4.55</sparkle:shortVersionString>
