@@ -8,6 +8,30 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.50</title>
+            <sparkle:version>1.4.50</sparkle:version>
+            <sparkle:shortVersionString>1.4.50</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 05 Jun 2026 21:53:44 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.50 — Haussuche: Absturz bei Schlafzimmer/Preis behoben + Dachform-Filter</p>
+
+<p>Behebt den Fehler, den die Haussuche bei Angabe von Schlafzimmern (und Preis/Geschossen) gemeldet hat.</p>
+
+<li>**Absturz behoben:** Die Felder **Schlafzimmer, Preis und Geschosse** sind in der Datenbank Ganzzahlen — die Suche schickte sie als Kommazahl („4,0") und bekam einen Datenbankfehler zurück. Jetzt werden sie korrekt als Ganzzahl übergeben. (Live gegen die Datenbank geprüft.)</li>
+<li>**Neu: Dachform-Filter** — z. B. „Satteldach".</li>
+<li>**Neu: „Firstoffenes Dach"** — Häuser mit offenem Luftraum bis zum First.</li>
+<li>Bei zu vielen Wünschen mit 0 Treffern lockert die KI jetzt die optionalen Kriterien schrittweise und sagt transparent, was sie angepasst hat.</li>
+
+<p>Damit funktioniert „möglichst schmal, ~180 m², 4–5 Schlafzimmer, Satteldach, firstoffen, mit Galerie" jetzt ohne Fehler.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.50/DMS-1.4.50.dmg"
+                sparkle:edSignature="74KjJE3IljwRHqMwJcHKZb/ZeFJKOuotQf3OqDxaFJf5UxErn443ZGAqD0DShCkZzHLG0EgJof3ineyHr88BAw=="
+                length="30647586"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.49</title>
             <sparkle:version>1.4.49</sparkle:version>
             <sparkle:shortVersionString>1.4.49</sparkle:shortVersionString>
