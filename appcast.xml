@@ -8,6 +8,27 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.61</title>
+            <sparkle:version>1.4.61</sparkle:version>
+            <sparkle:shortVersionString>1.4.61</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 06 Jun 2026 01:10:23 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.61 — Semantische Haussuche im KI-Berater</p>
+
+<p>Der KI-Berater kann Häuser jetzt auch nach **Gefühl und Stil** finden, nicht nur nach harten Filtern.</p>
+
+<li>Neues Tool **`search_houses_semantic`**: Bei vagen/stimmungsbasierten Wünschen („gemütliches helles Haus mit offener Galerie für eine junge Familie", „modern und großzügig zum Wohlfühlen", „Bungalow zum Älterwerden") findet die KI die ähnlichsten Häuser per KI-Embedding-Vergleich.</li>
+<li>Läuft über eine serverseitige Funktion (Embedding + Vektor-Ähnlichkeitssuche in der Hausdatenbank) — die API-Schlüssel bleiben auf dem Server.</li>
+<li>Für harte Kriterien (Preis, Fläche, Zimmer, Maße) nutzt die KI weiterhin die exakte Filtersuche. Beide liefern dieselben kuratierten Berater-Texte inkl. Halluzinations-Schutz.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.61/DMS-1.4.61.dmg"
+                sparkle:edSignature="GYIcMUosbMMi7v1OQO28Ss6Da7Oe6NQEzcvQXhJoIWb627p/gLFw7Hd+FdaVWMPJrAE8bY62jAGEJkmod7OwAg=="
+                length="30753376"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.60</title>
             <sparkle:version>1.4.60</sparkle:version>
             <sparkle:shortVersionString>1.4.60</sparkle:shortVersionString>
