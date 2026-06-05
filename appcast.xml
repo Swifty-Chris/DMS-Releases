@@ -8,6 +8,28 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.57</title>
+            <sparkle:version>1.4.57</sparkle:version>
+            <sparkle:shortVersionString>1.4.57</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 06 Jun 2026 00:26:12 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.57 — Hausfinder-Leads: empfohlene Häuser mit Namen, Preis & Link</p>
+
+<p>In der Detailansicht eines Hausfinder-Leads standen die KI-Empfehlungen bisher nur als technische IDs (z. B. „park-152w").</p>
+
+<li>Die empfohlenen und alternativen Häuser werden jetzt aus der Hausdatenbank (`houses_v2`) aufgelöst und mit **Namen, Preis (ab …) und Match-Score** angezeigt.</li>
+<li>Tipp auf ein Haus öffnet direkt die **Detailseite** auf danwood.nrw.</li>
+
+<p>So sieht man auf einen Blick, welche Häuser zum Lead passen — ohne IDs nachschlagen zu müssen.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.57/DMS-1.4.57.dmg"
+                sparkle:edSignature="uGbUgv5iHpZK/mGDi3cOmWBhxyu3mNgoEw6oIn6A/O4FahRDZ3kOSQhPfDaYcePje6C4anFPCXs4ZU8sya8PCw=="
+                length="30719875"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.56</title>
             <sparkle:version>1.4.56</sparkle:version>
             <sparkle:shortVersionString>1.4.56</sparkle:shortVersionString>
