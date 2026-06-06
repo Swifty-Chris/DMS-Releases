@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.76</title>
+            <sparkle:version>1.4.76</sparkle:version>
+            <sparkle:shortVersionString>1.4.76</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 07 Jun 2026 00:18:49 +0200</pubDate>
+            <description><![CDATA[
+<h2>Musterhaus-Warteschlange: sofort Bescheid wissen</h2>
+
+<li>**Sofort-Benachrichtigung bei neuem Besucher:** Zieht jemand ein Warteschlangen-Ticket, bekommen alle Verkäufer umgehend eine Push-Benachrichtigung auf iPhone und Mac.</li>
+<li>**Termin-Erinnerung mit einstellbarer Vorlaufzeit:** Bei Terminbuchungen wird vorab erinnert; die Minuten sind über das Zahnrad oben rechts in der Leads-Ansicht einstellbar (Standard 10).</li>
+<li>**Termin-Erinnerungen jetzt auch am Mac.**</li>
+<li>Kleinere Layout-Korrektur im Benachrichtigungs-Dialog.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.76/DMS-1.4.76.dmg"
+                sparkle:edSignature="LeiVk962LnzWHrMRttXcGYkUTMOFJ7FR0Opvs7yOC+bSGzcbPb5blLJ1lGjzh5PRfiGuj2fN7SlH0hFGbZmsBA=="
+                length="31020398"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.75</title>
             <sparkle:version>1.4.75</sparkle:version>
             <sparkle:shortVersionString>1.4.75</sparkle:shortVersionString>
