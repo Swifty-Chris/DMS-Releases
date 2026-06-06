@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.71</title>
+            <sparkle:version>1.4.71</sparkle:version>
+            <sparkle:shortVersionString>1.4.71</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 06 Jun 2026 12:49:15 +0200</pubDate>
+            <description><![CDATA[
+<h2>Neu: KI-Bildstudio</h2>
+
+<li>**Fotos analysieren & neu generieren:** Bild hochladen oder per Link referenzieren, von der KI als strukturierte Beschreibung erfassen lassen, gezielt anpassen und ein neues Bild erzeugen.</li>
+<li>**Wichtige Bereiche betonen:** In einem Textfeld festlegen, welche Bildbereiche besonders wichtig sind — diese werden bei Analyse und Generierung explizit berücksichtigt.</li>
+<li>**Modellauswahl mit Infos zu Kosten & Vorteilen:** Gemini (nano-banana 2.5/3.1 Flash, 3 Pro) und OpenAI (GPT Image 2, GPT Image Mini).</li>
+<li>**Einstellungen:** Qualität und Seitenverhältnis (inkl. Automatik) sowie Prompt-Format wählbar.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.71/DMS-1.4.71.dmg"
+                sparkle:edSignature="lbKHEgEvFo9OxVqN2e3rgtapBmwVcOyZ+MC5aEyj1+vi0oZDeUqZlt4VQMIODIldqzcU+wDLltfOlcH9GUCBBA=="
+                length="30956129"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.63</title>
             <sparkle:version>1.4.63</sparkle:version>
             <sparkle:shortVersionString>1.4.63</sparkle:shortVersionString>
