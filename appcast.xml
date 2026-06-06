@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.74</title>
+            <sparkle:version>1.4.74</sparkle:version>
+            <sparkle:shortVersionString>1.4.74</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 06 Jun 2026 21:53:15 +0200</pubDate>
+            <description><![CDATA[
+<h2>Leads: einheitlicher & live</h2>
+
+<li>**Badge zählt jetzt alle Leads:** Der „Leads"-Zähler in der Seitenleiste/Tab-Leiste summiert Wartende + Katalog + Hausfinder — du siehst auf einen Blick die Gesamtzahl statt nur einer Quelle.</li>
+<li>**Automatisch ohne Refresh:** Neue Leads erscheinen von selbst, auch wenn die Ansicht offen bleibt (Hausfinder lädt jetzt automatisch nach; Wartende & Katalog ohnehin).</li>
+<li>**Einheitliche Darstellung:** Katalog- und Hausfinder-Leads werden jetzt in identischen Zeilen mit gleichem Status-Vokabular angezeigt (Neu · Kontaktiert · Beratung · Angebot · Gewonnen/Verloren).</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.74/DMS-1.4.74.dmg"
+                sparkle:edSignature="dQU8t52yisIPB7Ee9upb1xLtXU+f5eHWQYUjjm0S62xUcS6vJTd5Z427kkd6n2X8/UzrTPVbzBcCEh10PN4mAQ=="
+                length="30981556"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.73</title>
             <sparkle:version>1.4.73</sparkle:version>
             <sparkle:shortVersionString>1.4.73</sparkle:shortVersionString>
