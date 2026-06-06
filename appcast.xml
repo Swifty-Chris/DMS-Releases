@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.73</title>
+            <sparkle:version>1.4.73</sparkle:version>
+            <sparkle:shortVersionString>1.4.73</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 06 Jun 2026 19:54:13 +0200</pubDate>
+            <description><![CDATA[
+<h2>Leads: Löschen & bessere Übersicht</h2>
+
+<li>**Hausfinder-Leads löschen:** Hausfinder-Wizard-Leads lassen sich jetzt endgültig löschen (macOS: Rechtsklick, iOS: Wischen) — mit Sicherheitsabfrage. Katalog- und Wartende-Leads konnten bereits gelöscht werden.</li>
+<li>**Anzahl je Quelle sichtbar:** Der Leads-Tab zeigt jetzt direkt die Anzahl pro Segment (z. B. „Katalog (2)", „Hausfinder (10)"), damit eingehende Leads aus allen Quellen sofort auffallen — auch wenn das aktuell gewählte Segment leer ist.</li>
+<li>**Robustere Anzeige:** Eine einzelne fehlerhafte Datenzeile kann die Hausfinder-Liste nicht mehr komplett leeren.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.73/DMS-1.4.73.dmg"
+                sparkle:edSignature="F36oYprNlWJxgfxBOraAtqHrZD1q4HS3lNFVSbQJVh2dPUiJ2eCp5e/YzMw2S7CXHHqgB10qLyebcSOCvALyAw=="
+                length="31012582"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.72</title>
             <sparkle:version>1.4.72</sparkle:version>
             <sparkle:shortVersionString>1.4.72</sparkle:shortVersionString>
