@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.78</title>
+            <sparkle:version>1.4.78</sparkle:version>
+            <sparkle:shortVersionString>1.4.78</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 07 Jun 2026 01:27:58 +0200</pubDate>
+            <description><![CDATA[
+<h2>Musterhaus-Besucher als Pinnwandkarte sichern</h2>
+
+<li>**Beim Annehmen eines Besuchers** kann er jetzt per Button **„Als Pinnwandkarte anlegen"** (Name + Telefonnummer) dauerhaft gesichert werden — so geht der Kontakt nicht mehr verloren, wenn das Warteschlangen-Ticket nach 48 Stunden anonymisiert wird.</li>
+<li>Verfügbar im Annehmen-Bildschirm (iPhone) und in der Ticket-Detailansicht (Mac & iPhone).</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.78/DMS-1.4.78.dmg"
+                sparkle:edSignature="f7Bv7TxqfXcljjmK1sCOgT20L8kvc/5YVNi9jiftjtzeabcK0SNi5SqS9KLSK/PeLWQp7q1qAomHOtOaik7aAg=="
+                length="31019548"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.77</title>
             <sparkle:version>1.4.77</sparkle:version>
             <sparkle:shortVersionString>1.4.77</sparkle:shortVersionString>
