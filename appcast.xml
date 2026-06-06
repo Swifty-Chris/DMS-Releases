@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.77</title>
+            <sparkle:version>1.4.77</sparkle:version>
+            <sparkle:shortVersionString>1.4.77</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 07 Jun 2026 00:50:50 +0200</pubDate>
+            <description><![CDATA[
+<h2>Warteschlange: Benachrichtigungen funktionieren jetzt</h2>
+
+<li>**Sofort-Alarm bei neuem Besucher:** Wartet jemand, erscheint umgehend eine Benachrichtigung mit Ton — auch wenn die App im Hintergrund läuft (Mac) bzw. geöffnet ist (iPhone). Du wirst also auch während eines Kundengesprächs darauf hingewiesen.</li>
+<li>**Wichtige Korrektur an der Push-Registrierung:** Geräte registrieren sich jetzt korrekt für Benachrichtigungen (vorher kam systembedingt nie eine).</li>
+<li>Falls beim ersten Start nach dem Update die Benachrichtigungs-Erlaubnis abgefragt wird: bitte „Erlauben".</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.77/DMS-1.4.77.dmg"
+                sparkle:edSignature="cc+kKO1IQOxcRZ53fUqYO1kw3+0m7GNWl7M+GioJOTncr51IL9bR6aUOuhLd/AawJ3vLgaJW5YWKSwRYunqtBw=="
+                length="31011887"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.76</title>
             <sparkle:version>1.4.76</sparkle:version>
             <sparkle:shortVersionString>1.4.76</sparkle:shortVersionString>
