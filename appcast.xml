@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.79</title>
+            <sparkle:version>1.4.79</sparkle:version>
+            <sparkle:shortVersionString>1.4.79</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 07 Jun 2026 02:33:11 +0200</pubDate>
+            <description><![CDATA[
+<h2>Musterhaus: Kunde wieder öffnen + Danke-Nachricht</h2>
+
+<li>**Angenommene Kunden verschwinden nicht mehr:** Neue Sektion „Heute angenommen" in der Warteliste zeigt heute angenommene und abgeschlossene Besucher — antippen, um sie wieder zu öffnen.</li>
+<li>**Danke-Nachricht nach dem Gespräch:** Im abgeschlossenen Ticket gibt es „Danke senden" — öffnet eine vorformulierte Nachricht mit Google-Bewertungslink (WhatsApp, oder E-Mail falls eine Adresse in der Pinnwand steht).</li>
+<li>**Erinnerung:** Optional erinnert die App einige Minuten nach Gesprächsende daran (im Zahnrad einstellbar, Standard 15 Min, 0 = aus).</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.79/DMS-1.4.79.dmg"
+                sparkle:edSignature="ZxiM9e9xyljK0Q72H5HHsxCSz21HtWn22hwRwnfOrSQG37nZOBSh6ghXLd1j7vgyaj9qxs7w4zWU6Ib+C7ynBA=="
+                length="31057615"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.78</title>
             <sparkle:version>1.4.78</sparkle:version>
             <sparkle:shortVersionString>1.4.78</sparkle:shortVersionString>
