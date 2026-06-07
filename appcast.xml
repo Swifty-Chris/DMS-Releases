@@ -8,6 +8,23 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.81</title>
+            <sparkle:version>1.4.81</sparkle:version>
+            <sparkle:shortVersionString>1.4.81</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 07 Jun 2026 02:59:56 +0200</pubDate>
+            <description><![CDATA[
+<h2>KI-Kosten: echte OpenRouter-Werte</h2>
+
+<li>Die KI-Kosten eines Hausfinder-Leads zeigen jetzt die **tatsächlichen OpenRouter-Kosten** (nicht mehr nur geschätzt). Label entsprechend angepasst.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.81/DMS-1.4.81.dmg"
+                sparkle:edSignature="Q6xzdv5JEddZ6JtiPenLMGL/iexxBSwZaLPluLlfEfGxuALw5bVgXwxMTpXM0OEUG/+5iwQfSfrmBoyHh7AwDQ=="
+                length="31065172"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.80</title>
             <sparkle:version>1.4.80</sparkle:version>
             <sparkle:shortVersionString>1.4.80</sparkle:shortVersionString>
