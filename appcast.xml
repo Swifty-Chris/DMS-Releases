@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.85</title>
+            <sparkle:version>1.4.85</sparkle:version>
+            <sparkle:shortVersionString>1.4.85</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Mon, 08 Jun 2026 02:28:25 +0200</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.4.85</h2>
+
+<h3>Baunebenkosten</h3>
+<li>Posten mit **0 €** werden jetzt ausgeblendet — sowohl in der Ansicht als auch im PDF-Export. Die Aufstellung bleibt dadurch übersichtlicher.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.85/DMS-1.4.85.dmg"
+                sparkle:edSignature="ts7DCw7dPmW7gdCrVjH8twNbTAP4+FOLzgQppjE9UHSEdqwtJ5qqNG3pC1T10e5+50zoW7qEi8lX3qASY97kBw=="
+                length="31142826"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.84</title>
             <sparkle:version>1.4.84</sparkle:version>
             <sparkle:shortVersionString>1.4.84</sparkle:shortVersionString>
