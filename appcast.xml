@@ -8,6 +8,28 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.87</title>
+            <sparkle:version>1.4.87</sparkle:version>
+            <sparkle:shortVersionString>1.4.87</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Mon, 08 Jun 2026 19:10:33 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.87</p>
+
+<h2>KI-Termine landen jetzt im richtigen Kalender</h2>
+<li>Der KI-Assistent legt Termine nicht mehr automatisch im Kalender der verbundenen Mailadresse an, sondern auf einem wählbaren Zielkalender.</li>
+<li>Neuer Bereich **Einstellungen → Kalender**: Zielkalender für KI-Termine auswählen — vorbelegt mit dem Danwood-Kalender.</li>
+
+<h2>Hausfinder-Leads: Baufenster sichtbar</h2>
+<li>In der Lead-Detailansicht wird jetzt das vom Interessenten angegebene **Baufenster** (Breite × Tiefe inkl. max. Grundfläche) angezeigt.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.87/DMS-1.4.87.dmg"
+                sparkle:edSignature="Pbap0aEHl5MhcJtYNrKt85nivhsU4E9atuA7ud3dEL1OmuxiPPwDAsFFakavP3hvfn0hs8l4fjCJScrkOOKtCg=="
+                length="31162336"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.86</title>
             <sparkle:version>1.4.86</sparkle:version>
             <sparkle:shortVersionString>1.4.86</sparkle:shortVersionString>
