@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.86</title>
+            <sparkle:version>1.4.86</sparkle:version>
+            <sparkle:shortVersionString>1.4.86</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Mon, 08 Jun 2026 03:18:08 +0200</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.4.86</h2>
+
+<h3>KI-Lead-Detailansicht aufgeräumt</h3>
+<li>Es werden nur noch die Infos angezeigt, die der Kunde wirklich angegeben hat. Leere oder veraltete Felder (Einzugswunsch, Haushalt, Keller, Dachform, „Budget offen", „—"-Platzhalter) werden ausgeblendet.</li>
+<li>**Bevorzugte Stilrichtungen** werden jetzt unter eigenem Punkt angezeigt (sobald neue Leads aus dem Hausfinder eintreffen, die diese Angabe enthalten).</li>
+<li>Budget mit Bezug (reiner Hauspreis / inkl. Baunebenkosten), Haustyp(en), Wohnfläche, Zimmer, Prioritäten und KI-Chat bleiben vollständig sichtbar.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.86/DMS-1.4.86.dmg"
+                sparkle:edSignature="iHIJiIrUfpSatO7vK6jCn/PvZfljKP/U4FgmCq8bOm6qVAtQIwjWoIr2q7KqWzm46LMGsKztaT7iGcuB0JMECw=="
+                length="31135835"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.85</title>
             <sparkle:version>1.4.85</sparkle:version>
             <sparkle:shortVersionString>1.4.85</sparkle:shortVersionString>
