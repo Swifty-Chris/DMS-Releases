@@ -8,6 +8,30 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.84</title>
+            <sparkle:version>1.4.84</sparkle:version>
+            <sparkle:shortVersionString>1.4.84</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Mon, 08 Jun 2026 02:10:03 +0200</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.4.84</h2>
+
+<h3>Leads als „gesehen" markieren</h3>
+<li>Leads (Hausfinder & Katalog) lassen sich jetzt als **gesehen / neu** markieren — per **Rechtsklick** (Mac) oder **Wisch nach rechts** (iPhone/iPad).</li>
+<li>Gesehene Leads verschwinden aus dem **Badge-Zähler** in der Seitenleiste und werden in der Liste dezent ausgegraut.</li>
+<li>Die Markierung gilt **team-weit**: Markiert ein Kollege einen Lead als gesehen, ist er auch bei allen anderen gesehen. Sie passiert nur durch aktives Markieren — niemals automatisch beim Öffnen.</li>
+<li>Wartende Musterhaus-Besucher bleiben bewusst im Zähler (Dringlichkeits-Signal).</li>
+
+<h3>Seitenleiste</h3>
+<li>Neue Reihenfolge im CRM-Bereich: **Pinnwand** ganz oben, danach **Leads**.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.84/DMS-1.4.84.dmg"
+                sparkle:edSignature="RxhuYWZO84Io3dp0hcmMxC3WSrkUDmIpCRRcWs47NS1UxsBZdPet3aHgFLbbYq1C7tlzUIZ8XJ5+O4Rhzc45BQ=="
+                length="31141325"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.83</title>
             <sparkle:version>1.4.83</sparkle:version>
             <sparkle:shortVersionString>1.4.83</sparkle:shortVersionString>
