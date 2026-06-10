@@ -8,6 +8,31 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.92</title>
+            <sparkle:version>1.4.92</sparkle:version>
+            <sparkle:shortVersionString>1.4.92</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 10 Jun 2026 11:42:05 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.92 — KfW-Rechner mit Familienförderung (Einkommen & Kinder)</p>
+
+<h2>KfW-Förder-Rechner: jetzt mit echten Kundendaten</h2>
+<p>Der Rechner prüft jetzt zuerst die deutlich höhere **Familienförderung (KfW 300 „Wohneigentum für Familien")**:</p>
+
+<li>**Neue Eingaben:** Kinder unter 18, zu versteuerndes Haushaltsjahreseinkommen, Selbstnutzung, vorhandenes Wohneigentum, früheres Baukindergeld.</li>
+<li>**Einkommensgrenze wird live angezeigt:** 90.000 € bei einem Kind, +10.000 € je weiterem Kind.</li>
+<li>**Kreditrahmen Familienförderung:** 170.000 / 200.000 / 220.000 € (1–2 / 3–4 / ab 5 Kinder) — mit QNG 220.000 / 250.000 / 270.000 €.</li>
+<li>Greift die Familienförderung nicht, rechnet die App automatisch mit KfW 297/298 weiter und sagt **konkret warum nicht** — z. B. „Einkommen liegt 7.000 € über der Grenze" oder „Baukindergeld bereits bezogen".</li>
+<li>Hinderungsgründe (fossile Heizung, Bauvertrag schon unterschrieben, kein EH-40) und offene Auflagen werden weiterhin klar benannt.</li>
+<li>Konditionen gegen kfw.de verifiziert (Stand 2026).</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.92/DMS-1.4.92.dmg"
+                sparkle:edSignature="sP7Nm8K5ptWf0azC8T3I4dNiQ28d8Za7GKQPCUaNzcv0Al9uWePKvRBwyQC4WmFFf2uGM1C5E1uC/wn9YwfDCQ=="
+                length="31501746"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.91</title>
             <sparkle:version>1.4.91</sparkle:version>
             <sparkle:shortVersionString>1.4.91</sparkle:shortVersionString>
