@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.97</title>
+            <sparkle:version>1.4.97</sparkle:version>
+            <sparkle:shortVersionString>1.4.97</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 10 Jun 2026 22:53:42 +0200</pubDate>
+            <description><![CDATA[
+<h2>Neu in 1.4.97</h2>
+
+<h3>Hausfinder-Leads: KI-Begründungen & neuer Prioritäten-Regler</h3>
+<li>**KI-Empfehlungen im Lead:** Die empfohlenen Häuser erscheinen jetzt als aufklappbare Karten mit den Argumenten der KI (Stärken, Begründung je Haus) plus dem Gesamtfazit des Beraters.</li>
+<li>**Prioritäten als Trade-off:** Statt der alten Einzel-Balken zeigt der Lead den bipolaren Regler des neuen Hausfinders (Premium-Charakter ←→ viel Haus fürs Geld) mit lesbarer Einordnung. Alt-Leads behalten ihre bisherige Darstellung.</li>
+<li>**Bereinigte Anzeige:** Felder, die der Hausfinder nicht mehr erfasst (Haushalt, Einzeln-Zimmerzahl, intern berechnetes Mindest-Budget), verschwinden bei neuen Leads automatisch.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.97/DMS-1.4.97.dmg"
+                sparkle:edSignature="jOH195miNC3SrtZI3UN3a9ah8bJlp/AXtHQrIB1h16uIM99JuagfYZE/hKgDeosUHUALGYl7kvLCfEFd2LfiBg=="
+                length="31672017"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.96</title>
             <sparkle:version>1.4.96</sparkle:version>
             <sparkle:shortVersionString>1.4.96</sparkle:shortVersionString>
