@@ -8,6 +8,50 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.88</title>
+            <sparkle:version>1.4.88</sparkle:version>
+            <sparkle:shortVersionString>1.4.88</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 10 Jun 2026 07:04:34 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.88 — Sicherheits- und Qualitäts-Release (Gesamt-Audit)</p>
+
+<h2>KI-Assistent</h2>
+<li>**Neu: Zugriff auf Web-Leads** — drei neue Tools: `search_web_leads` (Hausfinder, Katalog-Anfragen und Wartende durchsuchen), `get_web_lead_details` (komplettes Wizard-Profil inkl. Chat-Verlauf und B-Plan-Analyse) und `get_lead_analytics` (Konversion je Produktlinie, Prioritäten, Must-Haves, UTM-Performance).</li>
+<li>Tool-Auswahl geschärft: 7 Tool-Beschreibungen trennscharf gemacht, 2 Verwechslungs-Tools deaktiviert.</li>
+<li>Härtung gegen Prompt-Injection: E-Mail-/WhatsApp-Inhalte sind für die KI jetzt klar als externe Daten markiert; Gedächtnis-Löschungen werden immer bestätigt — auch im autonomen Modus.</li>
+
+<h2>Leads</h2>
+<li>**Vollständige Lead-Übernahme:** Beim Konvertieren eines Hausfinder-Leads landen jetzt ALLE Wizard-Daten (Budget, Stil, Prioritäten, B-Plan, Chat-Verlauf, Empfehlungen) als strukturierte Notiz beim Kunden + im KI-Gedächtnis.</li>
+<li>Dubletten-Check: Existiert bereits ein Kunde mit der E-Mail, wird gefragt statt doppelt angelegt.</li>
+<li>„Termin vereinbaren" direkt im Lead-Detail; nach der Konvertierung automatische Navigation zum neuen Kunden.</li>
+<li>Suche über alle drei Lead-Segmente (Wartende/Katalog/Hausfinder).</li>
+<li>Bulk-Statuswechsel: mehrere Leads auswählen und gemeinsam umstellen.</li>
+<li>Alle 8 Lead-Status (inkl. „Verhandlung" und „Langzeit-Pflege") jetzt in der App.</li>
+
+<h2>Datei-Freigaben</h2>
+<li>**Öffnungs-Tracking:** Die App zeigt jetzt pro geteilter Datei „N× geöffnet, zuletzt …" — wer ein Dokument ansieht, ist sofort sichtbar (DSGVO-konform, nur gehashte Daten, 12-Monats-Aufbewahrung).</li>
+<li>Share-Links sind kryptografisch stark (129-Bit-Token statt 6 Zeichen).</li>
+<li>Abgelaufene Links zeigen eine freundliche Hinweis-Seite statt einer Fehlermeldung.</li>
+
+<h2>Oberfläche</h2>
+<li>Kunden-Detail auf dem Mac: Archivieren/Löschen direkt unter dem Kopf (der Archivieren-Knopf war zuvor wirkungslos — behoben).</li>
+<li>Cmd+1–4 springen jetzt zu Pinnwand/Leads/Kunden/KI-Assistent.</li>
+<li>Echte Lead-Zähler als Badge auf dem iPad.</li>
+
+<h2>Sicherheit & Stabilität (unter der Haube)</h2>
+<li>Backend-Sicherheits-Audit umgesetzt: Auth-Lücke in der Katalog-Analyse geschlossen, Datenbank-Zugriffsrechte verschärft (Portal-Kunden sehen keine internen Daten mehr), Rate-Limits auf allen teuren Web-Endpunkten.</li>
+<li>Sync-Schutz: Ein älterer Server-Stand kann jüngere lokale Änderungen nicht mehr überschreiben.</li>
+<li>Zentraler KI-Schlüssel liegt jetzt im Schlüsselbund statt in den Einstellungen.</li>
+<li>Großes Aufräumen: über 1.500 Zeilen toter Code entfernt, dauerhaft rote Tests repariert.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.88/DMS-1.4.88.dmg"
+                sparkle:edSignature="irN4jgnwINNbtExaAhZIJBFWcA5AhO9CM5EUE0/8VPGo7+1hLNgZOApcyij1M4wfZFqZBneoLpWhhf0Zal45CQ=="
+                length="31491695"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.87</title>
             <sparkle:version>1.4.87</sparkle:version>
             <sparkle:shortVersionString>1.4.87</sparkle:shortVersionString>
