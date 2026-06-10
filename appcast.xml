@@ -8,6 +8,27 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.89</title>
+            <sparkle:version>1.4.89</sparkle:version>
+            <sparkle:shortVersionString>1.4.89</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 10 Jun 2026 10:04:08 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.89 — Lead-Datenpflege nach deinen Vorgaben</p>
+
+<h2>Leads</h2>
+<li>**Automatische Bereinigung alter Hausfinder-Leads** — jetzt mit Lösch- statt Anonymisierungs-Logik und nur, wenn erkennbar nicht mehr mit dem Lead gearbeitet wird: „Langzeit-Pflege"-Leads werden nie automatisch entfernt; abgeschlossene Leads (gewonnen/verloren) nach 6 Monaten ohne Aktivität; alle übrigen erst nach 18 Monaten ohne jede Aktivität. Gewonnene Leads leben vollständig im CRM weiter (Kunde + Notiz + KI-Gedächtnis).</li>
+
+<h2>Aufräumen</h2>
+<li>Das nie genutzte Feature „Katalog-Anfragen aus der Warteschlange" wurde komplett entfernt (Ansicht zeigte immer eine leere Liste). **Die Katalog-Leads aus dem Aufsteller funktionieren unverändert** — das ist ein anderes, aktives Feature.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.89/DMS-1.4.89.dmg"
+                sparkle:edSignature="4B5waMzEUWi1yL5Pbg1UFUWBMifaIfDasZT+B3zti9W4vn1iqtw6m0gUuwgQeVC0c02SWPCGAA9yZvH8miptCg=="
+                length="31406051"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.88</title>
             <sparkle:version>1.4.88</sparkle:version>
             <sparkle:shortVersionString>1.4.88</sparkle:shortVersionString>
