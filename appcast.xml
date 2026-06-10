@@ -8,6 +8,32 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.90</title>
+            <sparkle:version>1.4.90</sparkle:version>
+            <sparkle:shortVersionString>1.4.90</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 10 Jun 2026 11:00:16 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.90 — KfW-Förderungs-Berater + UI-Verbesserungen</p>
+
+<h2>Neu: KfW-Förderungs-Berater</h2>
+<li>Ein interaktiver Berater als 5. Rechner (iOS: im Rechner-Menü, macOS: in der Sidebar unter „Rechner", auch über das Menü erreichbar).</li>
+<li>**Rechner:** Wohneinheiten × Standard (EH-40 / EH-40 mit QNG) → maximaler zinsverbilligter KfW-Kreditrahmen (100.000 € bzw. 150.000 € je Wohneinheit) plus Hinweis auf den Experten-Zuschuss.</li>
+<li>Tailored Infos, 6-Schritte-Ablauf mit der kritischen Regel „Antrag VOR Baubeginn", FAQ.</li>
+<li>Klares Berater-Argument „Warum nicht die NRW.Bank": lange Bearbeitung + Verlust der Preisbindung — unterm Strich kein Vorteil; die KfW ist der verlässliche Weg.</li>
+
+<h2>Oberfläche</h2>
+<li>**Schriftgrößen skalieren mit:** Wer in den Systemeinstellungen größere Schrift wählt, sieht die Beschriftungen jetzt korrekt vergrößert statt abgeschnitten (Listen, Karten, Kalender, Infomaterial u. a.).</li>
+<li>**Datei-Freigaben:** sauberes Laden mit Ladeanzeige statt kurz aufblitzendem „keine Dateien".</li>
+<li>**macOS-Menü:** neue Einträge „Datei teilen…" (Cmd+Shift+D) und „KfW-Förderung".</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.90/DMS-1.4.90.dmg"
+                sparkle:edSignature="b4+d0wkYQj2KwhNP/LtvkI+lVINkevSw/wDAHA8bsNbEPacZj3TcE2UVr9RbH9wuMXW2ZEoYGp/3FxCesG7SBQ=="
+                length="31472799"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.89</title>
             <sparkle:version>1.4.89</sparkle:version>
             <sparkle:shortVersionString>1.4.89</sparkle:shortVersionString>
