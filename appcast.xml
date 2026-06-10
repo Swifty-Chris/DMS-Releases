@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.96</title>
+            <sparkle:version>1.4.96</sparkle:version>
+            <sparkle:shortVersionString>1.4.96</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 10 Jun 2026 17:39:17 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.4.96</p>
+
+<h2>Verbessert</h2>
+
+<li>**Einheitliche Anrede in der App.** Die App spricht dich jetzt durchgängig mit „du" an — vorher war es zwischen den Bereichen gemischt (Einstellungen „du", Kundenverwaltung „Sie"). Texte, die an deine Kunden gehen (E-Mail-Vorlagen, Portal-Einladungen), bleiben selbstverständlich beim „Sie".</li>
+<li>Kleinere sprachliche Korrekturen.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.96/DMS-1.4.96.dmg"
+                sparkle:edSignature="PbQew8ZjY1n2cqwvRlBd8SAzY7/ufNepfC+5JcXP9RX6XRCQ6gSUzIVZUJr+xtUkI4ZYFuNIZY5Zjhtx/8GGDQ=="
+                length="31571074"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.95</title>
             <sparkle:version>1.4.95</sparkle:version>
             <sparkle:shortVersionString>1.4.95</sparkle:shortVersionString>
