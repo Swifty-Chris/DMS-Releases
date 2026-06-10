@@ -8,6 +8,30 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.91</title>
+            <sparkle:version>1.4.91</sparkle:version>
+            <sparkle:shortVersionString>1.4.91</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 10 Jun 2026 11:20:10 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.91 — KfW-Förderung ist jetzt ein echter Rechner</p>
+
+<h2>KfW-Förder-Rechner (überarbeitet)</h2>
+<p>Aus der Info-Seite ist ein echtes Werkzeug geworden: Du gibst die Situation des Kunden ein und die App sagt dir, **ob und wie viel** KfW-Förderung möglich ist.</p>
+
+<li>**Eingabe:** Wohneinheiten, QNG angestrebt, Effizienzhaus-40-Standard, geplante Heizung (fossil?), Energieeffizienz-Experte beauftragt, Bauvertrag/Baubeginn-Status, optional die förderfähigen Kosten.</li>
+<li>**Ergebnis:** „möglich" / „möglich mit Auflagen" / „aktuell nicht möglich", der maximale und der effektive zinsverbilligte Kreditrahmen (100.000 € bzw. 150.000 € je Wohneinheit, durch die Kosten gedeckelt).</li>
+<li>**Hinderungsgründe werden klar benannt:** fossile Heizung, bereits unterschriebener Bauvertrag/Baubeginn, kein EH-40 — jeweils mit Erklärung.</li>
+<li>**Offene Auflagen:** z. B. Experte beauftragen, QNG nachweisen.</li>
+<li>Knappe „Gut zu wissen"-Hinweise (Antrag vor Baubeginn; warum nicht die NRW.Bank).</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.91/DMS-1.4.91.dmg"
+                sparkle:edSignature="v91p1TakGxhN5ANnkuTu3G6moyy4yE+EFKnVeVt966OV8PVBmdpeiXZoamO0MUlW/TMDdDHX+av3PzlNDOgGCQ=="
+                length="31460962"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.90</title>
             <sparkle:version>1.4.90</sparkle:version>
             <sparkle:shortVersionString>1.4.90</sparkle:shortVersionString>
