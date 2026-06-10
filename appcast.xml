@@ -8,6 +8,38 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.93</title>
+            <sparkle:version>1.4.93</sparkle:version>
+            <sparkle:shortVersionString>1.4.93</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 10 Jun 2026 15:25:37 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.4.93</p>
+
+<h2>Förder-Rechner: Landesförderung für NRW, Niedersachsen & Rheinland-Pfalz</h2>
+
+<li>**Bundesland-Auswahl** im Förder-Rechner (Standard: NRW) — die Landesprogramme wechseln live mit.</li>
+<li>**Landesprogramme mit Richtbeträgen:** Eigentumsförderung NRW (inkl. EH40-Zusatzdarlehen 30.000 €), NRW.BANK.Nachhaltig Wohnen, Mietwohnraumförderung NRW; NBank-Eigentumsförderung & EH40-Zuschuss (Niedersachsen); ISB 503/710/551 inkl. Klima-Zusatzdarlehen mit Holzbau-Bonus (Rheinland-Pfalz).</li>
+<li>**Wohnfläche-Eingabe** für m²-basierte Mietwohnraum-Darlehen (bei Vermietung/Investor).</li>
+<li>**„Förderlandschaft im Detail"**: eingeklappte Info-Bereiche je Bundesland mit Bundesprogrammen, Landesebene, Kommunen-Beispielen und den wichtigsten Stolpersteinen.</li>
+<li>Hinweis: EH40+ ist kein eigener Förderstandard — höhere Kreditstufen laufen über QNG, das „Plus" (PV/Speicher) über KfW 270.</li>
+
+<h2>Bedienkomfort & Sicherheit</h2>
+
+<li>**Erfolgs-Feedback:** Kurze Bestätigungen („Kunde archiviert", „Kunde gelöscht") mit Haptik.</li>
+<li>**Sync-Status an der Pinnwand:** „Zuletzt synchronisiert: vor X Min." + Knopf für sofortigen Abgleich.</li>
+<li>**Pinnwand-Editor:** zeigt jetzt „Speichert …" → „Gespeichert ✓" beim automatischen Sichern.</li>
+<li>**Schutz vor Versehen:** Rückfragen vor „Alle Duplikate zusammenführen", beim Löschen von Checklisten-Punkten per Wischen und beim Zurücksetzen der Kostenanpassungen im Baunebenkosten-Rechner.</li>
+<li>**Dashboard:** Kennzahl-Karten sind jetzt als klickbar erkennbar (Pfeil + Hover-Effekt).</li>
+<li>Korrigierte Umlaute und einheitliche Fehlertexte in allen Rechnern.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.93/DMS-1.4.93.dmg"
+                sparkle:edSignature="x5TDqNBUaSENbkyGHFzufCapyrrF3tZPNFp206NlFBMr5Vh27seFkkyyTLMLiLXXABhM9xaTKydfxcUQg35wDA=="
+                length="31556870"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.92</title>
             <sparkle:version>1.4.92</sparkle:version>
             <sparkle:shortVersionString>1.4.92</sparkle:shortVersionString>
