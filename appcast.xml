@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.94</title>
+            <sparkle:version>1.4.94</sparkle:version>
+            <sparkle:shortVersionString>1.4.94</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 10 Jun 2026 15:58:08 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.4.94</p>
+
+<h2>Behoben</h2>
+
+<li>**KI-Assistent: Stopp-Knopf funktioniert jetzt.** Während die KI antwortet, ließ sich die Verarbeitung über den roten Stopp-Knopf nicht abbrechen — der Klick lief ins Leere. Jetzt bricht er die laufende Antwort sofort ab und sichert das bereits Geschriebene als Teilantwort.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.94/DMS-1.4.94.dmg"
+                sparkle:edSignature="zrctvSNOcei1gzi/cmhjyRtsGmcSwbqvr3chBkBJj4igb/j+2EIYeFwld6xfm0yLb5c9dKY2FqRc8y/3WdWBCA=="
+                length="31559342"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.93</title>
             <sparkle:version>1.4.93</sparkle:version>
             <sparkle:shortVersionString>1.4.93</sparkle:shortVersionString>
