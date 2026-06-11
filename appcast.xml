@@ -8,6 +8,31 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.98</title>
+            <sparkle:version>1.4.98</sparkle:version>
+            <sparkle:shortVersionString>1.4.98</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 11 Jun 2026 13:34:56 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.98</p>
+
+<h2>Neu: Indy-Häuser im Architektur-Änderungen-Rechner</h2>
+
+<p>Individuell geplante Häuser (Indy) ohne Katalog-Eintrag lassen sich jetzt direkt kalkulieren — über einen dezenten Schalter „Individuelles Haus (Indy)". Die bestehende Bedienung bleibt unverändert.</p>
+
+<li>**Kniestock / Geschosserhöhung:** Umfang wahlweise aus **Länge × Breite** (für rechteckige Häuser) oder direkt als **Laufmeter** (für verwinkelte Grundrisse) — inklusive Erklärung, wie man die Laufmeter rund ums Haus misst.</li>
+<li>**Dachneigung:** freie Eingabe von Dachtyp, Dachfläche und aktueller Neigung.</li>
+<li>**Dachtyp ändern:** auch für Indy-Häuser möglich (Serie, aktueller Dachtyp, Bezugsfläche).</li>
+
+<p>Gerechnet wird mit denselben Preissätzen wie im Katalog — bei gleichen Werten kommt dasselbe Ergebnis heraus.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.98/DMS-1.4.98.dmg"
+                sparkle:edSignature="Ncm2bcbhYCEXjfdro59b65ovt5AsZy87/B6c4RNQSDaAvPEmiJXfxmfHFxMQ9XcVeC1ooMTNQo6jmbvHEx8oDA=="
+                length="31696144"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.97</title>
             <sparkle:version>1.4.97</sparkle:version>
             <sparkle:shortVersionString>1.4.97</sparkle:shortVersionString>
