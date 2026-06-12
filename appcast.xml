@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.99</title>
+            <sparkle:version>1.4.99</sparkle:version>
+            <sparkle:shortVersionString>1.4.99</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 12 Jun 2026 20:58:09 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.4.99</p>
+
+<h2>Verbesserungen</h2>
+
+<li>**Grundriss-Editor (Vollgeschoss-Rechner):** Manuell eingegebene Kantenlängen werden jetzt millimetergenau übernommen. Bisher sprang der Wert nach der Eingabe auf das 0,5-m-Zeichenraster zurück. Das Raster gilt weiterhin nur beim Zeichnen und Ziehen der Eckpunkte — eingetippte Maße (z. B. „9,735 m") bleiben exakt erhalten und werden auch mit drei Nachkommastellen angezeigt.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.99/DMS-1.4.99.dmg"
+                sparkle:edSignature="fNhwA8U53v57Lh8RnAdzrXfKnRbNpmQ7w52oMLhZ9O8+pCxeBleQiT6NTfYC/8lp1Fz1ai9/BVrJEAkSeXtfDw=="
+                length="31700089"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.98</title>
             <sparkle:version>1.4.98</sparkle:version>
             <sparkle:shortVersionString>1.4.98</sparkle:shortVersionString>
