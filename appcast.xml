@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.100</title>
+            <sparkle:version>1.4.100</sparkle:version>
+            <sparkle:shortVersionString>1.4.100</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 21 Jun 2026 15:11:13 +0200</pubDate>
+            <description><![CDATA[
+<p># Baunebenkosten-Rechner: Korrekturen</p>
+
+<li>**Berechnete Kosten sofort sichtbar:** Erdarbeiten, Geländesicherung, Sockelranddämmung, Versorger-Anschlüsse, Architektenkosten und AFFDD werden im Bereich „Kostenanpassung" jetzt live aus den Eingaben angezeigt — ohne vorher auf „Berechnen" klicken zu müssen. Bisher standen sie dort fälschlich bei 0 €.</li>
+<li>**AFFDD und Abnahme:** fällt jetzt auch beim Einfamilienhaus an (3.500 € Grundbetrag), plus 3.000 € je weiterer Wohneinheit. Bisher war der Posten beim Einfamilienhaus 0 €.</li>
+<li>**„Zurücksetzen" wirkt sichtbar:** Anpassungen zurücksetzen zeigt wieder die live berechneten Werte an, statt auf 0 € zu kollabieren.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.100/DMS-1.4.100.dmg"
+                sparkle:edSignature="5toCNnXZ3ozNZVamfR2sof++qmfCa8iIk+0APbaviBaU7Wx+B2i4vaEUCxbezFZaHqpFklftb02aJyjMpL7ZCQ=="
+                length="31699263"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.99</title>
             <sparkle:version>1.4.99</sparkle:version>
             <sparkle:shortVersionString>1.4.99</sparkle:shortVersionString>
