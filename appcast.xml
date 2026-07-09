@@ -8,6 +8,36 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.4.101</title>
+            <sparkle:version>1.4.101</sparkle:version>
+            <sparkle:shortVersionString>1.4.101</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 09 Jul 2026 22:40:13 +0200</pubDate>
+            <description><![CDATA[
+<h2>Neu in 1.4.101</h2>
+
+<h3>Hintergrund-Verknüpfung abschaltbar</h3>
+
+<p>Der KI-Assistent verknüpft nach jedem Sync im Hintergrund die Mails und WhatsApp-Nachrichten deiner bekannten Kontakte und legt eine Zusammenfassung im KI-Gedächtnis ab. Das lief bisher immer mit — und kostete bei jedem Sync Modell-Gebühren.</p>
+
+<p>Unter **Einstellungen → KI-Assistent → Hintergrund-Verknüpfung** gibt es jetzt zwei Schalter:</p>
+
+<li>**Kontakte im Hintergrund verknüpfen** — schaltet den gesamten Abgleich nach dem Sync ab.</li>
+<li>**Zusammenfassung per KI** — lässt den Abgleich laufen, sammelt aber nur die Nachrichten-Referenzen (Datum, Betreff, Link). Das ist kostenlos.</li>
+
+<p>Beide sind standardmäßig an, es ändert sich also nichts, solange du nichts umstellst. Umschalten wirkt sofort, ohne Neustart.</p>
+
+<h3>Aufgeräumt</h3>
+
+<li>Die semantische Haussuche (`search_houses_semantic`) wurde entfernt. Ihre Server-Funktion existierte nicht mehr, das Tool wäre beim Aufruf fehlgeschlagen. Hausempfehlungen laufen weiterhin über die Filtersuche und die kuratierten Berater-Texte — auch bei vagen Wünschen.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.4.101/DMS-1.4.101.dmg"
+                sparkle:edSignature="iC1U5PQZTaM8uAEmcmZbxiU8YbavYbjIvgzPXy0k55ADVtlxRzJL4EuNWP9txiF0vPzGx8yFgpY6TarU5L9jAw=="
+                length="31694137"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.100</title>
             <sparkle:version>1.4.100</sparkle:version>
             <sparkle:shortVersionString>1.4.100</sparkle:shortVersionString>
