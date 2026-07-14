@@ -8,6 +8,31 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.5.2</title>
+            <sparkle:version>1.5.2</sparkle:version>
+            <sparkle:shortVersionString>1.5.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Tue, 14 Jul 2026 20:08:40 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.5.2 — Längere Snooze-Dauern im Radar</p>
+
+<h2>Snooze kann jetzt auch lange ⏰</h2>
+<p>Bisher ließ sich eine Empfehlung nur 1, 3 oder 7 Tage stummschalten. Neu kommen dazu:</p>
+
+<li>**Wochen:** 1 Woche, 2 Wochen, 4 Wochen</li>
+<li>**Monate:** 2 Monate, 4 Monate, 6 Monate, 12 Monate</li>
+
+<p>Das Menü ist nach Tagen / Wochen / Monaten gruppiert — in den Buttons der Empfehlung ebenso wie im Rechtsklick-Menü.</p>
+
+<p>Monate werden dabei kalendarisch gerechnet: 12 Monate sind exakt ein Jahr, und ein Snooze vom 31. Januar landet auf dem 31. März statt irgendwo dazwischen.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.5.2/DMS-1.5.2.dmg"
+                sparkle:edSignature="GM4CVfqV2o4tT8gwDkWth5gLfi5C1JmnYmLrOwsrRFUdettdrPBJDjcdDlEdKVp6uxSf3GzphtCsJnEL7errDQ=="
+                length="32331592"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.5.1</title>
             <sparkle:version>1.5.1</sparkle:version>
             <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
