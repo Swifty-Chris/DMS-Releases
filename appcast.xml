@@ -8,6 +8,46 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.5.0</title>
+            <sparkle:version>1.5.0</sparkle:version>
+            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Tue, 14 Jul 2026 17:22:49 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.5.0 — Follow-up-Radar & Second Brain</p>
+
+<h2>Neu: Follow-up-Radar 🎯</h2>
+<li>**Neuer Bereich „Radar"** (macOS-Sidebar, iPhone-Tab, iPad): Eine priorisierte Liste, bei welchen Kunden und Angebotsanfragen du jetzt nachhaken solltest — mit Begründung, Wartezeit und Links direkt in die Mail-/WhatsApp-Verläufe.</li>
+<li>Das Radar erkennt automatisch: eingeschlafene Dialoge, Angebote ohne Antwort, unbeanspruchte oder liegengebliebene Leads, Termine ohne Nachbereitung, überfällige Aufgaben und Kunden, deren Pipeline-Phase stagniert.</li>
+<li>Aktionen pro Empfehlung: **Erledigt**, **Snooze** (1/3/7 Tage), **Verwerfen**, **Kunde öffnen**, **Im KI-Chat öffnen**, **Folgetermin anlegen** (legt nach Bestätigung einen echten Kalendereintrag an).</li>
+<li>Erledigtes räumt sich selbst auf: Antwortet ein Kunde, verschwindet die Empfehlung automatisch.</li>
+<li>**Push „Nachhaken"** bei dringenden Empfehlungen.</li>
+
+<h2>Neu: KI-Chat kennt deine Aufgabenlage 🧠</h2>
+<li>Frag einfach **„Wo sollte ich nachhaken?"** — der Chat antwortet sofort aus dem Radar.</li>
+<li>Neue Fähigkeiten: Termine abfragen, Empfehlungen direkt im Chat abhaken oder snoozen (mit Bestätigung).</li>
+
+<h2>Neu: Notiz-Inbox mit Diktat 📥</h2>
+<li>Schnelleingabe im Radar (macOS: **⌘⇧I**): Gedanken oder Diktate einfach reinwerfen — die KI ordnet sie automatisch dem richtigen Kunden zu und macht aus erkannten Aufgaben Radar-Empfehlungen.</li>
+
+<h2>Mehr Wissen im KI-Gedächtnis 🕸</h2>
+<li>Das Hintergrund-Verweben berücksichtigt jetzt auch **Katalog-Anfragen/Leads**, **Pinnwand-Karten** und **Termine** pro Kontakt.</li>
+<li>Optional: **Apple-Kalender einbeziehen** (KI-Einstellungen, standardmäßig aus) — dann erkennt das Radar auch extern angelegte Kundentermine.</li>
+<li>Optional: **Hausfinder-Leads einbeziehen** (standardmäßig aus).</li>
+
+<h2>Verbesserungen & Fehlerbehebungen 🔧</h2>
+<li>Deadline-, Notiz- und Phasen-Benachrichtigungen werden jetzt zuverlässig als Push zugestellt.</li>
+<li>Briefing-Push repariert (fehlerhaftes Datenformat).</li>
+<li>Benachrichtigungs-Verarbeitung läuft wieder zuverlässig alle 15 Minuten (Behebung eines Authentifizierungsfehlers nach Supabase-Umstellung).</li>
+<li>Alle neuen Funktionen haben Ein-/Aus-Schalter in den KI-Einstellungen.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.5.0/DMS-1.5.0.dmg"
+                sparkle:edSignature="yZ/bFRKtIi1q6b2aqA6GOXKt5KTpHbByTM8azT4B47P4634J1876qcy6GZWowfvERgQ/H+kbgKnh0cIP4Kf4Cw=="
+                length="32307610"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.4.101</title>
             <sparkle:version>1.4.101</sparkle:version>
             <sparkle:shortVersionString>1.4.101</sparkle:shortVersionString>
