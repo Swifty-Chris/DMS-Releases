@@ -8,6 +8,27 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.5.3</title>
+            <sparkle:version>1.5.3</sparkle:version>
+            <sparkle:shortVersionString>1.5.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Tue, 14 Jul 2026 21:38:51 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.5.3 — CRM-Verbindung wird korrekt angezeigt</p>
+
+<h2>Behoben: „Nicht verbunden" trotz bestehender CRM-Verbindung 🔌</h2>
+<li>Die CRM-Integration meldete „Nicht verbunden", obwohl die Anmeldung bei Dynamics 365 stand — der Login-Dialog behauptete gleichzeitig „Erfolgreich verbunden!".</li>
+<li>Ursache: Die Verbindung galt nur dann als hergestellt, wenn zusätzlich die E-Mail-Adresse des Benutzers aus dem CRM gelesen werden konnte. Scheiterte diese Abfrage (fehlende Leseberechtigung auf die Benutzer-Tabelle), wurde die intakte Verbindung als „nicht verbunden" gewertet.</li>
+<li>Jetzt gilt: Die Verbindung steht, sobald das CRM die Anmeldung bestätigt. Die E-Mail-Adresse ist nur noch Anzeige — ist sie nicht lesbar, steht dort schlicht „Verbunden".</li>
+<li>Der Login-Dialog meldet außerdem nur noch dann Erfolg, wenn die Verbindung wirklich zustande gekommen ist, statt in jedem Fall einen grünen Haken zu zeigen.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.5.3/DMS-1.5.3.dmg"
+                sparkle:edSignature="lg8oXkRympR1VPUbcH5xACGFfjZhWOhGSR0oVDB+l6fj3W5nNj2P6PUCnW8eKpbfOZOr6YyG+Jc9IgcAUB2oDw=="
+                length="32327770"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.5.2</title>
             <sparkle:version>1.5.2</sparkle:version>
             <sparkle:shortVersionString>1.5.2</sparkle:shortVersionString>
