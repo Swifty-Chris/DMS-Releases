@@ -8,6 +8,34 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.5.1</title>
+            <sparkle:version>1.5.1</sparkle:version>
+            <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Tue, 14 Jul 2026 19:01:35 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.5.1 — Radar füttert sich selbst, Daten kommen zurück</p>
+
+<h2>Behoben: Leerer Follow-up-Radar 🎯</h2>
+<li>Das Radar lädt seine Quellen jetzt **selbst** nach, statt darauf zu warten, dass du vorher die passende Ansicht öffnest:</li>
+<p>  - **Katalog-Leads** werden vor jedem Zyklus frisch geholt — unbearbeitete Leads erscheinen dadurch sofort als Empfehlung.</p>
+<p>  - Das **Mail-Archiv** wird nachgeladen (Microsoft 365, sofern angemeldet). Ist es leer, holt es einmalig den vollen Zeitraum, danach nur noch die neuen Mails.</p>
+<li>Ohne Anmeldung oder offline läuft das Radar unverändert weiter — es meldet den Fehler nur im Log.</li>
+
+<h2>Behoben: Datenverlust nach Datenbank-Reset 🛟</h2>
+<li>Musste die App ihre lokale Datenbank nach einem Migrationsfehler neu aufbauen, blieben die Sync-Wasserstände in den Einstellungen stehen. Der erzwungene Voll-Sync lud dadurch trotzdem nur Änderungen — **die Pinnwand blieb dauerhaft leer**.</li>
+<li>Ein Datenbank-Reset verwirft jetzt alle Wasserstände, und ein Wasserstand ohne zugehörige lokale Daten gilt generell als ungültig: Betroffene Geräte laden die fehlenden Daten beim nächsten Start **automatisch vollständig** nach — kein manueller Eingriff nötig.</li>
+
+<h2>Aufgeräumt 🔧</h2>
+<li>Das Nachladen der E-Mails vom Server liegt jetzt in einem gemeinsamen Dienst, den KI-Assistent und Radar zusammen nutzen (statt zweier getrennter Ladepfade).</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.5.1/DMS-1.5.1.dmg"
+                sparkle:edSignature="cWq78o+gILIXCuUhLT9e6XX8wnmOGZoFzrKwZt4S6qE996w5CKdBP/691L1koqT75zd4F3llOtXKtW0eJENODg=="
+                length="32321045"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.5.0</title>
             <sparkle:version>1.5.0</sparkle:version>
             <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
