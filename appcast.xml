@@ -8,6 +8,28 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.5.8</title>
+            <sparkle:version>1.5.8</sparkle:version>
+            <sparkle:shortVersionString>1.5.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 15 Jul 2026 16:57:37 +0200</pubDate>
+            <description><![CDATA[
+<h2>Neu in 1.5.8</h2>
+
+<p>**Fix: CRM-Anmeldung bei mehreren Dynamics-Apps**</p>
+
+<li>Behoben: Wenn im Dynamics-365-Konto mehrere Apps veröffentlicht sind (z. B. „Customer Insights" + „Danwood CRM"), landet der Login auf dem App-Auswahl-Bildschirm statt direkt in einer App. Die Anmeldung wurde dadurch nicht erkannt und blieb auf „Nicht verbunden", obwohl der Microsoft-Login erfolgreich war.</li>
+<li>Die Erfolgserkennung prüft jetzt die tatsächliche CRM-Sitzung (WhoAmI) statt auf eine bestimmte Zielseite zu warten — die Anmeldung wird zuverlässig bestätigt, egal wo Dynamics landet. Mehrere Prüfversuche fangen verzögert gesetzte Sitzungs-Cookies ab.</li>
+
+<p>Nach dem Update: Einstellungen → CRM → „Bei Microsoft anmelden" — die Verbindung sollte jetzt bestätigt werden. Danach erscheinen die CRM-Lead-Karten im Radar.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.5.8/DMS-1.5.8.dmg"
+                sparkle:edSignature="W9LKJmBoO9iH34B7T9ZhfxhhGXeMMDZEUojx+Gp4d1c5DvtqoM2LwlJVervjSWlDGqckDLlgKRx838AtU0RIAg=="
+                length="32553148"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.5.7</title>
             <sparkle:version>1.5.7</sparkle:version>
             <sparkle:shortVersionString>1.5.7</sparkle:shortVersionString>
