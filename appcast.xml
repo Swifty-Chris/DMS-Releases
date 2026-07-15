@@ -8,6 +8,28 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.5.6</title>
+            <sparkle:version>1.5.6</sparkle:version>
+            <sparkle:shortVersionString>1.5.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 15 Jul 2026 16:24:38 +0200</pubDate>
+            <description><![CDATA[
+<h2>Neu in 1.5.6</h2>
+
+<p>**Wichtiger Fix: CRM-Verbindung & Radar-Karten**</p>
+
+<li>Behoben: Seit 1.5.4 konnte die CRM-Anmeldung mit „Die Anmeldung konnte nicht bestätigt werden" fehlschlagen und der Radar zeigte keine CRM-Lead-Karten. Ursache: Die interne CRM-WebView blieb auf der Microsoft-Login-Zwischenseite „geparkt" — alle CRM-Abfragen (inkl. der Anmelde-Bestätigung) liefen dadurch ins Leere. Die Anmeldung funktioniert jetzt wieder, und der Radar holt die CRM-Leads zuverlässig — auch direkt nach dem App-Start.</li>
+<li>Neu: Der Radar zeigt einen deutlichen Hinweis, wenn die CRM-Lead-Überwachung aktiv ist, aber keine gültige CRM-Sitzung besteht (statt grundlos leer zu wirken).</li>
+
+<p>Hinweis: Nach dem Update einmal unter Einstellungen → CRM anmelden, falls der Radar-Hinweis erscheint — danach läuft alles automatisch.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.5.6/DMS-1.5.6.dmg"
+                sparkle:edSignature="Ril+FvVNm2/W8TM0y+5ZCfn+q4QttvMA1cmadZ0qlyBk5qcfKf61rsJGZIivChqdUBO9wiBHmKRkD+o+vLGdDg=="
+                length="32543297"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.5.5</title>
             <sparkle:version>1.5.5</sparkle:version>
             <sparkle:shortVersionString>1.5.5</sparkle:shortVersionString>
