@@ -8,6 +8,34 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.5.5</title>
+            <sparkle:version>1.5.5</sparkle:version>
+            <sparkle:shortVersionString>1.5.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 15 Jul 2026 14:11:02 +0200</pubDate>
+            <description><![CDATA[
+<h2>Neu in 1.5.5</h2>
+
+<p>**CRM-Lead-Meldungen: nur echte Neue**</p>
+
+<li>Leads, denen du bereits gemailt hast, gelten als „in Bearbeitung" — keine Meldung mehr, und die Radar-Karte räumt sich nach dem Senden deiner Mail automatisch weg.</li>
+<li>Manuell im CRM angelegte Leads und Leads mit bereits erzeugter Verkaufschance lösen keine „Neuer Lead"-Meldung mehr aus (der Prozess läuft ja schon).</li>
+
+<p>**Neu: CRM-Kennzahlen auf dem Dashboard**</p>
+
+<li>Neue Leads (7/30 Tage), offene unkontaktierte Leads (mit Mail-Abgleich) und deine Ø-Reaktionszeit bis zur ersten Mail.</li>
+<li>Konversionsrate Lead → Verkaufschance — gesamt und je Kanal (Bauen.de, danwood.de, …): zeigt, welcher Kanal die besten Leads liefert.</li>
+<li>Verkaufschancen-Pipeline nach Vertriebsphase, Gewonnen/Verloren und Ø Tage bis zum Abschluss.</li>
+<li>Budgetverteilung der offenen Leads.</li>
+<li>Aktualisiert sich automatisch über die bestehende CRM-Verbindung.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.5.5/DMS-1.5.5.dmg"
+                sparkle:edSignature="FmBvGLYCKGHrIlpLnc0F4vCuvSPxhRDPsStTcTpPOQBoL1aBtWTm/YqLX+Lujhbn1vrt0eXJkI+x8nM7Whu9Bg=="
+                length="32524866"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.5.4</title>
             <sparkle:version>1.5.4</sparkle:version>
             <sparkle:shortVersionString>1.5.4</sparkle:shortVersionString>
