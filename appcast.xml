@@ -8,6 +8,29 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.2</title>
+            <sparkle:version>1.6.2</sparkle:version>
+            <sparkle:shortVersionString>1.6.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 15 Jul 2026 23:20:47 +0200</pubDate>
+            <description><![CDATA[
+<h2>Neu in 1.6.2</h2>
+
+<p>**Radar-Sortierung korrigiert + bessere Mailvorschläge**</p>
+
+<li>**Sortierung „neueste zuerst" jetzt korrekt**: Der Radar sortiert nach dem tatsächlichen Vorgangsdatum (z. B. Lead-Eingang), nicht mehr nach dem Zeitpunkt, an dem die Karte im Radar auftauchte. Der jüngste Lead/Vorgang steht oben; auch die Wartezeit-Anzeige („seit N Tagen") spiegelt jetzt das echte Datum.</li>
+<li>**Mailvorschläge: Katalog- und Beschreibungs-Links werden direkt eingebaut** — statt nur auf Kataloge/Bau- und Leistungsbeschreibungen hinzuweisen, steht der passende Link jetzt konkret im Text.</li>
+<li>**Keine Grußformel/Unterschrift am Ende** mehr — die wird bereits durch deine Signatur abgedeckt.</li>
+<li>**Keine Platzhalter** mehr (z. B. „[Ihre Telefonnummer]").</li>
+<li>**Portal-Leads (Bauen.de etc.) mit Telefonnummer**: Der Vorschlag erwähnt jetzt beiläufig, dass du bereits versucht hast, telefonisch zu erreichen, und schlägt einen Rückruf/Telefontermin vor.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.2/DMS-1.6.2.dmg"
+                sparkle:edSignature="zX4fYhVI/yPMUIQIDTPtcgGoIFHhqaIR1FeMenDZJSxV3N21eDBn9m+NaVw7t4I4EnvgodgHZOf9/6mprb9ACQ=="
+                length="32769996"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.1</title>
             <sparkle:version>1.6.1</sparkle:version>
             <sparkle:shortVersionString>1.6.1</sparkle:shortVersionString>
