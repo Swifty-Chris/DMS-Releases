@@ -8,6 +8,30 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.4</title>
+            <sparkle:version>1.6.4</sparkle:version>
+            <sparkle:shortVersionString>1.6.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 16 Jul 2026 01:00:25 +0200</pubDate>
+            <description><![CDATA[
+<h2>Neu in 1.6.4</h2>
+
+<p>**Mailvorschläge: Feinschliff nach Praxis-Feedback**</p>
+
+<li>**Keine falschen Behauptungen mehr:** Das CRM-Katalogfeld ist bei Portal-Leads (Bauen.de etc.) gesetzt, ohne dass der Interessent etwas bestellt hat — die Mail behandelt es jetzt als internen Zustellstatus. Ob jemand etwas angefordert hat, ergibt sich nur noch aus dem Kanal.</li>
+<li>**Sauberes Telefon-Wording:** „Ich habe Sie leider nicht erreicht" statt „niemanden angetroffen".</li>
+<li>**Kein Fakten-Papagei:** Die Mail wiederholt nicht mehr alle Angaben nacheinander, sondern greift 1–2 Punkte auf und macht daraus eine Einschätzung.</li>
+<li>**Besserer Pitch:** Wandstärke, U-Wert und Deckenhöhe fliegen aus dem Verkaufstext (nur noch bei konkreten Technik-Fragen). Verkauft wird über schlüsselfertiges Bauen, individuell anpassbare Grundrisse und die ehrliche Gesamtkalkulation.</li>
+<li>**Stärkeres Sprachmodell:** Die Mail-Komposition läuft jetzt auf Claude Sonnet 4.5 (deutlich natürlichere Formulierungen, näher am ChatGPT-Niveau), mit automatischem Fallback aufs Standardmodell.</li>
+<li>Formulierungen variieren jetzt stärker zwischen den Mails.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.4/DMS-1.6.4.dmg"
+                sparkle:edSignature="Qji94zwVQk5nVoSS6OdIlwODnFSX0Pb3RpVXeXIDvAnriTQG5CChls5Fpz/7CrNusxYajwyTtjQu5U4n8gK1Cw=="
+                length="32783166"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.3</title>
             <sparkle:version>1.6.3</sparkle:version>
             <sparkle:shortVersionString>1.6.3</sparkle:shortVersionString>
