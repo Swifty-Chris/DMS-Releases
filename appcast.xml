@@ -8,6 +8,28 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.5.9</title>
+            <sparkle:version>1.5.9</sparkle:version>
+            <sparkle:shortVersionString>1.5.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 15 Jul 2026 17:12:31 +0200</pubDate>
+            <description><![CDATA[
+<h2>Neu in 1.5.9</h2>
+
+<p>**Der eigentliche Fix: CRM-Anmeldung wird jetzt korrekt bestätigt**</p>
+
+<li>Kern-Bug gefunden: Die CRM-Abfragen (Anmelde-Bestätigung, Lead-Abruf, Kennzahlen) liefen über ein JavaScript in der Web-Sitzung, das aus technischen Gründen sein Ergebnis nie zurückgab. Dadurch galt die Sitzung immer als ungültig — obwohl die Anmeldung bei Microsoft/Dynamics erfolgreich war (man sah sogar die Dynamics-Oberfläche). Genau das war der Grund für „Die Anmeldung konnte nicht bestätigt werden".</li>
+<li>Alle CRM-Abfragen wurden korrigiert. Die Anmeldung wird jetzt zuverlässig bestätigt, und CRM-Leads sowie die CRM-Kennzahlen werden geladen.</li>
+
+<p>Nach dem Update: Einstellungen → CRM → „Bei Microsoft anmelden" — jetzt sollte „Erfolgreich verbunden!" erscheinen. Danach zeigt der Radar deine neuen CRM-Leads.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.5.9/DMS-1.5.9.dmg"
+                sparkle:edSignature="p4vlwa2/qglvfiKEJDCOcR1hqgY1UqGMYJ0Awlv1qO77l+1xRWYbZfFfG/13lnlw3ISYQdx8GyvQ3QWpnfZ0AA=="
+                length="32551421"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.5.8</title>
             <sparkle:version>1.5.8</sparkle:version>
             <sparkle:shortVersionString>1.5.8</sparkle:shortVersionString>
