@@ -8,6 +8,30 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.5.4</title>
+            <sparkle:version>1.5.4</sparkle:version>
+            <sparkle:shortVersionString>1.5.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 15 Jul 2026 13:23:28 +0200</pubDate>
+            <description><![CDATA[
+<h2>Neu in 1.5.4</h2>
+
+<p>**Sofortmeldung für neue CRM-Leads im Follow-up-Radar**</p>
+
+<li>Neue Leads aus dem Dynamics-365-CRM erscheinen jetzt automatisch im Radar — mit allen wichtigen Infos auf einen Blick: Kontaktkanal, Grundstück vorhanden, finanzieller Rahmen, Kontaktwunsch, Katalog-Status, Hausgröße, Bauzeitpunkt sowie Telefonnummer und E-Mail (jeweils nur, wenn die Info im CRM vorliegt).</li>
+<li>Sofortige Benachrichtigung: Die App prüft alle 5 Minuten auf neue Leads und meldet sie direkt (zusätzlich Push aufs iPhone über den Radar-Server-Push). Ein Tap auf die Meldung öffnet den Radar.</li>
+<li>Die KI legt für jeden neuen Lead automatisch einen Erstkontakt-Mailentwurf **im eigenen Schreibstil** (gelernt aus den zuletzt gesendeten Mails) in den Exchange-Entwürfen ab — die Radar-Karte zeigt den Entwurf als Chip.</li>
+<li>Direkt aus der Karte: Anruf, Mail, Sprung in den CRM-Datensatz.</li>
+<li>Neuer Schalter „CRM-Leads überwachen" in den KI-Einstellungen (Standard: an).</li>
+<li>Voraussetzung: verbundene CRM-Sitzung (Einstellungen → CRM).</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.5.4/DMS-1.5.4.dmg"
+                sparkle:edSignature="Hvxn/Lx2vPeebTIGmt03RYjwmTCapC2i/kkvn5k/+xLlAu/6j8jYLrXPgk9B28boH6JAffjFVLaZal8EXEA3DA=="
+                length="32423211"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.5.3</title>
             <sparkle:version>1.5.3</sparkle:version>
             <sparkle:shortVersionString>1.5.3</sparkle:shortVersionString>
