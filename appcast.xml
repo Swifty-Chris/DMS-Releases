@@ -8,6 +8,29 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.1</title>
+            <sparkle:version>1.6.1</sparkle:version>
+            <sparkle:shortVersionString>1.6.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 15 Jul 2026 22:50:15 +0200</pubDate>
+            <description><![CDATA[
+<h2>Neu in 1.6.1</h2>
+
+<p>**Radar aufgeräumt + Mailvorschlag überall**</p>
+
+<li>**Mailvorschlag jetzt auf allen passenden Radar-Karten** — nicht nur bei CRM-Leads und Kunden, sondern auch bei Hausfinder-Leads (inkl. ihrer Wunsch-/Empfehlungshäuser) und überall dort, wo eine Kontakt-Mail vorliegt. Karten ganz ohne Kontakt (reine Aufgaben) bleiben ohne Button.</li>
+<li>**Neues, aufgeräumtes Karten-Layout** — farbiger Dringlichkeits-Balken (rot/orange nach Priorität), nur noch die wichtigsten Aktionen sichtbar (Mailvorschlag + Erledigt), alles Weitere im „•••"-Menü. Deutlich ruhiger und übersichtlicher.</li>
+<li>**Filter-Leiste** oben: Alle · Leads · Kunden · Termine · Aufgaben — mit Anzahl-Badges für den schnellen Überblick.</li>
+<li>**Direkt-Kontakt prominenter** — Anrufen/Mailen als klare Schaltflächen direkt auf der Karte.</li>
+<li>**Sortierung neueste zuerst** in beiden Sektionen.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.1/DMS-1.6.1.dmg"
+                sparkle:edSignature="i7vwikjOrwhCatSxakeobuZvDaQhLXTlQyiQOGoCHX/XLtED4qgN+Wi7R4lur0dWsZ2A3Aa/xQjhwQJr+VeVDw=="
+                length="32767709"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.0</title>
             <sparkle:version>1.6.0</sparkle:version>
             <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
