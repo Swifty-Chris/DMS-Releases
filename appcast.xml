@@ -8,6 +8,29 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.5.7</title>
+            <sparkle:version>1.5.7</sparkle:version>
+            <sparkle:shortVersionString>1.5.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 15 Jul 2026 16:41:14 +0200</pubDate>
+            <description><![CDATA[
+<h2>Neu in 1.5.7</h2>
+
+<p>**Fix: CRM-Anmeldung schlug mit „konnte nicht bestätigt werden" fehl**</p>
+
+<li>Der CRM-Login läuft jetzt direkt in derselben internen Sitzung, die auch Radar und Lead-Import nutzen. Vorher liefen Login und Bestätigung über zwei getrennte Web-Sitzungen, deren Anmelde-Cookies sich nicht zuverlässig synchronisierten — die Anmeldung schien zu scheitern, obwohl der Microsoft-Login erfolgreich war.</li>
+<li>Nach der Anmeldung stehen CRM-Radar und Lead-Import sofort bereit (keine Wartezeit auf Cookie-Abgleich mehr).</li>
+<li>Zusätzliche Absicherung: Die Bestätigung wiederholt sich automatisch einmal, falls die CRM-Session direkt nach dem Login noch nicht vollständig gesetzt ist.</li>
+
+<p>Nach dem Update: Einstellungen → CRM → „Bei Microsoft anmelden" — danach erscheinen die CRM-Lead-Karten im Radar.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.5.7/DMS-1.5.7.dmg"
+                sparkle:edSignature="PYyl8w+8yRTqXRi3nL5DD9XYsTIVrb2GITXt/LlQVdI6UD/VWCIcoY+EqbtK9QMdzQFggKa64W2EY6EDvN9iBQ=="
+                length="32550626"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.5.6</title>
             <sparkle:version>1.5.6</sparkle:version>
             <sparkle:shortVersionString>1.5.6</sparkle:shortVersionString>
