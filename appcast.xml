@@ -8,6 +8,32 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.0</title>
+            <sparkle:version>1.6.0</sparkle:version>
+            <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 15 Jul 2026 22:18:46 +0200</pubDate>
+            <description><![CDATA[
+<h2>Neu in 1.6.0</h2>
+
+<p>**KI-Mailvorschlag per Knopfdruck im Radar**</p>
+
+<li>Neuer Button „Mailvorschlag" auf den Radar-Karten (neue CRM-Leads UND Bestandskunden). Ein Klick erzeugt einen fertigen E-Mail-Entwurf, den du direkt übernehmen kannst.</li>
+<li>Trifft deinen Schreibstil: Gibt es bereits Korrespondenz mit dem Kontakt, wird dieser Ton gespiegelt; bei einem Erstkontakt schreibt der Vorschlag förmlich-persönlich (nicht steif).</li>
+<li>Gleicht das Kundenanliegen mit den Danwood-Daten ab: nennt 1–2 passende Häuser mit Link und faktischem „ab"-Preis (nur belegte Zahlen) und verlinkt die passende Bau- und Leistungsbeschreibung.</li>
+<li>Zusätzliche Anweisung per Text ODER Sprache: Diktiere oder tippe z. B. „kürzer" oder „unsere Aktion erwähnen", und der Vorschlag wird entsprechend neu erzeugt.</li>
+<li>Übernahme mit einem Klick: In Mail öffnen, als Exchange-Entwurf speichern oder kopieren. Alles im Entwurf bleibt vor dem Versenden editierbar.</li>
+<li>Radar-Einträge sind jetzt von neu nach alt sortiert (der jüngste steht oben).</li>
+
+<p>Auch die automatisch erzeugten Erstkontakt-Entwürfe für neue CRM-Leads bekommen ab sofort denselben Haus-Abgleich und die passenden Beschreibungs-Links.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.0/DMS-1.6.0.dmg"
+                sparkle:edSignature="hiO4sAGjIdCdAb1y3251QBWsV59gAIALI7J1nZ1XdI0VzdOWdQMZpDThQorupT+qZqpFGnCySahc8zUADf4/AA=="
+                length="32710839"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.5.9</title>
             <sparkle:version>1.5.9</sparkle:version>
             <sparkle:shortVersionString>1.5.9</sparkle:shortVersionString>
