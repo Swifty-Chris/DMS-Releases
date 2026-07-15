@@ -8,6 +8,31 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.3</title>
+            <sparkle:version>1.6.3</sparkle:version>
+            <sparkle:shortVersionString>1.6.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 16 Jul 2026 00:18:06 +0200</pubDate>
+            <description><![CDATA[
+<h2>Neu in 1.6.3</h2>
+
+<p>**Radar: neueste Vorgänge zuverlässig oben + Mailvorschläge nach deinem Stil**</p>
+
+<li>**Radar-Reihenfolge repariert:** Die Liste sortiert sich jetzt nach jedem Hintergrund-Lauf und Sync automatisch neu. Bisher konnten Karten frische Wartezeiten zeigen, aber in veralteter Reihenfolge stehen bleiben (z. B. „seit 9 Tagen" über „seit 5 Tagen").</li>
+<li>**Mailvorschläge folgen deinem bewährten Aufbau:** konkreter Bezug statt Floskel-Einstieg, ehrliche Einschätzung statt Fakten-Nacherzählung, Hausvorschläge mit sauber formatiertem ab-Preis und Link direkt im Absatz.</li>
+<li>**Deine Verkaufsbausteine sind jetzt Standard:** Angebot einer ersten realistischen Gesamtkalkulation inkl. Baunebenkosten (bewusst konservativ — ohne erfundene Zahlen) und die Einladung ins Musterhaus FertighausWelt Wuppertal (Termin vorher abstimmen → Anmeldung am Empfang, kein Eintritt).</li>
+<li>**Genau eine klare Abschlussfrage** statt konkurrierender Standard-Schlusssätze.</li>
+<li>**Keine Halluzinationen mehr:** Ohne passende Häuser werden keine Modelle, Preise oder Links erfunden — stattdessen stellt die Mail gezielte Rückfragen.</li>
+<li>**Kontaktwünsche werden respektiert:** Bei „keine telefonische Kontaktaufnahme" schlägt die Mail kein Telefonat mehr vor — auch nicht am Schluss.</li>
+<li>Hausfinder-Leads erhalten den korrekten Bezug („über den KI-Hausfinder") im Mail-Einstieg.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.3/DMS-1.6.3.dmg"
+                sparkle:edSignature="JNrwp94IUDnttdTQJndex1TZb8UtzDJgqiKlqrAgOIEFPg9hSkVvrMW/ZJmhCZ2BV5Cv00hbJnHsPmbMdvVyCg=="
+                length="32777684"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.2</title>
             <sparkle:version>1.6.2</sparkle:version>
             <sparkle:shortVersionString>1.6.2</sparkle:shortVersionString>
