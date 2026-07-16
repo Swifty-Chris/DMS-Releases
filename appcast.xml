@@ -8,6 +8,29 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.13</title>
+            <sparkle:version>1.6.13</sparkle:version>
+            <sparkle:shortVersionString>1.6.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 16 Jul 2026 17:22:33 +0200</pubDate>
+            <description><![CDATA[
+<h2>Neu in 1.6.13</h2>
+
+<p>**Mailvorschlag versteht den KI-Berater-Chat — und bleibt gespeichert**</p>
+
+<li>Der Mailvorschlag für KI-Hausfinder-Leads kennt jetzt alle Wizard-Angaben (Haustyp, Keller, Einzugswunsch, Haushalt, Prioritäten-Tendenz, Rückrufwunsch) und den Wortlaut des KI-Beratungs-Chats. Aussagen des Interessenten (z. B. „wir möchten schlüsselfertig") sind für die Mail verbindlich.</li>
+<li>Hat dieselbe Person mehrfach angefragt, fließen auch die früheren Anfragen samt Chat ein. Widersprechen sich die Angaben, spricht die Mail das offen an, statt eine Seite zu raten.</li>
+<li>Neue Eigenleistungs-Logik: Passt das Budget nicht zu den vorgeschlagenen Häusern, darf die Mail die Ersparnis durch Eigenleistung nennen — gerundet und ausschließlich aus den echten Paketpreisen des Hauses. Wünscht der Kunde ausdrücklich schlüsselfertig und das Budget passt, wird keine Eigenleistung vorgeschlagen.</li>
+<li>Eigenleistungspakete 1/2/4 sind jetzt für **alle** Today- und S-Linie-Häuser hinterlegt (Quelle: offizielle Hausdatenblätter), Paket 4 zusätzlich für alle Family-Häuser. Auch der KI-Assistent beantwortet Fragen dazu.</li>
+<li>Der generierte Mailvorschlag bleibt pro Radar-Karte gespeichert (inklusive eigener Änderungen), bis ein neuer erzeugt wird — Schließen und Wiederöffnen verwirft nichts mehr und kostet keinen neuen KI-Aufruf.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.13/DMS-1.6.13.dmg"
+                sparkle:edSignature="++cDPK8ONktzhqzm21BK3v6ap4XTGwc7hBcn/Ikt1iVuD+eeSjOlc0JKzZk1O4gR9v28gI4RUA+o2E3NXIpYBQ=="
+                length="32833575"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.12</title>
             <sparkle:version>1.6.12</sparkle:version>
             <sparkle:shortVersionString>1.6.12</sparkle:shortVersionString>
