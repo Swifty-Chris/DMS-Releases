@@ -8,6 +8,28 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.12</title>
+            <sparkle:version>1.6.12</sparkle:version>
+            <sparkle:shortVersionString>1.6.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 16 Jul 2026 16:30:27 +0200</pubDate>
+            <description><![CDATA[
+<h2>Neu in 1.6.12</h2>
+
+<p>**KI kennt jetzt Eigenleistungspakete und Schlüsselfertig-Aufpreise**</p>
+
+<li>Der KI-Assistent kann pro Haus die Eigenleistungspakete beantworten: Paket 1 (Laminat/Vinyl + Innentüren), Paket 2 (zusätzlich Spachtel-/Malerarbeiten) und Paket 4 (Fliesen + Sanitärobjekte) — als Minderpreis bei Eigenleistung.</li>
+<li>Bei Family-Häusern kennt die KI zusätzlich den Aufpreis für die schlüsselfertige Ausführung (der Katalogpreis ist dort nicht schlüsselfertig).</li>
+<li>Die Haussuche der KI kann jetzt gezielt nach einem konkreten Hausnamen filtern (z. B. „Point 190 S").</li>
+<li>Datenstand: Alle 29 Family-Häuser (Paket 4) sowie 10 Today/S-Linie-Häuser; weitere folgen, sobald deren Hausdatenblätter eingepflegt sind. Fehlt ein Wert, sagt die KI das ehrlich.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.12/DMS-1.6.12.dmg"
+                sparkle:edSignature="5F6exeiZXvxa6NFpDqMPjMP5apMpb7hk8BRXRMG6/b1xQDP4EumW0x/xYozlKECQiiliw7x7Y6926C8oAm3pDw=="
+                length="32808159"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.11</title>
             <sparkle:version>1.6.11</sparkle:version>
             <sparkle:shortVersionString>1.6.11</sparkle:shortVersionString>
