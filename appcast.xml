@@ -8,6 +8,27 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.6</title>
+            <sparkle:version>1.6.6</sparkle:version>
+            <sparkle:shortVersionString>1.6.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 16 Jul 2026 09:10:49 +0200</pubDate>
+            <description><![CDATA[
+<h2>Neu in 1.6.6</h2>
+
+<p>**Mailvorschläge: klares Ziel — abholen statt wegklicken**</p>
+
+<li>Die KI schreibt jetzt mit explizitem Auftrag: Der Empfänger soll sich in den ersten zwei Sätzen persönlich abgeholt fühlen (es geht um SEIN Vorhaben, nicht um uns) und am Ende von sich aus antworten wollen.</li>
+<li>Der Einstieg zeigt sofort den konkreten Bezug zum Bauvorhaben — kein austauschbarer Kaltakquise-Auftakt.</li>
+<li>Die Abschlussfrage ist als wichtigster Satz der Mail definiert: so einfach und naheliegend, dass Antworten leichter fällt als Ignorieren (z. B. eine Entweder-oder-Frage) — natürlich, ohne Verkaufsdruck oder künstliche Dringlichkeit.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.6/DMS-1.6.6.dmg"
+                sparkle:edSignature="2YFPRzuM/vgw2jwfA9ElvxgqJ9bxN4n3VDFmF+znYFj4UAWHgwto/TpufvFj+1dZZiNznSEhX0MWvM8AZKjcAg=="
+                length="32369893"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.5</title>
             <sparkle:version>1.6.5</sparkle:version>
             <sparkle:shortVersionString>1.6.5</sparkle:shortVersionString>
