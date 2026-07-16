@@ -8,6 +8,27 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.11</title>
+            <sparkle:version>1.6.11</sparkle:version>
+            <sparkle:shortVersionString>1.6.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 16 Jul 2026 11:13:26 +0200</pubDate>
+            <description><![CDATA[
+<h2>Neu in 1.6.11</h2>
+
+<p>**Radar: KI-Berater-Leads erscheinen jetzt sofort**</p>
+
+<li>Neue Leads aus dem KI-Hausfinder auf danwood.de erscheinen unmittelbar als Radar-Karte (bisher erst nach 24 Stunden) — frische Leads mit hoher Priorität und Push-Meldung, wie bei neuen CRM-Leads.</li>
+<li>Schickt ein Interessent das Formular mehrfach ab, erscheint nur noch eine Karte (der neueste Eintrag) statt mehrerer Duplikate.</li>
+<li>Hinweis: Die Quelle „Hausfinder-Leads einbeziehen" bleibt ein Opt-in-Schalter in den KI-Einstellungen unter Follow-up-Radar.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.11/DMS-1.6.11.dmg"
+                sparkle:edSignature="N7lZ8RxYZPxMbJ3lci/tEHnJYPl0ESr8xPv2nnuKwkI/lVUag3W+tFkfFNDAwNdFsw52dtAgBj88LQ71DEPGDQ=="
+                length="32807276"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.10</title>
             <sparkle:version>1.6.10</sparkle:version>
             <sparkle:shortVersionString>1.6.10</sparkle:shortVersionString>
