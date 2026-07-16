@@ -8,6 +8,30 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.8</title>
+            <sparkle:version>1.6.8</sparkle:version>
+            <sparkle:shortVersionString>1.6.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 16 Jul 2026 10:01:09 +0200</pubDate>
+            <description><![CDATA[
+<h2>Neu in 1.6.8</h2>
+
+<p>**Mailvorschläge: Feinschliff aus der automatischen Qualitätsschleife**</p>
+
+<p>Der Mail-Prompt wurde in vier Testrunden gegen die besten eigenen Referenzmails geprüft und nachgeschärft:</p>
+
+<li>**Persönlicherer Einstieg:** Die Mail legt eine konkrete Annahme aus den Angaben des Interessenten offen (statt Standardfloskeln, die auf jeden passen) — und greift einen Kontaktwunsch als Schreibanlass auf.</li>
+<li>**Weniger Datenblatt, mehr Beratung:** Pro Haus höchstens zwei Zahlen (Preis + eine Größe); Zimmer- und Geschosszahlen werden in ihre Alltagsbedeutung übersetzt. Links stehen auf eigener Zeile.</li>
+<li>**Ehrlichkeit:** Ein Nachteil bleibt ein Nachteil (mit Anpassungsmöglichkeit) und wird nie in einen Vorteil umgedeutet. Kein Berater-Jargon, Lob nur mit Begründung.</li>
+<li>**Klarer Gesprächsfluss:** Fragen stehen nur noch am Schluss; im Text werden Annahmen offengelegt. Nach der Abschlussfrage ist der typische „Melden Sie sich gerne jederzeit"-Ausklang erlaubt.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.8/DMS-1.6.8.dmg"
+                sparkle:edSignature="Hi/pmG8ofPKAPwjjja1qCHcCx9hydlrE5MUm2RYH55KQmct3Ybz1Y0q7G3O3CYZn9IAYyAWhQIhuJu/Ht/51Dg=="
+                length="32798813"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.7</title>
             <sparkle:version>1.6.7</sparkle:version>
             <sparkle:shortVersionString>1.6.7</sparkle:shortVersionString>
