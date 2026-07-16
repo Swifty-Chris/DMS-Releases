@@ -8,6 +8,30 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.5</title>
+            <sparkle:version>1.6.5</sparkle:version>
+            <sparkle:shortVersionString>1.6.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 16 Jul 2026 08:50:33 +0200</pubDate>
+            <description><![CDATA[
+<h2>Neu in 1.6.5</h2>
+
+<p>**Mailvorschläge: menschlicher, konfigurierbar, mit Kostenanzeige**</p>
+
+<li>**Keine KI-Gedankenstriche mehr:** Lange Striche als Satzzeichen sind verboten und werden zusätzlich automatisch entfernt (Zahlenspannen und Bindestrich-Wörter bleiben natürlich erhalten).</li>
+<li>**Beispiele sind jetzt reine Textimpressionen:** Die KI erhält keine Textbausteine mehr, an denen sie klebt — kein Satz aus der Anweisung darf in der Mail landen.</li>
+<li>**Argumente mit Alltagsbezug:** Zahlen, Daten und Fakten bleiben wichtige Belege, aber das Argument ist, was sie für das Leben des Interessenten bedeuten (z. B. „vier Schlafzimmer heißt: flexibel für Gästezimmer, Arbeitszimmer oder Stauraum").</li>
+<li>**Modell wählbar:** In den KI-Einstellungen unter Follow-up-Radar lässt sich das Modell für den Mailvorschlag frei auswählen (Standard: Claude Sonnet 4.5, mit automatischem Fallback).</li>
+<li>**Kosten-Pill:** Unten im Mailvorschlag-Fenster steht nach jedem Aufruf, was er gekostet hat — umgerechnet in Eurocent (typisch 1–2 ct).</li>
+<li>Telefon-Hinweis („leider nicht erreicht") wird jetzt in einem natürlichen Satz formuliert.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.5/DMS-1.6.5.dmg"
+                sparkle:edSignature="3qhIcIgxKaEy/1YmfkgF5OS6MyQiQajf0Rs6RfGd45eQGM+NHrvsIy6vkNMzl6I3lFUPcFxE5izZw0OPgYWDCw=="
+                length="32796716"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.4</title>
             <sparkle:version>1.6.4</sparkle:version>
             <sparkle:shortVersionString>1.6.4</sparkle:shortVersionString>
