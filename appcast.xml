@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.9</title>
+            <sparkle:version>1.6.9</sparkle:version>
+            <sparkle:shortVersionString>1.6.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 16 Jul 2026 10:06:59 +0200</pubDate>
+            <description><![CDATA[
+<h2>Neu in 1.6.9</h2>
+
+<p>**Mailvorschläge: gerundete Preise + saubere Link-Darstellung**</p>
+
+<li>Preise werden in der Mail immer gerundet genannt (z. B. „ab rund 232.000 €" oder „knapp 300.000 €") — nie auf den Euro genau.</li>
+<li>Jeder Link (Häuser und Bau- und Leistungsbeschreibung) steht auf einer eigenen Zeile, nie in Klammern im Fließtext.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.9/DMS-1.6.9.dmg"
+                sparkle:edSignature="JrIJ5vou4xsyLtq2F8ajBoUWg6LmLhfFXJuDeHtoC+mSSLXncohx6fVpXgSORDelOp+05aOQhXl+JxnkcAw7BQ=="
+                length="32799454"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.8</title>
             <sparkle:version>1.6.8</sparkle:version>
             <sparkle:shortVersionString>1.6.8</sparkle:shortVersionString>
