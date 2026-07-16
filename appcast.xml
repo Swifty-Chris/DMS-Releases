@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.7</title>
+            <sparkle:version>1.6.7</sparkle:version>
+            <sparkle:shortVersionString>1.6.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 16 Jul 2026 09:36:58 +0200</pubDate>
+            <description><![CDATA[
+<h2>Neu in 1.6.7</h2>
+
+<p>**Mailvorschläge: Leads mit bestehendem Mailverkehr sind keine Kaltkontakte mehr**</p>
+
+<li>Wenn zu einem CRM-Lead bereits eigene Mails im Archiv sichtbar sind, schreibt die KI jetzt eine Folge-Mail: ohne Kaltkontakt-Einstieg, im Ton der bisherigen Korrespondenz mit genau diesem Kontakt und ohne die Erstkontakt-Bausteine (Musterhaus-Einladung, Kalkulations-Angebot).</li>
+<li>Nur Leads ohne jede eigene Korrespondenz werden weiterhin als Kaltkontakt behandelt.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.7/DMS-1.6.7.dmg"
+                sparkle:edSignature="W4y96iv3Qzd3kmBPnTfDWjAEWiWb2v5ne1Uhia0WeFwPAb8bWTJ/SFTYWNfBagUJ3Z9pBE72oq4n85ppaS1/CA=="
+                length="32797444"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.6</title>
             <sparkle:version>1.6.6</sparkle:version>
             <sparkle:shortVersionString>1.6.6</sparkle:shortVersionString>
