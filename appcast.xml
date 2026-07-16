@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.10</title>
+            <sparkle:version>1.6.10</sparkle:version>
+            <sparkle:shortVersionString>1.6.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 16 Jul 2026 10:39:57 +0200</pubDate>
+            <description><![CDATA[
+<h2>Neu in 1.6.10</h2>
+
+<p>**Mailvorschläge: Kalkulation als Türöffner, Musterhaus richtig eingeordnet**</p>
+
+<li>Das Angebot einer ersten Gesamtkalkulation wird nicht mehr an Bedingungen geknüpft („sobald Sie ein Grundstück haben") — es gilt sofort und ist bewusst der einfachste Anlass, ins Gespräch zu kommen. Ein fehlendes Grundstück wird zum Beratungsanlass statt zur Wartebedingung.</li>
+<li>Die Musterhaus-Einladung wird korrekt dargestellt: In der FertighausWelt Wuppertal steht unser Musterhaus (nicht die konkret empfohlenen Modelle) — der Besuch dient dazu, Bauqualität, Serienausstattung und Wohngefühl von DAN WOOD live zu erleben.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.10/DMS-1.6.10.dmg"
+                sparkle:edSignature="vNJsj2IS2kGQaTLkM6ffG0zdNMXpRKfUW2guaVaxfF/Xm64Vv2FcOPtsBcqCaA3IZMDazavVUcn8HlHhWTdXBQ=="
+                length="32800578"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.9</title>
             <sparkle:version>1.6.9</sparkle:version>
             <sparkle:shortVersionString>1.6.9</sparkle:shortVersionString>
