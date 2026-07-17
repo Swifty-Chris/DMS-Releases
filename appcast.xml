@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.14</title>
+            <sparkle:version>1.6.14</sparkle:version>
+            <sparkle:shortVersionString>1.6.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 17 Jul 2026 08:26:16 +0200</pubDate>
+            <description><![CDATA[
+<h2>Neu in 1.6.14</h2>
+
+<p>**Mailvorschlag: korrekte Eigenleistungs-Rechnung**</p>
+
+<li>Die Ersparnis durch Eigenleistung wird jetzt korrekt gerechnet: Paket 2 enthält Paket 1 bereits komplett — die Pakete werden nicht mehr doppelt addiert. Die maximale Gesamt-Ersparnis eines Hauses ist Paket 2 + Paket 4.</li>
+<li>Bleibt die Budget-Lücke auch mit Eigenleistung groß, sagt die Mail das ehrlich, statt das Budget als „damit erreichbar" darzustellen.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.14/DMS-1.6.14.dmg"
+                sparkle:edSignature="US/3ENxjyaTCcnTDBHB3DnY3mH2uR4azFBSAy/lmibDAb5yZcMy8CC3izKn1oh+bw67fbXUOx05/wSdX8ncZAQ=="
+                length="32834295"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.13</title>
             <sparkle:version>1.6.13</sparkle:version>
             <sparkle:shortVersionString>1.6.13</sparkle:shortVersionString>
