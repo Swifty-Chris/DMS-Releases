@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.15</title>
+            <sparkle:version>1.6.15</sparkle:version>
+            <sparkle:shortVersionString>1.6.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 17 Jul 2026 08:37:15 +0200</pubDate>
+            <description><![CDATA[
+<h2>Neu in 1.6.15</h2>
+
+<p>**Mailvorschlag kennt jetzt alle Kataloge**</p>
+
+<li>Der Mailvorschlag kennt die komplette Danwood-Katalog-Palette samt Inhalt (Bungalows, Zweifamilienhäuser, Doppelhäuser, alle Linien, Garagen) und kann eigenständig den passenden Katalog verlinken — z. B. den Plus-&-Privat-Katalog bei einer Zweifamilienhaus-Anfrage.</li>
+<li>Bewusst ohne starre Regeln: Die KI entscheidet selbst, ob und welcher Katalog zum Vorhaben passt (höchstens einer pro Mail).</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.15/DMS-1.6.15.dmg"
+                sparkle:edSignature="Impq5YO/dfbOMse2JGYtdBttjCEFk722qRGBbZgNPXnHjL5uV6/gXLTaN7uEcQzIeK8zzUqyThnLVzDAVkZGAA=="
+                length="32837011"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.14</title>
             <sparkle:version>1.6.14</sparkle:version>
             <sparkle:shortVersionString>1.6.14</sparkle:shortVersionString>
