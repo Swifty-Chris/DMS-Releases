@@ -8,6 +8,32 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.20</title>
+            <sparkle:version>1.6.20</sparkle:version>
+            <sparkle:shortVersionString>1.6.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 25 Jul 2026 23:02:58 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.6.20</p>
+
+<h2>Leads löschen funktioniert wieder — überall gleich</h2>
+
+<p>„Löschen…" im Kontextmenü der Lead-Liste tat nichts: Der Bestätigungsdialog wurde von einem</p>
+<p>anderen Dialog derselben Ansicht verdrängt und erschien nie. Aus der Detailansicht ging es,</p>
+<p>aus der Liste nicht.</p>
+
+<p>Statt an einer Stelle nachzubessern, gibt es jetzt nur noch einen Löschweg für alle Ansichten.</p>
+<p>Damit verschwindet auch der Sonderfall „Endgültig löschen" im Archiv — er war nie etwas anderes</p>
+<p>als „Löschen", nur mit anderem Namen und eigenem Dialog. Schlägt ein Löschen fehl, siehst du den</p>
+<p>Grund; der Lead bleibt dann sichtbar, statt kurz zu verschwinden und wiederzukommen.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.20/DMS-1.6.20.dmg"
+                sparkle:edSignature="xjBtC2wlzOdNXbBdQGDhwzufws4WN86aloSeRtbPkvFLG1CY9COHDvnOhnPXDmvpyFuv4HugaPjO9wFvBZIWDw=="
+                length="33693387"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.19</title>
             <sparkle:version>1.6.19</sparkle:version>
             <sparkle:shortVersionString>1.6.19</sparkle:shortVersionString>
