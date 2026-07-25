@@ -8,6 +8,36 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.16</title>
+            <sparkle:version>1.6.16</sparkle:version>
+            <sparkle:shortVersionString>1.6.16</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 25 Jul 2026 20:45:41 +0200</pubDate>
+            <description><![CDATA[
+<h2>Version 1.6.16</h2>
+
+<h3>Leads & Kataloge</h3>
+<li>Lead-Detail zeigt jetzt die neue Qualifizierungs-Selbstauskunft aus dem Katalog-Formular (Grundstück, Finanzierungswunsch, Baubeginn, Musterhaus-Interesse)</li>
+<li>Lead-Detail zeigt echte Katalog-Öffnungen („2× geöffnet, zuletzt …") über personalisierte Download-Links</li>
+<li>Katalog-QR-Codes führen zum Anfrage-Formular mit Vorauswahl — jeder Scan wird als Lead erfasst</li>
+
+<h3>KI & Second Brain</h3>
+<li>Der KI-Chat kennt beim Kunden jetzt automatisch das KI-Gedächtnis, offene Radar-Empfehlungen und die WhatsApp-Historie</li>
+<li>Kontakt-Gedächtnis vereint: Einträge unter Name und E-Mail derselben Person fließen überall zusammen (Chat, Mailvorschläge, Tool)</li>
+<li>Neu: KI-Mailvorschlag direkt im Hausfinder-Lead-Detail (voller Wizard- und Chat-Kontext)</li>
+<li>Kontakt-Zusammenführungen synchronisieren jetzt geräteübergreifend</li>
+
+<h3>Korrekturen</h3>
+<li>Baunebenkosten: Abkürzung „AFDD" korrigiert (vorher fälschlich „AFFDD")</li>
+<li>KI-Gedächtnis-Suche deutlich beschleunigt</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.16/DMS-1.6.16.dmg"
+                sparkle:edSignature="GnuG/QYbjWA6OdIbSBljSRU7bu2GnloVWRYg5j6Baz/Bp6BO50PFW4gxymz3YFPZK9NaZUcMrW+UT3T7CKILBw=="
+                length="33604536"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.15</title>
             <sparkle:version>1.6.15</sparkle:version>
             <sparkle:shortVersionString>1.6.15</sparkle:shortVersionString>
