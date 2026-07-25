@@ -8,6 +8,50 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.17</title>
+            <sparkle:version>1.6.17</sparkle:version>
+            <sparkle:shortVersionString>1.6.17</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 25 Jul 2026 22:04:41 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.6.17</p>
+
+<h2>Katalog-Leads: Angaben aus dem Formular sind endlich sichtbar</h2>
+
+<p>Hat ein Interessent im Katalog-Formular etwas angegeben — Grundstück bereits gekauft, geplanter</p>
+<p>Baubeginn, Interesse an Finanzierungsberatung oder am Musterhaus-Besuch —, steht das jetzt</p>
+<p>zuverlässig in der Lead-Detailansicht. Bisher wurden diese Angaben nur beim Öffnen live</p>
+<p>nachgeladen; ging der Abruf schief, fehlte die ganze Sektion kommentarlos. Jetzt kommen sie mit</p>
+<p>dem normalen Sync mit und sind auch offline da.</p>
+
+<p>Dieselben Angaben fließen zusätzlich ins KI-Gedächtnis. Chat und Mailvorschlag wissen damit von</p>
+<p>sich aus, dass jemand schon ein Grundstück hat oder ins Musterhaus kommen möchte.</p>
+
+<h2>Das Gedächtnis lernt aus mehr Quellen</h2>
+
+<p>Hausfinder-Anfragen und offene CRM-Leads fließen jetzt ebenfalls in die Hintergrund-Verwebung.</p>
+<p>Ihr Wissen landet damit im geräteübergreifenden Gedächtnis statt nur im Radar. Meldet sich</p>
+<p>derselbe Mensch über mehrere Wege, entsteht weiterhin genau ein Gedächtnis-Eintrag und nicht pro</p>
+<p>Namensschreibweise ein neuer.</p>
+
+<p>Die Abrufe sind abgesichert: Ist eine Quelle in den Einstellungen aus, wird gar nichts geladen;</p>
+<p>ohne Netz oder CRM-Sitzung bleibt es still, statt Fehler zu werfen — die Hintergrundarbeit hängt</p>
+<p>nie daran.</p>
+
+<h2>Unter der Haube</h2>
+
+<p>Die Mailvorschläge wurden intern gründlich aufgeräumt (gemeinsame Bausteine für Mail-Historie,</p>
+<p>Sprachstil und Kontakt-Zuordnung). Die erzeugten Texte bleiben dabei unverändert: Der Kontext und</p>
+<p>sämtliche Prompts sind zeichengenau dieselben wie in 1.6.16, abgesichert durch eine neue</p>
+<p>Testreihe, die jede noch so kleine Abweichung sofort meldet.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.17/DMS-1.6.17.dmg"
+                sparkle:edSignature="GLtUD86MznpeH5z6uzDYcJQM61bgd3fxlDOhz3GQXCVUFDiM/1LJ5Pn2/wLpM3pNr8lH7gWPR/TmGtOc2EoBBw=="
+                length="33696921"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.16</title>
             <sparkle:version>1.6.16</sparkle:version>
             <sparkle:shortVersionString>1.6.16</sparkle:shortVersionString>
