@@ -8,6 +8,40 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.18</title>
+            <sparkle:version>1.6.18</sparkle:version>
+            <sparkle:shortVersionString>1.6.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 25 Jul 2026 22:30:09 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.6.18</p>
+
+<h2>Gelöschte Leads bleiben gelöscht</h2>
+
+<p>Ein gelöschter Katalog-Lead konnte wieder auftauchen: Wenn der Server das Löschen ablehnte,</p>
+<p>meldete er trotzdem Erfolg — die App entfernte den Eintrag nur lokal, der nächste Abgleich holte</p>
+<p>ihn zurück, ohne Hinweis. Jetzt wird geprüft, ob wirklich gelöscht wurde. Klappt es nicht, bleibt</p>
+<p>der Lead sichtbar und du bekommst den Grund zu sehen, statt dich zu wundern.</p>
+
+<p>Außerdem lässt sich ein Lead jetzt direkt aus seiner Detailansicht löschen — bisher ging das am</p>
+<p>Mac nur per Rechtsklick in der Liste.</p>
+
+<h2>Aufgeräumte Lead-Ansicht</h2>
+
+<p>Die Einwilligungen sind aus der Ansicht verschwunden: Datenschutz-Zustimmung und Consent-Version</p>
+<p>muss jeder Interessent ohnehin geben, das sagt beim Nachfassen nichts. Sichtbar ist nur noch der</p>
+<p>Fall, der dich wirklich betrifft — eine fehlende Werbe-Einwilligung.</p>
+
+<p>Angaben stehen jetzt sauber nebeneinander statt an die Fensterränder gespreizt, und der Inhalt hat</p>
+<p>eine angenehme Lesebreite.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.18/DMS-1.6.18.dmg"
+                sparkle:edSignature="bKXyphdOPWiu88+j7F0/urI2qJvLFPeYMDgi2qGLHaaU14U4+xMdkx1dXSmXhIe52oXPLI4UaOfj/0UnSB1HCQ=="
+                length="33700380"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.17</title>
             <sparkle:version>1.6.17</sparkle:version>
             <sparkle:shortVersionString>1.6.17</sparkle:shortVersionString>
