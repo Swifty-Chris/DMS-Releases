@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.19</title>
+            <sparkle:version>1.6.19</sparkle:version>
+            <sparkle:shortVersionString>1.6.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 25 Jul 2026 22:47:49 +0200</pubDate>
+            <description><![CDATA[
+<p># Baunebenkosten-Rechner: zwei Positionen entfallen</p>
+
+<li>**Sockelranddämmung** und **Bodengutachten** sind dauerhaft aus der Baunebenkostenschätzung entfernt — beide Leistungen sind im Angebot bereits enthalten und wurden dem Kunden dadurch doppelt berechnet.</li>
+<li>Die Positionen verschwinden überall: Live-Vorschau, Kostenanpassung, Ergebnisliste und PDF/Portal-Link.</li>
+<li>Die fixen Pauschalen sinken damit von 18.750 € auf 16.950 €.</li>
+<li>Die Grundfläche bleibt auch im Modus „Preis für Bodenplatte/Keller eingeben" Pflichtfeld — sie wird weiterhin für Geländesicherung und Architektenkosten gebraucht (Hinweistext entsprechend angepasst).</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.19/DMS-1.6.19.dmg"
+                sparkle:edSignature="HUKLZ2NGJss4U3Z5tJ3u0fF6WaUtz76JONTfPYhymxxHQFz8GNvsyIpsj1IsKR6vTqRVhhIvGwqNrqUIGcuLAw=="
+                length="33693950"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.18</title>
             <sparkle:version>1.6.18</sparkle:version>
             <sparkle:shortVersionString>1.6.18</sparkle:shortVersionString>
