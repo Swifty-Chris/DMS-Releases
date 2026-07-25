@@ -8,6 +8,36 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.21</title>
+            <sparkle:version>1.6.21</sparkle:version>
+            <sparkle:shortVersionString>1.6.21</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 25 Jul 2026 23:27:22 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.6.21</p>
+
+<h2>Leads löschen geht jetzt wirklich</h2>
+
+<p>Der Bestätigungsdialog aus dem Kontextmenü der Lead-Liste erschien unter macOS nicht — deshalb</p>
+<p>passierte auf „Löschen…" nichts. Die Rückfrage kommt jetzt als normales Systemfenster und</p>
+<p>funktioniert aus der Liste genauso wie aus der Detailansicht.</p>
+
+<h2>Ruhigerer Start, weniger KI-Aufrufe</h2>
+
+<p>Beim Start hat die Hintergrund-Verwebung für jeden bekannten Kontakt das Sprachmodell befragt,</p>
+<p>auch wenn es gar nichts Neues zu ergänzen gab. Jetzt wird erst geprüft, ob überhaupt neues Wissen</p>
+<p>dazukommt — nur dann läuft ein Aufruf.</p>
+
+<p>Ebenso wurden die Lead-Quellen (Hausfinder, CRM) beim Start immer wieder neu abgefragt. Ein Abruf</p>
+<p>reicht jetzt für zehn Minuten, statt für jede Verarbeitungsrunde erneut ins Netz zu gehen.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.21/DMS-1.6.21.dmg"
+                sparkle:edSignature="s5SpdOZu5SMzqykGARsaqTQTjuTJSQdIWU9cqmAYlOZfpIICkK1PefDKSG3/gjrL8q378JdHz0QCJOmfDYo2Cg=="
+                length="33704429"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.20</title>
             <sparkle:version>1.6.20</sparkle:version>
             <sparkle:shortVersionString>1.6.20</sparkle:shortVersionString>
