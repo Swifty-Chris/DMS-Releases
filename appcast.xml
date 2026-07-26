@@ -8,6 +8,39 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.23</title>
+            <sparkle:version>1.6.23</sparkle:version>
+            <sparkle:shortVersionString>1.6.23</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 26 Jul 2026 11:11:01 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.6.23</p>
+
+<h2>Radar: Vollständige Detailansicht für jeden Eintrag</h2>
+
+<li>**Antippen genügt:** Jede Radar-Karte öffnet jetzt eine Detailansicht — mit dem neuen „Warum im Fokus"-Block (vollständige Begründung, Dringlichkeit, letztes Signal, Direktkontakt, Belege) und darunter der kompletten Akte: Kundendetails, CRM-Lead-Vollansicht, Hausfinder-/Katalog-Lead oder Kontaktprofil mit KI-Gedächtnis.</li>
+<li>**Mehr Infos direkt auf der Karte:** Kontakt · Phase · Ort · Budget.</li>
+<li>**Platzsparend:** Der Fokus-Kopf klappt beim Herunterscrollen automatisch ein (Tippen klappt ihn wieder auf).</li>
+<li>Konsolidierte Karten zeigen ihre weiteren Signale unter „Außerdem".</li>
+
+<h2>Neu am Mac: Angebot per KI erstellen</h2>
+
+<li>Ein Klick am Kunden (Kundenakte oder Radar-Detail) startet Claude Code im Terminal: Kundendaten kommen automatisch aus DMS, das fertige Angebots-PDF wird als Notiz am Kunden dokumentiert.</li>
+<li>Läuft mit dem eigenen Claude-Abo des angemeldeten Mac-Benutzers; Ordner und Startbefehl sind in den KI-Einstellungen anpassbar.</li>
+<li>In den Einstellungen ausblendbar (für Teammitglieder ohne Claude Code).</li>
+
+<h2>Verbesserungen</h2>
+
+<li>CRM-Detailansicht zeigt direkt nach dem App-Start keinen Fehler mehr, während die CRM-Sitzung noch aufgebaut wird — stattdessen einen Hinweis mit „Erneut versuchen".</li>
+<li>Das Kontaktprofil nutzt jetzt die zusammengeführte Gedächtnis-Sicht pro Person (E-Mail- und Namens-Schlüssel inklusive bestätigter Zusammenführungen).</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.23/DMS-1.6.23.dmg"
+                sparkle:edSignature="f3m9S3vtsICgem0QiVd913vQqllmBPnZ7LSWN5ifnvRDZ4A8rIb1XdAE9HAJBzblqb2LGl3XO9o2dvCLgUeUDQ=="
+                length="33908260"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.21</title>
             <sparkle:version>1.6.21</sparkle:version>
             <sparkle:shortVersionString>1.6.21</sparkle:shortVersionString>
