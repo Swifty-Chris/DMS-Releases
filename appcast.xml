@@ -8,6 +8,28 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.32</title>
+            <sparkle:version>1.6.32</sparkle:version>
+            <sparkle:shortVersionString>1.6.32</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 12 Aug 2026 00:44:04 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.6.32 — Angebot per KI für Hausfinder-Leads</p>
+
+<h2>Angebots-Automatisierung (Mac)</h2>
+<li>**Neuer Button „Angebot per KI" im Hausfinder-Lead:** Claude Code erstellt das Angebot zum Top-Hausvorschlag — Kunde/Projekt im CRM, schlanke Konfiguration im Danwood-Manager, beide PDFs. Ohne jede Terminal-Bedienung: Die App startet und begleitet alles selbst.</li>
+<li>**Zwei Stufen mit Bestätigung:** Erst ein Trockenlauf, der nichts anlegt und den vollständigen Plan zeigt (inkl. offener Punkte wie Anrede oder Bau-PLZ — Antworten direkt in der App eintippen). Erst dein Klick „Angebot jetzt verbindlich erstellen" führt aus.</li>
+<li>**Versand über Datei-Teilen statt Anhang:** Die PDFs werden automatisch hochgeladen (30 Tage gültig, mit Vorschaubild) und der Mail-Entwurf mit den Links geöffnet — jeder Link auf eigener Zeile. Gesendet wird immer von dir.</li>
+<li>Einmalig nötig: Freigabe des Automatisierungs-Ordners per Dateidialog (Sandbox).</li>
+<li>Hat der Lead noch keine Kundenakte, bietet die App zuerst die bekannte Übernahme an.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.32/DMS-1.6.32.dmg"
+                sparkle:edSignature="yg3F2E+qGgijcyn8hViqSXksDhnp/Z1Q87/wsKPLpcySON/Inb9YcZoYUElEZW+or8bUYcDZ4SKqXAYesJMxCg=="
+                length="36838399"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.31</title>
             <sparkle:version>1.6.31</sparkle:version>
             <sparkle:shortVersionString>1.6.31</sparkle:shortVersionString>
