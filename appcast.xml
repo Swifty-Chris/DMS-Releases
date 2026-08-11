@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.29</title>
+            <sparkle:version>1.6.29</sparkle:version>
+            <sparkle:shortVersionString>1.6.29</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Tue, 11 Aug 2026 23:11:07 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.6.29 — Ehrliche Hausvorschläge</p>
+
+<h2>Mailvorschlag</h2>
+<li>**Hausvorschläge ohne Bedarfsermittlung treten nicht mehr als sichere Empfehlung auf:** Die KI rahmt sie als erste Einschätzung („ohne eine richtige Bedarfsermittlung schwer genau zu sagen, aber vom ersten Gefühl her…"). Nur wenn konkrete Kundenangaben ein Haus zwingend begründen, bleibt die Empfehlung selbstbewusst.</li>
+<li>**Einladung zur Bedarfsermittlung:** Jede Mail mit Hausvorschlag bietet an, Wünsche und Bedarfe gemeinsam in aller Ruhe zu ermitteln, um wirklich das passende Haus zu finden.</li>
+<li>**Kein Kataloggrundriss-Zwang:** Die Mail macht klar, dass niemand an einen Kataloggrundriss gebunden ist — auf Wunsch entsteht ein komplett individueller Grundriss (Family-Ausnahme bleibt bestehen).</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.29/DMS-1.6.29.dmg"
+                sparkle:edSignature="CoETLgc2bYCI8BrFCMH/exW4oaCpBJLA4uW3zSo3Lq78eQyiUy/tx7BQ2vVBkXoal/LpZqtWZL0rkhCVNer4DA=="
+                length="36721592"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.28</title>
             <sparkle:version>1.6.28</sparkle:version>
             <sparkle:shortVersionString>1.6.28</sparkle:shortVersionString>
