@@ -8,6 +8,28 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.31</title>
+            <sparkle:version>1.6.31</sparkle:version>
+            <sparkle:shortVersionString>1.6.31</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 12 Aug 2026 00:06:25 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.6.31 — KI-Mailvorschlag für Katalog-Leads & klügere Bedarfsrahmung</p>
+
+<h2>Mailvorschlag</h2>
+<li>**Katalog-Leads haben jetzt einen KI-Mailvorschlag** (Button in der Lead-Detailansicht): Die Selbstauskunft aus dem Download-Formular (Grundstück, Bauzeitpunkt, Finanzierung, Musterhaus-Interesse) wird zu bindenden Kernangaben, die bestellten Kataloge zu festen Linien-Interessen — und werden nicht noch einmal angeboten, sondern als Anknüpfungspunkt genutzt. Eine Formular-Nachricht des Interessenten wird mit höchster Priorität beantwortet.</li>
+<li>**Die Bedarfsermittlungs-Rahmung passt sich der Datenlage an:**</li>
+<p>  - **KI-Hausfinder-Leads:** Der Kunde hat seine Wünsche im Wizard selbst angegeben — die vorgeschlagenen Häuser werden selbstbewusst als Ergebnis *seiner* Angaben präsentiert, nicht kleingeredet. Die Einladung zur vertiefenden Bedarfsermittlung und der individuelle Grundriss bleiben.</p>
+<p>  - **Katalog-Leads:** Empfehlungen verankern sich sichtbar in der Selbstauskunft; wo Angaben fehlen, wird das offen benannt statt geraten.</p>
+<p>  - **Portal-/CRM-Leads:** unverändert die ehrliche „erste Einschätzung ohne Bedarfsermittlung".</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.31/DMS-1.6.31.dmg"
+                sparkle:edSignature="3yod68aOE9ZBZnyEXf35ExOee5Dhxdcxu67ynftL72FSToVMi1101l/xrCUcKJjuxHMkVgJ2QPZVTpGOnBHDAA=="
+                length="36737360"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.30</title>
             <sparkle:version>1.6.30</sparkle:version>
             <sparkle:shortVersionString>1.6.30</sparkle:shortVersionString>
