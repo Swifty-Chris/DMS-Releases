@@ -8,6 +8,30 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.28</title>
+            <sparkle:version>1.6.28</sparkle:version>
+            <sparkle:shortVersionString>1.6.28</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Tue, 11 Aug 2026 22:17:42 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.6.28 — Saubere Mailvorschläge & flexible Fenster</p>
+
+<h2>Mailvorschlag</h2>
+<li>**Drei klare Stufen:** Nie geschrieben → Erstkontakt mit vollem Gerüst (Vorstellung, Kalkulation, Musterhaus, Katalog). Geschrieben, aber keine Antwort → **Nachfass**: frischer Aufhänger oder neuer Mehrwert, kein Vorwurf, ehrlicher Bezug auf den eigenen letzten Vorschlag — ohne das Gerüst zu wiederholen. Kunde hat geantwortet → schlanke Folge-Mail im Dialog.</li>
+<li>**Eigene frühere Vorschläge werden nie mehr als Kundenverhalten ausgegeben** („Sie hatten sich die Häuser angeschaut" ist Geschichte, wenn das nur aus einem eigenen Entwurf stammte).</li>
+<li>**Zimmermaße nur noch, wenn sie relevant sind** (z. B. Wunsch nach gleich großen Kinderzimmern) — keine Datenblatt-Aufzählungen mehr.</li>
+<li>Der Betreff nennt höchstens ein Hausmodell.</li>
+
+<h2>Bedienung</h2>
+<li>**Popup-Fenster (Mailvorschlag, Lead-Details) sind am Mac jetzt frei in der Größe ziehbar.**</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.28/DMS-1.6.28.dmg"
+                sparkle:edSignature="08/zCzlFTKKZv+USMV1ueAVBmUfYGZ33zj2CnWlYGsx6+qgA97D4maRImJlHwL9pZYG+1G572gPCZlwMWTuBCw=="
+                length="36720349"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.26</title>
             <sparkle:version>1.6.26</sparkle:version>
             <sparkle:shortVersionString>1.6.26</sparkle:shortVersionString>
