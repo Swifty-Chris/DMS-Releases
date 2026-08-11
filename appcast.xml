@@ -8,6 +8,23 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.26</title>
+            <sparkle:version>1.6.26</sparkle:version>
+            <sparkle:shortVersionString>1.6.26</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Tue, 11 Aug 2026 21:42:12 +0200</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.6.26</h2>
+
+<p>Bugfixes und Verbesserungen.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.26/DMS-1.6.26.dmg"
+                sparkle:edSignature="SjTtWP0h6Zl0jkVf16776GfNM2NxtjW0PBf02aH4U7VgM6SfbfX6CUAvDB/+GCPfh2Vu5wDKFlohc4AJ0O7pCw=="
+                length="36711777"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.25</title>
             <sparkle:version>1.6.25</sparkle:version>
             <sparkle:shortVersionString>1.6.25</sparkle:shortVersionString>
