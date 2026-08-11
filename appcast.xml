@@ -8,6 +8,30 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.35</title>
+            <sparkle:version>1.6.35</sparkle:version>
+            <sparkle:shortVersionString>1.6.35</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 12 Aug 2026 01:09:23 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.6.35 — Ein-Klick-Angebot</p>
+
+<h2>Angebots-Automatisierung (Mac)</h2>
+<li>**Ein Klick im Hausfinder-Lead, fertig:** „Angebot per KI" übernimmt den Lead bei Bedarf automatisch als Kunde (ohne Zwischendialog), startet sofort die Prüfung und läuft ohne weitere Klicks durch — bis zum fertigen Mail-Entwurf mit den Datei-Teilen-Links (30 Tage gültig, mit Vorschaubild).</li>
+<li>Angehalten wird nur bei echten Rückfragen (z. B. Anrede oder Bau-PLZ): kurz beantworten, ein Klick, weiter.</li>
+<li>Gesendet wird weiterhin ausschließlich von dir.</li>
+
+<h2>Behoben</h2>
+<li>**Terminal-Start-Fehler −600 („Application isn't running"):** Die App startet das Terminal jetzt selbst und wartet, bis es bereit ist — der Angebots-Lauf funktioniert auch, wenn das Terminal vorher geschlossen war.</li>
+<li>„Als Kunde übernehmen & Angebot starten" bleibt im Angebots-Ablauf statt zur Kundenakte zu springen.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.35/DMS-1.6.35.dmg"
+                sparkle:edSignature="OyVCl6/63Kr3FpqtnU9gTX0g3B7e5DDL3K/M6bGBoZZVEnUB7zu2vR0b0h0TEAW7KzuTnVlEHQFAVCGazrkmAg=="
+                length="36861288"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.33</title>
             <sparkle:version>1.6.33</sparkle:version>
             <sparkle:shortVersionString>1.6.33</sparkle:shortVersionString>
