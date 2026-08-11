@@ -8,6 +8,36 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.24</title>
+            <sparkle:version>1.6.24</sparkle:version>
+            <sparkle:shortVersionString>1.6.24</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Tue, 11 Aug 2026 20:47:13 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.6.24 — Deutlich bessere KI-Mailvorschläge</p>
+
+<h2>Mailvorschlag (CRM-Leads)</h2>
+<li>**Wichtige Daten sind Pflicht:** Jede Kernangabe des Leads (Budget, Grundstück, Haustyp, Größe, Bauzeitpunkt, Finanzierung, Kontaktwunsch) fließt bindend in die Mail ein — als Fakt formuliert, nie als Vermutung.</li>
+<li>**Nichts unterstellen:** Haustypen und Sonderformen (z. B. Doppelhaus), die der Lead nicht angegeben hat, werden weder vorgeschlagen noch verlinkt; die Haussuche schließt sie hart aus.</li>
+<li>**Keine Fragen nach Bekanntem:** Was im CRM steht, wird nicht mehr erfragt — auch nicht in der Abschlussfrage.</li>
+<li>**Katalog-Empfehlung ist Pflicht im Erstkontakt**, Sonderform-Kataloge nur bei explizitem Wunsch.</li>
+<li>**Ein Haus statt Datenblatt-Doppel:** kompakte Empfehlungen ohne Zimmermaß-Listen, Ziel-Länge 150–250 Wörter (länger nur bei konkreten Kundenfragen).</li>
+<li>**Lead-Typ-gerecht:** Katalogbestellung, Design-Center-Zugang und Hauskonfiguration bekommen unterschiedliche Mails; Baujahr 2026/27, 2028 und 2029+ unterschiedliche Ansprache.</li>
+<li>**Grundstück vorhanden → Exposé/Lageplan-Prüfung** als stärkster nächster Schritt.</li>
+<li>**CRM-Notizen mit höchster Priorität:** Konkrete Kundenfragen werden zuerst beantwortet.</li>
+<li>**Marketing-Interaktionen als internes Steuerungswissen:** Die KI sieht jetzt, welche Kataloge tatsächlich geladen und welche Hausseiten besucht wurden (Mail-Scanner-Bots werden gefiltert) — formuliert das aber nie als Beobachtung.</li>
+
+<h2>Bedienung</h2>
+<li>**Einzelne Kopier-Buttons** im Mailvorschlag für Mailadresse, Betreff und Mailtext; die Empfänger-Adresse ist jetzt sichtbar.</li>
+<li>**CRM-Leads als „Bearbeitet" markierbar** (team-weit): Kontextmenü in der Liste, Button in der Detailansicht, Badge + gedimmte Zeile.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.24/DMS-1.6.24.dmg"
+                sparkle:edSignature="26Pe45CK7AXe4jdMUmx08EoFZOF42OHxrQc766kmVdzorp888lnTeojx/ZM2XncDFA33fYeQ1BcvKeoZMZ1/Bg=="
+                length="36288486"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.23</title>
             <sparkle:version>1.6.23</sparkle:version>
             <sparkle:shortVersionString>1.6.23</sparkle:shortVersionString>
