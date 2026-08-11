@@ -8,6 +8,30 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.30</title>
+            <sparkle:version>1.6.30</sparkle:version>
+            <sparkle:shortVersionString>1.6.30</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Tue, 11 Aug 2026 23:23:28 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.6.30 — Ehrliche Hausvorschläge & große, merkfähige Popups</p>
+
+<h2>Mailvorschlag</h2>
+<li>**Hausvorschläge ohne Bedarfsermittlung treten nicht mehr als sichere Empfehlung auf:** Die KI rahmt sie als erste Einschätzung („ohne eine richtige Bedarfsermittlung schwer genau zu sagen, aber vom ersten Gefühl her…"). Nur wenn konkrete Kundenangaben ein Haus zwingend begründen, bleibt die Empfehlung selbstbewusst.</li>
+<li>**Einladung zur Bedarfsermittlung:** Jede Mail mit Hausvorschlag bietet an, Wünsche und Bedarfe gemeinsam in aller Ruhe zu ermitteln, um wirklich das passende Haus zu finden.</li>
+<li>**Kein Kataloggrundriss-Zwang:** Die Mail macht klar, dass niemand an einen Kataloggrundriss gebunden ist — auf Wunsch entsteht ein komplett individueller Grundriss (Family-Ausnahme bleibt bestehen).</li>
+
+<h2>Bedienung (Mac)</h2>
+<li>**Popups öffnen deutlich größer** (Mailvorschlag, CRM-Lead-Detail, Radar-Detail, Hausfinder-Lead-Detail) und **merken sich die von dir gezogene Größe** — einmal aufziehen genügt.</li>
+<li>Das Hausfinder-Lead-Fenster war bisher gar nicht in der Größe veränderbar; jetzt ist es frei ziehbar.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.30/DMS-1.6.30.dmg"
+                sparkle:edSignature="RjODjw1gssxkYojgdhe1GfADPDb7U0JJkNP4VpTS05eiYW+vpVR1UoSxs6BPnbl2kTvurVGTDHg48IqeTm+cBg=="
+                length="36728724"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.29</title>
             <sparkle:version>1.6.29</sparkle:version>
             <sparkle:shortVersionString>1.6.29</sparkle:shortVersionString>
