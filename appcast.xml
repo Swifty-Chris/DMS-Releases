@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.37</title>
+            <sparkle:version>1.6.37</sparkle:version>
+            <sparkle:shortVersionString>1.6.37</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 12 Aug 2026 01:34:26 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.6.37 — Angebots-Start läuft jetzt zuverlässig</p>
+
+<h2>Behoben</h2>
+<li>**Gatekeeper-Meldung „…command ist beschädigt":** Der Angebots-Lauf startet jetzt über einen kleinen Automatisierungs-Helfer, den macOS für DMS außerhalb der Sandbox ausführt. Einmalig bestätigst du dafür im Angebots-Fenster den vorgeschlagenen Ordner („Helfer installieren") — danach startet jeder Lauf ohne Meldungen.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.37/DMS-1.6.37.dmg"
+                sparkle:edSignature="qQ9FEsoBpta8JWKhV9+Liw8gkjpTVy568RloEUJToDIjA/vFeEI8JAY0ji+Uypf0sSednPeUPVgan3FMiEm/Dg=="
+                length="36872352"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.36</title>
             <sparkle:version>1.6.36</sparkle:version>
             <sparkle:shortVersionString>1.6.36</sparkle:shortVersionString>
