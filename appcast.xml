@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.33</title>
+            <sparkle:version>1.6.33</sparkle:version>
+            <sparkle:shortVersionString>1.6.33</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 12 Aug 2026 00:56:23 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.6.33 — Feinschliff Angebots-Automatisierung</p>
+
+<h2>Behoben</h2>
+<li>**„Als Kunde übernehmen & Angebot starten" bleibt jetzt im Angebots-Ablauf:** Bisher sprang die App nach der Übernahme zur neuen Kundenakte und das Angebots-Fenster ging verloren. Jetzt öffnet sich direkt das Angebots-Sheet mit dem Trockenlauf.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.33/DMS-1.6.33.dmg"
+                sparkle:edSignature="rkdOyOMSGrCyrz+YlCY0v8NQv8JIjDOT/D2hiKWogalqJCJnyO6jcII2KymULo39ZOI7FlOsZ2J8lNhdLVlvBw=="
+                length="36837936"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.32</title>
             <sparkle:version>1.6.32</sparkle:version>
             <sparkle:shortVersionString>1.6.32</sparkle:shortVersionString>
