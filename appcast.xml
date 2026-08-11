@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.36</title>
+            <sparkle:version>1.6.36</sparkle:version>
+            <sparkle:shortVersionString>1.6.36</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 12 Aug 2026 01:22:25 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.6.36 — Terminal-Start endgültig behoben</p>
+
+<h2>Behoben</h2>
+<li>**Fehler −600 beim Angebots-Start:** Die App startet den Claude-Code-Lauf jetzt über eine Startdatei, die macOS direkt mit dem Terminal öffnet — ganz ohne AppleScript. Das funktioniert zuverlässig, auch wenn das Terminal vorher geschlossen war.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.36/DMS-1.6.36.dmg"
+                sparkle:edSignature="oDZdSMk4xnhpd/2YrOSR+KCVZup1FSWaFpFNl03uCD9CvBoC2YbUGO6I5ptqjTv9nYPNkThke9LAj9LUMnSxBw=="
+                length="36841854"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.35</title>
             <sparkle:version>1.6.35</sparkle:version>
             <sparkle:shortVersionString>1.6.35</sparkle:shortVersionString>
