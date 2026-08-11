@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.38</title>
+            <sparkle:version>1.6.38</sparkle:version>
+            <sparkle:shortVersionString>1.6.38</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 12 Aug 2026 01:48:15 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.6.38 — Keine Rückfragen mehr bei dünnen Daten</p>
+
+<h2>Angebots-Automatisierung (Mac)</h2>
+<li>**Fehlende Daten stoppen den Lauf nicht mehr:** Ohne Nachname, Anrede oder Bauadresse arbeitet die Automatisierung mit sinnvollen Standards weiter (Anrede „Familie", Zonen unserer Region) und listet die Annahmen transparent auf. Gestoppt wird nur noch bei echten Blockern.</li>
+<li>**Transparenz in der Kundenmail:** Wurde mit unserer Region gerechnet, steht der Hinweis automatisch in der Mail (Preise für Fundament, Transport und Technikpaket können abweichen).</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.38/DMS-1.6.38.dmg"
+                sparkle:edSignature="rZRSj1FGuhZeRNkdSOMzR9qrtER6IvMSky7ZZF0fUGfjeCIEaJPRhN2TPZJ1L+x2zG6/KyJukzsJdlVKxPurCw=="
+                length="36873712"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.37</title>
             <sparkle:version>1.6.37</sparkle:version>
             <sparkle:shortVersionString>1.6.37</sparkle:shortVersionString>
