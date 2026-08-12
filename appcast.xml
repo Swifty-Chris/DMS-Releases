@@ -8,6 +8,30 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.50</title>
+            <sparkle:version>1.6.50</sparkle:version>
+            <sparkle:shortVersionString>1.6.50</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 12 Aug 2026 13:06:47 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.6.50</p>
+
+<h2>KI-Mailvorschlag: Klare Leistungsgrenze</h2>
+
+<li>Die Mails bieten keine Garten- oder Außenanlagen-Planung mehr an — auch keine Kalkulation dafür. Garten-Wünsche des Interessenten werden ausschließlich über Eigenschaften des Hauses aufgegriffen (bodentiefe Fenster, Terrassenanbindung, Ausrichtung).</li>
+
+<h2>Neu: Sehen, ob der Kunde das Angebot geöffnet hat</h2>
+
+<li>Im Hausfinder-Lead erscheint jetzt die Sektion „Geteiltes Angebot": Sie zeigt, ob die geteilte Verkaufsunterlage schon geöffnet wurde — mit Anzahl der Aufrufe und dem Zeitpunkt des letzten Zugriffs. Auch das Angebots-Fenster zeigt den Status direkt beim Mailvorschlag.</li>
+<li>Hinweis zur Einordnung: Einzelne Aufrufe direkt nach dem Versand können vom Mail-Programm des Empfängers stammen (automatische Link-Vorschau).</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.50/DMS-1.6.50.dmg"
+                sparkle:edSignature="QO1GdgJwVukVyCFP24WtsfuUCDM6GxbXWzuEZ5StetzQuw7MKHX1b/p5b3OSb24BiwxYt1W6NSBMolf3NXKPDw=="
+                length="36953166"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.49</title>
             <sparkle:version>1.6.49</sparkle:version>
             <sparkle:shortVersionString>1.6.49</sparkle:shortVersionString>
