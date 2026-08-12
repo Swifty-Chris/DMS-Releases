@@ -8,6 +8,37 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.56</title>
+            <sparkle:version>1.6.56</sparkle:version>
+            <sparkle:shortVersionString>1.6.56</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 12 Aug 2026 20:12:52 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.6.56</p>
+
+<h2>Mailvorschläge: kürzer, dichter, mit sichtbarer Musterhaus-Einladung</h2>
+
+<ul>
+<li><strong>Kürzere Sätze statt Broschüren-Deutsch:</strong> Die Mails wurden nicht durch zu viele Sätze lang, sondern durch zu lange. Neue Leitplanke: rund 15 Wörter pro Satz. Gemessen über alle Leadtypen sank die Satzlänge von 18 auf 13,7 Wörter.</li>
+<li><strong>Spürbar kompaktere Mails:</strong> Im Schnitt 202 statt 223 Wörter; die typische Katalog-Erstkontakt-Mail 215 statt 273 Wörter. Pflichtinhalte bleiben vollständig erhalten, sie stehen nur dichter.</li>
+<li><strong>Musterhaus-Einladung wird nicht mehr überlesen:</strong> Sie steht jetzt immer in einem eigenen Absatz statt als „Außerdem …"-Nebensatz am Ende des Grundstücks-Absatzes.</li>
+<li><strong>Keine Doppelungen mehr:</strong> Dass Grundrisse individuell anpassbar sind, stand bisher dreifach in derselben Mail. Diese Aussage kommt jetzt genau einmal vor.</li>
+<li><strong>Ausführliche Anfragen bleiben ausführlich beantwortet:</strong> Wer selbst konkrete Fragen stellt, bekommt weiterhin eine längere Mail, in der alle Punkte beantwortet sind.</li>
+</ul>
+
+<h2>Intern</h2>
+
+<ul>
+<li>Neuer Mail-Prüfstand: 10 Leadtypen laufen headless gegen das echte Produktionsmodell und werden auf Länge, Satzbau, Pflichtbausteine und Verbote gemessen.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.56/DMS-1.6.56.dmg"
+                sparkle:edSignature="I8XEQUWFCjwL1/sy3IkvqmBQgKJ4KRKKfF7WJOJp4gLNXWKkmtyQZNh49+bMCjPEnabsfEF++C8mM18e2/hWDQ=="
+                length="37052645"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.55</title>
             <sparkle:version>1.6.55</sparkle:version>
             <sparkle:shortVersionString>1.6.55</sparkle:shortVersionString>
