@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.49</title>
+            <sparkle:version>1.6.49</sparkle:version>
+            <sparkle:shortVersionString>1.6.49</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 12 Aug 2026 12:48:44 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.6.49</p>
+
+<h2>KI-Mailvorschlag zum Angebot</h2>
+
+<li>Die Angebots-Mail nennt keine Fristen mehr: Weder die Preisbindung des Angebots (steht in der Verkaufsunterlage) noch die Gültigkeitsdauer des Download-Links erscheinen im Text. Der Link selbst bleibt unverändert 30 Tage abrufbar.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.49/DMS-1.6.49.dmg"
+                sparkle:edSignature="m1l4MmDPLAdjcr4FuOamM9n7IfLRP5RffIQKwFZZPwlCaFiV/B54T4sZtXxaclYzawEZBvfrXernoiLwFFZLCA=="
+                length="36926552"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.48</title>
             <sparkle:version>1.6.48</sparkle:version>
             <sparkle:shortVersionString>1.6.48</sparkle:shortVersionString>
