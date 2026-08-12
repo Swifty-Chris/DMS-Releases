@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.51</title>
+            <sparkle:version>1.6.51</sparkle:version>
+            <sparkle:shortVersionString>1.6.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 12 Aug 2026 13:21:00 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.6.51</p>
+
+<h2>KI-Mailvorschlag: Du bleibt Du</h2>
+
+<li>Interessenten, die nur mit Vornamen bekannt sind, werden jetzt auch in Folge-Mails geduzt — nicht mehr nur im Erstkontakt. Nach dem Versand der ersten Mail fiel die Anrede bisher zurück ins Sie.</li>
+<li>Eine bestehende Korrespondenz, die eindeutig siezt, bleibt weiterhin beim Sie.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.51/DMS-1.6.51.dmg"
+                sparkle:edSignature="HlfSzDqo7/jKx2ccdYLBPJr0hpLKLiv3HMUyXI/h8YVQHGL2WBxEMERMFu94eJMxbFbwtAI9BiyIi84d0okSBw=="
+                length="36953206"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.50</title>
             <sparkle:version>1.6.50</sparkle:version>
             <sparkle:shortVersionString>1.6.50</sparkle:shortVersionString>
