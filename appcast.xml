@@ -8,6 +8,27 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.47</title>
+            <sparkle:version>1.6.47</sparkle:version>
+            <sparkle:shortVersionString>1.6.47</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 12 Aug 2026 11:23:52 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.6.47</p>
+
+<h2>KI-Mailvorschlag: Feinschliff aus dem Live-Test</h2>
+
+<li>Namen werden in der Anrede jetzt immer korrekt großgeschrieben, auch wenn der Interessent sie im Formular klein eingetragen hat („max" wird zu „Max").</li>
+<li>Die Musterhaus-Einladung betont die vorherige Terminabstimmung jetzt als festen Bestandteil des Besuchs: Die Mail bittet aktiv darum, sich vor einem Besuch kurz zu melden, und stellt den abgestimmten Termin als Vorteil dar (persönliche Betreuung, Anmeldung am Empfang, kein Eintritt). Ein spontanes Vorbeischauen wird nicht mehr nahegelegt.</li>
+<li>Schreibfehler behoben: „Schmiedestraße" stand in der Einladung teils als „Schmiedestrasse".</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.47/DMS-1.6.47.dmg"
+                sparkle:edSignature="rnXWMPevAGmRHn1GhI8hjxhvBPQtHnTzNraMce4G+w52zohBGiJwFgX92bs5CPqBXW15BMNycFuAiUCK6IL4BQ=="
+                length="36925589"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.46</title>
             <sparkle:version>1.6.46</sparkle:version>
             <sparkle:shortVersionString>1.6.46</sparkle:shortVersionString>
