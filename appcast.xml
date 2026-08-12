@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.40</title>
+            <sparkle:version>1.6.40</sparkle:version>
+            <sparkle:shortVersionString>1.6.40</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 12 Aug 2026 02:44:51 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.6.40 — Lange Läufe & Wiederaufnahme</p>
+
+<h2>Angebots-Automatisierung (Mac)</h2>
+<li>**Kein vorzeitiges Aufgeben mehr:** Die App wartet jetzt bis zu 90 Minuten auf einen Angebots-Lauf (der erste Realbetriebslauf brauchte 39 Minuten wegen einmaliger Einrichtungsarbeiten).</li>
+<li>**Wiederaufnahme:** Liegt für einen Lead bereits ein fertiges Lauf-Ergebnis vor (z. B. nach Timeout oder App-Neustart), bietet das Angebots-Fenster „Fertiges Ergebnis laden & fortsetzen" an — ohne neuen Lauf, ohne CRM-Dublette. Im Fehlerfall gibt es „Ergebnis erneut prüfen".</li>
+<li>**Automatischer Regions-Hinweis in der Kundenmail** (Preise für Fundament, Transport und Technikpaket können abweichen) und klare Meldung bei beschädigter Ergebnis-Datei.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.40/DMS-1.6.40.dmg"
+                sparkle:edSignature="k0DQw9pQtA2vwUkPxCggAUcFDR4ZM4oF5dFGe+OlyDQtl4Ilkq4vjjEoqRXtRkh4x1+5n8m5wwnn6WDZE7lTBg=="
+                length="36901489"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.39</title>
             <sparkle:version>1.6.39</sparkle:version>
             <sparkle:shortVersionString>1.6.39</sparkle:shortVersionString>
