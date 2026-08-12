@@ -8,6 +8,28 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.54</title>
+            <sparkle:version>1.6.54</sparkle:version>
+            <sparkle:shortVersionString>1.6.54</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 12 Aug 2026 17:28:49 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.6.54</p>
+
+<h2>KI-Mailvorschlag: Erreichbarkeits-Satz ist jetzt Pflicht</h2>
+
+<li>Jede vorgeschlagene Mail endet nach der Abschlussfrage verbindlich mit einem kurzen Erreichbarkeits-Satz: jederzeit per WhatsApp oder Telefon erreichbar, sehr gerne auch abends und am Wochenende. Frei formuliert, nie derselbe Wortlaut.</li>
+<li>Keine Telefonnummer im Mailtext (sie steht in der Signatur), keine Platzhalter.</li>
+<li>Wünscht der Interessent ausdrücklich keine telefonische Kontaktaufnahme, wird die Erreichbarkeit nur über WhatsApp und E-Mail angeboten.</li>
+<li>Gilt in allen Phasen: Erstkontakt, Nachfass und Folge-Mails.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.54/DMS-1.6.54.dmg"
+                sparkle:edSignature="7+QUNMWqM3NEsRo8KxNplDquXHjW2cKHDVMPR5hSP6Na9khpVuzta9ZZX8neLbAD2x9kUf6VzQLppnSEpF37CA=="
+                length="36952665"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.53</title>
             <sparkle:version>1.6.53</sparkle:version>
             <sparkle:shortVersionString>1.6.53</sparkle:shortVersionString>
