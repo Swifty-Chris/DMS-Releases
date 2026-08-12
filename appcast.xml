@@ -8,6 +8,27 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.53</title>
+            <sparkle:version>1.6.53</sparkle:version>
+            <sparkle:shortVersionString>1.6.53</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 12 Aug 2026 17:19:18 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.6.53</p>
+
+<h2>KI-Mailvorschlag: Design-Center-Zugangs-Leads</h2>
+
+<li>Erstkontakt-Mails an Leads mit Design-Center-Zugang enthalten jetzt verbindlich: die Frage, wie der Interessent auf DAN WOOD aufmerksam geworden ist, die Frage, ob mit dem Zugang bisher alles geklappt hat (mit Hilfsangebot), und das ausdrückliche Angebot, jederzeit Fragen zu beantworten — zu Preisen einzelner Positionen aus dem Design Center genauso wie zu Häusern und zur Hausplanung.</li>
+<li>Die Musterhaus-Einladung mit Terminabstimmung bleibt dabei Pflicht.</li>
+<li>Die Erkennung läuft deterministisch über Formulartyp/Kontaktkanal des CRM-Leads (tolerant gegenüber Schreibweisen wie „Design Center", „Designcenter", „Design-Center").</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.53/DMS-1.6.53.dmg"
+                sparkle:edSignature="wj2s41wH2vCqUw6WMienYh/jHad++q09a44uWJSvewVpzTVq2EADrGI5UVQKJgPl46mTmaWL4g0Xsg6j2Ac4Cw=="
+                length="36951881"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.52</title>
             <sparkle:version>1.6.52</sparkle:version>
             <sparkle:shortVersionString>1.6.52</sparkle:shortVersionString>
