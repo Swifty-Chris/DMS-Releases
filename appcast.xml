@@ -8,6 +8,35 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.57</title>
+            <sparkle:version>1.6.57</sparkle:version>
+            <sparkle:shortVersionString>1.6.57</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 12 Aug 2026 22:57:48 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.6.57</p>
+
+<h2>Mailvorschläge: kein Sortiments-Überblick, kein schwächerer Zweitvorschlag</h2>
+
+<ul>
+<li><strong>Keine Linien-Aufzählung mehr bei klarem Wunsch:</strong> Wer mehrere Kataloge bestellt hat, bekam bisher das halbe Sortiment erklärt (Today, NEXT, S-Linie, Vision), obwohl sein Haustyp längst feststand. Die Einordnung erscheint jetzt nur noch, wenn die Mail selbst Häuser aus mehreren Linien nennt oder der Interessent nach dem Unterschied fragt.</li>
+<li><strong>Ein zweites Haus braucht einen echten Vorteil:</strong> Ein teureres Haus mit weniger Fläche und weniger Zimmern wurde als „moderne Alternative" angehängt. Das liest sich für den Empfänger wie ein schlechteres Angebot zum höheren Preis und ist jetzt ausgeschlossen. Ein Haus ist der Normalfall, zwei die begründete Ausnahme.</li>
+<li><strong>Wirkung:</strong> Der eingesparte Platz fließt in das Vorhaben des Interessenten statt in Sortimentskunde.</li>
+</ul>
+
+<h2>Intern</h2>
+
+<ul>
+<li>Der Mail-Prüfstand testet jetzt mit realistischer Datenlage: drei Match-Häuser wie vom Matcher geliefert, breite Katalog-Interessen. Beide Fehler waren damit reproduzierbar (Linien-Überblick in 3 von 5 Läufen, danach 0 von 6).</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.57/DMS-1.6.57.dmg"
+                sparkle:edSignature="IaGJt6S4x93LODs0XVsALiyR38D09v54w0HMGGnoEaXl6EElMm4SOcxkue2g6nxo/tvRhWXoSxvir0k6GA/sDA=="
+                length="37054440"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.56</title>
             <sparkle:version>1.6.56</sparkle:version>
             <sparkle:shortVersionString>1.6.56</sparkle:shortVersionString>
