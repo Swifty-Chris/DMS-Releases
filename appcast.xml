@@ -8,6 +8,27 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.46</title>
+            <sparkle:version>1.6.46</sparkle:version>
+            <sparkle:shortVersionString>1.6.46</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 12 Aug 2026 11:02:58 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.6.46</p>
+
+<h2>KI-Mailvorschlag: Passende Anrede bei Vornamen-Leads</h2>
+
+<li>Gibt ein Interessent nur seinen Vornamen an (typisch im KI-Hausfinder), schreibt der Mailvorschlag jetzt freundlich per Du — durchgängig bis zur Grußformel. „Guten Tag Max" kombiniert mit „Sie" wirkte unstimmig.</li>
+<li>Bei vollem Namen bleibt es beim gewohnten höflichen Sie; wirkt die einzelne Angabe erkennbar wie ein Nachname, bleibt die Mail ebenfalls förmlich.</li>
+<li>Bestehende Korrespondenz gewinnt weiterhin: Wer bisher gesiezt wurde, wird nicht plötzlich geduzt.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.46/DMS-1.6.46.dmg"
+                sparkle:edSignature="XablVvoBd1pgg107oB2bFkKLhiW6yiPAaFGM/qA4RwOfj5pWv/LLl7gR8S+/kp+lU5VIyils21YosNPZsBqlDA=="
+                length="36922685"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.45</title>
             <sparkle:version>1.6.45</sparkle:version>
             <sparkle:shortVersionString>1.6.45</sparkle:shortVersionString>
