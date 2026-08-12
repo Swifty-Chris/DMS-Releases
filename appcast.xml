@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.52</title>
+            <sparkle:version>1.6.52</sparkle:version>
+            <sparkle:shortVersionString>1.6.52</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 12 Aug 2026 13:58:37 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.6.52</p>
+
+<h2>KI-Mailvorschlag: Korrekturen aus dem Live-Test</h2>
+
+<li>Die Mail nennt als Quelle jetzt korrekt den KI-Hausfinder auf danwood.nrw (nicht mehr danwood.de) und darf generell nie eine andere Domain nennen als die tatsächliche Quelle.</li>
+<li>Das geteilte Angebots-PDF bekommt einen sprechenden Dateinamen („Angebot Park 179 S fuer Max.pdf") — damit zeigt die Link-Vorschau in Apple Mail einen lesbaren Titel statt einer kryptischen Zeichenkette. Gilt für neu geteilte Angebote.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.52/DMS-1.6.52.dmg"
+                sparkle:edSignature="G94skls/Govv2SUfsK0XiRhcux3zpuyCabjRK8wRdvhsj8WX65wF+b5X1eVLBhWQsdXwZtPprCd38HwU+ix2Dw=="
+                length="36952741"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.51</title>
             <sparkle:version>1.6.51</sparkle:version>
             <sparkle:shortVersionString>1.6.51</sparkle:shortVersionString>
