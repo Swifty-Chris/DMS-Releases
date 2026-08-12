@@ -8,6 +8,29 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.55</title>
+            <sparkle:version>1.6.55</sparkle:version>
+            <sparkle:shortVersionString>1.6.55</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 12 Aug 2026 18:44:51 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.6.55</p>
+
+<h2>KI-Mailvorschlag: Korrekturen aus dem Schaaf-Befund</h2>
+
+<li>Der Design-Center-Block greift nur noch, wenn der Design-Center-Zugang wirklich der Kanal des Leads ist (Formulartyp/Kontaktkanal). Katalog-Bestellungen haben Vorrang: Wer einen Katalog angefordert hat und den Design-Center-Probelink nur als Beifang trägt, bekommt wieder die normale Katalog-Erstkontakt-Mail. Nebeninfos (Hinweise, Gedächtnis) lösen den Block nicht mehr aus.</li>
+<li>Die Design-Center-Fragen ordnen sich der Ein-Frage-Regel unter (höchstens eine Frage pro Mail, bevorzugt „hat alles geklappt?"), und die Frage nach der Herkunft entfällt, wenn die Angaben sie schon nennen.</li>
+<li>Sonderform-Hypothesen sind verboten: Kein „falls später eine Einliegerwohnung oder ein Doppelhaus interessant wird", wenn der Interessent nichts dergleichen angegeben hat.</li>
+<li>Wünscht der Interessent keine Finanzierungsunterstützung, wird die Finanzierung mit keinem Wort erwähnt (kein „da Sie keine Unterstützung benötigen…").</li>
+<li>Die Linien-Einordnung (Today/NEXT/S-Linie/Family) erscheint nur noch, wenn die eigenen Angaben des Interessenten mehrere Linien nennen — nie als Sortiments-Überblick bei klarem Wunsch.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.55/DMS-1.6.55.dmg"
+                sparkle:edSignature="35DL8i1ln2sYKlgfun7h8mtM3ZQIED6Xdsob1YPmccbZX40ZwqqQZd0/5xYZ39aF0/uL57Y5HHmiA7cdfyTGDg=="
+                length="36954952"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.54</title>
             <sparkle:version>1.6.54</sparkle:version>
             <sparkle:shortVersionString>1.6.54</sparkle:shortVersionString>
