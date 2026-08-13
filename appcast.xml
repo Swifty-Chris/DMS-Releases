@@ -8,6 +8,44 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.58</title>
+            <sparkle:version>1.6.58</sparkle:version>
+            <sparkle:shortVersionString>1.6.58</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 13 Aug 2026 11:45:32 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.6.58</p>
+
+<h2>Mailvorschläge: klarer, kürzer, keine peinlichen Ausrutscher</h2>
+
+<ul>
+<li><strong>Richtige Anrede bei bekanntem Nachnamen:</strong> Steht im Lead nur der Vorname, der Nachname aber in der E-Mail-Adresse (etwa <code>linda.hackl@…</code>), wird jetzt gesiezt statt geduzt. Echte Nur-Vornamen-Leads bekommen weiterhin die Du-Form.</li>
+<li><strong>Ein Hausvorschlag statt drei:</strong> Der Mailvorschlag nimmt jetzt die bestbewertete Empfehlung des KI-Hausfinders. Vorher hängte die KI gern ein zweites, schwächeres Haus an. Nebenbei behoben: Die Rangfolge des Hausfinders ging auf dem Weg in die Mail verloren.</li>
+<li><strong>Kein Katalog, den der Interessent schon hat:</strong> Wer sich Unterlagen selbst heruntergeladen hat, bekommt sie nicht erneut angeboten — die Mail knüpft daran an und schlägt den nächsten Schritt vor. Welche Unterlagen es waren, steht jetzt namentlich im Kontext.</li>
+<li><strong>Keine Datenbank-Werte mehr im Kundentext:</strong> Interne Schlüssel wie <code>doppel_reihenhaus</code> werden in Klartext übersetzt („Doppel- oder Reihenhaus").</li>
+<li><strong>Spürbar kompakter:</strong> Im Schnitt 199 Wörter; Mails über 250 Wörter haben sich mehr als halbiert.</li>
+</ul>
+
+<h2>Angebots-Erstellung blockiert die App nicht mehr</h2>
+
+<ul>
+<li>Das Fenster der KI-Angebotserstellung lässt sich jetzt schließen, ohne den laufenden Vorgang abzubrechen. Der Lauf und seine Überwachung gehen im Hintergrund weiter, der Mailvorschlag kommt am Ende trotzdem.</li>
+</ul>
+
+<h2>Intern</h2>
+
+<ul>
+<li>Der Mail-Prüfstand fährt jetzt <strong>echte</strong> Leads durch die echten Builder-Pfade (Hausfinder und Katalog-Bereich) und prüft je Lead Regeln, die aus seinen eigenen Daten abgeleitet sind.</li>
+<li>Alle Informationen werden dem Sprachmodell als ausformulierte Sätze übergeben — mit Herkunft, Verlässlichkeit und Zweck statt als Datenschnipsel.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.58/DMS-1.6.58.dmg"
+                sparkle:edSignature="4e8CGsn8jD+bdZ1OIZeZUhPIr+9jBiryM0cQot11kSaCTaNI9J8HO/HHG20aAbiGFZfQmjAEISDbsMBTXSmBCQ=="
+                length="37069204"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.57</title>
             <sparkle:version>1.6.57</sparkle:version>
             <sparkle:shortVersionString>1.6.57</sparkle:shortVersionString>
