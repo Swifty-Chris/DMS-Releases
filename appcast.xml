@@ -8,6 +8,28 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.65</title>
+            <sparkle:version>1.6.65</sparkle:version>
+            <sparkle:shortVersionString>1.6.65</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 14 Aug 2026 00:06:53 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.6.65</p>
+
+<h2>Befristete Gratis-Leistungen stehen wieder in der Mail</h2>
+
+<ul>
+<li><strong>Der Unterschied zählt jetzt:</strong> Die Gültigkeit eines Angebots und die Preisbindung bleiben aus dem Kundentext heraus, sie stehen ohnehin in der Unterlage. Eine Leistung, die nur bis zu einem bestimmten Datum kostenfrei enthalten ist (etwa das QNG-Siegel), gehört dagegen mit ihrem Datum in die Mail: Ohne diese Angabe kann der Interessent sie schlicht verpassen.</li>
+<li>Bisher galt für beides dieselbe Sperre, und die kostenfreie Leistung fiel mit heraus.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.65/DMS-1.6.65.dmg"
+                sparkle:edSignature="okZwmkAQ6BjErIq+fNTX/Qoj+hYDJs3huWwk8pOmmsveTOGlb97VJEcIUWs38mPIJ9llqNM7Vaa2ZnVAK8JjBA=="
+                length="37102079"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.64</title>
             <sparkle:version>1.6.64</sparkle:version>
             <sparkle:shortVersionString>1.6.64</sparkle:shortVersionString>
