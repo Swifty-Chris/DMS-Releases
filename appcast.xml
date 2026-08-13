@@ -8,6 +8,41 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.63</title>
+            <sparkle:version>1.6.63</sparkle:version>
+            <sparkle:shortVersionString>1.6.63</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 13 Aug 2026 23:36:04 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.6.63</p>
+
+<h2>Keine geratene Anrede mehr</h2>
+
+<ul>
+<li><strong>Unklarer Name, neutrale Ansprache:</strong> Steht im Lead nur ein einzelner Name, der kein gebräuchlicher Vorname ist (etwa „Schawe"), kann er genauso gut der Nachname sein. Bisher wurde daraus „Hallo Schawe" samt Du. Jetzt beginnt die Mail mit „Guten Tag," ohne Namen und duzt nicht.</li>
+<li><strong>Bekannte Vornamen bleiben wie gehabt:</strong> „Max" wird weiter freundlich geduzt, und steht der Nachname in der E-Mail-Adresse, bleibt es beim Sie.</li>
+</ul>
+
+<h2>Anpassbarkeit steht jetzt beim Haus</h2>
+
+<ul>
+<li>Die Family-Linie hat feste Grundrisse. Trotzdem versprachen Mails gelegentlich eine individuelle Anpassung, weil diese Ausnahme nur allgemein im Regeltext stand. Jetzt trägt jedes Haus seine Anpassbarkeit als eigene Angabe: In der Messung an echten Leads fiel der Fehler von 2 aus 4 auf 0 aus 10.</li>
+</ul>
+
+<h2>Prüfstand</h2>
+
+<ul>
+<li>Einzelne Leads lassen sich jetzt gezielt prüfen, statt nur eine gestreute Auswahl.</li>
+<li>Drei zu grobe Prüfregeln nachgeschärft: Sie meldeten korrekte Sätze als Fehler.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.63/DMS-1.6.63.dmg"
+                sparkle:edSignature="xj6nSc5uqSGiqg9qA1pp0ijU16fkoWhFwL8ucpDMZA/hjgsjai9TnOh6SFnCwnPtyUgAiAapRx0Pi2F6fIWqDQ=="
+                length="37102378"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.62</title>
             <sparkle:version>1.6.62</sparkle:version>
             <sparkle:shortVersionString>1.6.62</sparkle:shortVersionString>
