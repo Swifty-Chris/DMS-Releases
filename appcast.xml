@@ -8,6 +8,42 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.62</title>
+            <sparkle:version>1.6.62</sparkle:version>
+            <sparkle:shortVersionString>1.6.62</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 13 Aug 2026 22:45:23 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.6.62</p>
+
+<h2>Alle KI-Funktionen sind jetzt messbar abgesichert</h2>
+
+<ul>
+<li><strong>Fingerabdruck für jeden Prompt:</strong> Bisher fiel nur beim Mailvorschlag auf, wenn sich ein Prompt änderte. Jetzt gilt das für alle KI-Funktionen: Assistent, E-Mail-Zusammenfassung, Aufgaben-Extraktion, Notiz-Inbox und Radar-Begründungen.</li>
+<li><strong>Prüfstand gegen das echte Modell:</strong> Sieben Prüfszenen laufen headless durch, jede mit einer eingebauten Falle. Drei davon sind Manipulationsversuche in fremden Texten.</li>
+</ul>
+
+<h2>Was der Prüfstand direkt gefunden hat</h2>
+
+<ul>
+<li><strong>Notiz-Inbox:</strong> Bei „Termin mit Müller und dem Statikbüro Prange" landeten gelegentlich beide Namen in einem Feld, dann fand die Zuordnung nichts. Behoben.</li>
+<li><strong>Manipulationsversuche in E-Mails und Notizen</strong> werden zuverlässig als Vorgang gemeldet statt befolgt.</li>
+</ul>
+
+<h2>Sauberes Deutsch auch in den Tool-Texten</h2>
+
+<ul>
+<li>Die Beschreibungen, die bei jedem Assistenten-Aufruf mitgehen, tragen jetzt echte Umlaute und keine Gedankenstriche mehr. Der Assistent ahmt nach, was er liest.</li>
+<li>Betreff-Vorschläge heißen jetzt „Terminbestätigung" und „Rückfrage zu" statt „Terminbestaetigung" und „Rueckfrage zu".</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.62/DMS-1.6.62.dmg"
+                sparkle:edSignature="3xG77GCa+jwwGH1MmjxyrZxhQbd55QryMrkLmLqt+ed+osHovi3Cw4gH/TiNeKR9NEsbUvEMYmpMvviQtdkBBA=="
+                length="37086861"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.61</title>
             <sparkle:version>1.6.61</sparkle:version>
             <sparkle:shortVersionString>1.6.61</sparkle:shortVersionString>
