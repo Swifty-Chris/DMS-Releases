@@ -8,6 +8,38 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.61</title>
+            <sparkle:version>1.6.61</sparkle:version>
+            <sparkle:shortVersionString>1.6.61</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 13 Aug 2026 17:41:26 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.6.61</p>
+
+<h2>Folge-Mails kennen jetzt den bisherigen Schriftwechsel</h2>
+
+<ul>
+<li><strong>Der Gesprächsverlauf steht im Kontext:</strong> Bei einer Folge-Mail wusste die KI bisher nur, dass schon geschrieben wurde, aber nicht was darin stand. Jetzt kennt sie den Verlauf beider Richtungen und kann daran anknüpfen, statt Dinge zu wiederholen.</li>
+<li><strong>Ohne Doppelungen:</strong> Zitierte Vorgeschichte wird herausgeschnitten. Jede Aussage steht genau einmal, auch wenn sie im Postfach fünfmal zitiert wurde.</li>
+</ul>
+
+<h2>Alle KI-Funktionen bekommen besseren Kontext</h2>
+
+<ul>
+<li><strong>KI-Assistent:</strong> Klarere Lage statt Verbotsliste, ein interner Widerspruch zur Pinnwand aufgelöst.</li>
+<li><strong>E-Mail-Analyse:</strong> Mailtexte werden jetzt eingeordnet übergeben — inklusive der Klarstellung, dass eine Aufforderung in einer fremden Mail ein Vorgang ist, über den berichtet wird, und keine Anweisung.</li>
+<li><strong>Notiz-Inbox:</strong> Die KI weiß jetzt, woher eine Schnellnotiz stammt und dass nichts ohne Bestätigung angelegt wird.</li>
+<li><strong>Radar-Begründungen:</strong> Verständlichere Sätze auf den Karten.</li>
+<li>Keine Gedankenstriche mehr in Kartentiteln — sie hatten sich als Vorbild in erzeugte Texte geschlichen.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.61/DMS-1.6.61.dmg"
+                sparkle:edSignature="FecayigsivqiXtUMQghC95ZK9lZupc3IrSofobM4jZDl4vH1LCEbp9mAp6l2GWQmwesYA3xKYE0qDp+dSjI/AQ=="
+                length="37080651"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.60</title>
             <sparkle:version>1.6.60</sparkle:version>
             <sparkle:shortVersionString>1.6.60</sparkle:shortVersionString>
