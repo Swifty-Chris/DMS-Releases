@@ -8,6 +8,39 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.60</title>
+            <sparkle:version>1.6.60</sparkle:version>
+            <sparkle:shortVersionString>1.6.60</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 13 Aug 2026 16:52:46 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.6.60</p>
+
+<h2>Mailvorschläge: menschlicher Einstieg, klarere Angebots-Mails</h2>
+
+<ul>
+<li><strong>Zeitlicher Bezug im Einstieg:</strong> Die Mail weiß jetzt, wann die Anfrage kam und wann sie selbst geschrieben wird (Berliner Zeit). Daraus wird ein natürlicher Aufhänger: „Sie haben gestern Abend unseren KI-Hausfinder auf danwood.nrw genutzt."</li>
+<li><strong>Angebots-Mails ohne Umwege:</strong> Liegt ein fertig gerechnetes Angebot vor, stellt die Mail dieses vor, statt das Haus noch einmal zu verkaufen. Kein zweiter Link auf die Hausseite, keine Wiederholung der eigenen Angaben des Interessenten, keine Rückfrage am Ende — stattdessen das Angebot, sich das Angebot anzupassen.</li>
+<li><strong>Keine erfundene Vorgeschichte mehr:</strong> Die Mail weiß, ob es die erste Nachricht an diesen Kontakt ist, und behauptet nicht länger „in meiner letzten Mail hatte ich Ihnen …".</li>
+<li><strong>Korrekte Anrede bei bekanntem Nachnamen:</strong> Steht im Lead nur der Vorname, der Nachname aber in der Adresse, wird gesiezt.</li>
+<li><strong>Keine internen Werte im Kundentext:</strong> Datenbank-Schlüssel wie <code>doppel_reihenhaus</code> erscheinen als „Doppel- oder Reihenhaus".</li>
+</ul>
+
+<h2>Unter der Haube</h2>
+
+<ul>
+<li>Der Prompt übergibt jede Information als ausformulierten Satz mit Herkunft und Zweck, statt Datenfelder aneinanderzureihen — und ist dabei um ein Sechstel kürzer geworden.</li>
+<li>Durchgehend echte Umlaute: Wer fehlerfreies Deutsch erwartet, schreibt selbst „für" statt „fuer".</li>
+<li>Die Angebots-Mail ist jetzt fester Bestandteil des automatischen Qualitätslaufs über echte Leads.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.60/DMS-1.6.60.dmg"
+                sparkle:edSignature="iad9I9yFmgfO6dKQBKXGW6eC9xIYueFo7+wRAbdB8+MeOrcIV71xte8SUp2eY3CTkx9z2tW8B8N+Aknu4x4ADQ=="
+                length="37075308"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.59</title>
             <sparkle:version>1.6.59</sparkle:version>
             <sparkle:shortVersionString>1.6.59</sparkle:shortVersionString>
