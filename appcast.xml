@@ -8,6 +8,36 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.59</title>
+            <sparkle:version>1.6.59</sparkle:version>
+            <sparkle:shortVersionString>1.6.59</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 13 Aug 2026 14:19:20 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.6.59</p>
+
+<h2>Mailvorschläge nehmen Bezug auf den Zeitpunkt</h2>
+
+<ul>
+<li><strong>„Sie haben gestern unseren KI-Hausfinder genutzt":</strong> Die Mail kennt jetzt den Zeitpunkt der Anfrage und den Zeitpunkt, zu dem sie geschrieben wird — beides in Berliner Zeit. Der Einstieg wird dadurch spürbar persönlicher statt allgemein.</li>
+</ul>
+
+<h2>Angebots-Mails kommen auf den Punkt</h2>
+
+<ul>
+<li><strong>Kein Umweg mehr auf die Haus-Seite:</strong> Liegt ein fertiges Angebot vor, verlinkt die Mail die Verkaufsunterlage — und nicht mehr zusätzlich die Produktseite des Hauses, die der Interessent im Hausfinder längst gesehen hat.</li>
+<li><strong>Kein Erklär-Modus:</strong> Das Haus hat der Hausfinder bereits vorgeschlagen. Die Mail stellt deshalb das Angebot vor, statt das Haus noch einmal zu verkaufen.</li>
+<li><strong>Natürlicher Abschluss:</strong> Statt einer Rückfrage steht am Ende, dass sich das Angebot jederzeit anpassen lässt, ein anderes Haus durchgerechnet oder ein individueller Grundriss entworfen werden kann.</li>
+<li>Die Bau- und Leistungsbeschreibung darf weiterhin mitgehen, wenn sie zur Situation passt.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.59/DMS-1.6.59.dmg"
+                sparkle:edSignature="yUjJ3Sk/9Do4Lu7kMUHylg43X3KC2bDJrnKfgV0wO0vxXGou4wb9xIu1Mk+GUHqOWKIt0p58RtwCe5SDEn4NCQ=="
+                length="37076677"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.58</title>
             <sparkle:version>1.6.58</sparkle:version>
             <sparkle:shortVersionString>1.6.58</sparkle:shortVersionString>
