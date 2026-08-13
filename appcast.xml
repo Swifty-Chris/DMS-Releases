@@ -8,6 +8,28 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.64</title>
+            <sparkle:version>1.6.64</sparkle:version>
+            <sparkle:shortVersionString>1.6.64</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 13 Aug 2026 23:54:56 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.6.64</p>
+
+<h2>Angebots-Mails versprechen keine Grundriss-Änderung mehr, wo keine möglich ist</h2>
+
+<ul>
+<li><strong>Der Abschluss der Angebots-Mail</strong> bot bisher immer an, „einen individuellen Grundriss zu entwickeln" — auch bei FAMILY-Häusern, deren Grundriss feststeht. Jetzt richtet sich dieser Satz nach dem konkreten Haus: Liegt der Grundriss fest, bleibt er unerwähnt.</li>
+<li>Dieselbe Umstellung im Hausvorschlag: Die Anpassbarkeit steht bei den Angaben zum jeweiligen Haus, nicht mehr als allgemeine Regel mit Ausnahme.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.64/DMS-1.6.64.dmg"
+                sparkle:edSignature="S1Rs80t8mRFOhzu5Jha+or/yw41hGkO6P9EL6s/fVy4hjt/XV0yvsulqB3hEXV6O7D7gNU9NPgckqB/W3EnFBg=="
+                length="37101931"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.63</title>
             <sparkle:version>1.6.63</sparkle:version>
             <sparkle:shortVersionString>1.6.63</sparkle:shortVersionString>
