@@ -8,6 +8,27 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.66</title>
+            <sparkle:version>1.6.66</sparkle:version>
+            <sparkle:shortVersionString>1.6.66</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 14 Aug 2026 11:53:54 +0200</pubDate>
+            <description><![CDATA[
+<ul>
+<li><strong>Angebots-Mails nennen nur noch Summen, die der Interessent in seiner Unterlage wiederfindet.</strong> Bisher konnten Zahlen aus der internen Kostenaufstellung in die Mail geraten, die dem Kunden nie zugeschickt wird. Der Angebots-Lauf uebergibt die Summen jetzt als Feld, mit dem Wortlaut der Zeile aus der geteilten Mappe.</li>
+<li><strong>Die Anrede kommt aus dem Angebot.</strong> Steht im PDF "Sehr geehrte Familie", weil sich aus dem Namen kein Geschlecht ableiten laesst, schreibt die Mail dasselbe, statt "Frau" oder "Herr" zu raten.</li>
+<li><strong>Budget und Angebotssumme stehen nebeneinander.</strong> Liegt die Ausstattungs-Summe ueber dem genannten Budget, sagt die Mail das offen und nennt die Stellschrauben, statt nur das Passende hervorzuheben.</li>
+<li><strong>Einheitliche Schreibweise "Danwood"</strong> in allen Mailvorschlaegen, Betreffzeilen und im Baunebenkosten-PDF.</li>
+<li><strong>Haus-Beschreibungen zaehlen richtig.</strong> Ein flexibles Zimmer im Erdgeschoss wird nicht mehr als zusaetzliches Zimmer angeboten, wenn es zu den ausgewiesenen Zimmern gehoert.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.66/DMS-1.6.66.dmg"
+                sparkle:edSignature="fgnYxt5qJvPDvxaeRGFJN5YW/Ytzpw8sBZRx925LN2GT0TTb2JQmaeawDQzR57QOtqn7UjbWMWayPXr8mkYuBA=="
+                length="37115222"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.65</title>
             <sparkle:version>1.6.65</sparkle:version>
             <sparkle:shortVersionString>1.6.65</sparkle:shortVersionString>
