@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.67</title>
+            <sparkle:version>1.6.67</sparkle:version>
+            <sparkle:shortVersionString>1.6.67</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 14 Aug 2026 19:04:37 +0200</pubDate>
+            <description><![CDATA[
+<ul>
+<li><strong>QNG-Siegel und Eigenleistung kommen nie mehr zusammen in eine Mail.</strong> Das Siegel setzt voraus, dass Danwood jedes Gewerk selbst ausfuehrt und dokumentiert. Uebernimmt der Bauherr etwas selbst, entfaellt es samt dem erhoehten KfW-Kreditrahmen. Der Mailvorschlag weiss das jetzt und weiss auch, ob im konkreten Angebot ein QNG-Siegel steckt.</li>
+<li><strong>Eigenleistung wird eingepreist, nicht abgezogen.</strong> Wo sie ein Thema ist, nennt der Vorschlag den Preis, der damit gilt, statt eine grosse Summe mit einem nachgeschobenen Abzug. Gerechnet wird die Zahl im Programm, nicht von der KI.</li>
+<li><strong>Haus-Beschreibungen sagen, was Eigenleistung kostet.</strong> An den Eigenleistungspaketen steht jetzt, dass der KfW-Rahmen dann von 150.000 EUR auf 100.000 EUR sinkt.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.67/DMS-1.6.67.dmg"
+                sparkle:edSignature="cNj83cjdSONc0bZ7mHMX6T1A3vX/rJqImWkmzkUtEpdlaNho7bHoS9iBidAsdIGi2rryumnLqXl9eIFFUKR3Aw=="
+                length="37120354"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.66</title>
             <sparkle:version>1.6.66</sparkle:version>
             <sparkle:shortVersionString>1.6.66</sparkle:shortVersionString>
