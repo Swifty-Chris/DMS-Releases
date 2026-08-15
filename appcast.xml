@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.69</title>
+            <sparkle:version>1.6.69</sparkle:version>
+            <sparkle:shortVersionString>1.6.69</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 15 Aug 2026 11:36:57 +0200</pubDate>
+            <description><![CDATA[
+<p># Neu in 1.6.69</p>
+
+<li>Hausfinder-Leads: Die Lead-Ansicht listet jetzt jedes geteilte Angebot einzeln auf — mit Hausname, Teil-Datum und Klick-Zahlen (wie oft geöffnet, von wie vielen Besuchern, wann zuletzt).</li>
+<li>Bei Mails mit mehreren Angeboten ist damit erkennbar, welches Angebot der Kunde wirklich angesehen hat.</li>
+<li>Die Öffnungs-Anzeige im Angebots-Ablauf unterscheidet jetzt Aufrufe und Besucher, damit eigene Testaufrufe nicht wie Kundeninteresse aussehen.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.69/DMS-1.6.69.dmg"
+                sparkle:edSignature="Eru/avXJdfl/iuXtKu5WsAwFM7BI8y2pWxJlTTsBY7u7f2qJqCwKiQWJIva/tx1KTP0vRW3Ku2o+oY1jozVECg=="
+                length="37171457"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.68</title>
             <sparkle:version>1.6.68</sparkle:version>
             <sparkle:shortVersionString>1.6.68</sparkle:shortVersionString>
