@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.70</title>
+            <sparkle:version>1.6.70</sparkle:version>
+            <sparkle:shortVersionString>1.6.70</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 15 Aug 2026 12:31:34 +0200</pubDate>
+            <description><![CDATA[
+<ul>
+<li>Mailvorschlag: Vor der ersten Erstellung erscheint jetzt ein Options-Schritt. Dort lassen sich eine eigene Anweisung an die KI eingeben (auch per Diktat) und Unterlagen beilegen, bevor der Vorschlag entsteht.</li>
+<li>Unterlagen per Drag &amp; Drop: Angebote oder Dokumente einfach in das Mailvorschlag-Fenster ziehen (oder über „Dateien auswählen"). Die App lädt sie hoch und fügt die Teilen-Links (30 Tage gültig) automatisch in die Mail ein.</li>
+<li>Klick-Anzeige inklusive: So beigelegte Unterlagen erscheinen beim Hausfinder-Lead unter „Geteilte Angebote" mit Aufrufen, Besuchern und letztem Zugriff — wie die automatisch erstellten Angebote.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.70/DMS-1.6.70.dmg"
+                sparkle:edSignature="+d1j/0yYBak7/la0NBAwB74k3VuvDB4BJerWEJVT5CdGiRE4q6bZ+mmuTM4dS0XbjGjCFlftPeHk8lkEmtomBQ=="
+                length="37250069"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.69</title>
             <sparkle:version>1.6.69</sparkle:version>
             <sparkle:shortVersionString>1.6.69</sparkle:shortVersionString>
