@@ -8,6 +8,40 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.72</title>
+            <sparkle:version>1.6.72</sparkle:version>
+            <sparkle:shortVersionString>1.6.72</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 15 Aug 2026 20:05:57 +0200</pubDate>
+            <description><![CDATA[
+<h2>CRM-Leads: deutlich weniger Abrufe bei Danwood</h2>
+
+<p>Die App hat bisher viel häufiger ins CRM gegriffen als nötig. Jeder Wechsel ins CRM-Segment lud alle Leads neu, im Hintergrund lief alle fünf Minuten eine Prüfung, und das Dashboard holte alle zehn Minuten 2000 Leads samt 2000 Verkaufschancen — rund um die Uhr.</p>
+
+<p>Ab jetzt bleibt genau <strong>ein</strong> automatischer Zugriff übrig: die Prüfung auf neue Leads, alle 15 Minuten und nur zwischen 9 und 21 Uhr. Nachts ruht das CRM komplett. Alles andere passiert nur noch, wenn du es auslöst.</p>
+
+<li><strong>Die Liste kommt aus dem gespeicherten Bestand.</strong> Zwischen den Segmenten hin- und herwechseln kostet keinen einzigen Abruf mehr. Im Kopf steht, auf welchem Stand die Liste ist; mit dem Aktualisieren-Knopf holst du sie frisch.</li>
+<li><strong>Ein Lead wird aktualisiert, wenn du ihn öffnest</strong> — und der frische Datensatz landet direkt im Bestand, sodass die Liste mitzieht.</li>
+<li><strong>Ohne CRM-Sitzung bleibt die Liste lesbar.</strong> Statt einer leeren Seite siehst du den gespeicherten Stand mit einem kurzen Hinweis.</li>
+<li><strong>Die Dashboard-Kennzahlen berechnest du selbst per Knopfdruck.</strong> Das Ergebnis bleibt gespeichert und ist nach einem Neustart sofort wieder da.</li>
+
+<p>Hausfinder-Leads sind davon nicht betroffen — die kommen weiterhin jederzeit sofort herein.</p>
+
+<h2>Gesendete Mails im CRM-Lead</h2>
+
+<p>Im Detail eines CRM-Leads siehst du jetzt, was dieser Interessent bereits von dir bekommen hat: Betreff, Datum und wie viele Links mitgeschickt wurden.</p>
+
+<p>Die darin verschickten Teilen-Links landen zusätzlich in der Klick-Statistik — wie bei den Hausfinder-Leads erkennst du also, <strong>ob und wie oft die Unterlage geöffnet wurde</strong>, nicht mehr nur bei Dateien, die du per Drag &amp; Drop beigelegt hast.</p>
+
+<p>Mails, die vor dem Lead-Eingang verschickt wurden, bleiben sichtbar und sind als früherer Kontakt gekennzeichnet.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.72/DMS-1.6.72.dmg"
+                sparkle:edSignature="NtjHLR1di4zYQuGGjXepac6gw8iapLNmePhoEkuilVbdaYQD6f7xceiEvI1IOG3/YmGSC1fRu0O+m9IBju1sBA=="
+                length="37369190"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.71</title>
             <sparkle:version>1.6.71</sparkle:version>
             <sparkle:shortVersionString>1.6.71</sparkle:shortVersionString>
