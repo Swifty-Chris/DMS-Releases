@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.71</title>
+            <sparkle:version>1.6.71</sparkle:version>
+            <sparkle:shortVersionString>1.6.71</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 15 Aug 2026 14:09:03 +0200</pubDate>
+            <description><![CDATA[
+<ul>
+<li>Mailvorschlag-Unterlagen verfeinert: Die Ablage-Zone leuchtet beim Hineinziehen auf, jede Datei zeigt Typ-Symbol und Größe, und der fertige Teilen-Link lässt sich pro Unterlage direkt kopieren.</li>
+<li>Schneller und robuster: Mehrere Dateien laden jetzt gleichzeitig hoch. Eine Datei mit gleichem Namen ersetzt die alte Version, statt doppelt in der Mail zu landen.</li>
+<li>Klick-Anzeige auch bei CRM-Leads: Im Mailvorschlag beigelegte Unterlagen erscheinen jetzt auch in der CRM-Lead-Ansicht mit Aufrufen und letztem Zugriff — und alle Listen aktualisieren sich sofort nach dem Schließen des Mail-Fensters.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.71/DMS-1.6.71.dmg"
+                sparkle:edSignature="OG86UpxbdU90AC5MWWadA/VkoPsI+iHzG5JG6TXA5oi8aXTwM+k3i/YQ4tIiLSSBIquTyQVnFsI/aiLcmf04DQ=="
+                length="37273704"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.70</title>
             <sparkle:version>1.6.70</sparkle:version>
             <sparkle:shortVersionString>1.6.70</sparkle:shortVersionString>
