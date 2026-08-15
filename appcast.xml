@@ -14,11 +14,11 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <pubDate>Sat, 15 Aug 2026 11:36:57 +0200</pubDate>
             <description><![CDATA[
-<p># Neu in 1.6.69</p>
-
+<ul>
 <li>Hausfinder-Leads: Die Lead-Ansicht listet jetzt jedes geteilte Angebot einzeln auf — mit Hausname, Teil-Datum und Klick-Zahlen (wie oft geöffnet, von wie vielen Besuchern, wann zuletzt).</li>
 <li>Bei Mails mit mehreren Angeboten ist damit erkennbar, welches Angebot der Kunde wirklich angesehen hat.</li>
 <li>Die Öffnungs-Anzeige im Angebots-Ablauf unterscheidet jetzt Aufrufe und Besucher, damit eigene Testaufrufe nicht wie Kundeninteresse aussehen.</li>
+</ul>
             ]]></description>
             <enclosure
                 url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.69/DMS-1.6.69.dmg"
