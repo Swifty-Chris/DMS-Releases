@@ -8,6 +8,27 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.75</title>
+            <sparkle:version>1.6.75</sparkle:version>
+            <sparkle:shortVersionString>1.6.75</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 16 Aug 2026 18:48:00 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.6.75</p>
+
+<h2>Hermes-Chat: Gespräche und Aufträge geräteübergreifend</h2>
+
+<li>Die Gesprächsübersicht aktualisiert sich jetzt automatisch: beim Öffnen der Liste und immer, wenn die App wieder aktiv wird. Auf dem iPhone gestartete Gespräche erscheinen damit auch am Mac ohne App-Neustart (und umgekehrt).</li>
+<li>Laufende Aufträge sind auf allen Geräten sichtbar: Jedes Gerät bindet sich an offene Aufträge an, die ein anderes Gerät gestartet hat, streamt den Fortschritt live mit und liefert die Antwort nach. Die Trennung nach Verkäufer bleibt strikt: Chris sieht nur seine Gespräche, Milan nur seine (eigener Zugang, eigener Schlüssel).</li>
+<li>Fix: Das „Hermes-Gespräche"-Fenster am Mac war leer, weil die Liste im Sheet auf null Höhe kollabierte — es hat jetzt eine feste Mindestgröße.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.75/DMS-1.6.75.dmg"
+                sparkle:edSignature="tzVdWY+qy/9p2YskW6Mj5a4otSXVJvrz7BWLUyP45q6NWoImAYKUpRffgTBP/LQUspaxWDBazjwuwc6w01UxAw=="
+                length="37833063"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.74</title>
             <sparkle:version>1.6.74</sparkle:version>
             <sparkle:shortVersionString>1.6.74</sparkle:shortVersionString>
