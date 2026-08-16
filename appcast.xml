@@ -8,6 +8,27 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.76</title>
+            <sparkle:version>1.6.76</sparkle:version>
+            <sparkle:shortVersionString>1.6.76</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 16 Aug 2026 19:04:20 +0200</pubDate>
+            <description><![CDATA[
+<p># DMS 1.6.76</p>
+
+<h2>Hermes-Chat: Nachträge an laufende Aufträge</h2>
+
+<li>Während Hermes arbeitet, bleibt das Eingabefeld jetzt aktiv („Nachtrag an den laufenden Auftrag"): Fällt dir noch etwas Wichtiges ein, schickst du es einfach hinterher — der laufende Auftrag bekommt die Anweisung direkt mit, ohne neu zu starten.</li>
+<li>Nimmt der Auftrag gerade nichts mehr an (etwa weil er soeben fertig wurde), geht nichts verloren: Die Eingabe wird vollständig wiederhergestellt und kann erneut gesendet werden — dann als normale nächste Nachricht.</li>
+<li>„Stopp" und „Senden" stehen während eines laufenden Auftrags nebeneinander zur Verfügung.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.76/DMS-1.6.76.dmg"
+                sparkle:edSignature="K16yK287c5SBJL5E3R217J23zZ8rM6KzQwvAAXmO9kJ3mOUxrGFgXct3mFf6qJJe/DgrRvefX5eG6wOuRJAuDQ=="
+                length="37831853"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.75</title>
             <sparkle:version>1.6.75</sparkle:version>
             <sparkle:shortVersionString>1.6.75</sparkle:shortVersionString>
