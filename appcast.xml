@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.79</title>
+            <sparkle:version>1.6.79</sparkle:version>
+            <sparkle:shortVersionString>1.6.79</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 22 Aug 2026 14:09:13 +0200</pubDate>
+            <description><![CDATA[
+<p># KI-Mailvorschläge: konkreter und ehrlicher</p>
+
+<li>Bei Design-Center-Leads nennt die Mail jetzt das konkrete Ablaufdatum des Probezugangs (ein Monat ab Anforderung, vom System berechnet) — ein starker, natürlicher Gesprächsanlass.</li>
+<li>Finanzierungs-Formulierungen erscheinen nur noch, wenn der Interessent selbst eine Finanzierungs-Angabe gemacht hat. Erfundene Aussagen wie „Sie benötigen keine Unterstützung" sind damit abgestellt.</li>
+<li>CRM-Lead-Mails kennen jetzt den Anfragezeitpunkt und können sich natürlich darauf beziehen („zu Ihrer Anfrage von gestern Abend").</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.79/DMS-1.6.79.dmg"
+                sparkle:edSignature="xiphhGkQfZC75Op/e13JUeEVgtufLB7DEjM8lHHPpL/iqqh50QUbjTcBeAhVx1Z4QMicirBRqWjdMwGRYFVEAg=="
+                length="37844985"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.78</title>
             <sparkle:version>1.6.78</sparkle:version>
             <sparkle:shortVersionString>1.6.78</sparkle:shortVersionString>
