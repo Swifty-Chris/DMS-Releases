@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.77</title>
+            <sparkle:version>1.6.77</sparkle:version>
+            <sparkle:shortVersionString>1.6.77</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 22 Aug 2026 10:33:32 +0200</pubDate>
+            <description><![CDATA[
+<p># CRM-Leads: Das Wichtigste auf einen Blick</p>
+
+<li>Der Auslöser des Leads (z. B. Katalogbestellung oder Probelink vom Designmanager) steht jetzt als Pill direkt neben dem Namen.</li>
+<li>Ein sofortiger Beratungswunsch erscheint als rote Pill ganz vorn, damit die heißesten Leads sofort ins Auge fallen.</li>
+<li>Ist ein Grundstück vorhanden, zeigt die Zeile eine eigene Grundstück-Pill. Ohne Grundstück bleibt die Zeile bewusst ruhig.</li>
+<li>Budget und gewünschte Hausgröße stehen jetzt gemeinsam in der Infozeile, statt sich gegenseitig zu verdrängen.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.77/DMS-1.6.77.dmg"
+                sparkle:edSignature="tZQEcpVKkDrz08NW0IjarDz/CyU3NdIy267yH32ZRBIZ37O7meMOVesk0+ileAZ9F8olECv0Pc5xkA8xsYKHDQ=="
+                length="37840495"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.76</title>
             <sparkle:version>1.6.76</sparkle:version>
             <sparkle:shortVersionString>1.6.76</sparkle:shortVersionString>
