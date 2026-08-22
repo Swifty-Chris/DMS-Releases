@@ -8,6 +8,27 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.82</title>
+            <sparkle:version>1.6.82</sparkle:version>
+            <sparkle:shortVersionString>1.6.82</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 22 Aug 2026 21:33:18 +0200</pubDate>
+            <description><![CDATA[
+<p># KI-Mailvorschläge: eigener Prompt für Design-Center-Leads</p>
+
+<li>Design-Center-Leads bekommen jetzt einen eigens zugeschnittenen Prompt. Er überträgt nur, was in dieser Situation wirklich zählt, statt Regeln für Fälle mitzuschleppen, die es hier gar nicht gibt.</li>
+<li>Die Mail erzählt dem Interessenten nicht mehr, was er selbst getan hat, sondern steigt direkt bei seinen Fragen ein: Was kostet die Ausstattung über dem Standard, und was kostet das Haus insgesamt?</li>
+<li>Neu als Angebot: Bemusterung zum Anfassen der Materialien oder Musterhaus Wuppertal für das Raumgefühl, beides nach Absprache.</li>
+<li>Der hinterlegte Wohnort wird nicht mehr fälschlich als Baugrundstück gedeutet.</li>
+<li>Ergebnis der Messläufe: rund 140 statt 200 Wörter, keine Regelverstöße.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.82/DMS-1.6.82.dmg"
+                sparkle:edSignature="NFPGawWMz5odCRtc1oLz3my2az0GP1DEK8iUrQgCORICJaJujRPkSY0wc/b14ghtQ2Gd5df5ne9bWnzqBtMACQ=="
+                length="37855151"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.81</title>
             <sparkle:version>1.6.81</sparkle:version>
             <sparkle:shortVersionString>1.6.81</sparkle:shortVersionString>
