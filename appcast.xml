@@ -8,6 +8,40 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.84</title>
+            <sparkle:version>1.6.84</sparkle:version>
+            <sparkle:shortVersionString>1.6.84</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 22 Aug 2026 23:05:53 +0200</pubDate>
+            <description><![CDATA[
+<h2>Mailvorschlag: eigener Prompt für Portal-Leads (Bauen.de/Partnerservice)</h2>
+
+<p>Der häufigste Leadtyp bekommt seinen eigenen, zugeschnittenen Prompt. Statt eines</p>
+<p>gemeinsamen Prompts für alle Fälle überträgt er nur, was in dieser Situation wirklich</p>
+<p>existiert.</p>
+
+<li>**Angaben in Sprache statt Rohwerte:** „150-200 m2" wird zu „150 bis 200 Quadratmeter",</li>
+<p>  „Über 300.000" zu „über 300.000 Euro". Die Menüwerte landen nicht mehr wörtlich in der</p>
+<p>  Kundenmail.</p>
+<li>**Budget ehrlich eingeordnet:** Die Portal-Stufe ist grob und oben offen und widersprach</li>
+<p>  der Freitext-Summe in jedem geprüften Fall. Beide Angaben stehen jetzt mit ihrer Herkunft</p>
+<p>  im Prompt, dazu die Tatsache, dass unter 300.000 Euro kein fertiges Haus entsteht.</p>
+<li>**Kataloge passend zum Haustyp:** Nur wenn wirklich einer gewünscht wurde, und dann die</li>
+<p>  richtigen (Bungalow → Perfect, Eineinhalbgeschossig → beide Point, Doppel-/Reihenhaus →</p>
+<p>  Partner und Reihen-/Mehrfamilienhäuser, und so fort). Die Links setzt die App ein.</p>
+<li>**Ein Haus pro Mail** statt zwei, und bei schlüsselfertigen Vorhaben keine</li>
+<p>  Eigenleistungspakete mehr im Prompt.</p>
+
+<p>Gemessen am echten Modell über beide Portal-Szenen: keine Regelverstöße, im Schnitt</p>
+<p>199 statt 280 Wörter.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.84/DMS-1.6.84.dmg"
+                sparkle:edSignature="0Ffos2NR9aXL350yjDjF6+LDpVOBGCR5bfGkOjYw4rxiemvmeUapZQos4vAzYuoFqM7v/twsPFAuGHcNiuPWCA=="
+                length="37994106"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.83</title>
             <sparkle:version>1.6.83</sparkle:version>
             <sparkle:shortVersionString>1.6.83</sparkle:shortVersionString>
