@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.83</title>
+            <sparkle:version>1.6.83</sparkle:version>
+            <sparkle:shortVersionString>1.6.83</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 22 Aug 2026 21:44:10 +0200</pubDate>
+            <description><![CDATA[
+<p># KI-Mailvorschläge: Vorstellung im Erstkontakt</p>
+
+<li>Bei Design-Center-Leads stellt sich der Absender jetzt in jeder Erstkontakt-Mail vor. Wo das im Text steht und wie es formuliert ist, entscheidet die KI je nach Mail, damit es nicht in jeder Nachricht gleich klingt.</li>
+<li>Die Anredezeile ist fest verankert und kann nicht mehr wegfallen.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.83/DMS-1.6.83.dmg"
+                sparkle:edSignature="rYhTvIIbp4TNaSBBqfNphO/dZ7E7xyNJiXa8tcm/kweA8SWZnxUMdG3ZT29QoeMC1x2lFyYJPcKg5fIiFlYfBw=="
+                length="37850162"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.82</title>
             <sparkle:version>1.6.82</sparkle:version>
             <sparkle:shortVersionString>1.6.82</sparkle:shortVersionString>
