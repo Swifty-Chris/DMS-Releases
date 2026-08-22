@@ -8,6 +8,27 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.81</title>
+            <sparkle:version>1.6.81</sparkle:version>
+            <sparkle:shortVersionString>1.6.81</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 22 Aug 2026 15:15:25 +0200</pubDate>
+            <description><![CDATA[
+<p># KI-Mailvorschläge: Sicherheits- und Inhaltskorrekturen</p>
+
+<li>Zugangsdaten des Design Centers (Login und Passwort) erreichen die KI nicht mehr und können damit nicht mehr in einem Mailentwurf landen. Die Kunden bekommen sie ohnehin automatisch vom System.</li>
+<li>Bei Design-Center-Leads kommt das Thema Finanzierung nicht mehr vor. Aus dem CRM-Feld „Finanzierung: Nein" wurde bisher fälschlich eine Kundenaussage.</li>
+<li>Das Ablaufdatum des Zugangs wird jetzt aus dem CRM gelesen statt berechnet.</li>
+<li>Leads mit dem Formulartyp „Probelink" werden zuverlässig als Design-Center-Leads erkannt.</li>
+<li>Die Mail fragt jetzt nach, ob die Anmeldung funktioniert hat und ob beim Durchklicken etwas unklar blieb, und bietet Hilfe bei den Preisen einzelner Positionen an.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.81/DMS-1.6.81.dmg"
+                sparkle:edSignature="E6n25BegiWgEmAnfFtD/sD7+CSWa0T9RioiAnhB9b+KveGJUNZFlM5lqrZn4CVmMRsG/k7EwC65rdawiT9KxBg=="
+                length="37847263"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.80</title>
             <sparkle:version>1.6.80</sparkle:version>
             <sparkle:shortVersionString>1.6.80</sparkle:shortVersionString>
