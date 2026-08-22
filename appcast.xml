@@ -8,6 +8,27 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.78</title>
+            <sparkle:version>1.6.78</sparkle:version>
+            <sparkle:shortVersionString>1.6.78</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 22 Aug 2026 12:15:07 +0200</pubDate>
+            <description><![CDATA[
+<p># KI-Mailvorschläge: individuell statt Schema</p>
+
+<li>Der Einstieg jeder Mail geht jetzt sofort auf das Vorhaben des Interessenten ein, statt ihm seine eigene Anfrage nachzuerzählen.</li>
+<li>Gesamtkalkulation, Katalog und Musterhaus-Einladung erscheinen nur noch, wenn sie zum Lead passen. Jede Mail wählt den stärksten nächsten Schritt.</li>
+<li>Die KI kennt jetzt verschiedene Lesehaltungen: Portal-Anfragen bekommen kompakte Mails mit einem klaren Punkt, Detail-Interessierte mehr Substanz.</li>
+<li>Design-Center-Leads (Probelink Design Manager) werden zuverlässig erkannt. Die Hilfe im Design Center ist dann der Aufhänger der Mail.</li>
+<li>Der Auslöser des Leads (z. B. Katalogbestellung) erreicht die KI jetzt in jedem Fall, auch ohne aktive CRM-Sitzung.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.78/DMS-1.6.78.dmg"
+                sparkle:edSignature="JBKGd1Jd0DNQbGuDPP8KCRJn5Ax94c+BhKPI/GtYHkUPzOvjwgLxv5JhiVzZvbbRacc+e5MHnZjhLMCMmOFXAw=="
+                length="37846295"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.77</title>
             <sparkle:version>1.6.77</sparkle:version>
             <sparkle:shortVersionString>1.6.77</sparkle:shortVersionString>
