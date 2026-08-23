@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.88</title>
+            <sparkle:version>1.6.88</sparkle:version>
+            <sparkle:shortVersionString>1.6.88</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 23 Aug 2026 11:01:05 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.6.88</p>
+
+<h2>Fehlerbehebungen</h2>
+
+<li>„In Mail öffnen" öffnet jetzt zuverlässig Apple Mail mit dem Entwurf. Vorher wanderte der Entwurf bei angemeldetem Exchange-Konto still in die Exchange-Entwürfe, ohne dass sich ein Fenster öffnete. Für den stillen Weg gibt es weiterhin „Als Entwurf speichern".</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.88/DMS-1.6.88.dmg"
+                sparkle:edSignature="91zRpZRRnbnsolniVGMyfsfd4ukHmJB9f5+HrziSM2TumHgs+FVmblWSVLLYDj+iOPvxH9P2FxKXGn9XpgOAAA=="
+                length="37899019"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.87</title>
             <sparkle:version>1.6.87</sparkle:version>
             <sparkle:shortVersionString>1.6.87</sparkle:shortVersionString>
