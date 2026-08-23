@@ -8,6 +8,33 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.86</title>
+            <sparkle:version>1.6.86</sparkle:version>
+            <sparkle:shortVersionString>1.6.86</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 23 Aug 2026 10:32:09 +0200</pubDate>
+            <description><![CDATA[
+<h2>Mailvorschlag für Portal-Leads: drei Korrekturen</h2>
+
+<li>**Kein Nachfragen nach dem Budget mehr.** Der Interessent hat seine Zahl im Formular</li>
+<p>  angegeben; danach zurückzufragen liest sich, als hätte man es nicht gelesen. Die Zahl</p>
+<p>  steuert jetzt still, welches Haus vorgeschlagen wird und was die Mail verspricht.</p>
+<li>**Kein Widerspruch bei den Preisen.** Die Mail nannte einen Hauspreis von 212.000 Euro</li>
+<p>  und im selben Text „unter 300.000 Euro kein fertiges Haus". Gemeint war das ganze</p>
+<p>  Vorhaben mit Grundstück und Baunebenkosten; das steht jetzt so im Prompt.</p>
+<li>**Beispiele bleiben Beispiele.** Formulierungen, die dem Modell beim Denken helfen</li>
+<p>  sollen, landeten wörtlich in der Kundenmail. Sie sind jetzt als Denkhilfe</p>
+<p>  gekennzeichnet, und die Beispiel-Preiszahl ist ganz entfallen.</p>
+
+<p>Gemessen über beide Portal-Szenen: keine Regelverstöße, im Schnitt 186 Wörter.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.86/DMS-1.6.86.dmg"
+                sparkle:edSignature="zOxwLLLb4bERDgz7uEiOT0UnkHVBsE/d5hsJvCWF/2k2x+LUSf5/Km1LwmtyRGP3vUohFsvzZEyiQ2/lprb1AQ=="
+                length="37994757"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.85</title>
             <sparkle:version>1.6.85</sparkle:version>
             <sparkle:shortVersionString>1.6.85</sparkle:shortVersionString>
