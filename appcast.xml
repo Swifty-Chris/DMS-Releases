@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.85</title>
+            <sparkle:version>1.6.85</sparkle:version>
+            <sparkle:shortVersionString>1.6.85</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 23 Aug 2026 10:13:54 +0200</pubDate>
+            <description><![CDATA[
+<p># Version 1.6.85</p>
+
+<h2>Verbesserungen</h2>
+
+<li>Mailvorschläge für Design-Center-Leads beginnen jetzt wie eine echte Nachricht: freundliche Begrüßung mit Vorstellung, dann die Frage, ob mit dem Zugang alles geklappt hat, dann konkrete Angebote. Der werbliche Fragen-Einstieg ist Geschichte.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.85/DMS-1.6.85.dmg"
+                sparkle:edSignature="3NMIXturzg/z74x6/lQmYjf2GVrUA8MVzYgZv4pJctZKeuumHxVunmn442j/yC89qyp6NlEr9zuRmgTjgl4RDQ=="
+                length="37899739"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.84</title>
             <sparkle:version>1.6.84</sparkle:version>
             <sparkle:shortVersionString>1.6.84</sparkle:shortVersionString>
