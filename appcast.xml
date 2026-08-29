@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.89</title>
+            <sparkle:version>1.6.89</sparkle:version>
+            <sparkle:shortVersionString>1.6.89</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 29 Aug 2026 22:38:48 +0200</pubDate>
+            <description><![CDATA[
+<h2>Mailvorschlag: Verkäuferprofil aus der Master-Anweisung</h2>
+
+<li>Alle KI-Mailvorschläge (Erstkontakt, Design Center, Portal-Leads, Angebots-Mails, Folge-Mails) kennen jetzt das Verkäuferprofil: Haltung („nicht die Billigsten, die Ehrlichsten"), vollständige Kalkulation als Vorteil, die Linien Today/S-Line/NEXT/Vision/Family richtig positioniert, Planungsfreiheit, Bemusterung in Meerbusch, Musterhaus nur mit Termin, abends erreichbar.</li>
+<li>Name und Vertriebsregion kommen aus den KI-Einstellungen (Follow-up-Radar): neues Feld „Vertriebsregion (Mailvorschlag)". So funktioniert dieselbe Anweisung auch für einen anderen Verkäufer.</li>
+<li>Neu: Rückfragen der KI an den Verkäufer. Wo eine Entscheidung dem Verkäufer gehört (Reihenfolge mehrerer Angebote, Widerspruch in den Angaben, Haus passt nicht zum Wunsch), stellt die KI die Frage unter dem Entwurf statt zu raten; die Antwort geht als Zusatz-Anweisung in die nächste Generierung. Der Kunde sieht davon nichts.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.89/DMS-1.6.89.dmg"
+                sparkle:edSignature="rFPIFrwWsPxNa0I+XGy1l2Tovj1szod2oJjLugtUh1Vzqn9YLxI6HNJ9Ejcn/hflEvSpjcLjLxRVaDER4//fBg=="
+                length="38050028"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.88</title>
             <sparkle:version>1.6.88</sparkle:version>
             <sparkle:shortVersionString>1.6.88</sparkle:shortVersionString>
