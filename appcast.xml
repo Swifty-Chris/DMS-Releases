@@ -8,6 +8,29 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.90</title>
+            <sparkle:version>1.6.90</sparkle:version>
+            <sparkle:shortVersionString>1.6.90</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 30 Aug 2026 11:52:28 +0200</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.6.90</h2>
+
+<h3>Neu</h3>
+
+<li>Die Leadübersichten zeigen den E-Mail-Status direkt am Lead: ein gelber Brief steht für einen vorhandenen Entwurf, ein grüner Brief für eine bereits gesendete E-Mail.</li>
+
+<h3>Verbessert</h3>
+
+<li>Der Status wird gebündelt aus dem lokalen Mailarchiv und den gespeicherten Mailvorschlägen ermittelt, ohne zusätzliche CRM- oder Exchange-Abfragen.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.90/DMS-1.6.90.dmg"
+                sparkle:edSignature="YXlPQCg1M+Pa+XHk6pPTmSTDhcxDFwj6aOEZbIOH8voGa1e1E157Kf4lOFOSrkZk6qe4GxpojSL3TD3uDhTyAg=="
+                length="38079058"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.89</title>
             <sparkle:version>1.6.89</sparkle:version>
             <sparkle:shortVersionString>1.6.89</sparkle:shortVersionString>
