@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.91</title>
+            <sparkle:version>1.6.91</sparkle:version>
+            <sparkle:shortVersionString>1.6.91</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 30 Sep 2026 14:27:30 +0200</pubDate>
+            <description><![CDATA[
+<h2>KI auf der neuesten Modellgeneration</h2>
+
+<li>Mailvorschläge, KI-Assistent und alle Automatiken laufen jetzt auf GPT-6 Luna. Das Modell ist schneller, günstiger und formuliert etwas knapper.</li>
+<li>Die Recherche mit Websuche nutzt jetzt Grok 4.7.</li>
+<li>Gibt es zu einer Mail eine offene Frage an dich, zum Beispiel ob eine Aktion noch gilt, stellt der Mailvorschlag sie öfter im Kasten „Rückfragen an den Verkäufer“, statt zu raten.</li>
+<li>Wer in den Einstellungen ein älteres Modell gespeichert hat, wechselt automatisch auf den Nachfolger.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.91/DMS-1.6.91.dmg"
+                sparkle:edSignature="lavu2QqdTc0HROdb4nYRnBVwuSyGMgKAegkfNcQjIJ+WRqMhYP8vV2Y74HC6hweYhyVIXYTdNT+t/jgws9O5BA=="
+                length="38122444"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.90</title>
             <sparkle:version>1.6.90</sparkle:version>
             <sparkle:shortVersionString>1.6.90</sparkle:shortVersionString>
