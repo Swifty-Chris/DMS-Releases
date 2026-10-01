@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.92</title>
+            <sparkle:version>1.6.92</sparkle:version>
+            <sparkle:shortVersionString>1.6.92</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 01 Oct 2026 08:16:26 +0200</pubDate>
+            <description><![CDATA[
+<h2>Spürbar weniger Last im Hintergrund</h2>
+
+<li>Der Lead-Zähler in der Seitenleiste fragt nur noch die Lead-Nummern ab statt aller Anfragedaten. Die Datenmenge pro Abruf sinkt von rund 860 kB auf wenige kB.</li>
+<li>Hausfinder- und Katalog-Leads prüfen im Takt nur noch, ob sich etwas geändert hat, und laden die Liste nur dann neu.</li>
+<li>Der Mailstatus in den Lead-Übersichten liest nur noch gesendete Mails und Entwürfe, ohne Mailtexte, und aktualisiert sich bei neuen Mails statt alle 15 Sekunden.</li>
+<li>Datumswerte aus der Datenbank werden mit einmal angelegten Formatierern gelesen. Das entlastet den Prozessor bei jedem Abgleich.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.92/DMS-1.6.92.dmg"
+                sparkle:edSignature="YNQuW3ptQpsdBbmK1EHJcGkZ3qCo3OIWxGX5eKL+TM0LVmxy0smzSxD0wFBMlm2zKEudHa5voJO8FFNuImg6CQ=="
+                length="38170919"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.91</title>
             <sparkle:version>1.6.91</sparkle:version>
             <sparkle:shortVersionString>1.6.91</sparkle:shortVersionString>
