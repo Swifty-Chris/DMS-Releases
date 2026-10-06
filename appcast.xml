@@ -8,6 +8,23 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.97</title>
+            <sparkle:version>1.6.97</sparkle:version>
+            <sparkle:shortVersionString>1.6.97</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Tue, 06 Oct 2026 16:29:37 +0200</pubDate>
+            <description><![CDATA[
+<h2>Projekte direkt aus CRM laden</h2>
+<p>Deine bestehende CRM-Anmeldung reicht jetzt aus: Über „Projekte aus CRM laden“ übernimmt DMS deine Vertragsprojekte und zeigt Fortschritt, Prüfpunkte und nächste Aufgaben. Bereits gespeicherte Aufgabenvermerke und Erledigungsnachweise bleiben beim erneuten Laden erhalten.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.97/DMS-1.6.97.dmg"
+                sparkle:edSignature="ZHvQFJkacD681I7ooOZzvwHSZrItddlYlG3yrrb6X6G3zVxxgk0sWE/GrHnT3kvlzSLpRQq1Ag8jI5FY7QuCBQ=="
+                length="39383962"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.6.96</title>
             <sparkle:version>1.6.96</sparkle:version>
             <sparkle:shortVersionString>1.6.96</sparkle:shortVersionString>
