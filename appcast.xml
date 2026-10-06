@@ -8,6 +8,23 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.96</title>
+            <sparkle:version>1.6.96</sparkle:version>
+            <sparkle:shortVersionString>1.6.96</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Tue, 06 Oct 2026 15:59:31 +0200</pubDate>
+            <description><![CDATA[
+<h2>CRM-Anmeldung und Projektabgleich klar getrennt</h2>
+<p>Eine bestehende CRM-Anmeldung steht jetzt zuerst und ausdrücklich als „Verbunden“ mit deinem Konto. Die noch fehlende Einrichtung der Projektübernahme erscheint separat als neutraler Hinweis. Auch die Projektübersicht benennt durchgehend den Projektabgleich.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.96/DMS-1.6.96.dmg"
+                sparkle:edSignature="8JWJVFOXUzdxBOGEAwAzyxZJtN/37+scUCttIC5ScFVVO7TTj3R+w2rVo5LGdaUUmXh5QqisnS22r71Sceu3AQ=="
+                length="39417387"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.6.95</title>
             <sparkle:version>1.6.95</sparkle:version>
             <sparkle:shortVersionString>1.6.95</sparkle:shortVersionString>
