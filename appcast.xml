@@ -8,6 +8,29 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.93</title>
+            <sparkle:version>1.6.93</sparkle:version>
+            <sparkle:shortVersionString>1.6.93</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Tue, 06 Oct 2026 08:44:27 +0200</pubDate>
+            <description><![CDATA[
+<h2>Bauvorhaben und nachvollziehbare Änderungen</h2>
+<ul>
+<li>Unter Aufgaben gibt es jetzt eine eigene Bauvorhaben-Übersicht mit Projektstatus, Prüfpunkten und Rückmeldungen.</li>
+<li>Bestätigte CRM-Feldänderungen erhalten eine dauerhafte Historie; unterbrochene Protokollierungen können gezielt nachgetragen werden.</li>
+<li>Die Übersicht zeigt, wenn der letzte zentrale Abgleich veraltet ist oder fehlgeschlagen ist.</li>
+<li>Die bisherigen Verbesserungen an Lead-Listen, Mailstatus und KI-Modellen bleiben enthalten.</li>
+</ul>
+<p>Der zentrale CRM-Abgleich wird separat freigeschaltet. Bis dahin steht in der Bauvorhaben-Übersicht noch kein zentraler Projektbestand bereit. Die bisherigen Aufgaben bleiben verfügbar.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.93/DMS-1.6.93.dmg"
+                sparkle:edSignature="cDDPSAUZAWNFQVry8V9IhvAnyLRiCg3cEiDq55nQbZmsl/jraAbW0brZAt4TiNq5BSu1BRN1LiK/CyKfoP2fCw=="
+                length="39371837"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.6.92</title>
             <sparkle:version>1.6.92</sparkle:version>
             <sparkle:shortVersionString>1.6.92</sparkle:shortVersionString>
