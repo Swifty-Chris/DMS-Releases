@@ -8,6 +8,29 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.94</title>
+            <sparkle:version>1.6.94</sparkle:version>
+            <sparkle:shortVersionString>1.6.94</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Tue, 06 Oct 2026 09:21:23 +0200</pubDate>
+            <description><![CDATA[
+<h2>Projekte direkt im Blick</h2>
+<ul>
+<li>Ein eigener Menüpunkt „Projekte“ ist jetzt dauerhaft in der Seitenleiste und im Menü „Darstellung“ erreichbar.</li>
+<li>Jede Projektzeile zeigt die aktuelle Phase, erledigte Prüfpunkte und die nächsten drei Schritte mit Zuständigkeit.</li>
+<li>Offene Rückmeldungen an Danwood und Aufgaben, die auf andere warten, sind direkt erkennbar.</li>
+<li>In den Projektdetails lassen sich die nächsten Schritte unmittelbar öffnen und bearbeiten.</li>
+</ul>
+<p>Der Aufgabenstand bezieht sich auf die aktuelle Phase. Das Ende der CRM-Planung wird weiterhin nicht als Hausübergabe gewertet. Die zentrale CRM-Verbindung wird separat eingerichtet; bis dahin erklärt die Übersicht den noch fehlenden Projektbestand.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.94/DMS-1.6.94.dmg"
+                sparkle:edSignature="82ao961c3rV2mRtX+biZKrRpVAx9/daK19tFh3iERU2WxkCq2ls308taEID2DZnsl6wbGpqvAnApk+bilLz3BQ=="
+                length="39413645"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.6.93</title>
             <sparkle:version>1.6.93</sparkle:version>
             <sparkle:shortVersionString>1.6.93</sparkle:shortVersionString>
