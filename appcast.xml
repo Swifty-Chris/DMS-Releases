@@ -8,6 +8,23 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.98</title>
+            <sparkle:version>1.6.98</sparkle:version>
+            <sparkle:shortVersionString>1.6.98</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Tue, 06 Oct 2026 17:48:28 +0200</pubDate>
+            <description><![CDATA[
+<h2>Projekte verständlich erklärt</h2>
+<p>Alle 72 Prüfpunkte erklären jetzt im vertrauten Aufgabenfenster ihre Bedeutung und den nächsten Schritt. Zuständigkeit, Quelle und weitere Hinweise bleiben erhalten. Kleine Info-Buttons ergänzen die Erklärungen zu Bereichen und Angaben wie Architektur-Prognose, Änderungshistorie und Fortschritt.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.98/DMS-1.6.98.dmg"
+                sparkle:edSignature="XrdWnVTArvUXT731PgCd4OKgp0fa/p4roIvqjc97c/mN5dRPDFMSeL9wvXm8CBjCcLXL4u6ukUKJYF4ADQMkCA=="
+                length="39416836"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.6.97</title>
             <sparkle:version>1.6.97</sparkle:version>
             <sparkle:shortVersionString>1.6.97</sparkle:shortVersionString>
