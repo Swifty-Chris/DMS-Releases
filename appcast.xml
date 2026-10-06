@@ -8,6 +8,23 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.99</title>
+            <sparkle:version>1.6.99</sparkle:version>
+            <sparkle:shortVersionString>1.6.99</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Tue, 06 Oct 2026 18:21:08 +0200</pubDate>
+            <description><![CDATA[
+<h2>CRM als maßgeblicher Projektstand</h2>
+<p>Der Projektbereich ist jetzt nur lesend. Lokale Erledigt-Schalter und der daraus berechnete Fortschritt entfallen. Frühere DMS-Häkchen ändern die Anzeige nicht mehr. Prüfhilfen und Unterlagen verlinken zum CRM; die Projektleitung steht direkt unter der Vertragsnummer. Neue CRM-Werte über „Projekte aus CRM laden“ übernehmen.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.99/DMS-1.6.99.dmg"
+                sparkle:edSignature="8rukLgPHVvsal69zs0rs3cFDqtn3VDMp9c410ru/lAuAoeYB2iE7a5Q0qWi3Vgiz7UrUT+hqW5gpHBTRN3CgBQ=="
+                length="39378280"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.6.98</title>
             <sparkle:version>1.6.98</sparkle:version>
             <sparkle:shortVersionString>1.6.98</sparkle:shortVersionString>
