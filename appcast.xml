@@ -8,6 +8,23 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.103</title>
+            <sparkle:version>1.6.103</sparkle:version>
+            <sparkle:shortVersionString>1.6.103</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 07 Oct 2026 09:07:34 +0200</pubDate>
+            <description><![CDATA[
+<h2>Weniger Hintergrundarbeit und aufgeräumte Navigation</h2>
+<p>Die ausgeblendeten Bereiche Radar, Wiki und WhatsApp starten keine eigenen automatischen Abläufe mehr. E-Mail, WhatsApp, Radar, Wiki und die allgemeine Kundenübersicht sind aus der Navigation genommen. Alle fünf Rechner liegen gemeinsam unter „Rechner“. Projekte behalten den kompakten Kopf und den nur lesbaren CRM-Stand.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.103/DMS-1.6.103.dmg"
+                sparkle:edSignature="wOpNDkY05Rqp1/ZLzaZNHK6+/bqqlnxtX0HHHyE/crDfDRnCKb+q3k+iPo1F/sZVDTdbNA+rJclrTVJoLvLNBA=="
+                length="39414210"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.6.102</title>
             <sparkle:version>1.6.102</sparkle:version>
             <sparkle:shortVersionString>1.6.102</sparkle:shortVersionString>
