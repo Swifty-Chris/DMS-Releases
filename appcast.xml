@@ -8,6 +8,23 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.104</title>
+            <sparkle:version>1.6.104</sparkle:version>
+            <sparkle:shortVersionString>1.6.104</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 07 Oct 2026 18:22:13 +0200</pubDate>
+            <description><![CDATA[
+<h2>Vertragsprojekt direkt im CRM öffnen</h2>
+<p>In jeder Projektkopfzeile öffnet der neue CRM-Link direkt das zugehörige Vertragsprojekt. Kunde, Vertrag und Projektleitung bleiben nebeneinander; der rechte Pfeil öffnet weiterhin die DMS-Projektdetails.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.104/DMS-1.6.104.dmg"
+                sparkle:edSignature="SDE+Xx0v1wAvr1zp7PexFt67SYlUB8Xdd4w4p468Pa4Y1qFZ5YvMHhcRZH2Mjx2budbT4B50YcKpt8MTsttYBA=="
+                length="39411321"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.6.103</title>
             <sparkle:version>1.6.103</sparkle:version>
             <sparkle:shortVersionString>1.6.103</sparkle:shortVersionString>
