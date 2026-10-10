@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.107</title>
+            <sparkle:version>1.6.107</sparkle:version>
+            <sparkle:shortVersionString>1.6.107</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 10 Oct 2026 16:27:51 +0200</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.6.107</h2>
+<li>Leads zeigen den Kontaktwunsch des Kunden direkt in der Zeile, zum Beispiel „Morgens 9-11“. Ein sofortiger Beratungswunsch bleibt rot hervorgehoben.</li>
+<li>Ob ein Grundstück vorhanden ist, steht jetzt immer da: „Grundstück“ oder „Kein Grundstück“.</li>
+<li>Bauen.de-Leads tragen nicht mehr fälschlich das Etikett „Manuell angelegt“.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.107/DMS-1.6.107.dmg"
+                sparkle:edSignature="2B0lIgZGylA5PDP/B1KJAWitp79l4wumYwj5PzcywRfZiRTd2xhwe48eESFYPZ21oGeUT6D22si88qU0MiZGCA=="
+                length="39473365"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.106</title>
             <sparkle:version>1.6.106</sparkle:version>
             <sparkle:shortVersionString>1.6.106</sparkle:shortVersionString>
