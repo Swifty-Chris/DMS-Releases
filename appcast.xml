@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.106</title>
+            <sparkle:version>1.6.106</sparkle:version>
+            <sparkle:shortVersionString>1.6.106</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 10 Oct 2026 16:01:27 +0200</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.6.106</h2>
+
+<li>Geteilte Angebote von Nadine zeigen jetzt „Kunde von: Nadine“ und gehören zu ihrem eigenen DMS-Konto.</li>
+<li>Beim Teilen passt die Auswahl „Kunde von“ zum Konto des Kunden: Bei Kunden auf Christians Konto stehen Christian und Nadine zur Wahl, Milans und Nadines Kunden werden automatisch zugeordnet.</li>
+<li>Ältere Freigaben behalten ihre bisherige Anzeige.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.106/DMS-1.6.106.dmg"
+                sparkle:edSignature="mybWMOjnTki3s+wTgIFmOR/bW5iD8V8/AoEvz2Asr22jmAR4GFzlYUZuXCE/YYujJVNIdA4UbY7EI2cAA6u0Aw=="
+                length="39474345"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.105</title>
             <sparkle:version>1.6.105</sparkle:version>
             <sparkle:shortVersionString>1.6.105</sparkle:shortVersionString>
