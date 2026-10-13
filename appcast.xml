@@ -8,6 +8,26 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.110</title>
+            <sparkle:version>1.6.110</sparkle:version>
+            <sparkle:shortVersionString>1.6.110</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Tue, 13 Oct 2026 22:53:04 +0200</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.6.110</h2>
+<h3>Neu</h3>
+<li>Dateifreigabe: Interaktive HTML-Hausansichten lassen sich hochladen und teilen wie PDFs – mit Link, Gültigkeit, Link-Vorschaubild und Klickzählung.</li>
+<h3>Fixes</h3>
+<li>iPhone: Projektkarten zeigen Name, Vertrag und Projektleitung ohne Silbentrennung in schmalen Spalten.</li>
+<li>Alle Versionen bis 1.6.109 sind wieder in einem gemeinsamen Stand zusammengeführt.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.110/DMS-1.6.110.dmg"
+                sparkle:edSignature="DosUecbGmYkURpG4OcBuQo5NRTa90XvpRgZeRIUhODyRX7Xs5xD+lzhse05tDlRjvTiPodS7CDXg28L/l/KRAg=="
+                length="39429300"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.108</title>
             <sparkle:version>1.6.108</sparkle:version>
             <sparkle:shortVersionString>1.6.108</sparkle:shortVersionString>
