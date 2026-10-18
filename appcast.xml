@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.112</title>
+            <sparkle:version>1.6.112</sparkle:version>
+            <sparkle:shortVersionString>1.6.112</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 18 Oct 2026 22:45:44 +0200</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.6.112</h2>
+
+<h3>Behoben</h3>
+<li>Dateifreigabe: Unter „Letzte geteilte Links“ steht wieder, wie oft jede Datei geöffnet wurde und wann zuletzt. Bei über 200 Freigaben wurde die Abfrage zu lang und die Zahlen verschwanden kommentarlos; jetzt läuft sie als eine Sammelabfrage.</li>
+<li>Kann die Statistik nicht geladen werden, steht „Aufrufe nicht verfügbar“ statt nichts. Neuer Knopf zum Aktualisieren neben der Liste.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.112/DMS-1.6.112.dmg"
+                sparkle:edSignature="8YDUsRgtgy0dr5TPgZgV1HC5aUoW5XL1SnnmZhvhyFj4CkPM/wpXPIV3VqUcu+NejPoAmPw0JWdspnL3Vz+fAQ=="
+                length="39569773"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.111</title>
             <sparkle:version>1.6.111</sparkle:version>
             <sparkle:shortVersionString>1.6.111</sparkle:shortVersionString>
