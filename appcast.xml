@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.113</title>
+            <sparkle:version>1.6.113</sparkle:version>
+            <sparkle:shortVersionString>1.6.113</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Mon, 19 Oct 2026 00:38:03 +0200</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.6.113</h2>
+
+<h3>Behoben</h3>
+<li>Dateifreigabe: Liste und Aufrufzahlen erscheinen sofort. Das automatische Löschen abgelaufener Freigaben läuft erst danach und hält die Zahlen nicht mehr auf.</li>
+<li>Abgelaufene Freigaben werden schonend gelöscht: höchstens 10 je Durchgang, beim ersten Fehler hört die App auf und versucht den Rest beim nächsten Laden.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.113/DMS-1.6.113.dmg"
+                sparkle:edSignature="Ob6NX9QCHl+z3Krddyhyeb8RRnhLQq8ahD023Cv0atIeJy3uDSOAt2t1co6lhSvx8eOFs5qyRoWoITidp7WwCw=="
+                length="39410427"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.112</title>
             <sparkle:version>1.6.112</sparkle:version>
             <sparkle:shortVersionString>1.6.112</sparkle:shortVersionString>
