@@ -8,6 +8,24 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.111</title>
+            <sparkle:version>1.6.111</sparkle:version>
+            <sparkle:shortVersionString>1.6.111</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 18 Oct 2026 16:35:05 +0200</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.6.111</h2>
+
+<h3>Neu</h3>
+<li>Dateifreigabe: „Betreut von“ ist immer sichtbar und vorbelegt (Kundenaccount oder angemeldetes Konto). Jede neue Freigabe speichert damit den zuständigen Berater, und der Kontaktknopf auf der Freigabeseite zeigt dessen Telefonnummer.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.111/DMS-1.6.111.dmg"
+                sparkle:edSignature="SOFiltKa80hJCtBCVWprCKjLBUDujMYBDbWwr8sJUM+3X4BvW6Ab/QrYTYHR65h/fo01IUYU+E5a79XnvamkCg=="
+                length="39573206"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.110</title>
             <sparkle:version>1.6.110</sparkle:version>
             <sparkle:shortVersionString>1.6.110</sparkle:shortVersionString>
