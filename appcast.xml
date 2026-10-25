@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.114</title>
+            <sparkle:version>1.6.114</sparkle:version>
+            <sparkle:shortVersionString>1.6.114</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 25 Oct 2026 13:03:00 +0100</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.6.114</h2>
+
+<li>Neuer Vertriebsname „Danwood im Westen“ in Einstellungen, Mailvorschlägen und Kundenportal.</li>
+<li>Bisherige Standardbezeichnungen werden automatisch übernommen; individuelle Regionsangaben und Portaltitel bleiben erhalten.</li>
+<li>Einheitliche natürliche Vorstellung in Radar-, Design-Center- und Portal-Mailvorschlägen.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.114/DMS-1.6.114.dmg"
+                sparkle:edSignature="bM7DsB4+/P7n4h4oXVJHCNUIH5P4NvNNP3F1cqE5V/DbCW9JGKPQZs7N4PaAs8in24yFGFyNEQgRmCmMgvyoBA=="
+                length="39413787"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.113</title>
             <sparkle:version>1.6.113</sparkle:version>
             <sparkle:shortVersionString>1.6.113</sparkle:shortVersionString>
