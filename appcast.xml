@@ -8,6 +8,25 @@
         <description>Offizieller Sparkle-Appcast für die DMS App (macOS).</description>
         <language>de</language>
         <item>
+            <title>Version 1.6.116</title>
+            <sparkle:version>1.6.116</sparkle:version>
+            <sparkle:shortVersionString>1.6.116</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 25 Oct 2026 23:07:50 +0100</pubDate>
+            <description><![CDATA[
+<h2>DMS 1.6.116</h2>
+
+<h3>Linkvorschau</h3>
+<li>„BLB Family Schlüsselfertig“ verwendet den vorhandenen Vorschau-Link mit Dokumenttitel und Bild für Apple Mail, WhatsApp und andere Messenger.</li>
+<li>Beim Öffnen führt der Link weiterhin direkt zur Bau- und Leistungsbeschreibung.</li>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Swifty-Chris/DMS-Releases/releases/download/v1.6.116/DMS-1.6.116.dmg"
+                sparkle:edSignature="7Q5E7XyWuZwE6oE8x1qf6aDUtt0HQfODHQsXwA9ewTEe1Ac4upl+1OQK2+q07e0T4Rwv2Cn0MwgWa3LyefI+CQ=="
+                length="39415542"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.6.115</title>
             <sparkle:version>1.6.115</sparkle:version>
             <sparkle:shortVersionString>1.6.115</sparkle:shortVersionString>
